@@ -78,7 +78,7 @@ def build_ncaa_prompt(model_version):
 
     next_games_list = df['game_id'].unique().tolist()
 
-    display(filtered_df.sample(4))
+    # display(filtered_df.sample(4))
 
     games_list = filtered_df.loc[filtered_df['game_id'].isin(next_games_list)].groupby(['game_id','home_team','away_team','start_time_pt']).agg(
         rec_count=('date_scraped','size'),
@@ -380,7 +380,7 @@ def process_results(model_name: str, picks_dir: Path, results_csv_path: Path):
         print(f"Error: Picks file not found at {picks_file}")
         return None # Exit function
     
-    display(df_picks.sample(3))
+    # display(df_picks.sample(3))
 
     # === 2. Process Pick Timestamps ===
     df_picks['timestamp'] = pd.to_datetime(df_picks['timestamp'], format='ISO8601')
