@@ -419,7 +419,7 @@ def process_results(model_name: str, picks_dir: Path, results_csv_path: Path):
         date_str_list = missing_games['date'].astype(str).str.replace('-', '').unique().tolist()
         
         if date_str_list:
-            print(f"Found missing results for {len(date_str_list)} dates. Fetching...")
+            print(f"Found missing ds results for {len(date_str_list)} dates. Fetching...")
             df_new_results = get_complete_game_results(sport, date_str_list, HEADERS)
             
             if not df_new_results.empty:
