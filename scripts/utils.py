@@ -941,14 +941,14 @@ def process_and_save_evaluated_bets(df_picks, df_result, sport_name):
     games_left_to_play = pd.merge(df_picks[['game_id', 'match']], df_result[['game_id', 'status']], on='game_id', how='left').sort_values(['game_id']).query('status!="complete"').drop_duplicates()
 
     print('Games left to play:')
-    display(games_left_to_play)
+    # display(games_left_to_play)
 
     print('Current evaluation summary:')
-    display(df_evaluated.groupby('model').agg(
-        bet_payout=('bet_payout', 'sum'),
-        units=('units', 'sum'),
-        bets=('game_id', 'count')
-    ).assign(ROI=lambda x: x['bet_payout'] / x['units'] * 100).sort_values('bet_payout', ascending=False).reset_index())
+    # display(df_evaluated.groupby('model').agg(
+    #     bet_payout=('bet_payout', 'sum'),
+    #     units=('units', 'sum'),
+    #     bets=('game_id', 'count')
+    # ).assign(ROI=lambda x: x['bet_payout'] / x['units'] * 100).sort_values('bet_payout', ascending=False).reset_index())
 
     # Dynamically create filenames based on the sport
     picks_hist_file = f"../data/{generic_sport_prefix}_bet_picks.csv"
@@ -982,11 +982,14 @@ def process_and_save_evaluated_bets(df_picks, df_result, sport_name):
     print(f"Return on Investment (ROI): {roi:.2f}%")
 
     print('Historical evaluation summary:')
-    display(df_evaluated_hist.groupby('model').agg(
-        bet_payout=('bet_payout', 'sum'),
-        units=('units', 'sum'),
-        bets=('game_id', 'count')
-    ).assign(ROI=lambda x: x['bet_payout'] / x['units'] * 100).sort_values('bet_payout', ascending=False).reset_index())
+    try:
+        display(df_evaluated_hist.groupby('model').agg(
+            bet_payout=('bet_payout', 'sum'),
+            units=('units', 'sum'),
+            bets=('game_id', 'count')
+        ).assign(ROI=lambda x: x['bet_payout'] / x['units'] * 100).sort_values('bet_payout', ascending=False).reset_index())
+    except:
+        pass
 
     return df_evaluated, df_evaluated_hist
 

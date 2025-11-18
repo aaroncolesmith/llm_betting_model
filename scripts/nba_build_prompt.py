@@ -100,7 +100,7 @@ def build_nba_prompt(model_version):
     # Create the away_team_spread column (assuming this is the second column you wanted)
     df_agg['away_team_spread'] = df_agg['away_team'] + " " + df_agg['away_spread_last'].apply(lambda x: f"{x:+.1f}")
 
-    display(df_agg[['home_team','away_team','home_spread_first','home_spread_last','home_team_spread','away_team_spread']])
+    # display(df_agg[['home_team','away_team','home_spread_first','home_spread_last','home_team_spread','away_team_spread']])
 
 
     df_hist = pd.read_csv('./data/nba_bet_picks_evaluated.csv')
@@ -399,7 +399,7 @@ def process_results(model_name: str, picks_dir: Path, results_csv_path: Path, sp
         df_old_results['status'] = []
 
     # === 4. Find Missing Results ===
-    display(df_picks.sample(3))
+    # display(df_picks.sample(3))
 
     df_merge = pd.merge(
         df_picks[['rank', 'game_id', 'match', 'date', 'start_time', 'pick']],
