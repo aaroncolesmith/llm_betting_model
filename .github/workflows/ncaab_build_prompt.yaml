@@ -1,4 +1,4 @@
-name: evaluate ncaa bets
+name: build ncaab prompts
 
 # on: [push]
 # on:
@@ -8,7 +8,7 @@ name: evaluate ncaa bets
 on:
   # Schedule the workflow to run every day at 1:00 AM (UTC)
   schedule:
-    - cron: '15 * * * *'
+    - cron: '05 * * * *'
   # Allows the workflow to be triggered manually
   workflow_dispatch:
 
@@ -32,7 +32,7 @@ jobs:
           pip install -r requirements.txt --default-timeout=100
         
       - name: Execute Python script # Run the run.py to get the latest data
-        run: python scripts/ncaa_evaluate_bets.py
+        run: python scripts/ncaab_build_prompt.py
 
       - name: List files before push
         run: |
