@@ -15,7 +15,7 @@ from utils import get_todays_games, filter_data_on_change, aggregate_betting_dat
     
 def build_ncaa_prompt(model_version):
     try:
-        df_all = pd.read_csv('../data/ncaa_bets_db.csv')
+        df_all = pd.read_csv('./data/ncaa_bets_db.csv')
     except:
         df_all = pd.DataFrame()
 
@@ -61,7 +61,7 @@ def build_ncaa_prompt(model_version):
     print(df_all.index.size)
     print(filtered_df.index.size)
 
-    filtered_df.to_csv('../data/ncaa_bets_db.csv', index=False)
+    filtered_df.to_csv('./data/ncaa_bets_db.csv', index=False)
 
     filtered_df['start_time_pt'] = pd.to_datetime(filtered_df['start_time_pt'])
 
@@ -110,7 +110,7 @@ def build_ncaa_prompt(model_version):
     # display(df_agg[['home_team','away_team','home_spread_first','home_spread_last','home_spread_ticket_pct_first','home_spread_ticket_pct_last']])
 
 
-    df_hist = pd.read_csv('../data/ncaab_bet_picks_evaluated.csv')
+    df_hist = pd.read_csv('./data/ncaab_bet_picks_evaluated.csv')
     df_hist = df_hist.loc[df_hist['model'] == model_version]
 
     # df_hist = pd.DataFrame()
@@ -351,7 +351,7 @@ def build_ncaa_prompt(model_version):
     print(prompt)
 
     ## write prompt to a text file
-    with open(f"../prompts/ncaab_prompt_{model_version}.txt", "w") as f:
+    with open(f"./prompts/ncaab_prompt_{model_version}.txt", "w") as f:
         f.write(prompt) 
 
     return df_agg
