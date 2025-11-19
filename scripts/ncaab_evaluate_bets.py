@@ -383,7 +383,20 @@ def process_results(model_name: str, picks_dir: Path, results_csv_path: Path):
     # display(df_picks.sample(3))
 
     # === 2. Process Pick Timestamps ===
-    df_picks['timestamp'] = pd.to_datetime(df_picks['timestamp'], format='ISO8601')
+    # === 2. Process Pick Timestamps ===
+    # Step A: Ensure it is a string and remove hidden non-ASCII characters (like \u200b)
+    df_picks['timestamp'] = (
+        df_picks['timestamp']
+        .astype(str)
+        .str.replace(r'[^\x00-\x7F]+', '', regex=True)
+    )
+
+    # Step B: Convert using 'mixed' format, coercing unparseable rows to NaT (Not a Time)
+    df_picks['timestamp'] = pd.to_datetime(df_picks['timestamp'], format='mixed', errors='coerce')
+
+    # (Optional) Check if any rows failed to parse
+    if df_picks['timestamp'].isna().any():
+        print(f"Warning: {df_picks['timestamp'].isna().sum()} rows could not be parsed and are set to NaT.")
     df_picks['start_time_pt'] = (
         pd.to_datetime(df_picks['start_time'], utc=True)
         .dt.tz_convert('America/Los_Angeles')
