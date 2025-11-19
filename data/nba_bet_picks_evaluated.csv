@@ -418,3 +418,9 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 3,v2,2025-11-18,261812,Spurs vs Grizzlies,111.0,101.0,Spurs -5.5,-114,3,win,2.631578947368421
 10,v2,2025-11-18,261812,Spurs vs Grizzlies,111.0,101.0,Over 233.5,-115,1,loss,-1.0
 2,v2_perp,2025-11-18,261812,Spurs vs Grizzlies,111.0,101.0,Spurs -5.5,-114,2,win,1.7543859649122806
+2,v2,2025-11-18,261813,Lakers vs Jazz,140.0,126.0,Lakers -13.5,-108,3,win,2.7777777777777777
+6,v2,2025-11-18,261814,Trail Blazers vs Suns,110.0,127.0,Trail Blazers -2.5,-110,2,loss,-2.0
+8,v2,2025-11-18,261813,Lakers vs Jazz,140.0,126.0,Over 238.5,-115,1,win,0.8695652173913043
+1,v2_perp,2025-11-18,261813,Lakers vs Jazz,140.0,126.0,Lakers -13.5,-108,3,win,2.7777777777777777
+4,v2_perp,2025-11-18,261814,Trail Blazers vs Suns,110.0,127.0,Trail Blazers -2.5,-110,2,loss,-2.0
+7,v2_perp,2025-11-18,261814,Trail Blazers vs Suns,110.0,127.0,Over 236.5,-110,1,win,0.9090909090909092
