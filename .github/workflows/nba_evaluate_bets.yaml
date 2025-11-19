@@ -45,7 +45,7 @@ jobs:
           git config --global user.email "aaroncolesmith@gmail.com"
           git add .
           git diff-index --quiet HEAD || git commit -m "Update data"
-          git pull --rebase origin main
+          # git pull --rebase origin main
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.BET_MODEL_GITHUB_TOKEN }}
