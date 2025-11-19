@@ -8,7 +8,7 @@ name: build ncaab prompts
 on:
   # Schedule the workflow to run every day at 1:00 AM (UTC)
   schedule:
-    - cron: '08 * * * *'
+    - cron: '20 * * * *'
   # Allows the workflow to be triggered manually
   workflow_dispatch:
 
