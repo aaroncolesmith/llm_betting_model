@@ -148,5 +148,20 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 6,gemini,2025-11-17,264847,K State vs Tulsa,84,83,Tulsa +12.5,-115,2,win,1.7391304347826086
 7,gemini,2025-11-17,264863,Dolphins vs Niagara,74,68,Niagara +2.5,-112,2,loss,-2.0
 8,gemini,2025-11-17,264859,Tenn Tech vs Wolves,59,61,Tenn Tech -4.5,-110,2,loss,-2.0
-9,gemini,2025-11-17,264848,Pittsburgh vs Bucknell,84,50,Pittsburgh -15.5,-111,1,win,0.9009009009009009
-10,gemini,2025-11-17,264851,Clemson vs North Alabama,81,61,Under 144.5,-108,1,win,0.9259259259259259
+9,gemini,2025-11-17,264848,Pittsburgh vs Bucknell,84,50,Pittsburgh -15.5,-111,1,win,0.9009009009009008
+10,gemini,2025-11-17,264851,Clemson vs North Alabama,81,61,Under 144.5,-108,1,win,0.925925925925926
+1,perp,2025-11-18,264866,Kentucky vs Michigan St,66,83,Kentucky -4.5,-105,3,loss,-3.0
+2,perp,2025-11-18,266421,Drexel vs N.J.I.T.,75,43,Drexel -9.5,-111,2,win,1.8018018018018016
+3,perp,2025-11-18,266426,Kent State vs E. Kentucky,93,78,Kent State -10.5,-107,2,win,1.8691588785046729
+4,perp,2025-11-18,264868,Xavier vs Old Dominion,99,69,Xavier -10.5,-110,2,win,1.818181818181818
+5,perp,2025-11-18,264893,Brown vs Holy Cross,68,49,Brown -2.5,-115,2,win,1.7391304347826086
+8,perp,2025-11-18,264880,UNC Wilmington vs E. Carolina,85,60,UNC Wilmington -6.5,-115,1,win,0.8695652173913043
+9,perp,2025-11-18,276083,Delaware vs St. Peter's,81,70,Delaware -4.5,-115,1,win,0.8695652173913043
+10,perp,2025-11-18,264871,Providence vs New Hampshire,98,66,Providence -27.5,-111,1,win,0.9009009009009008
+12,perp,2025-11-18,266422,Florida St vs TN-Martin,87,73,Florida St -21.5,-105,1,loss,-1.0
+8,claude,2025-11-18,264866,Kentucky vs Michigan St,66,83,Kentucky -5.5,-110,1,loss,-1.0
+1,claude,2025-11-18,264870,Buffalo vs Vermont,94,90,Buffalo +2.5,-105,1,win,0.9523809523809523
+2,claude,2025-11-18,266427,JMU vs Towson,81,75,JMU +2.5,-110,1,win,0.9090909090909091
+3,claude,2025-11-18,264891,Charleston So vs IUIN,103,91,Charleston So +1.5,-110,1,win,0.9090909090909091
+4,claude,2025-11-18,264876,Detroit vs E. Michigan,62,72,Detroit -1.5,-105,1,loss,-1.0
+6,claude,2025-11-18,264866,Kentucky vs Michigan St,66,83,Michigan St +4.5,-115,1,win,0.8695652173913043
