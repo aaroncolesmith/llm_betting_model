@@ -583,3 +583,54 @@ game_id,start_time,league_name,home_team,away_team,home_score,away_score,status
 267569,2025-11-19T01:00:00.000Z,ncaab,N. Arizona,Embry-Riddle (AZ) Eagles,108,79,complete
 267630,2025-11-19T01:00:00.000Z,ncaab,Arkansas,Winthrop,84,83,complete
 276555,2025-11-19T01:00:00.000Z,ncaab,Ole Miss,Austin Peay,72,65,complete
+266418,2025-11-18T16:00:00.000Z,ncaab,Coppin St,Knights,103,62,complete
+264866,2025-11-18T23:30:00.000Z,ncaab,Kentucky,Michigan St,66,83,complete
+264870,2025-11-18T23:30:00.000Z,ncaab,Buffalo,Vermont,94,90,complete
+272001,2025-11-18T23:30:00.000Z,ncaab,Rutgers,American U,80,71,complete
+264867,2025-11-19T00:00:00.000Z,ncaab,Iona,Princeton,89,69,complete
+264868,2025-11-19T00:00:00.000Z,ncaab,Xavier,Old Dominion,99,69,complete
+264871,2025-11-19T00:00:00.000Z,ncaab,Providence,New Hampshire,98,66,complete
+264872,2025-11-19T00:00:00.000Z,ncaab,Boston Col,Hampton,63,52,complete
+264876,2025-11-19T00:00:00.000Z,ncaab,Detroit,E. Michigan,62,72,complete
+264879,2025-11-19T00:00:00.000Z,ncaab,Morgan State,NC A&T,73,79,complete
+264880,2025-11-19T00:00:00.000Z,ncaab,UNC Wilmington,E. Carolina,85,60,complete
+264888,2025-11-19T00:00:00.000Z,ncaab,UNC,Navy,73,61,complete
+264891,2025-11-19T00:00:00.000Z,ncaab,Charleston So,IUIN,103,91,complete
+264893,2025-11-19T00:00:00.000Z,ncaab,Brown,Holy Cross,68,49,complete
+264894,2025-11-19T00:00:00.000Z,ncaab,Columbia,Boston U,54,49,complete
+264895,2025-11-19T00:00:00.000Z,ncaab,Longwood,MD-E Shore,82,83,complete
+265996,2025-11-19T00:00:00.000Z,ncaab,Seton Hall,New Haven,68,45,complete
+266421,2025-11-19T00:00:00.000Z,ncaab,Drexel,N.J.I.T.,75,43,complete
+266422,2025-11-19T00:00:00.000Z,ncaab,Florida St,TN-Martin,87,73,complete
+266423,2025-11-19T00:00:00.000Z,ncaab,S. Carolina,Radford,87,58,complete
+266426,2025-11-19T00:00:00.000Z,ncaab,Kent State,E. Kentucky,93,78,complete
+266427,2025-11-19T00:00:00.000Z,ncaab,JMU,Towson,81,75,complete
+267349,2025-11-19T00:00:00.000Z,ncaab,George Mason,Jacksonville,79,57,complete
+271299,2025-11-19T00:00:00.000Z,ncaab,Lehigh,St. Francis (PA),79,62,complete
+276083,2025-11-19T00:00:00.000Z,ncaab,Delaware,St. Peter's,81,70,complete
+263605,2025-11-19T00:30:00.000Z,ncaab,NC Central,Toccoa Falls Eagles,123,67,complete
+264877,2025-11-19T00:30:00.000Z,ncaab,G Tech,GA Southern,68,66,complete
+263604,2025-11-19T01:00:00.000Z,ncaab,Southern Miss,William Carey,82,59,complete
+264875,2025-11-19T01:00:00.000Z,ncaab,Murray State,Ark-Little Rock,89,68,complete
+264883,2025-11-19T01:00:00.000Z,ncaab,LSU,Alcorn State,107,81,complete
+264884,2025-11-19T01:00:00.000Z,ncaab,Minnesota,Chicago St,66,54,complete
+264887,2025-11-19T01:00:00.000Z,ncaab,SMU,AR-Pine Bluff,106,60,complete
+264889,2025-11-19T01:00:00.000Z,ncaab,DePaul,Gardner-Webb,93,62,complete
+264892,2025-11-19T01:00:00.000Z,ncaab,Evansville,UT-Arlington,76,84,complete
+264896,2025-11-19T01:00:00.000Z,ncaab,Yale,Rhode Island,77,86,complete
+266424,2025-11-19T01:00:00.000Z,ncaab,N. Iowa,N. Illinois,70,57,complete
+266425,2025-11-19T01:00:00.000Z,ncaab,Texas A&M,Montana,86,81,complete
+266428,2025-11-19T01:00:00.000Z,ncaab,Texas St,Ab Christian,63,49,complete
+267569,2025-11-19T01:00:00.000Z,ncaab,N. Arizona,Embry-Riddle (AZ) Eagles,108,79,complete
+267630,2025-11-19T01:00:00.000Z,ncaab,Arkansas,Winthrop,84,83,complete
+276555,2025-11-19T01:00:00.000Z,ncaab,Ole Miss,Austin Peay,72,65,complete
+278155,2025-11-19T01:00:00.000Z,ncaab,Cornell,Army ,86,73,complete
+267348,2025-11-19T01:30:00.000Z,ncaab,Iowa,SE Missouri,99,70,complete
+264865,2025-11-19T02:00:00.000Z,ncaab,Boise State,Wichita State,62,59,complete
+264873,2025-11-19T02:00:00.000Z,ncaab,Syracuse,Monmouth,78,73,complete
+264878,2025-11-19T02:00:00.000Z,ncaab,Texas,Rider,99,65,complete
+264881,2025-11-19T02:00:00.000Z,ncaab,Duke,Kansas,78,66,complete
+264886,2025-11-19T02:00:00.000Z,ncaab,Utah,IPFW,85,77,complete
+264890,2025-11-19T02:00:00.000Z,ncaab,San Diego,Grambling St,78,68,complete
+266419,2025-11-19T02:00:00.000Z,ncaab,Pepperdine,New Orleans,90,79,complete
+267561,2025-11-19T02:00:00.000Z,ncaab,Fresno State,SFA,80,78,complete

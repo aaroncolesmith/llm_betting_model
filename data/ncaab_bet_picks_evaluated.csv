@@ -167,3 +167,5 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 6,claude,2025-11-18,264866,Kentucky vs Michigan St,66,83,Michigan St +4.5,-115,1,win,0.8695652173913043
 6,perp,2025-11-18,266425,Texas A&M vs Montana,86,81,Texas A&M -17.5,-111,1,loss,-1.0
 7,perp,2025-11-18,264896,Yale vs Rhode Island,77,86,Yale -8.5,-110,1,loss,-1.0
+11,perp,2025-11-18,264865,Boise State vs Wichita State,62,59,Boise State -9.5,-115,1,loss,-1.0
+5,claude,2025-11-18,267561,Fresno State vs SFA,80,78,Fresno State +2.5,-110,1,win,0.9090909090909091
