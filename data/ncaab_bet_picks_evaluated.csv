@@ -165,3 +165,5 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 3,claude,2025-11-18,264891,Charleston So vs IUIN,103,91,Charleston So +1.5,-110,1,win,0.9090909090909092
 4,claude,2025-11-18,264876,Detroit vs E. Michigan,62,72,Detroit -1.5,-105,1,loss,-1.0
 6,claude,2025-11-18,264866,Kentucky vs Michigan St,66,83,Michigan St +4.5,-115,1,win,0.8695652173913043
+6,perp,2025-11-18,266425,Texas A&M vs Montana,86,81,Texas A&M -17.5,-111,1,loss,-1.0
+7,perp,2025-11-18,264896,Yale vs Rhode Island,77,86,Yale -8.5,-110,1,loss,-1.0
