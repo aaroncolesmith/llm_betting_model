@@ -305,3 +305,201 @@ game_id,start_time,league_name,home_team,away_team,home_score,away_score,status
 276083,2025-11-19T00:00:00.000Z,ncaab,Delaware,St. Peter's,81,70,complete
 263605,2025-11-19T00:30:00.000Z,ncaab,NC Central,Toccoa Falls Eagles,123,67,complete
 264877,2025-11-19T00:30:00.000Z,ncaab,G Tech,GA Southern,68,66,complete
+266418,2025-11-18T16:00:00.000Z,ncaab,Coppin St,Knights,103,62,complete
+264866,2025-11-18T23:30:00.000Z,ncaab,Kentucky,Michigan St,66,83,complete
+264870,2025-11-18T23:30:00.000Z,ncaab,Buffalo,Vermont,94,90,complete
+272001,2025-11-18T23:30:00.000Z,ncaab,Rutgers,American U,80,71,complete
+264867,2025-11-19T00:00:00.000Z,ncaab,Iona,Princeton,89,69,complete
+264868,2025-11-19T00:00:00.000Z,ncaab,Xavier,Old Dominion,99,69,complete
+264871,2025-11-19T00:00:00.000Z,ncaab,Providence,New Hampshire,98,66,complete
+264872,2025-11-19T00:00:00.000Z,ncaab,Boston Col,Hampton,63,52,complete
+264876,2025-11-19T00:00:00.000Z,ncaab,Detroit,E. Michigan,62,72,complete
+264879,2025-11-19T00:00:00.000Z,ncaab,Morgan State,NC A&T,73,79,complete
+264880,2025-11-19T00:00:00.000Z,ncaab,UNC Wilmington,E. Carolina,85,60,complete
+264888,2025-11-19T00:00:00.000Z,ncaab,UNC,Navy,73,61,complete
+264891,2025-11-19T00:00:00.000Z,ncaab,Charleston So,IUIN,103,91,complete
+264893,2025-11-19T00:00:00.000Z,ncaab,Brown,Holy Cross,68,49,complete
+264894,2025-11-19T00:00:00.000Z,ncaab,Columbia,Boston U,54,49,complete
+264895,2025-11-19T00:00:00.000Z,ncaab,Longwood,MD-E Shore,82,83,complete
+265996,2025-11-19T00:00:00.000Z,ncaab,Seton Hall,New Haven,68,45,complete
+266421,2025-11-19T00:00:00.000Z,ncaab,Drexel,N.J.I.T.,75,43,complete
+266422,2025-11-19T00:00:00.000Z,ncaab,Florida St,TN-Martin,87,73,complete
+266423,2025-11-19T00:00:00.000Z,ncaab,S. Carolina,Radford,87,58,complete
+266426,2025-11-19T00:00:00.000Z,ncaab,Kent State,E. Kentucky,93,78,complete
+266427,2025-11-19T00:00:00.000Z,ncaab,JMU,Towson,81,75,complete
+267349,2025-11-19T00:00:00.000Z,ncaab,George Mason,Jacksonville,79,57,complete
+271299,2025-11-19T00:00:00.000Z,ncaab,Lehigh,St. Francis (PA),79,62,complete
+276083,2025-11-19T00:00:00.000Z,ncaab,Delaware,St. Peter's,81,70,complete
+263605,2025-11-19T00:30:00.000Z,ncaab,NC Central,Toccoa Falls Eagles,123,67,complete
+264877,2025-11-19T00:30:00.000Z,ncaab,G Tech,GA Southern,68,66,complete
+266418,2025-11-18T16:00:00.000Z,ncaab,Coppin St,Knights,103,62,complete
+264866,2025-11-18T23:30:00.000Z,ncaab,Kentucky,Michigan St,66,83,complete
+264870,2025-11-18T23:30:00.000Z,ncaab,Buffalo,Vermont,94,90,complete
+272001,2025-11-18T23:30:00.000Z,ncaab,Rutgers,American U,80,71,complete
+264867,2025-11-19T00:00:00.000Z,ncaab,Iona,Princeton,89,69,complete
+264868,2025-11-19T00:00:00.000Z,ncaab,Xavier,Old Dominion,99,69,complete
+264871,2025-11-19T00:00:00.000Z,ncaab,Providence,New Hampshire,98,66,complete
+264872,2025-11-19T00:00:00.000Z,ncaab,Boston Col,Hampton,63,52,complete
+264876,2025-11-19T00:00:00.000Z,ncaab,Detroit,E. Michigan,62,72,complete
+264879,2025-11-19T00:00:00.000Z,ncaab,Morgan State,NC A&T,73,79,complete
+264880,2025-11-19T00:00:00.000Z,ncaab,UNC Wilmington,E. Carolina,85,60,complete
+264888,2025-11-19T00:00:00.000Z,ncaab,UNC,Navy,73,61,complete
+264891,2025-11-19T00:00:00.000Z,ncaab,Charleston So,IUIN,103,91,complete
+264893,2025-11-19T00:00:00.000Z,ncaab,Brown,Holy Cross,68,49,complete
+264894,2025-11-19T00:00:00.000Z,ncaab,Columbia,Boston U,54,49,complete
+264895,2025-11-19T00:00:00.000Z,ncaab,Longwood,MD-E Shore,82,83,complete
+265996,2025-11-19T00:00:00.000Z,ncaab,Seton Hall,New Haven,68,45,complete
+266421,2025-11-19T00:00:00.000Z,ncaab,Drexel,N.J.I.T.,75,43,complete
+266422,2025-11-19T00:00:00.000Z,ncaab,Florida St,TN-Martin,87,73,complete
+266423,2025-11-19T00:00:00.000Z,ncaab,S. Carolina,Radford,87,58,complete
+266426,2025-11-19T00:00:00.000Z,ncaab,Kent State,E. Kentucky,93,78,complete
+266427,2025-11-19T00:00:00.000Z,ncaab,JMU,Towson,81,75,complete
+267349,2025-11-19T00:00:00.000Z,ncaab,George Mason,Jacksonville,79,57,complete
+271299,2025-11-19T00:00:00.000Z,ncaab,Lehigh,St. Francis (PA),79,62,complete
+276083,2025-11-19T00:00:00.000Z,ncaab,Delaware,St. Peter's,81,70,complete
+263605,2025-11-19T00:30:00.000Z,ncaab,NC Central,Toccoa Falls Eagles,123,67,complete
+264877,2025-11-19T00:30:00.000Z,ncaab,G Tech,GA Southern,68,66,complete
+264875,2025-11-19T01:00:00.000Z,ncaab,Murray State,Ark-Little Rock,89,68,complete
+266418,2025-11-18T16:00:00.000Z,ncaab,Coppin St,Knights,103,62,complete
+264866,2025-11-18T23:30:00.000Z,ncaab,Kentucky,Michigan St,66,83,complete
+264870,2025-11-18T23:30:00.000Z,ncaab,Buffalo,Vermont,94,90,complete
+272001,2025-11-18T23:30:00.000Z,ncaab,Rutgers,American U,80,71,complete
+264867,2025-11-19T00:00:00.000Z,ncaab,Iona,Princeton,89,69,complete
+264868,2025-11-19T00:00:00.000Z,ncaab,Xavier,Old Dominion,99,69,complete
+264871,2025-11-19T00:00:00.000Z,ncaab,Providence,New Hampshire,98,66,complete
+264872,2025-11-19T00:00:00.000Z,ncaab,Boston Col,Hampton,63,52,complete
+264876,2025-11-19T00:00:00.000Z,ncaab,Detroit,E. Michigan,62,72,complete
+264879,2025-11-19T00:00:00.000Z,ncaab,Morgan State,NC A&T,73,79,complete
+264880,2025-11-19T00:00:00.000Z,ncaab,UNC Wilmington,E. Carolina,85,60,complete
+264888,2025-11-19T00:00:00.000Z,ncaab,UNC,Navy,73,61,complete
+264891,2025-11-19T00:00:00.000Z,ncaab,Charleston So,IUIN,103,91,complete
+264893,2025-11-19T00:00:00.000Z,ncaab,Brown,Holy Cross,68,49,complete
+264894,2025-11-19T00:00:00.000Z,ncaab,Columbia,Boston U,54,49,complete
+264895,2025-11-19T00:00:00.000Z,ncaab,Longwood,MD-E Shore,82,83,complete
+265996,2025-11-19T00:00:00.000Z,ncaab,Seton Hall,New Haven,68,45,complete
+266421,2025-11-19T00:00:00.000Z,ncaab,Drexel,N.J.I.T.,75,43,complete
+266422,2025-11-19T00:00:00.000Z,ncaab,Florida St,TN-Martin,87,73,complete
+266423,2025-11-19T00:00:00.000Z,ncaab,S. Carolina,Radford,87,58,complete
+266426,2025-11-19T00:00:00.000Z,ncaab,Kent State,E. Kentucky,93,78,complete
+266427,2025-11-19T00:00:00.000Z,ncaab,JMU,Towson,81,75,complete
+267349,2025-11-19T00:00:00.000Z,ncaab,George Mason,Jacksonville,79,57,complete
+271299,2025-11-19T00:00:00.000Z,ncaab,Lehigh,St. Francis (PA),79,62,complete
+276083,2025-11-19T00:00:00.000Z,ncaab,Delaware,St. Peter's,81,70,complete
+263605,2025-11-19T00:30:00.000Z,ncaab,NC Central,Toccoa Falls Eagles,123,67,complete
+264877,2025-11-19T00:30:00.000Z,ncaab,G Tech,GA Southern,68,66,complete
+264875,2025-11-19T01:00:00.000Z,ncaab,Murray State,Ark-Little Rock,89,68,complete
+266418,2025-11-18T16:00:00.000Z,ncaab,Coppin St,Knights,103,62,complete
+264866,2025-11-18T23:30:00.000Z,ncaab,Kentucky,Michigan St,66,83,complete
+264870,2025-11-18T23:30:00.000Z,ncaab,Buffalo,Vermont,94,90,complete
+272001,2025-11-18T23:30:00.000Z,ncaab,Rutgers,American U,80,71,complete
+264867,2025-11-19T00:00:00.000Z,ncaab,Iona,Princeton,89,69,complete
+264868,2025-11-19T00:00:00.000Z,ncaab,Xavier,Old Dominion,99,69,complete
+264871,2025-11-19T00:00:00.000Z,ncaab,Providence,New Hampshire,98,66,complete
+264872,2025-11-19T00:00:00.000Z,ncaab,Boston Col,Hampton,63,52,complete
+264876,2025-11-19T00:00:00.000Z,ncaab,Detroit,E. Michigan,62,72,complete
+264879,2025-11-19T00:00:00.000Z,ncaab,Morgan State,NC A&T,73,79,complete
+264880,2025-11-19T00:00:00.000Z,ncaab,UNC Wilmington,E. Carolina,85,60,complete
+264888,2025-11-19T00:00:00.000Z,ncaab,UNC,Navy,73,61,complete
+264891,2025-11-19T00:00:00.000Z,ncaab,Charleston So,IUIN,103,91,complete
+264893,2025-11-19T00:00:00.000Z,ncaab,Brown,Holy Cross,68,49,complete
+264894,2025-11-19T00:00:00.000Z,ncaab,Columbia,Boston U,54,49,complete
+264895,2025-11-19T00:00:00.000Z,ncaab,Longwood,MD-E Shore,82,83,complete
+265996,2025-11-19T00:00:00.000Z,ncaab,Seton Hall,New Haven,68,45,complete
+266421,2025-11-19T00:00:00.000Z,ncaab,Drexel,N.J.I.T.,75,43,complete
+266422,2025-11-19T00:00:00.000Z,ncaab,Florida St,TN-Martin,87,73,complete
+266423,2025-11-19T00:00:00.000Z,ncaab,S. Carolina,Radford,87,58,complete
+266426,2025-11-19T00:00:00.000Z,ncaab,Kent State,E. Kentucky,93,78,complete
+266427,2025-11-19T00:00:00.000Z,ncaab,JMU,Towson,81,75,complete
+267349,2025-11-19T00:00:00.000Z,ncaab,George Mason,Jacksonville,79,57,complete
+271299,2025-11-19T00:00:00.000Z,ncaab,Lehigh,St. Francis (PA),79,62,complete
+276083,2025-11-19T00:00:00.000Z,ncaab,Delaware,St. Peter's,81,70,complete
+263605,2025-11-19T00:30:00.000Z,ncaab,NC Central,Toccoa Falls Eagles,123,67,complete
+264877,2025-11-19T00:30:00.000Z,ncaab,G Tech,GA Southern,68,66,complete
+264875,2025-11-19T01:00:00.000Z,ncaab,Murray State,Ark-Little Rock,89,68,complete
+266418,2025-11-18T16:00:00.000Z,ncaab,Coppin St,Knights,103,62,complete
+264866,2025-11-18T23:30:00.000Z,ncaab,Kentucky,Michigan St,66,83,complete
+264870,2025-11-18T23:30:00.000Z,ncaab,Buffalo,Vermont,94,90,complete
+272001,2025-11-18T23:30:00.000Z,ncaab,Rutgers,American U,80,71,complete
+264867,2025-11-19T00:00:00.000Z,ncaab,Iona,Princeton,89,69,complete
+264868,2025-11-19T00:00:00.000Z,ncaab,Xavier,Old Dominion,99,69,complete
+264871,2025-11-19T00:00:00.000Z,ncaab,Providence,New Hampshire,98,66,complete
+264872,2025-11-19T00:00:00.000Z,ncaab,Boston Col,Hampton,63,52,complete
+264876,2025-11-19T00:00:00.000Z,ncaab,Detroit,E. Michigan,62,72,complete
+264879,2025-11-19T00:00:00.000Z,ncaab,Morgan State,NC A&T,73,79,complete
+264880,2025-11-19T00:00:00.000Z,ncaab,UNC Wilmington,E. Carolina,85,60,complete
+264888,2025-11-19T00:00:00.000Z,ncaab,UNC,Navy,73,61,complete
+264891,2025-11-19T00:00:00.000Z,ncaab,Charleston So,IUIN,103,91,complete
+264893,2025-11-19T00:00:00.000Z,ncaab,Brown,Holy Cross,68,49,complete
+264894,2025-11-19T00:00:00.000Z,ncaab,Columbia,Boston U,54,49,complete
+264895,2025-11-19T00:00:00.000Z,ncaab,Longwood,MD-E Shore,82,83,complete
+265996,2025-11-19T00:00:00.000Z,ncaab,Seton Hall,New Haven,68,45,complete
+266421,2025-11-19T00:00:00.000Z,ncaab,Drexel,N.J.I.T.,75,43,complete
+266422,2025-11-19T00:00:00.000Z,ncaab,Florida St,TN-Martin,87,73,complete
+266423,2025-11-19T00:00:00.000Z,ncaab,S. Carolina,Radford,87,58,complete
+266426,2025-11-19T00:00:00.000Z,ncaab,Kent State,E. Kentucky,93,78,complete
+266427,2025-11-19T00:00:00.000Z,ncaab,JMU,Towson,81,75,complete
+267349,2025-11-19T00:00:00.000Z,ncaab,George Mason,Jacksonville,79,57,complete
+271299,2025-11-19T00:00:00.000Z,ncaab,Lehigh,St. Francis (PA),79,62,complete
+276083,2025-11-19T00:00:00.000Z,ncaab,Delaware,St. Peter's,81,70,complete
+263605,2025-11-19T00:30:00.000Z,ncaab,NC Central,Toccoa Falls Eagles,123,67,complete
+264877,2025-11-19T00:30:00.000Z,ncaab,G Tech,GA Southern,68,66,complete
+264875,2025-11-19T01:00:00.000Z,ncaab,Murray State,Ark-Little Rock,89,68,complete
+264889,2025-11-19T01:00:00.000Z,ncaab,DePaul,Gardner-Webb,93,62,complete
+266418,2025-11-18T16:00:00.000Z,ncaab,Coppin St,Knights,103,62,complete
+264866,2025-11-18T23:30:00.000Z,ncaab,Kentucky,Michigan St,66,83,complete
+264870,2025-11-18T23:30:00.000Z,ncaab,Buffalo,Vermont,94,90,complete
+272001,2025-11-18T23:30:00.000Z,ncaab,Rutgers,American U,80,71,complete
+264867,2025-11-19T00:00:00.000Z,ncaab,Iona,Princeton,89,69,complete
+264868,2025-11-19T00:00:00.000Z,ncaab,Xavier,Old Dominion,99,69,complete
+264871,2025-11-19T00:00:00.000Z,ncaab,Providence,New Hampshire,98,66,complete
+264872,2025-11-19T00:00:00.000Z,ncaab,Boston Col,Hampton,63,52,complete
+264876,2025-11-19T00:00:00.000Z,ncaab,Detroit,E. Michigan,62,72,complete
+264879,2025-11-19T00:00:00.000Z,ncaab,Morgan State,NC A&T,73,79,complete
+264880,2025-11-19T00:00:00.000Z,ncaab,UNC Wilmington,E. Carolina,85,60,complete
+264888,2025-11-19T00:00:00.000Z,ncaab,UNC,Navy,73,61,complete
+264891,2025-11-19T00:00:00.000Z,ncaab,Charleston So,IUIN,103,91,complete
+264893,2025-11-19T00:00:00.000Z,ncaab,Brown,Holy Cross,68,49,complete
+264894,2025-11-19T00:00:00.000Z,ncaab,Columbia,Boston U,54,49,complete
+264895,2025-11-19T00:00:00.000Z,ncaab,Longwood,MD-E Shore,82,83,complete
+265996,2025-11-19T00:00:00.000Z,ncaab,Seton Hall,New Haven,68,45,complete
+266421,2025-11-19T00:00:00.000Z,ncaab,Drexel,N.J.I.T.,75,43,complete
+266422,2025-11-19T00:00:00.000Z,ncaab,Florida St,TN-Martin,87,73,complete
+266423,2025-11-19T00:00:00.000Z,ncaab,S. Carolina,Radford,87,58,complete
+266426,2025-11-19T00:00:00.000Z,ncaab,Kent State,E. Kentucky,93,78,complete
+266427,2025-11-19T00:00:00.000Z,ncaab,JMU,Towson,81,75,complete
+267349,2025-11-19T00:00:00.000Z,ncaab,George Mason,Jacksonville,79,57,complete
+271299,2025-11-19T00:00:00.000Z,ncaab,Lehigh,St. Francis (PA),79,62,complete
+276083,2025-11-19T00:00:00.000Z,ncaab,Delaware,St. Peter's,81,70,complete
+263605,2025-11-19T00:30:00.000Z,ncaab,NC Central,Toccoa Falls Eagles,123,67,complete
+264877,2025-11-19T00:30:00.000Z,ncaab,G Tech,GA Southern,68,66,complete
+264875,2025-11-19T01:00:00.000Z,ncaab,Murray State,Ark-Little Rock,89,68,complete
+264889,2025-11-19T01:00:00.000Z,ncaab,DePaul,Gardner-Webb,93,62,complete
+266418,2025-11-18T16:00:00.000Z,ncaab,Coppin St,Knights,103,62,complete
+264866,2025-11-18T23:30:00.000Z,ncaab,Kentucky,Michigan St,66,83,complete
+264870,2025-11-18T23:30:00.000Z,ncaab,Buffalo,Vermont,94,90,complete
+272001,2025-11-18T23:30:00.000Z,ncaab,Rutgers,American U,80,71,complete
+264867,2025-11-19T00:00:00.000Z,ncaab,Iona,Princeton,89,69,complete
+264868,2025-11-19T00:00:00.000Z,ncaab,Xavier,Old Dominion,99,69,complete
+264871,2025-11-19T00:00:00.000Z,ncaab,Providence,New Hampshire,98,66,complete
+264872,2025-11-19T00:00:00.000Z,ncaab,Boston Col,Hampton,63,52,complete
+264876,2025-11-19T00:00:00.000Z,ncaab,Detroit,E. Michigan,62,72,complete
+264879,2025-11-19T00:00:00.000Z,ncaab,Morgan State,NC A&T,73,79,complete
+264880,2025-11-19T00:00:00.000Z,ncaab,UNC Wilmington,E. Carolina,85,60,complete
+264888,2025-11-19T00:00:00.000Z,ncaab,UNC,Navy,73,61,complete
+264891,2025-11-19T00:00:00.000Z,ncaab,Charleston So,IUIN,103,91,complete
+264893,2025-11-19T00:00:00.000Z,ncaab,Brown,Holy Cross,68,49,complete
+264894,2025-11-19T00:00:00.000Z,ncaab,Columbia,Boston U,54,49,complete
+264895,2025-11-19T00:00:00.000Z,ncaab,Longwood,MD-E Shore,82,83,complete
+265996,2025-11-19T00:00:00.000Z,ncaab,Seton Hall,New Haven,68,45,complete
+266421,2025-11-19T00:00:00.000Z,ncaab,Drexel,N.J.I.T.,75,43,complete
+266422,2025-11-19T00:00:00.000Z,ncaab,Florida St,TN-Martin,87,73,complete
+266423,2025-11-19T00:00:00.000Z,ncaab,S. Carolina,Radford,87,58,complete
+266426,2025-11-19T00:00:00.000Z,ncaab,Kent State,E. Kentucky,93,78,complete
+266427,2025-11-19T00:00:00.000Z,ncaab,JMU,Towson,81,75,complete
+267349,2025-11-19T00:00:00.000Z,ncaab,George Mason,Jacksonville,79,57,complete
+271299,2025-11-19T00:00:00.000Z,ncaab,Lehigh,St. Francis (PA),79,62,complete
+276083,2025-11-19T00:00:00.000Z,ncaab,Delaware,St. Peter's,81,70,complete
+263605,2025-11-19T00:30:00.000Z,ncaab,NC Central,Toccoa Falls Eagles,123,67,complete
+264877,2025-11-19T00:30:00.000Z,ncaab,G Tech,GA Southern,68,66,complete
+264875,2025-11-19T01:00:00.000Z,ncaab,Murray State,Ark-Little Rock,89,68,complete
+264889,2025-11-19T01:00:00.000Z,ncaab,DePaul,Gardner-Webb,93,62,complete

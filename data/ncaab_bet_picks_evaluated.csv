@@ -160,8 +160,8 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 10,perp,2025-11-18,264871,Providence vs New Hampshire,98,66,Providence -27.5,-111,1,win,0.9009009009009008
 12,perp,2025-11-18,266422,Florida St vs TN-Martin,87,73,Florida St -21.5,-105,1,loss,-1.0
 8,claude,2025-11-18,264866,Kentucky vs Michigan St,66,83,Kentucky -5.5,-110,1,loss,-1.0
-1,claude,2025-11-18,264870,Buffalo vs Vermont,94,90,Buffalo +2.5,-105,1,win,0.9523809523809523
-2,claude,2025-11-18,266427,JMU vs Towson,81,75,JMU +2.5,-110,1,win,0.9090909090909091
-3,claude,2025-11-18,264891,Charleston So vs IUIN,103,91,Charleston So +1.5,-110,1,win,0.9090909090909091
+1,claude,2025-11-18,264870,Buffalo vs Vermont,94,90,Buffalo +2.5,-105,1,win,0.9523809523809524
+2,claude,2025-11-18,266427,JMU vs Towson,81,75,JMU +2.5,-110,1,win,0.9090909090909092
+3,claude,2025-11-18,264891,Charleston So vs IUIN,103,91,Charleston So +1.5,-110,1,win,0.9090909090909092
 4,claude,2025-11-18,264876,Detroit vs E. Michigan,62,72,Detroit -1.5,-105,1,loss,-1.0
 6,claude,2025-11-18,264866,Kentucky vs Michigan St,66,83,Michigan St +4.5,-115,1,win,0.8695652173913043
