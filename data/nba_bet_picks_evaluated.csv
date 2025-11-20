@@ -453,5 +453,5 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 10,gemini,2025-11-19,261822,Mavericks vs Knicks,111.0,113.0,Mavericks +7.5,-110,1,win,0.9090909090909092
 6,v2,2025-11-19,261823,Trail Blazers vs Bulls,121.0,122.0,Bulls -4.5,-110,2,loss,-2.0
 8,v2_perp,2025-11-19,261823,Trail Blazers vs Bulls,121.0,122.0,Bulls -4.5,-110,1,loss,-1.0
-7,gemini,2025-11-19,261823,Trail Blazers vs Bulls,121.0,122.0,Trail Blazers +4.5,-110,1,win,0.9090909090909091
+7,gemini,2025-11-19,261823,Trail Blazers vs Bulls,121.0,122.0,Trail Blazers +4.5,-110,1,win,0.9090909090909092
 8,gemini,2025-11-19,261823,Trail Blazers vs Bulls,121.0,122.0,Under 242.5,-110,1,loss,-1.0
