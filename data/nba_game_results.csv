@@ -258,3 +258,12 @@ game_id,start_time,league_name,home_team,away_team,home_score,away_score,status
 261820,2025-11-20T01:00:00.000Z,nba,Pelicans,Nuggets,118,125,complete
 261821,2025-11-20T01:00:00.000Z,nba,Timberwolves,Wizards,120,109,complete
 261822,2025-11-20T02:30:00.000Z,nba,Mavericks,Knicks,111,113,complete
+261815,2025-11-20T00:00:00.000Z,nba,Cavaliers,Rockets,104,114,complete
+261816,2025-11-20T00:00:00.000Z,nba,Pacers,Hornets,127,118,complete
+261818,2025-11-20T00:00:00.000Z,nba,76ers,Raptors,112,121,complete
+261817,2025-11-20T00:30:00.000Z,nba,Heat,Warriors,110,96,complete
+261819,2025-11-20T01:00:00.000Z,nba,Thunder,Kings,113,99,complete
+261820,2025-11-20T01:00:00.000Z,nba,Pelicans,Nuggets,118,125,complete
+261821,2025-11-20T01:00:00.000Z,nba,Timberwolves,Wizards,120,109,complete
+261822,2025-11-20T02:30:00.000Z,nba,Mavericks,Knicks,111,113,complete
+261823,2025-11-20T03:00:00.000Z,nba,Trail Blazers,Bulls,121,122,complete
