@@ -436,4 +436,15 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 2,gemini,2025-11-19,261817,Heat vs Warriors,110.0,96.0,Heat -10.5,-110,3,win,2.727272727272727
 5,gemini,2025-11-19,261818,76ers vs Raptors,112.0,121.0,76ers +2.5,-115,2,loss,-2.0
 6,gemini,2025-11-19,261815,Cavaliers vs Rockets,104.0,114.0,Cavaliers +1.5,-108,2,loss,-2.0
-9,gemini,2025-11-19,261816,Pacers vs Hornets,127.0,118.0,Pacers +1.5,-105,1,win,0.9523809523809523
+9,gemini,2025-11-19,261816,Pacers vs Hornets,127.0,118.0,Pacers +1.5,-105,1,win,0.9523809523809524
+1,v2,2025-11-19,261819,Thunder vs Kings,113.0,99.0,Thunder -18.5,-110,3,loss,-3.0
+2,v2,2025-11-19,261821,Timberwolves vs Wizards,120.0,109.0,Timberwolves -16.5,-115,3,loss,-3.0
+3,v2,2025-11-19,261820,Pelicans vs Nuggets,118.0,125.0,Nuggets -13.5,-115,3,loss,-3.0
+9,v2,2025-11-19,261819,Thunder vs Kings,113.0,99.0,Over 231.5,-115,1,loss,-1.0
+10,v2,2025-11-19,261820,Pelicans vs Nuggets,118.0,125.0,Over 233.5,-114,1,win,0.8771929824561403
+1,v2_perp,2025-11-19,261819,Thunder vs Kings,113.0,99.0,Thunder -18.5,-110,3,loss,-3.0
+2,v2_perp,2025-11-19,261821,Timberwolves vs Wizards,120.0,109.0,Timberwolves -16.5,-115,2,loss,-2.0
+3,v2_perp,2025-11-19,261820,Pelicans vs Nuggets,118.0,125.0,Nuggets -13.5,-115,2,loss,-2.0
+1,gemini,2025-11-19,261821,Timberwolves vs Wizards,120.0,109.0,Timberwolves -16.5,-115,3,loss,-3.0
+3,gemini,2025-11-19,261820,Pelicans vs Nuggets,118.0,125.0,Pelicans +13.5,-115,2,win,1.7391304347826086
+4,gemini,2025-11-19,261819,Thunder vs Kings,113.0,99.0,Thunder -18.5,-110,2,loss,-2.0
