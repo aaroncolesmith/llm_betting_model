@@ -448,3 +448,6 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 1,gemini,2025-11-19,261821,Timberwolves vs Wizards,120.0,109.0,Timberwolves -16.5,-115,3,loss,-3.0
 3,gemini,2025-11-19,261820,Pelicans vs Nuggets,118.0,125.0,Pelicans +13.5,-115,2,win,1.7391304347826086
 4,gemini,2025-11-19,261819,Thunder vs Kings,113.0,99.0,Thunder -18.5,-110,2,loss,-2.0
+5,v2,2025-11-19,261822,Mavericks vs Knicks,111.0,113.0,Knicks -7.5,-110,2,loss,-2.0
+5,v2_perp,2025-11-19,261822,Mavericks vs Knicks,111.0,113.0,Knicks -7.5,-110,2,loss,-2.0
+10,gemini,2025-11-19,261822,Mavericks vs Knicks,111.0,113.0,Mavericks +7.5,-110,1,win,0.9090909090909091
