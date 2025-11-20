@@ -424,3 +424,5 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 1,v2_perp,2025-11-18,261813,Lakers vs Jazz,140.0,126.0,Lakers -13.5,-108,3,win,2.7777777777777777
 4,v2_perp,2025-11-18,261814,Trail Blazers vs Suns,110.0,127.0,Trail Blazers -2.5,-110,2,loss,-2.0
 7,v2_perp,2025-11-18,261814,Trail Blazers vs Suns,110.0,127.0,Over 236.5,-110,1,win,0.9090909090909092
+9,v2_perp,2025-11-18,261810,Nets vs Celtics,99.0,113.0,Celtics -11.5,-102,1,win,0.9803921568627452
+10,v2_perp,2025-11-18,261809,Magic vs Warriors,121.0,113.0,Over 223.5,-111,1,win,0.9009009009009008
