@@ -196,3 +196,7 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 9,gemini,2025-11-19,266435,Sam Houston vs Wyoming,78,70,Under 157.5,-110,1,win,0.9090909090909092
 10,gemini,2025-11-19,264911,Duquesne vs Loyola (MD),92,78,Under 149.5,-107,1,loss,-1.0
 5,perp,2025-11-19,264900,OK State vs S. Florida,103,95,OK State -3.5,-115,2,win,1.7391304347826086
+9,claude,2025-11-19,266429,Weber State vs Campbell,91,85,Weber State -2.5,-110,1,win,0.9090909090909092
+10,claude,2025-11-19,264913,Illinois vs Alabama,86,90,Alabama +2.5,-105,1,win,0.9523809523809524
+6,gemini,2025-11-19,274946,Saint Mary's vs Arkansas St,85,72,Saint Mary's -20.5,-110,1,loss,-1.0
+8,gemini,2025-11-19,266429,Weber State vs Campbell,91,85,Under 159.5,-110,1,loss,-1.0
