@@ -169,3 +169,16 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 7,perp,2025-11-18,264896,Yale vs Rhode Island,77,86,Yale -8.5,-110,1,loss,-1.0
 11,perp,2025-11-18,264865,Boise State vs Wichita State,62,59,Boise State -9.5,-115,1,loss,-1.0
 5,claude,2025-11-18,267561,Fresno State vs SFA,80,78,Fresno State +2.5,-110,1,win,0.9090909090909092
+2,perp,2025-11-19,264901,Penn State vs Harvard,84,80,Penn State -12.5,-110,2,loss,-2.0
+3,perp,2025-11-19,266430,Bowling Green vs William & Mary,74,82,Bowling Green -8.5,-111,2,loss,-2.0
+7,perp,2025-11-19,264914,Richmond vs VMI,87,54,Richmond -13.5,-110,1,win,0.9090909090909092
+10,perp,2025-11-19,267503,Wofford vs North Florida,86,78,Wofford -11.0,-113,1,loss,-1.0
+11,perp,2025-11-19,267570,Cleveland St vs Valparaiso,75,90,Cleveland St -2.0,-110,1,loss,-1.0
+12,perp,2025-11-19,275590,Samford vs FGCU,62,77,Samford -4.5,-110,1,loss,-1.0
+1,claude,2025-11-19,264919,Air Force vs Alabama St,66,64,Air Force -2.5,-105,1,loss,-1.0
+2,claude,2025-11-19,267570,Cleveland St vs Valparaiso,75,90,Cleveland St -2.0,-110,1,loss,-1.0
+4,claude,2025-11-19,267351,Jax State vs S. Alabama,65,71,Jax State -2.5,-110,1,loss,-1.0
+5,claude,2025-11-19,264905,Toledo vs Youngstown St,92,75,Toledo -1.5,-108,1,win,0.925925925925926
+1,gemini,2025-11-19,267503,Wofford vs North Florida,86,78,Wofford -11.0,-113,3,loss,-3.0
+2,gemini,2025-11-19,264901,Penn State vs Harvard,84,80,Harvard +12.5,-110,3,win,2.727272727272727
+3,gemini,2025-11-19,264902,Indiana St vs LA Tech,60,51,LA Tech +3.5,-115,2,loss,-2.0

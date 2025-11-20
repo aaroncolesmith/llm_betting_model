@@ -634,3 +634,54 @@ game_id,start_time,league_name,home_team,away_team,home_score,away_score,status
 264890,2025-11-19T02:00:00.000Z,ncaab,San Diego,Grambling St,78,68,complete
 266419,2025-11-19T02:00:00.000Z,ncaab,Pepperdine,New Orleans,90,79,complete
 267561,2025-11-19T02:00:00.000Z,ncaab,Fresno State,SFA,80,78,complete
+264919,2025-11-19T23:00:00.000Z,ncaab,Air Force,Alabama St,66,64,complete
+264901,2025-11-19T23:30:00.000Z,ncaab,Penn State,Harvard,84,80,complete
+266433,2025-11-19T23:30:00.000Z,ncaab,Michigan,Middle Tenn,86,61,complete
+263606,2025-11-20T00:00:00.000Z,ncaab,SE Louisiana,William Carey,71,45,complete
+264902,2025-11-20T00:00:00.000Z,ncaab,Indiana St,LA Tech,60,51,complete
+264905,2025-11-20T00:00:00.000Z,ncaab,Toledo,Youngstown St,92,75,complete
+264908,2025-11-20T00:00:00.000Z,ncaab,VA Tech,Bryant U,78,61,complete
+264914,2025-11-20T00:00:00.000Z,ncaab,Richmond,VMI,87,54,complete
+264915,2025-11-20T00:00:00.000Z,ncaab,G Washington,UMBC,89,52,complete
+266430,2025-11-20T00:00:00.000Z,ncaab,Bowling Green,William & Mary,74,82,complete
+266431,2025-11-20T00:00:00.000Z,ncaab,La Salle,Villanova,55,70,complete
+266434,2025-11-20T00:00:00.000Z,ncaab,Stetson,Howard,64,60,complete
+267351,2025-11-20T00:00:00.000Z,ncaab,Jax State,S. Alabama,65,71,complete
+267503,2025-11-20T00:00:00.000Z,ncaab,Wofford,North Florida,86,78,complete
+267570,2025-11-20T00:00:00.000Z,ncaab,Cleveland St,Valparaiso,75,90,complete
+267598,2025-11-20T00:00:00.000Z,ncaab,Ohio,B-Cookman,73,76,complete
+275590,2025-11-20T00:00:00.000Z,ncaab,Samford,FGCU,62,77,complete
+264919,2025-11-19T23:00:00.000Z,ncaab,Air Force,Alabama St,66,64,complete
+264901,2025-11-19T23:30:00.000Z,ncaab,Penn State,Harvard,84,80,complete
+266433,2025-11-19T23:30:00.000Z,ncaab,Michigan,Middle Tenn,86,61,complete
+263606,2025-11-20T00:00:00.000Z,ncaab,SE Louisiana,William Carey,71,45,complete
+264902,2025-11-20T00:00:00.000Z,ncaab,Indiana St,LA Tech,60,51,complete
+264905,2025-11-20T00:00:00.000Z,ncaab,Toledo,Youngstown St,92,75,complete
+264908,2025-11-20T00:00:00.000Z,ncaab,VA Tech,Bryant U,78,61,complete
+264914,2025-11-20T00:00:00.000Z,ncaab,Richmond,VMI,87,54,complete
+264915,2025-11-20T00:00:00.000Z,ncaab,G Washington,UMBC,89,52,complete
+266430,2025-11-20T00:00:00.000Z,ncaab,Bowling Green,William & Mary,74,82,complete
+266431,2025-11-20T00:00:00.000Z,ncaab,La Salle,Villanova,55,70,complete
+266434,2025-11-20T00:00:00.000Z,ncaab,Stetson,Howard,64,60,complete
+267351,2025-11-20T00:00:00.000Z,ncaab,Jax State,S. Alabama,65,71,complete
+267503,2025-11-20T00:00:00.000Z,ncaab,Wofford,North Florida,86,78,complete
+267570,2025-11-20T00:00:00.000Z,ncaab,Cleveland St,Valparaiso,75,90,complete
+267598,2025-11-20T00:00:00.000Z,ncaab,Ohio,B-Cookman,73,76,complete
+275590,2025-11-20T00:00:00.000Z,ncaab,Samford,FGCU,62,77,complete
+264919,2025-11-19T23:00:00.000Z,ncaab,Air Force,Alabama St,66,64,complete
+264901,2025-11-19T23:30:00.000Z,ncaab,Penn State,Harvard,84,80,complete
+266433,2025-11-19T23:30:00.000Z,ncaab,Michigan,Middle Tenn,86,61,complete
+263606,2025-11-20T00:00:00.000Z,ncaab,SE Louisiana,William Carey,71,45,complete
+264902,2025-11-20T00:00:00.000Z,ncaab,Indiana St,LA Tech,60,51,complete
+264905,2025-11-20T00:00:00.000Z,ncaab,Toledo,Youngstown St,92,75,complete
+264908,2025-11-20T00:00:00.000Z,ncaab,VA Tech,Bryant U,78,61,complete
+264914,2025-11-20T00:00:00.000Z,ncaab,Richmond,VMI,87,54,complete
+264915,2025-11-20T00:00:00.000Z,ncaab,G Washington,UMBC,89,52,complete
+266430,2025-11-20T00:00:00.000Z,ncaab,Bowling Green,William & Mary,74,82,complete
+266431,2025-11-20T00:00:00.000Z,ncaab,La Salle,Villanova,55,70,complete
+266434,2025-11-20T00:00:00.000Z,ncaab,Stetson,Howard,64,60,complete
+267351,2025-11-20T00:00:00.000Z,ncaab,Jax State,S. Alabama,65,71,complete
+267503,2025-11-20T00:00:00.000Z,ncaab,Wofford,North Florida,86,78,complete
+267570,2025-11-20T00:00:00.000Z,ncaab,Cleveland St,Valparaiso,75,90,complete
+267598,2025-11-20T00:00:00.000Z,ncaab,Ohio,B-Cookman,73,76,complete
+275590,2025-11-20T00:00:00.000Z,ncaab,Samford,FGCU,62,77,complete
