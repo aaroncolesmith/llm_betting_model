@@ -182,3 +182,16 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 1,gemini,2025-11-19,267503,Wofford vs North Florida,86,78,Wofford -11.0,-113,3,loss,-3.0
 2,gemini,2025-11-19,264901,Penn State vs Harvard,84,80,Harvard +12.5,-110,3,win,2.727272727272727
 3,gemini,2025-11-19,264902,Indiana St vs LA Tech,60,51,LA Tech +3.5,-115,2,loss,-2.0
+1,perp,2025-11-19,264910,UConn vs Arizona,67,71,UConn -6.5,-110,3,loss,-3.0
+4,perp,2025-11-19,264918,Notre Dame vs Bellarmine,86,79,Notre Dame -25.5,-110,2,loss,-2.0
+6,perp,2025-11-19,264912,Maryland vs St. Mary's,95,90,Maryland -20.5,-105,1,loss,-1.0
+9,perp,2025-11-19,267562,Temple vs Hofstra,81,76,Temple -5.5,-108,1,loss,-1.0
+3,claude,2025-11-19,272002,SC State vs Chattanooga,66,78,SC State +10.5,-105,1,loss,-1.0
+6,claude,2025-11-19,266435,Sam Houston vs Wyoming,78,70,Sam Houston -1.5,-115,1,win,0.8695652173913043
+7,claude,2025-11-19,264906,USC Upstate vs Tenn Tech,84,88,USC Upstate -1.5,-115,1,loss,-1.0
+8,claude,2025-11-19,274052,Utah Valley vs UC Irvine,79,72,Utah Valley -2.5,-110,1,win,0.9090909090909092
+4,gemini,2025-11-19,264917,Marquette vs Dayton,71,77,Dayton +5.5,-110,2,win,1.8181818181818181
+5,gemini,2025-11-19,267562,Temple vs Hofstra,81,76,Temple -5.5,-108,2,loss,-2.0
+7,gemini,2025-11-19,264909,Creighton vs North Dakota,75,60,Creighton -27.5,-110,1,loss,-1.0
+9,gemini,2025-11-19,266435,Sam Houston vs Wyoming,78,70,Under 157.5,-110,1,win,0.9090909090909091
+10,gemini,2025-11-19,264911,Duquesne vs Loyola (MD),92,78,Under 149.5,-107,1,loss,-1.0
