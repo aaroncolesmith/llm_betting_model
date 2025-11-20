@@ -426,3 +426,14 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 7,v2_perp,2025-11-18,261814,Trail Blazers vs Suns,110.0,127.0,Over 236.5,-110,1,win,0.9090909090909092
 9,v2_perp,2025-11-18,261810,Nets vs Celtics,99.0,113.0,Celtics -11.5,-102,1,win,0.9803921568627452
 10,v2_perp,2025-11-18,261809,Magic vs Warriors,121.0,113.0,Over 223.5,-111,1,win,0.9009009009009008
+9,v2,2025-11-19,261815,Cavaliers vs Rockets,104.0,114.0,Cavaliers -2.5,-105,1,loss,-1.0
+4,v2,2025-11-19,261817,Heat vs Warriors,110.0,96.0,Heat -10.5,-110,2,win,1.818181818181818
+7,v2,2025-11-19,261818,76ers vs Raptors,112.0,121.0,Raptors -2.5,-105,2,win,1.9047619047619049
+8,v2,2025-11-19,261816,Pacers vs Hornets,127.0,118.0,Hornets -1.5,-115,2,loss,-2.0
+4,v2_perp,2025-11-19,261817,Heat vs Warriors,110.0,96.0,Heat -10.5,-110,2,win,1.818181818181818
+6,v2_perp,2025-11-19,261815,Cavaliers vs Rockets,104.0,114.0,Rockets -1.5,-112,1,win,0.8928571428571429
+7,v2_perp,2025-11-19,261816,Pacers vs Hornets,127.0,118.0,Hornets -1.5,-115,1,loss,-1.0
+2,gemini,2025-11-19,261817,Heat vs Warriors,110.0,96.0,Heat -10.5,-110,3,win,2.727272727272727
+5,gemini,2025-11-19,261818,76ers vs Raptors,112.0,121.0,76ers +2.5,-115,2,loss,-2.0
+6,gemini,2025-11-19,261815,Cavaliers vs Rockets,104.0,114.0,Cavaliers +1.5,-108,2,loss,-2.0
+9,gemini,2025-11-19,261816,Pacers vs Hornets,127.0,118.0,Pacers +1.5,-105,1,win,0.9523809523809523
