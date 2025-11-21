@@ -1,4 +1,4 @@
-name: build ncaab prompts
+name: build soccer prompts
 
 # on: [push]
 # on:
@@ -8,7 +8,7 @@ name: build ncaab prompts
 on:
   # Schedule the workflow to run every day at 1:00 AM (UTC)
   schedule:
-    - cron: '03 * * * *'
+    - cron: '05 * * * *'
   # Allows the workflow to be triggered manually
   workflow_dispatch:
 
@@ -32,7 +32,7 @@ jobs:
           pip install -r requirements.txt --default-timeout=100
         
       - name: Execute Python script # Run the run.py to get the latest data
-        run: python scripts/ncaab_build_prompt.py
+        run: python scripts/soccer_build_prompt.py
 
       - name: List files before push
         run: |
