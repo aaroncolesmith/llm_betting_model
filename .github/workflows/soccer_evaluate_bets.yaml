@@ -7,8 +7,8 @@ name: evaluate soccer bets
 
 on:
   # Schedule the workflow to run every day at 1:00 AM (UTC)
-  schedule:
-    - cron: '21 * * * *'  
+  # schedule:
+  #   - cron: '21 * * * *'  
   # Allows the workflow to be triggered manually
   workflow_dispatch:
 
