@@ -1,0 +1,11 @@
+rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,bet_payout
+1,cliff,2025-11-21,263445,Mainz vs HOFF,1,1,Under 2.5,130,3,win,3.9
+2,cliff,2025-11-21,263516,Nice vs Marseille,1,5,Marseille -0.5,-115,3,win,2.608695652173913
+3,cliff,2025-11-21,263496,Valencia vs Levante,1,0,Valencia -0.5,-102,3,win,2.941176470588235
+9,david,2025-11-21,263496,Valencia vs Levante,1,0,Valencia -0.5,-102,1,win,0.9803921568627452
+1,david,2025-11-21,263496,Valencia vs Levante,1,0,Valencia -0.5,-102,3,win,2.941176470588235
+6,david,2025-11-21,263445,Mainz vs HOFF,1,1,Mainz -0.5,130,1,loss,-1.0
+10,gary,2025-11-21,263445,Mainz vs HOFF,1,1,Over 2.5,-167,1,loss,-1.0
+1,gary,2025-11-21,263516,Nice vs Marseille,1,5,Marseille ML,-102,3,win,2.941176470588235
+4,gary,2025-11-21,263445,Mainz vs HOFF,1,1,Over 2.5,-167,2,loss,-2.0
+5,gary,2025-11-21,263496,Valencia vs Levante,1,0,Valencia ML,105,2,win,2.1
