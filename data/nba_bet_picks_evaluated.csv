@@ -455,3 +455,7 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 8,v2_perp,2025-11-19,261823,Trail Blazers vs Bulls,121.0,122.0,Bulls -4.5,-110,1,loss,-1.0
 7,gemini,2025-11-19,261823,Trail Blazers vs Bulls,121.0,122.0,Trail Blazers +4.5,-110,1,win,0.9090909090909092
 8,gemini,2025-11-19,261823,Trail Blazers vs Bulls,121.0,122.0,Under 242.5,-110,1,loss,-1.0
+8,v2,2025-11-20,261825,Grizzlies vs Kings,137.0,96.0,Grizzlies -3.5,-108,2,win,1.851851851851852
+3,v2_perp,2025-11-20,261824,Magic vs Clippers,129.0,101.0,Magic -5.5,-115,2,win,1.7391304347826086
+9,v2_perp,2025-11-20,261825,Grizzlies vs Kings,137.0,96.0,Grizzlies -3.5,-108,1,win,0.925925925925926
+6,gemini,2025-11-20,261824,Magic vs Clippers,129.0,101.0,Magic -5.5,-115,2,win,1.7391304347826086
