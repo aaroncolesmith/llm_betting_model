@@ -236,6 +236,11 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 2,perp,2025-11-22,264971,OK State vs Nicholls St,95,81,OK State -24.0,-113,3,loss,-3.0
 3,perp,2025-11-22,280860,St. Peter's vs UMass Lowell,68,66,St. Peter's -7.5,-100,3,loss,-3.0
 4,perp,2025-11-22,266468,Kent State vs Cleveland St,91,71,Kent State -15.5,-104,3,win,2.8846153846153846
-2,gemini,2025-11-22,264966,Marquette vs C. Michigan,85,71,C. Michigan +24.5,-111,3,win,2.7027027027027026
+2,gemini,2025-11-22,264966,Marquette vs C. Michigan,85,71,C. Michigan +24.5,-111,3,win,2.702702702702702
 3,gemini,2025-11-22,264971,OK State vs Nicholls St,95,81,Nicholls St +24.0,-107,3,win,2.803738317757009
 8,gemini,2025-11-22,266468,Kent State vs Cleveland St,91,71,Cleveland St +15.5,-118,1,loss,-1.0
+6,perp,2025-11-22,264979,Binghamton vs MD-E Shore,52,63,Binghamton -8.0,-113,2,loss,-2.0
+7,perp,2025-11-22,264978,Penn State vs Providence,65,77,Providence -4.5,-111,2,win,1.8018018018018016
+1,claude,2025-11-22,264978,Penn State vs Providence,65,77,Penn State +4.5,-111,3,loss,-3.0
+3,claude,2025-11-22,264968,Duquesne vs Northeastern,86,93,Duquesne -7.5,-115,3,loss,-3.0
+5,claude,2025-11-22,276557,E. Kentucky vs Mercer,83,95,Mercer +4.5,-110,2,win,1.818181818181818

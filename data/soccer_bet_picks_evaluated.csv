@@ -45,3 +45,9 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 7,david,2025-11-22,263523,Lens vs Strasbourg,1,0,Lens -0.5,-105,2,win,1.9047619047619049
 7,cliff,2025-11-22,263430,Newcastle vs Man City,2,1,Man City -0.5,-110,2,loss,-2.0
 6,gary,2025-11-22,263430,Newcastle vs Man City,2,1,Man City -0.5,-110,2,loss,-2.0
+2,cliff,2025-11-22,263515,PSG vs Le Havre,3,0,PSG -2.5,134,3,win,4.0200000000000005
+6,cliff,2025-11-22,263495,Villarreal vs Mallorca,2,1,Villarreal -1.5,115,2,loss,-2.0
+11,cliff,2025-11-22,263514,Napoli vs Atalanta,3,1,Napoli -0.5,110,1,win,1.1
+5,david,2025-11-22,263515,PSG vs Le Havre,3,0,PSG -2.5,134,2,win,2.68
+5,gary,2025-11-22,263515,PSG vs Le Havre,3,0,PSG -2.5,134,2,win,2.68
+8,gary,2025-11-22,263495,Villarreal vs Mallorca,2,1,Villarreal -1.5,115,1,loss,-1.0
