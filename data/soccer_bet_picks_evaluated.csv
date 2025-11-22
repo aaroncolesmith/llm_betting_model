@@ -9,3 +9,5 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 1,gary,2025-11-21,263516,Nice vs Marseille,1,5,Marseille ML,-102,3,win,2.941176470588235
 4,gary,2025-11-21,263445,Mainz vs HOFF,1,1,Over 2.5,-167,2,loss,-2.0
 5,gary,2025-11-21,263496,Valencia vs Levante,1,0,Valencia ML,105,2,win,2.1
+1,cliff,2025-11-22,263435,Burnley vs Chelsea,0,2,Chelsea -1.5,125,3,win,3.75
+4,gary,2025-11-22,263435,Burnley vs Chelsea,0,2,Chelsea -1.5,125,2,win,2.5
