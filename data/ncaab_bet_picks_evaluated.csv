@@ -232,3 +232,10 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 4,gemini,2025-11-21,264958,Portland vs CS Fullerton,103,85,Portland -5.5,-111,2,win,1.8018018018018016
 8,gemini,2025-11-21,266462,Xavier vs Georgia,77,78,Georgia -10.5,-110,1,loss,-1.0
 12,perp,2025-11-21,264954,UCLA vs Presbyterian,86,46,UCLA -26.5,-105,1,win,0.9523809523809524
+1,perp,2025-11-22,264966,Marquette vs C. Michigan,85,71,Marquette -24.5,-110,3,loss,-3.0
+2,perp,2025-11-22,264971,OK State vs Nicholls St,95,81,OK State -24.0,-113,3,loss,-3.0
+3,perp,2025-11-22,280860,St. Peter's vs UMass Lowell,68,66,St. Peter's -7.5,-100,3,loss,-3.0
+4,perp,2025-11-22,266468,Kent State vs Cleveland St,91,71,Kent State -15.5,-104,3,win,2.8846153846153846
+2,gemini,2025-11-22,264966,Marquette vs C. Michigan,85,71,C. Michigan +24.5,-111,3,win,2.7027027027027026
+3,gemini,2025-11-22,264971,OK State vs Nicholls St,95,81,Nicholls St +24.0,-107,3,win,2.803738317757009
+8,gemini,2025-11-22,266468,Kent State vs Cleveland St,91,71,Cleveland St +15.5,-118,1,loss,-1.0
