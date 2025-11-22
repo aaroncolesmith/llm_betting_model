@@ -465,3 +465,8 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 7,v2_perp,2025-11-20,261827,Spurs vs Hawks,135.0,126.0,Spurs -1.5,-105,1,win,0.9523809523809524
 5,gemini,2025-11-20,261826,Bucks vs 76ers,114.0,123.0,Bucks +1.5,-109,2,loss,-2.0
 10,gemini,2025-11-20,261827,Spurs vs Hawks,135.0,126.0,Spurs -1.5,-105,1,win,0.9523809523809524
+1,v2_perp,2025-11-20,261824,Magic vs Clippers,129.0,101.0,Magic -5.5,-115,3,win,2.608695652173913
+9,v2_perp,2025-11-20,261826,Bucks vs 76ers,114.0,123.0,Over 223.5,-110,1,win,0.9090909090909092
+8,gemini,2025-11-20,261827,Spurs vs Hawks,135.0,126.0,Spurs -1.5,-105,1,win,0.9523809523809523
+9,gemini,2025-11-20,261824,Magic vs Clippers,129.0,101.0,Magic -5.5,-115,1,win,0.8695652173913043
+10,gemini,2025-11-20,261826,Bucks vs 76ers,114.0,123.0,Bucks +1.5,-109,1,loss,-1.0

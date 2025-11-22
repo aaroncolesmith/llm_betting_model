@@ -201,3 +201,24 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 6,gemini,2025-11-19,274946,Saint Mary's vs Arkansas St,85,72,Saint Mary's -20.5,-110,1,loss,-1.0
 8,gemini,2025-11-19,266429,Weber State vs Campbell,91,85,Under 159.5,-110,1,loss,-1.0
 8,perp,2025-11-19,264903,Washington St vs Southern Utah,98,74,Washington St -12.5,-110,1,win,0.9090909090909092
+1,perp,2025-11-21,266458,Akron vs Iona,96,75,Akron -11.5,-105,3,win,2.8571428571428568
+3,perp,2025-11-21,266459,Clemson vs West Virginia,70,67,Clemson -3.5,-110,2,loss,-2.0
+4,perp,2025-11-21,266453,Florida St vs GA Southern,98,72,Florida St -18.0,-110,2,win,1.818181818181818
+5,perp,2025-11-21,272005,Rutgers vs Central Conn,54,67,Rutgers -15.5,-110,2,loss,-2.0
+6,perp,2025-11-21,267354,Siena vs Albany,73,63,Siena -11.5,-105,1,loss,-1.0
+7,perp,2025-11-21,271301,Lehigh vs Columbia,67,82,Lehigh -1.5,-117,1,loss,-1.0
+10,perp,2025-11-21,264530,App State vs Charlotte,65,63,App State -1.5,-110,1,win,0.9090909090909092
+1,claude,2025-11-21,264528,Stonehill vs Lafayette,74,70,Stonehill +1.5,-118,1,win,0.847457627118644
+2,claude,2025-11-21,271301,Lehigh vs Columbia,67,82,Lehigh +1.5,-102,1,loss,-1.0
+3,claude,2025-11-21,264529,E. Michigan vs Oakland,97,91,E. Michigan +1.5,-112,1,win,0.8928571428571429
+4,claude,2025-11-21,264530,App State vs Charlotte,65,63,App State -1.5,-110,1,win,0.9090909090909092
+5,claude,2025-11-21,266447,Cincinnati vs Louisville,64,74,Cincinnati +8.5,-110,1,loss,-1.0
+6,claude,2025-11-21,282311,New Mexico vs Mississippi St,80,78,New Mexico +6.5,-109,1,win,0.9174311926605504
+7,claude,2025-11-21,282310,Wake Forest vs Memphis,69,68,Wake Forest -2.5,-112,1,loss,-1.0
+8,claude,2025-11-21,266448,Radford vs UNC Wilmington,73,81,Radford +3.5,-105,1,loss,-1.0
+3,gemini,2025-11-21,264528,Stonehill vs Lafayette,74,70,Stonehill +1.5,-118,3,win,2.542372881355932
+5,gemini,2025-11-21,272005,Rutgers vs Central Conn,54,67,Rutgers -15.5,-110,2,loss,-2.0
+6,gemini,2025-11-21,267355,UAB vs S. Alabama,80,72,UAB -6.5,-108,2,win,1.8518518518518519
+7,gemini,2025-11-21,266459,Clemson vs West Virginia,70,67,Clemson -3.5,-110,2,loss,-2.0
+9,gemini,2025-11-21,267354,Siena vs Albany,73,63,Siena -11.5,-105,1,loss,-1.0
+10,gemini,2025-11-21,271301,Lehigh vs Columbia,67,82,Lehigh +1.5,-102,1,loss,-1.0
