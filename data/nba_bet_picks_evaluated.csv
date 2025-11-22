@@ -504,7 +504,13 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 7,v2_perp,2025-11-21,261584,Suns vs Timberwolves,114.0,113.0,Timberwolves -4.5,-110,1,loss,-1.0
 10,v2_perp,2025-11-21,261586,Jazz vs Thunder,112.0,144.0,Thunder -16.5,-110,1,win,0.9090909090909092
 1,gemini,2025-11-21,261586,Jazz vs Thunder,112.0,144.0,Jazz +16.5,-110,3,loss,-3.0
-4,gemini,2025-11-21,261584,Suns vs Timberwolves,114.0,113.0,Suns +3.5,-105,2,win,1.9047619047619047
+4,gemini,2025-11-21,261584,Suns vs Timberwolves,114.0,113.0,Suns +3.5,-105,2,win,1.9047619047619049
 2,gemini,2025-11-21,261584,Suns vs Timberwolves,114.0,113.0,Suns +3.5,-105,3,win,2.8571428571428568
 4,gemini,2025-11-21,261585,Rockets vs Nuggets,109.0,112.0,Rockets -2.5,-110,2,loss,-2.0
 7,gemini,2025-11-21,261583,Mavericks vs Pelicans,118.0,115.0,Mavericks -4.5,-105,2,loss,-2.0
+2,v2,2025-11-21,261587,Warriors vs Trail Blazers,123.0,127.0,Warriors -6.5,-110,3,loss,-3.0
+2,v2,2025-11-21,261587,Warriors vs Trail Blazers,123.0,127.0,Warriors -9.5,-110,3,loss,-3.0
+5,v2_perp,2025-11-21,261587,Warriors vs Trail Blazers,123.0,127.0,Warriors -6.5,-110,2,loss,-2.0
+5,v2_perp,2025-11-21,261587,Warriors vs Trail Blazers,123.0,127.0,Warriors -9.5,-110,1,loss,-1.0
+7,gemini,2025-11-21,261587,Warriors vs Trail Blazers,123.0,127.0,Warriors -6.5,-110,1,loss,-1.0
+3,gemini,2025-11-21,261587,Warriors vs Trail Blazers,123.0,127.0,Warriors -9.5,-110,2,loss,-2.0

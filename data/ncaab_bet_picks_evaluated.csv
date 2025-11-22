@@ -229,5 +229,6 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 9,perp,2025-11-21,264957,Stanford vs Seattle,69,77,Stanford -10.0,-110,1,loss,-1.0
 10,claude,2025-11-21,266446,Pepperdine vs SFA,60,63,Pepperdine +1.5,-115,1,loss,-1.0
 1,gemini,2025-11-21,264936,San Diego vs UC Riverside,71,85,San Diego -7.5,-112,3,loss,-3.0
-4,gemini,2025-11-21,264958,Portland vs CS Fullerton,103,85,Portland -5.5,-111,2,win,1.8018018018018018
+4,gemini,2025-11-21,264958,Portland vs CS Fullerton,103,85,Portland -5.5,-111,2,win,1.8018018018018016
 8,gemini,2025-11-21,266462,Xavier vs Georgia,77,78,Georgia -10.5,-110,1,loss,-1.0
+12,perp,2025-11-21,264954,UCLA vs Presbyterian,86,46,UCLA -26.5,-105,1,win,0.9523809523809524
