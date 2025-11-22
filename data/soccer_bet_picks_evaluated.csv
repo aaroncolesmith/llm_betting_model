@@ -41,3 +41,5 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 3,gary,2025-11-22,263498,Barcelona vs Athletic,4,0,Barcelona -1.5,108,3,win,3.24
 9,gary,2025-11-22,263436,Albion vs Brentford,2,1,Albion -0.5,-118,1,win,0.847457627118644
 2,gary,2025-11-22,263436,Albion vs Brentford,2,1,Albion ML,-108,3,win,2.7777777777777777
+12,cliff,2025-11-22,263523,Lens vs Strasbourg,1,0,Lens -0.5,-105,1,win,0.9523809523809524
+7,david,2025-11-22,263523,Lens vs Strasbourg,1,0,Lens -0.5,-105,2,win,1.9047619047619049
