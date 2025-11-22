@@ -42,7 +42,6 @@ rank,game_id,start_time,match,pick,odds,units,confidence_pct,reason,predicted_sc
 2,261834,2025-11-23T03:00:00.000Z,Nuggets vs Kings,Kings +10.5,-110,3,91,Sharp money differential (Money % > Ticket %),114-108,0,0,1,0,0,0,-600,410,N/A,236.0,-110,-110,-10.5,-110,10.5,-110,2025-11-22T10:19:27Z
 3,261831,2025-11-23T01:00:00.000Z,Bulls vs Wizards,Wizards +12.5,-110,2,86,Sharp value on huge road dog (Money % > Ticket %),122-114,0,0,1,0,0,0,-750,500,N/A,243.5,-115,-105,-12.5,-110,12.5,-110,2025-11-22T10:19:27Z
 4,261829,2025-11-22T22:00:00.000Z,Magic vs Knicks,Magic -1.5,-110,2,84,Strong Sharp Money on Home ML/Spread,112-108,1,0,0,0,0,0,-116,-103,N/A,230.5,-110,-110,-1.5,-110,1.5,-110,2025-11-22T10:19:27Z
-5,261832,2025-11-23T01:00:00.000Z,Bucks vs Pistons,Bucks +8.5,-115,2,82,Contrarian Home Dog with sharp money indicators,108-110,1,0,0,0,0,0,277,-342,N/A,223.0,-110,-110,8.5,-115,-8.5,-105,2025-11-22T10:19:27Z
 6,261833,2025-11-23T01:30:00.000Z,Mavericks vs Grizzlies,Mavericks -115,-115,2,80,Money percentage higher than ticket percentage on ML,116-112,0,1,0,0,0,0,-115,-105,N/A,229.5,-110,-110,-1.5,-105,1.5,-115,2025-11-22T10:19:27Z
 7,261830,2025-11-23T00:00:00.000Z,Pelicans vs Hawks,Pelicans +8.5,-105,1,78,Fading massive public steam on Hawks (75% tickets),110-115,1,0,0,0,0,0,315,-395,N/A,231.5,-109,-112,8.5,-105,-8.5,-115,2025-11-22T10:19:27Z
 8,261829,2025-11-22T22:00:00.000Z,Magic vs Knicks,Under 230.5,-110,1,76,Fading 87% Public consensus on Over,112-108,0,0,0,0,0,1,-116,-103,N/A,230.5,-110,-110,-1.5,-110,1.5,-110,2025-11-22T10:19:27Z
