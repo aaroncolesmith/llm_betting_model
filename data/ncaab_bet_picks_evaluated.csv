@@ -218,7 +218,10 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 8,claude,2025-11-21,266448,Radford vs UNC Wilmington,73,81,Radford +3.5,-105,1,loss,-1.0
 3,gemini,2025-11-21,264528,Stonehill vs Lafayette,74,70,Stonehill +1.5,-118,3,win,2.542372881355932
 5,gemini,2025-11-21,272005,Rutgers vs Central Conn,54,67,Rutgers -15.5,-110,2,loss,-2.0
-6,gemini,2025-11-21,267355,UAB vs S. Alabama,80,72,UAB -6.5,-108,2,win,1.8518518518518519
+6,gemini,2025-11-21,267355,UAB vs S. Alabama,80,72,UAB -6.5,-108,2,win,1.851851851851852
 7,gemini,2025-11-21,266459,Clemson vs West Virginia,70,67,Clemson -3.5,-110,2,loss,-2.0
 9,gemini,2025-11-21,267354,Siena vs Albany,73,63,Siena -11.5,-105,1,loss,-1.0
 10,gemini,2025-11-21,271301,Lehigh vs Columbia,67,82,Lehigh +1.5,-102,1,loss,-1.0
+11,perp,2025-11-21,266461,Oregon St vs Evansville,69,73,Oregon St -6.5,-105,1,loss,-1.0
+9,claude,2025-11-21,264955,N. Colorado vs St. Thomas,72,73,N. Colorado +4.5,-110,1,win,0.9090909090909092
+2,gemini,2025-11-21,266461,Oregon St vs Evansville,69,73,Oregon St -6.5,-105,3,loss,-3.0
