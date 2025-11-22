@@ -11,3 +11,6 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 5,gary,2025-11-21,263496,Valencia vs Levante,1,0,Valencia ML,105,2,win,2.1
 1,cliff,2025-11-22,263435,Burnley vs Chelsea,0,2,Chelsea -1.5,125,3,win,3.75
 4,gary,2025-11-22,263435,Burnley vs Chelsea,0,2,Chelsea -1.5,125,2,win,2.5
+4,cliff,2025-11-22,263504,Alaves vs Celta Vigo,0,1,Under 2.5,-168,2,win,1.1904761904761905
+4,david,2025-11-22,263504,Alaves vs Celta Vigo,0,1,Alaves -0.5,135,2,loss,-2.0
+3,gary,2025-11-22,263504,Alaves vs Celta Vigo,0,1,Under 2.5,-168,2,win,1.1904761904761905
