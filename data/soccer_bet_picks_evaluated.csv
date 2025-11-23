@@ -60,3 +60,9 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 8,gary,2025-11-23,263497,Getafe vs Atlético,0,1,Atlético ML,-130,1,win,0.7692307692307693
 9,gary,2025-11-23,263520,Toulouse vs Angers,0,1,Toulouse ML,-145,1,loss,-1.0
 10,gary,2025-11-23,263519,Brest vs Metz,3,2,Brest ML,-125,1,win,0.8
+3,cliff,2025-11-23,263502,Elche vs Real Madrid,2,2,Real Madrid -1.5,-105,3,loss,-3.0
+4,cliff,2025-11-23,263508,Inter vs Milan,0,1,Under 2.5,-131,2,win,1.5267175572519085
+5,cliff,2025-11-23,263518,Lille vs Paris FC,4,2,Lille -0.5,-175,2,win,1.1428571428571428
+8,david,2025-11-23,263518,Lille vs Paris FC,4,2,Lille -0.5,-175,1,win,0.5714285714285714
+3,gary,2025-11-23,263502,Elche vs Real Madrid,2,2,Real Madrid -1.5,-105,3,loss,-3.0
+6,gary,2025-11-23,263518,Lille vs Paris FC,4,2,Lille ML,-155,2,win,1.2903225806451613
