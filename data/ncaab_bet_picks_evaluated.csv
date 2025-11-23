@@ -244,3 +244,20 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 1,claude,2025-11-22,264978,Penn State vs Providence,65,77,Penn State +4.5,-111,3,loss,-3.0
 3,claude,2025-11-22,264968,Duquesne vs Northeastern,86,93,Duquesne -7.5,-115,3,loss,-3.0
 5,claude,2025-11-22,276557,E. Kentucky vs Mercer,83,95,Mercer +4.5,-110,2,win,1.818181818181818
+8,perp,2025-11-22,264980,St. Thomas vs CS Fullerton,80,88,St. Thomas -11.5,-115,2,loss,-2.0
+9,perp,2025-11-22,272008,Chattanooga vs North Alabama,71,57,Chattanooga -10.5,-108,2,win,1.851851851851852
+10,perp,2025-11-22,264961,Niagara vs Howard,70,80,Howard -4.5,-114,1,win,0.8771929824561403
+2,claude,2025-11-22,264975,Minnesota vs San Francisco,65,77,Minnesota +1.5,-118,3,loss,-3.0
+4,claude,2025-11-22,264961,Niagara vs Howard,70,80,Howard -4.5,-114,2,win,1.7543859649122806
+6,claude,2025-11-22,267357,Nevada vs UCSB,77,64,Nevada -5.5,-105,2,win,1.9047619047619049
+7,claude,2025-11-22,267601,Lipscomb vs W. Carolina,83,62,Lipscomb -5.0,-111,2,win,1.8018018018018016
+8,claude,2025-11-22,264972,Missouri St vs UT Grande Valley,74,67,Missouri St -1.5,-110,1,win,0.9090909090909092
+9,claude,2025-11-22,282320,Oregon St vs Iona,84,91,Iona +3.5,-105,1,win,0.9523809523809524
+10,claude,2025-11-22,264969,Wichita State vs Milwaukee,75,58,Wichita State -10.5,-110,1,win,0.9090909090909092
+11,claude,2025-11-22,264970,Indiana St vs Ball State,70,52,Ball State +7.5,-110,1,loss,-1.0
+1,gemini,2025-11-22,264969,Wichita State vs Milwaukee,75,58,Milwaukee +10.5,-110,3,loss,-3.0
+4,gemini,2025-11-22,266469,CS Bakersfield vs MS Valley St,86,70,MS Valley St +23.5,-110,2,win,1.8181818181818181
+5,gemini,2025-11-22,282305,UIC vs Southern Indiana,84,73,Southern Indiana +11.5,-115,2,win,1.7391304347826086
+6,gemini,2025-11-22,272008,Chattanooga vs North Alabama,71,57,North Alabama +10.5,-115,2,loss,-2.0
+7,gemini,2025-11-22,264980,St. Thomas vs CS Fullerton,80,88,CS Fullerton +11.5,-110,1,win,0.9090909090909091
+10,gemini,2025-11-22,264975,Minnesota vs San Francisco,65,77,Minnesota +1.5,-118,1,loss,-1.0

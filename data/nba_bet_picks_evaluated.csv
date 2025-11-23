@@ -514,3 +514,12 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 5,v2_perp,2025-11-21,261587,Warriors vs Trail Blazers,123.0,127.0,Warriors -9.5,-110,1,loss,-1.0
 7,gemini,2025-11-21,261587,Warriors vs Trail Blazers,123.0,127.0,Warriors -6.5,-110,1,loss,-1.0
 3,gemini,2025-11-21,261587,Warriors vs Trail Blazers,123.0,127.0,Warriors -9.5,-110,2,loss,-2.0
+4,v2,2025-11-22,261830,Pelicans vs Hawks,98.0,115.0,Hawks -8.5,-115,3,win,2.608695652173913
+5,v2,2025-11-22,261829,Magic vs Knicks,133.0,121.0,Knicks +1.5,-110,2,loss,-2.0
+2,v2_perp,2025-11-22,261830,Pelicans vs Hawks,98.0,115.0,Hawks -8.5,-115,3,win,2.608695652173913
+5,v2_perp,2025-11-22,261829,Magic vs Knicks,133.0,121.0,Under 230.5,-110,2,loss,-2.0
+7,v2_perp,2025-11-22,261830,Pelicans vs Hawks,98.0,115.0,Under 231.5,-112,1,win,0.8928571428571429
+8,v2_perp,2025-11-22,261829,Magic vs Knicks,133.0,121.0,Knicks +1.5,-110,1,loss,-1.0
+4,gemini,2025-11-22,261829,Magic vs Knicks,133.0,121.0,Magic -1.5,-110,2,win,1.8181818181818181
+7,gemini,2025-11-22,261830,Pelicans vs Hawks,98.0,115.0,Pelicans +8.5,-105,1,loss,-1.0
+8,gemini,2025-11-22,261829,Magic vs Knicks,133.0,121.0,Under 230.5,-110,1,loss,-1.0

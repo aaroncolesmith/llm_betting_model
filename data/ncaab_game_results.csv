@@ -1485,3 +1485,73 @@ game_id,start_time,league_name,home_team,away_team,home_score,away_score,status
 282314,2025-11-22T20:00:00.000Z,ncaab,UMASS,Green Bay,75,79,complete
 264968,2025-11-22T21:00:00.000Z,ncaab,Duquesne,Northeastern,86,93,complete
 264978,2025-11-22T21:00:00.000Z,ncaab,Penn State,Providence,65,77,complete
+264973,2025-11-22T17:00:00.000Z,ncaab,Georgetown,Wagner,92,75,complete
+266467,2025-11-22T17:00:00.000Z,ncaab,Navy,N.J.I.T.,86,70,complete
+264977,2025-11-22T18:00:00.000Z,ncaab,Dolphins,Fairfield,83,97,complete
+264964,2025-11-22T18:30:00.000Z,ncaab,Boston U,Harvard,75,74,complete
+264966,2025-11-22T19:00:00.000Z,ncaab,Marquette,C. Michigan,85,71,complete
+264971,2025-11-22T19:00:00.000Z,ncaab,OK State,Nicholls St,95,81,complete
+264974,2025-11-22T19:00:00.000Z,ncaab,Illinois,Long Island,98,58,complete
+264976,2025-11-22T19:00:00.000Z,ncaab,Dayton,NC Central,74,55,complete
+266468,2025-11-22T19:00:00.000Z,ncaab,Kent State,Cleveland St,91,71,complete
+280860,2025-11-22T19:00:00.000Z,ncaab,St. Peter's,UMass Lowell,68,66,complete
+264979,2025-11-22T20:00:00.000Z,ncaab,Binghamton,MD-E Shore,52,63,complete
+276557,2025-11-22T20:00:00.000Z,ncaab,E. Kentucky,Mercer,83,95,complete
+282314,2025-11-22T20:00:00.000Z,ncaab,UMASS,Green Bay,75,79,complete
+264961,2025-11-22T21:00:00.000Z,ncaab,Niagara,Howard,70,80,complete
+264968,2025-11-22T21:00:00.000Z,ncaab,Duquesne,Northeastern,86,93,complete
+264978,2025-11-22T21:00:00.000Z,ncaab,Penn State,Providence,65,77,complete
+266469,2025-11-22T21:00:00.000Z,ncaab,CS Bakersfield,MS Valley St,86,70,complete
+272008,2025-11-22T21:30:00.000Z,ncaab,Chattanooga,North Alabama,71,57,complete
+264972,2025-11-22T22:00:00.000Z,ncaab,Missouri St,UT Grande Valley,74,67,complete
+266466,2025-11-22T22:00:00.000Z,ncaab,TN-Martin,Prairie View,69,68,complete
+267357,2025-11-22T22:00:00.000Z,ncaab,Nevada,UCSB,77,64,complete
+267601,2025-11-22T22:00:00.000Z,ncaab,Lipscomb,W. Carolina,83,62,complete
+282305,2025-11-22T22:00:00.000Z,ncaab,UIC,Southern Indiana,84,73,complete
+264975,2025-11-22T22:30:00.000Z,ncaab,Minnesota,San Francisco,65,77,complete
+264980,2025-11-22T22:30:00.000Z,ncaab,St. Thomas,CS Fullerton,80,88,complete
+282320,2025-11-22T22:30:00.000Z,ncaab,Oregon St,Iona,84,91,complete
+264967,2025-11-23T00:00:00.000Z,ncaab,Richmond,Gardner-Webb,102,67,complete
+264969,2025-11-23T00:00:00.000Z,ncaab,Wichita State,Milwaukee,75,58,complete
+264970,2025-11-23T00:00:00.000Z,ncaab,Indiana St,Ball State,70,52,complete
+266470,2025-11-23T00:00:00.000Z,ncaab,Coastal Car,North Dakota,75,58,complete
+266471,2025-11-23T00:00:00.000Z,ncaab,Stetson,VMI,99,80,complete
+272007,2025-11-23T00:00:00.000Z,ncaab,Morehead St,UL Monroe,83,80,complete
+282306,2025-11-23T00:00:00.000Z,ncaab,High Point,Incarnate Word,91,80,complete
+264965,2025-11-23T00:30:00.000Z,ncaab,VCU,Coppin St,101,58,complete
+266465,2025-11-23T01:00:00.000Z,ncaab,North Florida,Southern Miss,83,92,complete
+264973,2025-11-22T17:00:00.000Z,ncaab,Georgetown,Wagner,92,75,complete
+266467,2025-11-22T17:00:00.000Z,ncaab,Navy,N.J.I.T.,86,70,complete
+264977,2025-11-22T18:00:00.000Z,ncaab,Dolphins,Fairfield,83,97,complete
+264964,2025-11-22T18:30:00.000Z,ncaab,Boston U,Harvard,75,74,complete
+264966,2025-11-22T19:00:00.000Z,ncaab,Marquette,C. Michigan,85,71,complete
+264971,2025-11-22T19:00:00.000Z,ncaab,OK State,Nicholls St,95,81,complete
+264974,2025-11-22T19:00:00.000Z,ncaab,Illinois,Long Island,98,58,complete
+264976,2025-11-22T19:00:00.000Z,ncaab,Dayton,NC Central,74,55,complete
+266468,2025-11-22T19:00:00.000Z,ncaab,Kent State,Cleveland St,91,71,complete
+280860,2025-11-22T19:00:00.000Z,ncaab,St. Peter's,UMass Lowell,68,66,complete
+264979,2025-11-22T20:00:00.000Z,ncaab,Binghamton,MD-E Shore,52,63,complete
+276557,2025-11-22T20:00:00.000Z,ncaab,E. Kentucky,Mercer,83,95,complete
+282314,2025-11-22T20:00:00.000Z,ncaab,UMASS,Green Bay,75,79,complete
+264961,2025-11-22T21:00:00.000Z,ncaab,Niagara,Howard,70,80,complete
+264968,2025-11-22T21:00:00.000Z,ncaab,Duquesne,Northeastern,86,93,complete
+264978,2025-11-22T21:00:00.000Z,ncaab,Penn State,Providence,65,77,complete
+266469,2025-11-22T21:00:00.000Z,ncaab,CS Bakersfield,MS Valley St,86,70,complete
+272008,2025-11-22T21:30:00.000Z,ncaab,Chattanooga,North Alabama,71,57,complete
+264972,2025-11-22T22:00:00.000Z,ncaab,Missouri St,UT Grande Valley,74,67,complete
+266466,2025-11-22T22:00:00.000Z,ncaab,TN-Martin,Prairie View,69,68,complete
+267357,2025-11-22T22:00:00.000Z,ncaab,Nevada,UCSB,77,64,complete
+267601,2025-11-22T22:00:00.000Z,ncaab,Lipscomb,W. Carolina,83,62,complete
+282305,2025-11-22T22:00:00.000Z,ncaab,UIC,Southern Indiana,84,73,complete
+264975,2025-11-22T22:30:00.000Z,ncaab,Minnesota,San Francisco,65,77,complete
+264980,2025-11-22T22:30:00.000Z,ncaab,St. Thomas,CS Fullerton,80,88,complete
+282320,2025-11-22T22:30:00.000Z,ncaab,Oregon St,Iona,84,91,complete
+264967,2025-11-23T00:00:00.000Z,ncaab,Richmond,Gardner-Webb,102,67,complete
+264969,2025-11-23T00:00:00.000Z,ncaab,Wichita State,Milwaukee,75,58,complete
+264970,2025-11-23T00:00:00.000Z,ncaab,Indiana St,Ball State,70,52,complete
+266470,2025-11-23T00:00:00.000Z,ncaab,Coastal Car,North Dakota,75,58,complete
+266471,2025-11-23T00:00:00.000Z,ncaab,Stetson,VMI,99,80,complete
+272007,2025-11-23T00:00:00.000Z,ncaab,Morehead St,UL Monroe,83,80,complete
+282306,2025-11-23T00:00:00.000Z,ncaab,High Point,Incarnate Word,91,80,complete
+264965,2025-11-23T00:30:00.000Z,ncaab,VCU,Coppin St,101,58,complete
+266465,2025-11-23T01:00:00.000Z,ncaab,North Florida,Southern Miss,83,92,complete
