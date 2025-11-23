@@ -541,3 +541,5 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 3,v2_perp,2025-11-22,261834,Nuggets vs Kings,123.0,128.0,Nuggets -10.5,-110,2,loss,-2.0
 2,gemini,2025-11-22,261834,Nuggets vs Kings,123.0,128.0,Kings +10.5,-110,3,win,2.727272727272727
 9,gemini,2025-11-22,261834,Nuggets vs Kings,123.0,128.0,Under 236.0,-110,1,loss,-1.0
+7,v2_perp,2025-11-22,261834,Nuggets vs Kings,123.0,128.0,Nuggets -10.5,-110,1,loss,-1.0
+8,v2_perp,2025-11-22,261832,Bucks vs Pistons,116.0,129.0,Pistons -8.5,-105,1,win,0.9523809523809524

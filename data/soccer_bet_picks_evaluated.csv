@@ -51,3 +51,12 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 5,david,2025-11-22,263515,PSG vs Le Havre,3,0,PSG -2.5,134,2,win,2.68
 5,gary,2025-11-22,263515,PSG vs Le Havre,3,0,PSG -2.5,134,2,win,2.68
 8,gary,2025-11-22,263495,Villarreal vs Mallorca,2,1,Villarreal -1.5,115,1,loss,-1.0
+1,cliff,2025-11-23,263437,Arsenal vs Tottenham,4,1,Arsenal -1.5,115,3,win,3.45
+8,cliff,2025-11-23,263509,Lazio vs Lecce,2,0,Lazio -0.5,-145,2,win,1.3793103448275863
+4,david,2025-11-23,263437,Arsenal vs Tottenham,4,1,Arsenal -1.5,115,2,win,2.3
+5,david,2025-11-23,263509,Lazio vs Lecce,2,0,Lazio -0.5,-145,2,win,1.3793103448275863
+9,david,2025-11-23,263519,Brest vs Metz,3,2,Brest -0.5,-135,1,win,0.7407407407407407
+4,gary,2025-11-23,263509,Lazio vs Lecce,2,0,Lazio ML,-135,2,win,1.4814814814814814
+8,gary,2025-11-23,263497,Getafe vs Atlético,0,1,Atlético ML,-130,1,win,0.7692307692307693
+9,gary,2025-11-23,263520,Toulouse vs Angers,0,1,Toulouse ML,-145,1,loss,-1.0
+10,gary,2025-11-23,263519,Brest vs Metz,3,2,Brest ML,-125,1,win,0.8
