@@ -562,5 +562,12 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 2,gemini,2025-11-23,261836,Raptors vs Nets,119.0,109.0,Under 228.5,-110,3,win,2.727272727272727
 3,gemini,2025-11-23,261836,Raptors vs Nets,119.0,109.0,Nets +12.5,-110,3,win,2.727272727272727
 5,gemini,2025-11-23,261838,Cavaliers vs Clippers,120.0,105.0,Under 229.5,-112,2,win,1.7857142857142858
-6,gemini,2025-11-23,261837,Celtics vs Magic,138.0,129.0,Celtics -4.5,-110,2,win,1.8181818181818181
-7,gemini,2025-11-23,261840,Thunder vs Trail Blazers,122.0,95.0,Under 233.5,-110,1,win,0.9090909090909091
+6,gemini,2025-11-23,261837,Celtics vs Magic,138.0,129.0,Celtics -4.5,-110,2,win,1.818181818181818
+7,gemini,2025-11-23,261840,Thunder vs Trail Blazers,122.0,95.0,Under 233.5,-110,1,win,0.9090909090909092
+5,v2,2025-11-23,261842,Jazz vs Lakers,106.0,108.0,Lakers -9.5,-110,2,loss,-2.0
+8,v2,2025-11-23,261841,Suns vs Spurs,111.0,102.0,Suns -2.5,-115,2,win,1.7391304347826086
+5,v2_perp,2025-11-23,261841,Suns vs Spurs,111.0,102.0,Suns -2.5,-115,2,win,1.7391304347826086
+6,v2_perp,2025-11-23,261842,Jazz vs Lakers,106.0,108.0,Under 244.5,-118,1,win,0.847457627118644
+4,gemini,2025-11-23,261841,Suns vs Spurs,111.0,102.0,Spurs +2.5,-105,2,loss,-2.0
+9,gemini,2025-11-23,261842,Jazz vs Lakers,106.0,108.0,Under 244.5,-109,1,win,0.9174311926605505
+10,gemini,2025-11-23,261841,Suns vs Spurs,111.0,102.0,Under 234.5,-110,1,win,0.9090909090909091

@@ -386,3 +386,11 @@ game_id,start_time,league_name,home_team,away_team,home_score,away_score,status
 261838,2025-11-23T23:00:00.000Z,nba,Cavaliers,Clippers,120,105,complete
 261839,2025-11-23T23:00:00.000Z,nba,Hawks,Hornets,113,110,complete
 261840,2025-11-24T00:00:00.000Z,nba,Thunder,Trail Blazers,122,95,complete
+261835,2025-11-23T18:00:00.000Z,nba,76ers,Heat,117,127,complete
+261836,2025-11-23T23:00:00.000Z,nba,Raptors,Nets,119,109,complete
+261837,2025-11-23T23:00:00.000Z,nba,Celtics,Magic,138,129,complete
+261838,2025-11-23T23:00:00.000Z,nba,Cavaliers,Clippers,120,105,complete
+261839,2025-11-23T23:00:00.000Z,nba,Hawks,Hornets,113,110,complete
+261840,2025-11-24T00:00:00.000Z,nba,Thunder,Trail Blazers,122,95,complete
+261841,2025-11-24T01:00:00.000Z,nba,Suns,Spurs,111,102,complete
+261842,2025-11-24T01:00:00.000Z,nba,Jazz,Lakers,106,108,complete
