@@ -264,3 +264,5 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 9,gemini,2025-11-22,264981,Portland vs N. Colorado,80,86,Portland +3.5,-110,1,loss,-1.0
 1,perp,2025-11-24,266478,Rhode Island vs Towson,55,62,Rhode Island -2.5,-110,3,loss,-3.0
 2,perp,2025-11-24,278417,Troy vs Toledo,68,75,Troy -2.5,-105,2,loss,-2.0
+7,claude,2025-11-24,264994,Bowling Green vs Bucknell,71,66,Bowling Green -7.5,-105,2,loss,-2.0
+7,gemini,2025-11-24,264994,Bowling Green vs Bucknell,71,66,Bucknell +7.5,-115,1,win,0.8695652173913043
