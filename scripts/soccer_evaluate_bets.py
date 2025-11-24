@@ -27,12 +27,14 @@ def evaluate_soccer_bets(model_name: str):
     Returns:
         DataFrame with evaluated bets including historical data
     """
-    # Ensure data directory exists (parent directory since we're in scripts/)
-    Path('./data').mkdir(parents=True, exist_ok=True)
+    # Ensure data directories exist (parent directory since we're in scripts/)
+    Path('./data/bets').mkdir(parents=True, exist_ok=True)
+    Path('./data/bets_db').mkdir(parents=True, exist_ok=True)
+    Path('./data/evaluated').mkdir(parents=True, exist_ok=True)
     
     sport = 'soccer'
-    picks_dir = Path('./data')
-    results_csv_path = Path('./data/soccer_game_results.csv')
+    picks_dir = Path('./data/bets')
+    results_csv_path = Path('./data/evaluated/soccer_game_results.csv')
     
     # Load picks file
     picks_file = picks_dir / f'soccer_bets_{model_name}.txt'

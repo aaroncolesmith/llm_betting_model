@@ -23,7 +23,7 @@ HEADERS = {
 
 def build_nba_prompt(model_version):
 
-    df_all = pd.read_csv('./data/nba_bets_db.csv')
+    df_all = pd.read_csv('./data/bets_db/nba_bets_db.csv')
 
 
     # Example usage:
@@ -68,7 +68,7 @@ def build_nba_prompt(model_version):
     print(df_all.index.size)
     print(filtered_df.index.size)
 
-    filtered_df.to_csv('./data/nba_bets_db.csv', index=False)
+    filtered_df.to_csv('./data/bets_db/nba_bets_db.csv', index=False)
 
     today = datetime.date.today()
     today_str = today.strftime('%Y%m%d')
@@ -103,7 +103,7 @@ def build_nba_prompt(model_version):
     # display(df_agg[['home_team','away_team','home_spread_first','home_spread_last','home_team_spread','away_team_spread']])
 
 
-    df_hist = pd.read_csv('./data/nba_bet_picks_evaluated.csv')
+    df_hist = pd.read_csv('./data/evaluated/nba_bet_picks_evaluated.csv')
     df_hist = df_hist.loc[df_hist['model'] == model_version]
 
 
@@ -464,6 +464,6 @@ model_list = ['v2', 'v2_perp','gemini']
 
 for model_name in model_list:
     sport = 'nba'
-    base_dir = Path('./data')
-    results_file = Path('./data/nba_game_results.csv')
+    base_dir = Path('./data/bets')
+    results_file = Path('./data/evaluated/nba_game_results.csv')
     df_evaluated_hist = process_results(model_name, base_dir, results_file, sport)

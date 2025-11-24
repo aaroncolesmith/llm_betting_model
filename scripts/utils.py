@@ -951,8 +951,8 @@ def process_and_save_evaluated_bets(df_picks, df_result, sport_name):
     # ).assign(ROI=lambda x: x['bet_payout'] / x['units'] * 100).sort_values('bet_payout', ascending=False).reset_index())
 
     # Dynamically create filenames based on the sport
-    picks_hist_file = f"./data/{generic_sport_prefix}_bet_picks.csv"
-    evaluated_hist_file = f"./data/{generic_sport_prefix}_bet_picks_evaluated.csv"
+    picks_hist_file = f"./data/evaluated/{generic_sport_prefix}_bet_picks.csv"
+    evaluated_hist_file = f"./data/evaluated/{generic_sport_prefix}_bet_picks_evaluated.csv"
 
     try:
         df_picks_hist = pd.read_csv(picks_hist_file)

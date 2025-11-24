@@ -30,11 +30,12 @@ def build_soccer_prompt(model_name):
     """
     
     # Ensure directories exist (parent directory since we're in scripts/)
-    Path('./data').mkdir(parents=True, exist_ok=True)
-    Path('./prompts').mkdir(parents=True, exist_ok=True)
+    Path('./data/bets').mkdir(parents=True, exist_ok=True)
+    Path('./data/bets_db').mkdir(parents=True, exist_ok=True)
+    Path('./data/evaluated').mkdir(parents=True, exist_ok=True)
     
     # Load existing soccer bets database
-    db_path = Path('./data/soccer_bets_db.csv')
+    db_path = Path('./data/bets_db/soccer_bets_db.csv')
     if db_path.exists():
         df_all = pd.read_csv(db_path)
     else:
@@ -79,7 +80,7 @@ def build_soccer_prompt(model_name):
         filtered_df = df
 
     # Save updated database
-    filtered_df.to_csv('./data/soccer_bets_db.csv', index=False)
+    filtered_df.to_csv('./data/bets_db/soccer_bets_db.csv', index=False)
 
     # Aggregate betting data
     group_by_columns = ['game_id', 'home_team', 'away_team', 'start_time']
@@ -121,7 +122,7 @@ def build_soccer_prompt(model_name):
     df_agg['away_team_spread'] = df_agg['away_team'] + " " + df_agg['away_spread_last'].apply(lambda x: f"{x:+.1f}")
 
     # Load historical results for this model
-    hist_path = Path(f'./data/soccer_bet_picks_evaluated.csv')
+    hist_path = Path(f'./data/evaluated/soccer_bet_picks_evaluated.csv')
     if hist_path.exists():
         df_hist = pd.read_csv(hist_path)
         df_hist = df_hist.loc[df_hist['model'] == model_name]
