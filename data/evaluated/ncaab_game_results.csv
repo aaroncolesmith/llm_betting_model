@@ -1700,3 +1700,63 @@ game_id,start_time,league_name,home_team,away_team,home_score,away_score,status
 267632,2025-11-24T20:00:00.000Z,ncaab,UC Riverside,Grambling St,83,74,complete
 282339,2025-11-24T20:00:00.000Z,ncaab,Iona,Green Bay,75,80,complete
 266488,2025-11-24T20:30:00.000Z,ncaab,Notre Dame,Kansas,61,71,complete
+266478,2025-11-24T16:00:00.000Z,ncaab,Rhode Island,Towson,55,62,complete
+278417,2025-11-24T16:00:00.000Z,ncaab,Troy,Toledo,68,75,complete
+266481,2025-11-24T16:30:00.000Z,ncaab,Stony Brook,Pacific,58,86,complete
+264994,2025-11-24T17:00:00.000Z,ncaab,Bowling Green,Bucknell,71,66,complete
+264996,2025-11-24T17:00:00.000Z,ncaab,Fairleigh,E TA&M,65,70,complete
+282338,2025-11-24T17:30:00.000Z,ncaab,Oregon St,UMASS,65,73,complete
+266482,2025-11-24T18:00:00.000Z,ncaab,Tennessee,Rutgers,85,60,complete
+266483,2025-11-24T18:30:00.000Z,ncaab,Vermont,Liberty,73,79,complete
+271304,2025-11-24T18:30:00.000Z,ncaab,S. Illinois,UAB,73,81,complete
+278418,2025-11-24T18:30:00.000Z,ncaab,Belmont,St. Francis (PA),94,57,complete
+266484,2025-11-24T19:00:00.000Z,ncaab,Baylor,Creighton,81,74,complete
+266485,2025-11-24T19:00:00.000Z,ncaab,Jacksonville,B-Cookman,69,64,complete
+264536,2025-11-24T19:30:00.000Z,ncaab,Buffalo,VMI,78,70,complete
+266486,2025-11-24T19:30:00.000Z,ncaab,NC State,Seton Hall,74,85,complete
+267632,2025-11-24T20:00:00.000Z,ncaab,UC Riverside,Grambling St,83,74,complete
+282339,2025-11-24T20:00:00.000Z,ncaab,Iona,Green Bay,75,80,complete
+266488,2025-11-24T20:30:00.000Z,ncaab,Notre Dame,Kansas,61,71,complete
+267359,2025-11-24T21:00:00.000Z,ncaab,Oakland,Lamar,83,68,complete
+271305,2025-11-24T21:00:00.000Z,ncaab,William & Mary,UTEP,74,63,complete
+266487,2025-11-24T21:30:00.000Z,ncaab,UCSD,Temple,91,76,complete
+266478,2025-11-24T16:00:00.000Z,ncaab,Rhode Island,Towson,55,62,complete
+278417,2025-11-24T16:00:00.000Z,ncaab,Troy,Toledo,68,75,complete
+266481,2025-11-24T16:30:00.000Z,ncaab,Stony Brook,Pacific,58,86,complete
+264994,2025-11-24T17:00:00.000Z,ncaab,Bowling Green,Bucknell,71,66,complete
+264996,2025-11-24T17:00:00.000Z,ncaab,Fairleigh,E TA&M,65,70,complete
+282338,2025-11-24T17:30:00.000Z,ncaab,Oregon St,UMASS,65,73,complete
+266482,2025-11-24T18:00:00.000Z,ncaab,Tennessee,Rutgers,85,60,complete
+266483,2025-11-24T18:30:00.000Z,ncaab,Vermont,Liberty,73,79,complete
+271304,2025-11-24T18:30:00.000Z,ncaab,S. Illinois,UAB,73,81,complete
+278418,2025-11-24T18:30:00.000Z,ncaab,Belmont,St. Francis (PA),94,57,complete
+266484,2025-11-24T19:00:00.000Z,ncaab,Baylor,Creighton,81,74,complete
+266485,2025-11-24T19:00:00.000Z,ncaab,Jacksonville,B-Cookman,69,64,complete
+264536,2025-11-24T19:30:00.000Z,ncaab,Buffalo,VMI,78,70,complete
+266486,2025-11-24T19:30:00.000Z,ncaab,NC State,Seton Hall,74,85,complete
+267632,2025-11-24T20:00:00.000Z,ncaab,UC Riverside,Grambling St,83,74,complete
+282339,2025-11-24T20:00:00.000Z,ncaab,Iona,Green Bay,75,80,complete
+266488,2025-11-24T20:30:00.000Z,ncaab,Notre Dame,Kansas,61,71,complete
+267359,2025-11-24T21:00:00.000Z,ncaab,Oakland,Lamar,83,68,complete
+271305,2025-11-24T21:00:00.000Z,ncaab,William & Mary,UTEP,74,63,complete
+266487,2025-11-24T21:30:00.000Z,ncaab,UCSD,Temple,91,76,complete
+266478,2025-11-24T16:00:00.000Z,ncaab,Rhode Island,Towson,55,62,complete
+278417,2025-11-24T16:00:00.000Z,ncaab,Troy,Toledo,68,75,complete
+266481,2025-11-24T16:30:00.000Z,ncaab,Stony Brook,Pacific,58,86,complete
+264994,2025-11-24T17:00:00.000Z,ncaab,Bowling Green,Bucknell,71,66,complete
+264996,2025-11-24T17:00:00.000Z,ncaab,Fairleigh,E TA&M,65,70,complete
+282338,2025-11-24T17:30:00.000Z,ncaab,Oregon St,UMASS,65,73,complete
+266482,2025-11-24T18:00:00.000Z,ncaab,Tennessee,Rutgers,85,60,complete
+266483,2025-11-24T18:30:00.000Z,ncaab,Vermont,Liberty,73,79,complete
+271304,2025-11-24T18:30:00.000Z,ncaab,S. Illinois,UAB,73,81,complete
+278418,2025-11-24T18:30:00.000Z,ncaab,Belmont,St. Francis (PA),94,57,complete
+266484,2025-11-24T19:00:00.000Z,ncaab,Baylor,Creighton,81,74,complete
+266485,2025-11-24T19:00:00.000Z,ncaab,Jacksonville,B-Cookman,69,64,complete
+264536,2025-11-24T19:30:00.000Z,ncaab,Buffalo,VMI,78,70,complete
+266486,2025-11-24T19:30:00.000Z,ncaab,NC State,Seton Hall,74,85,complete
+267632,2025-11-24T20:00:00.000Z,ncaab,UC Riverside,Grambling St,83,74,complete
+282339,2025-11-24T20:00:00.000Z,ncaab,Iona,Green Bay,75,80,complete
+266488,2025-11-24T20:30:00.000Z,ncaab,Notre Dame,Kansas,61,71,complete
+267359,2025-11-24T21:00:00.000Z,ncaab,Oakland,Lamar,83,68,complete
+271305,2025-11-24T21:00:00.000Z,ncaab,William & Mary,UTEP,74,63,complete
+266487,2025-11-24T21:30:00.000Z,ncaab,UCSD,Temple,91,76,complete
