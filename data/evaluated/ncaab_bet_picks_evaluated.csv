@@ -273,3 +273,7 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 3,claude,2025-11-24,266484,Baylor vs Creighton,81,74,Baylor -3.5,-110,3,win,2.727272727272727
 10,claude,2025-11-24,282338,Oregon St vs UMASS,65,73,Oregon St -2.5,-110,1,loss,-1.0
 2,gemini,2025-11-24,266482,Tennessee vs Rutgers,85,60,Rutgers +15.5,-112,3,loss,-3.0
+7,perp,2025-11-24,266486,NC State vs Seton Hall,74,85,NC State -9.5,-115,1,loss,-1.0
+1,claude,2025-11-24,266488,Notre Dame vs Kansas,61,71,Notre Dame +4.5,-105,3,loss,-3.0
+3,gemini,2025-11-24,266486,NC State vs Seton Hall,74,85,Seton Hall +9.5,-105,3,win,2.8571428571428568
+10,gemini,2025-11-24,264536,Buffalo vs VMI,78,70,VMI +7.5,-115,1,loss,-1.0
