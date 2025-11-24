@@ -66,3 +66,4 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 8,david,2025-11-23,263518,Lille vs Paris FC,4,2,Lille -0.5,-175,1,win,0.5714285714285714
 3,gary,2025-11-23,263502,Elche vs Real Madrid,2,2,Real Madrid -1.5,-105,3,loss,-3.0
 6,gary,2025-11-23,263518,Lille vs Paris FC,4,2,Lille ML,-155,2,win,1.2903225806451613
+10,david,2025-11-23,281952,Union vs NYCFC,0,1,Union -0.5,-120,1,loss,-1.0

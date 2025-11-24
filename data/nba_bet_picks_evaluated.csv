@@ -546,3 +546,21 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 6,v2,2025-11-23,261835,76ers vs Heat,117.0,127.0,Heat +1.5,-115,2,win,1.7391304347826086
 10,v2_perp,2025-11-23,261835,76ers vs Heat,117.0,127.0,76ers -1.5,-105,1,loss,-1.0
 8,gemini,2025-11-23,261835,76ers vs Heat,117.0,127.0,76ers -1.5,-105,1,loss,-1.0
+1,v2,2025-11-23,261836,Raptors vs Nets,119.0,109.0,Raptors -12.5,-110,3,loss,-3.0
+2,v2,2025-11-23,261838,Cavaliers vs Clippers,120.0,105.0,Cavaliers -8.5,-110,3,win,2.727272727272727
+3,v2,2025-11-23,261839,Hawks vs Hornets,113.0,110.0,Hawks -7.5,-110,3,loss,-3.0
+4,v2,2025-11-23,261840,Thunder vs Trail Blazers,122.0,95.0,Thunder -15.5,-115,3,win,2.608695652173913
+7,v2,2025-11-23,261837,Celtics vs Magic,138.0,129.0,Celtics -4.5,-110,2,win,1.818181818181818
+9,v2,2025-11-23,261840,Thunder vs Trail Blazers,122.0,95.0,Under 233.5,-110,2,win,1.818181818181818
+10,v2,2025-11-23,261836,Raptors vs Nets,119.0,109.0,Over 228.5,-114,1,loss,-1.0
+1,v2_perp,2025-11-23,261837,Celtics vs Magic,138.0,129.0,Celtics -4.5,-110,3,win,2.727272727272727
+2,v2_perp,2025-11-23,261836,Raptors vs Nets,119.0,109.0,Raptors -12.5,-110,3,loss,-3.0
+3,v2_perp,2025-11-23,261840,Thunder vs Trail Blazers,122.0,95.0,Thunder -15.5,-115,2,win,1.7391304347826086
+4,v2_perp,2025-11-23,261839,Hawks vs Hornets,113.0,110.0,Hawks -7.5,-110,2,loss,-2.0
+9,v2_perp,2025-11-23,261838,Cavaliers vs Clippers,120.0,105.0,Cavaliers -8.5,-110,1,win,0.9090909090909092
+1,gemini,2025-11-23,261839,Hawks vs Hornets,113.0,110.0,Under 231.5,-110,3,win,2.727272727272727
+2,gemini,2025-11-23,261836,Raptors vs Nets,119.0,109.0,Under 228.5,-110,3,win,2.727272727272727
+3,gemini,2025-11-23,261836,Raptors vs Nets,119.0,109.0,Nets +12.5,-110,3,win,2.727272727272727
+5,gemini,2025-11-23,261838,Cavaliers vs Clippers,120.0,105.0,Under 229.5,-112,2,win,1.7857142857142858
+6,gemini,2025-11-23,261837,Celtics vs Magic,138.0,129.0,Celtics -4.5,-110,2,win,1.8181818181818181
+7,gemini,2025-11-23,261840,Thunder vs Trail Blazers,122.0,95.0,Under 233.5,-110,1,win,0.9090909090909091
