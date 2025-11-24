@@ -266,3 +266,10 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 2,perp,2025-11-24,278417,Troy vs Toledo,68,75,Troy -2.5,-105,2,loss,-2.0
 7,claude,2025-11-24,264994,Bowling Green vs Bucknell,71,66,Bowling Green -7.5,-105,2,loss,-2.0
 7,gemini,2025-11-24,264994,Bowling Green vs Bucknell,71,66,Bucknell +7.5,-115,1,win,0.8695652173913043
+3,perp,2025-11-24,282338,Oregon St vs UMASS,65,73,Oregon St -2.5,-110,2,loss,-2.0
+4,perp,2025-11-24,266482,Tennessee vs Rutgers,85,60,Tennessee -15.5,-108,2,win,1.851851851851852
+5,perp,2025-11-24,266483,Vermont vs Liberty,73,79,Liberty -8.5,-115,2,loss,-2.0
+6,perp,2025-11-24,266484,Baylor vs Creighton,81,74,Baylor -3.5,-110,1,win,0.9090909090909092
+3,claude,2025-11-24,266484,Baylor vs Creighton,81,74,Baylor -3.5,-110,3,win,2.727272727272727
+10,claude,2025-11-24,282338,Oregon St vs UMASS,65,73,Oregon St -2.5,-110,1,loss,-1.0
+2,gemini,2025-11-24,266482,Tennessee vs Rutgers,85,60,Rutgers +15.5,-112,3,loss,-3.0
