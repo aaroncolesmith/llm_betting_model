@@ -373,7 +373,7 @@ def process_results(model_name: str, picks_dir: Path, results_csv_path: Path):
     sport = 'ncaab'
     
     # === 1. Load Picks File ===
-    picks_file = picks_dir / f'cbb_bets_{model_name}.txt'
+    picks_file = picks_dir / f'ncaab_bets_{model_name}.txt'
     try:
         df_picks = pd.read_csv(picks_file)
     except FileNotFoundError:
