@@ -277,3 +277,10 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 1,claude,2025-11-24,266488,Notre Dame vs Kansas,61,71,Notre Dame +4.5,-105,3,loss,-3.0
 3,gemini,2025-11-24,266486,NC State vs Seton Hall,74,85,Seton Hall +9.5,-105,3,win,2.8571428571428568
 10,gemini,2025-11-24,264536,Buffalo vs VMI,78,70,VMI +7.5,-115,1,loss,-1.0
+10,perp,2025-11-24,266492,George Mason vs Ohio,92,69,George Mason -7.5,-105,1,win,0.9523809523809524
+2,claude,2025-11-24,266489,Iowa State vs St. John's,83,82,Iowa State -2.5,-110,3,loss,-3.0
+8,claude,2025-11-24,266492,George Mason vs Ohio,92,69,George Mason -7.5,-105,1,win,0.9523809523809524
+9,claude,2025-11-24,266490,Boise State vs USC,67,70,Boise State +5.5,-110,1,win,0.9090909090909092
+1,gemini,2025-11-24,266493,Syracuse vs Houston,74,78,Syracuse +14.5,-110,3,win,2.727272727272727
+4,gemini,2025-11-24,266494,Bradley vs Princeton,88,64,Princeton +7.5,-105,2,loss,-2.0
+6,gemini,2025-11-24,266492,George Mason vs Ohio,92,69,Ohio +7.5,-115,2,loss,-2.0
