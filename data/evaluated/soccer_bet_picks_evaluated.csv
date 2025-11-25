@@ -75,3 +75,7 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 9,david,2025-11-24,272227,Man U vs Everton,0,1,Man U -0.5,-140,1,loss,-1.0
 5,gary,2025-11-24,272227,Man U vs Everton,0,1,Man U ML,-135,2,loss,-2.0
 7,gary,2025-11-24,263510,Sassuolo vs Pisa,2,2,Sassuolo ML,105,2,loss,-2.0
+6,cliff,2025-11-25,265699,Galatasaray vs Union Saint-Gilloise,0,1,Galatasaray -0.5,-185,2,loss,-2.0
+5,cliff,2025-11-25,265699,Galatasaray vs Union Saint-Gilloise,0,1,Under 3.5,-173,2,win,1.1560693641618498
+2,david,2025-11-25,265699,Galatasaray vs Union Saint-Gilloise,0,1,Galatasaray -0.5,-185,3,loss,-3.0
+5,david,2025-11-25,265699,Galatasaray vs Union Saint-Gilloise,0,1,Galatasaray -0.5,-185,2,loss,-2.0
