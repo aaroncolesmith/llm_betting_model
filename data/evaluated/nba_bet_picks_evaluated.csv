@@ -576,3 +576,18 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 1,v2_perp,2025-11-24,261844,Pacers vs Pistons,117.0,122.0,Pistons -9.5,-110,3,loss,-3.0
 7,v2_perp,2025-11-24,261843,Raptors vs Cavaliers,110.0,99.0,Cavaliers +1.5,-115,1,loss,-1.0
 2,gemini,2025-11-24,261843,Raptors vs Cavaliers,110.0,99.0,Under 232.0,-110,3,win,2.727272727272727
+2,v2,2025-11-24,261845,Nets vs Knicks,100.0,113.0,Knicks -12.5,-110,3,win,2.727272727272727
+3,v2,2025-11-24,261846,Heat vs Mavericks,106.0,102.0,Heat -7.5,-112,3,loss,-3.0
+6,v2,2025-11-24,261849,Grizzlies vs Nuggets,115.0,125.0,Nuggets -7.5,-115,2,win,1.7391304347826086
+8,v2,2025-11-24,261848,Bucks vs Trail Blazers,103.0,115.0,Bucks -1.5,-105,2,loss,-2.0
+9,v2,2025-11-24,261847,Pelicans vs Bulls,143.0,130.0,Bulls -5.5,-110,2,loss,-2.0
+2,v2_perp,2025-11-24,261848,Bucks vs Trail Blazers,103.0,115.0,Bucks -1.5,-105,2,loss,-2.0
+3,v2_perp,2025-11-24,261846,Heat vs Mavericks,106.0,102.0,Heat -7.5,-112,2,loss,-2.0
+4,v2_perp,2025-11-24,261847,Pelicans vs Bulls,143.0,130.0,Bulls -5.5,-110,2,loss,-2.0
+6,v2_perp,2025-11-24,261845,Nets vs Knicks,100.0,113.0,Knicks -12.5,-110,1,win,0.9090909090909092
+8,v2_perp,2025-11-24,261849,Grizzlies vs Nuggets,115.0,125.0,Nuggets -7.5,-115,1,win,0.8695652173913043
+1,gemini,2025-11-24,261848,Bucks vs Trail Blazers,103.0,115.0,Under 230.5,-110,3,win,2.727272727272727
+3,gemini,2025-11-24,261847,Pelicans vs Bulls,143.0,130.0,Bulls -5.5,-110,3,loss,-3.0
+5,gemini,2025-11-24,261849,Grizzlies vs Nuggets,115.0,125.0,Grizzlies +7.5,-105,2,loss,-2.0
+6,gemini,2025-11-24,261846,Heat vs Mavericks,106.0,102.0,Under 240.5,-109,2,win,1.834862385321101
+7,gemini,2025-11-24,261846,Heat vs Mavericks,106.0,102.0,Mavericks +7.5,-108,1,win,0.9259259259259259
