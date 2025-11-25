@@ -290,3 +290,5 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 11,claude,2025-11-24,266500,San Diego State vs Michigan,54,94,San Diego State +5.5,-110,1,loss,-1.0
 5,gemini,2025-11-24,266499,Alabama vs Gonzaga,85,95,Alabama +4.5,-110,2,loss,-2.0
 9,gemini,2025-11-24,266500,San Diego State vs Michigan,54,94,San Diego State +5.5,-110,1,loss,-1.0
+9,perp,2025-11-25,266502,Maryland vs UNLV,74,67,Maryland -2.5,-105,1,win,0.9523809523809524
+6,claude,2025-11-25,266502,Maryland vs UNLV,74,67,Maryland -2.5,-105,2,win,1.9047619047619049
