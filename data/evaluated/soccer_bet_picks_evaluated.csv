@@ -79,3 +79,11 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 5,cliff,2025-11-25,265699,Galatasaray vs Union Saint-Gilloise,0,1,Under 3.5,-173,2,win,1.1560693641618498
 2,david,2025-11-25,265699,Galatasaray vs Union Saint-Gilloise,0,1,Galatasaray -0.5,-185,3,loss,-3.0
 5,david,2025-11-25,265699,Galatasaray vs Union Saint-Gilloise,0,1,Galatasaray -0.5,-185,2,loss,-2.0
+2,cliff,2025-11-25,265703,Man City vs Leverkusen,0,2,Man City -1.5,-165,3,loss,-3.0
+9,cliff,2025-11-25,265706,Dortmund vs Villarreal,4,0,Under 2.5,110,1,loss,-1.0
+10,cliff,2025-11-25,265705,Chelsea vs Barcelona,3,0,Chelsea -0.5,115,1,win,1.15
+11,cliff,2025-11-25,265700,Napoli vs Qarabag,2,0,Napoli -1.5,-130,1,win,0.7692307692307693
+1,cliff,2025-11-25,265703,Man City vs Leverkusen,0,2,Man City -1.5,-165,3,loss,-3.0
+9,cliff,2025-11-25,265706,Dortmund vs Villarreal,4,0,Dortmund -0.5,-135,1,win,0.7407407407407407
+1,david,2025-11-25,265703,Man City vs Leverkusen,0,2,Man City -1.5,-165,3,loss,-3.0
+2,gary,2025-11-25,265700,Napoli vs Qarabag,2,0,Napoli -1.5,-130,3,win,2.307692307692308
