@@ -590,4 +590,11 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 3,gemini,2025-11-24,261847,Pelicans vs Bulls,143.0,130.0,Bulls -5.5,-110,3,loss,-3.0
 5,gemini,2025-11-24,261849,Grizzlies vs Nuggets,115.0,125.0,Grizzlies +7.5,-105,2,loss,-2.0
 6,gemini,2025-11-24,261846,Heat vs Mavericks,106.0,102.0,Under 240.5,-109,2,win,1.834862385321101
-7,gemini,2025-11-24,261846,Heat vs Mavericks,106.0,102.0,Mavericks +7.5,-108,1,win,0.9259259259259259
+7,gemini,2025-11-24,261846,Heat vs Mavericks,106.0,102.0,Mavericks +7.5,-108,1,win,0.925925925925926
+4,v2,2025-11-24,261852,Warriors vs Jazz,134.0,117.0,Warriors -13.5,-115,3,win,2.608695652173913
+5,v2,2025-11-24,261850,Suns vs Rockets,92.0,114.0,Rockets -6.5,-110,2,win,1.818181818181818
+5,v2_perp,2025-11-24,261850,Suns vs Rockets,92.0,114.0,Rockets -6.5,-110,2,win,1.818181818181818
+9,v2_perp,2025-11-24,261852,Warriors vs Jazz,134.0,117.0,Warriors -13.5,-115,1,win,0.8695652173913043
+4,gemini,2025-11-24,261850,Suns vs Rockets,92.0,114.0,Under 224.5,-115,3,win,2.608695652173913
+8,gemini,2025-11-24,261850,Suns vs Rockets,92.0,114.0,Suns +6.5,-110,1,loss,-1.0
+10,gemini,2025-11-24,261852,Warriors vs Jazz,134.0,117.0,Warriors -13.5,-110,1,win,0.9090909090909091

@@ -421,3 +421,30 @@ game_id,start_time,league_name,home_team,away_team,home_score,away_score,status
 261847,2025-11-25T01:00:00.000Z,nba,Pelicans,Bulls,143,130,complete
 261848,2025-11-25T01:00:00.000Z,nba,Bucks,Trail Blazers,103,115,complete
 261849,2025-11-25T01:00:00.000Z,nba,Grizzlies,Nuggets,115,125,complete
+261843,2025-11-25T00:00:00.000Z,nba,Raptors,Cavaliers,110,99,complete
+261844,2025-11-25T00:00:00.000Z,nba,Pacers,Pistons,117,122,complete
+261845,2025-11-25T00:30:00.000Z,nba,Nets,Knicks,100,113,complete
+261846,2025-11-25T00:30:00.000Z,nba,Heat,Mavericks,106,102,complete
+261847,2025-11-25T01:00:00.000Z,nba,Pelicans,Bulls,143,130,complete
+261848,2025-11-25T01:00:00.000Z,nba,Bucks,Trail Blazers,103,115,complete
+261849,2025-11-25T01:00:00.000Z,nba,Grizzlies,Nuggets,115,125,complete
+261850,2025-11-25T02:30:00.000Z,nba,Suns,Rockets,92,114,complete
+261852,2025-11-25T03:00:00.000Z,nba,Warriors,Jazz,134,117,complete
+261843,2025-11-25T00:00:00.000Z,nba,Raptors,Cavaliers,110,99,complete
+261844,2025-11-25T00:00:00.000Z,nba,Pacers,Pistons,117,122,complete
+261845,2025-11-25T00:30:00.000Z,nba,Nets,Knicks,100,113,complete
+261846,2025-11-25T00:30:00.000Z,nba,Heat,Mavericks,106,102,complete
+261847,2025-11-25T01:00:00.000Z,nba,Pelicans,Bulls,143,130,complete
+261848,2025-11-25T01:00:00.000Z,nba,Bucks,Trail Blazers,103,115,complete
+261849,2025-11-25T01:00:00.000Z,nba,Grizzlies,Nuggets,115,125,complete
+261850,2025-11-25T02:30:00.000Z,nba,Suns,Rockets,92,114,complete
+261852,2025-11-25T03:00:00.000Z,nba,Warriors,Jazz,134,117,complete
+261843,2025-11-25T00:00:00.000Z,nba,Raptors,Cavaliers,110,99,complete
+261844,2025-11-25T00:00:00.000Z,nba,Pacers,Pistons,117,122,complete
+261845,2025-11-25T00:30:00.000Z,nba,Nets,Knicks,100,113,complete
+261846,2025-11-25T00:30:00.000Z,nba,Heat,Mavericks,106,102,complete
+261847,2025-11-25T01:00:00.000Z,nba,Pelicans,Bulls,143,130,complete
+261848,2025-11-25T01:00:00.000Z,nba,Bucks,Trail Blazers,103,115,complete
+261849,2025-11-25T01:00:00.000Z,nba,Grizzlies,Nuggets,115,125,complete
+261850,2025-11-25T02:30:00.000Z,nba,Suns,Rockets,92,114,complete
+261852,2025-11-25T03:00:00.000Z,nba,Warriors,Jazz,134,117,complete
