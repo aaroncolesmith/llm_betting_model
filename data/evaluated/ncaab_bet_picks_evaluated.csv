@@ -301,4 +301,16 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 2,gemini,2025-11-25,265017,Villanova vs Old Dominion,89,75,Old Dominion +21.5,-108,3,win,2.7777777777777777
 3,gemini,2025-11-25,265014,Wake Forest vs Campbell,99,51,Campbell +17.5,-110,3,loss,-3.0
 5,gemini,2025-11-25,265007,Penn State vs Boston U,96,87,Boston U +15.5,-115,2,win,1.7391304347826086
-8,gemini,2025-11-25,267633,UCF vs Quinnipiac,102,91,Quinnipiac +13.5,-110,1,win,0.9090909090909091
+8,gemini,2025-11-25,267633,UCF vs Quinnipiac,102,91,Quinnipiac +13.5,-110,1,win,0.9090909090909092
+2,perp,2025-11-25,266522,UC Irvine vs N. Mexico St,45,57,UC Irvine -2.5,-105,3,loss,-3.0
+3,perp,2025-11-25,280389,Austin Peay vs N. Illinois,77,59,Austin Peay -6.5,-110,2,win,1.818181818181818
+4,perp,2025-11-25,275939,North Texas vs E. Washington,79,71,North Texas -12.5,-105,2,loss,-2.0
+8,perp,2025-11-25,282734,Arizona St vs Washington St,100,94,Arizona St -5.5,-110,1,win,0.9090909090909092
+9,perp,2025-11-25,266522,UC Irvine vs N. Mexico St,45,57,Under 138.5,-110,1,win,0.9090909090909092
+2,claude,2025-11-25,266521,Auburn vs Michigan,72,102,Auburn +5.5,-115,3,loss,-3.0
+5,claude,2025-11-25,272010,Cal Poly vs SE Missouri,68,84,Cal Poly +1.5,-111,2,loss,-2.0
+6,claude,2025-11-25,266522,UC Irvine vs N. Mexico St,45,57,UC Irvine -2.5,-105,2,loss,-2.0
+9,claude,2025-11-25,282734,Arizona St vs Washington St,100,94,Arizona St -5.5,-110,1,win,0.9090909090909092
+7,gemini,2025-11-25,265010,Nebraska vs Winthrop,80,73,Winthrop +14.5,-115,2,win,1.7391304347826086
+9,gemini,2025-11-25,265012,Indiana vs K State,86,69,K State +10.5,-111,1,loss,-1.0
+10,gemini,2025-11-25,275939,North Texas vs E. Washington,79,71,E. Washington +12.5,-115,1,win,0.8695652173913043
