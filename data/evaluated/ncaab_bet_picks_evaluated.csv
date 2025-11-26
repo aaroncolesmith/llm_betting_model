@@ -292,3 +292,13 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 9,gemini,2025-11-24,266500,San Diego State vs Michigan,54,94,San Diego State +5.5,-110,1,loss,-1.0
 9,perp,2025-11-25,266502,Maryland vs UNLV,74,67,Maryland -2.5,-105,1,win,0.9523809523809524
 6,claude,2025-11-25,266502,Maryland vs UNLV,74,67,Maryland -2.5,-105,2,win,1.9047619047619049
+5,perp,2025-11-24,266490,Boise State vs USC,67,70,USC -5.5,-111,2,loss,-2.0
+6,perp,2025-11-25,282638,George Mason vs FAU,74,65,FAU +4.5,-110,1,loss,-1.0
+1,claude,2025-11-25,266503,JMU vs Omaha,88,77,JMU -1.5,-115,3,win,2.608695652173913
+8,claude,2025-11-25,282638,George Mason vs FAU,74,65,George Mason -4.5,-110,1,win,0.9090909090909092
+10,claude,2025-11-25,282603,Princeton vs Temple,75,79,Princeton +7.5,-105,1,win,0.9523809523809524
+1,gemini,2025-11-25,266506,Florida St vs CS Bakersfield,89,59,CS Bakersfield +24.5,-105,3,loss,-3.0
+2,gemini,2025-11-25,265017,Villanova vs Old Dominion,89,75,Old Dominion +21.5,-108,3,win,2.7777777777777777
+3,gemini,2025-11-25,265014,Wake Forest vs Campbell,99,51,Campbell +17.5,-110,3,loss,-3.0
+5,gemini,2025-11-25,265007,Penn State vs Boston U,96,87,Boston U +15.5,-115,2,win,1.7391304347826086
+8,gemini,2025-11-25,267633,UCF vs Quinnipiac,102,91,Quinnipiac +13.5,-110,1,win,0.9090909090909091
