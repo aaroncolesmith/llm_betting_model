@@ -604,4 +604,4 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 1,v2,2025-11-25,261588,Wizards vs Hawks,132.0,113.0,Hawks -10.5,-115,3,loss,-3.0
 7,v2_perp,2025-11-25,261588,Wizards vs Hawks,132.0,113.0,Hawks -10.5,-115,1,loss,-1.0
 6,v2,2025-11-25,261589,76ers vs Magic,103.0,144.0,Magic -4.5,-105,2,win,1.9047619047619049
-8,gemini,2025-11-25,261589,76ers vs Magic,103.0,144.0,Magic -4.5,-105,1,win,0.9523809523809523
+8,gemini,2025-11-25,261589,76ers vs Magic,103.0,144.0,Magic -4.5,-105,1,win,0.9523809523809524

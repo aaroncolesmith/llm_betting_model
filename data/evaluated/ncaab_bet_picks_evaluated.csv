@@ -314,3 +314,9 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 7,gemini,2025-11-25,265010,Nebraska vs Winthrop,80,73,Winthrop +14.5,-115,2,win,1.7391304347826086
 9,gemini,2025-11-25,265012,Indiana vs K State,86,69,K State +10.5,-111,1,loss,-1.0
 10,gemini,2025-11-25,275939,North Texas vs E. Washington,79,71,E. Washington +12.5,-115,1,win,0.8695652173913043
+1,perp,2025-11-25,266524,Iowa vs Ole Miss,74,69,Iowa -4.5,-105,3,win,2.8571428571428568
+7,perp,2025-11-25,275593,Montana vs Oakland,87,95,Montana -4.5,-105,1,loss,-1.0
+3,claude,2025-11-25,266524,Iowa vs Ole Miss,74,69,Iowa -4.5,-105,3,win,2.8571428571428568
+7,claude,2025-11-25,275593,Montana vs Oakland,87,95,Montana -4.5,-105,2,loss,-2.0
+11,claude,2025-11-25,271310,GA Southern vs UTSA,64,77,GA Southern -3.5,-112,1,loss,-1.0
+4,gemini,2025-11-25,266523,Gonzaga vs Maryland,100,61,Maryland +14.5,-110,2,loss,-2.0
