@@ -460,7 +460,7 @@ def process_results(model_name: str, picks_dir: Path, results_csv_path: Path, sp
     return df_evaluated_hist
 
 
-model_list = ['v2', 'v2_perp','gemini']
+model_list = ['v2', 'v2_perp','gemini','chatgpt']
 
 for model_name in model_list:
     df = build_nba_prompt(model_name)
