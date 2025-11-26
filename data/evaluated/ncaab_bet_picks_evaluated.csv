@@ -323,3 +323,9 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 10,perp,2025-11-25,266525,San Diego State vs Oregon,97,80,Oregon -1.5,-115,1,loss,-1.0
 4,claude,2025-11-25,266525,San Diego State vs Oregon,97,80,San Diego State +1.5,-105,2,win,1.9047619047619049
 6,gemini,2025-11-26,266527,UNLV vs Alabama,76,115,UNLV +13.5,-110,2,loss,-2.0
+3,perp,2025-11-25,266506,Florida St vs CS Bakersfield,89,59,Florida St -24.5,-115,2,win,1.7391304347826086
+5,perp,2025-11-25,275939,North Texas vs E. Washington,79,71,North Texas -12.5,-105,1,loss,-1.0
+7,perp,2025-11-26,278423,Miami (OH) vs UNC Greensboro,82,71,Miami (OH) -10.5,-115,1,win,0.8695652173913043
+6,claude,2025-11-26,282800,San Jose St vs Loyola (IL),63,51,San Jose St -1.5,-102,2,win,1.96078431372549
+11,claude,2025-11-26,266531,Robert Morris vs UIC,88,74,Robert Morris +1.5,-110,1,win,0.9090909090909092
+2,gemini,2025-11-26,278423,Miami (OH) vs UNC Greensboro,82,71,UNC Greensboro +10.5,-105,3,loss,-3.0
