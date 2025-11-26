@@ -320,3 +320,6 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 7,claude,2025-11-25,275593,Montana vs Oakland,87,95,Montana -4.5,-105,2,loss,-2.0
 11,claude,2025-11-25,271310,GA Southern vs UTSA,64,77,GA Southern -3.5,-112,1,loss,-1.0
 4,gemini,2025-11-25,266523,Gonzaga vs Maryland,100,61,Maryland +14.5,-110,2,loss,-2.0
+10,perp,2025-11-25,266525,San Diego State vs Oregon,97,80,Oregon -1.5,-115,1,loss,-1.0
+4,claude,2025-11-25,266525,San Diego State vs Oregon,97,80,San Diego State +1.5,-105,2,win,1.9047619047619049
+6,gemini,2025-11-26,266527,UNLV vs Alabama,76,115,UNLV +13.5,-110,2,loss,-2.0
