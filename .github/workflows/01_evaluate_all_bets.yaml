@@ -2,7 +2,7 @@ name: evaluate all bets
 on:
   schedule:
     # Run at the top of every odd-numbered hour (1, 3, 5, ..., 23 UTC)
-    - cron: "15 1-23/2 * * *"
+    - cron: "0 1-23/2 * * *"
   workflow_dispatch:
 
 jobs:
