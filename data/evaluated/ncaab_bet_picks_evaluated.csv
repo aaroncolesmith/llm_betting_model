@@ -329,3 +329,12 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 6,claude,2025-11-26,282800,San Jose St vs Loyola (IL),63,51,San Jose St -1.5,-102,2,win,1.96078431372549
 11,claude,2025-11-26,266531,Robert Morris vs UIC,88,74,Robert Morris +1.5,-110,1,win,0.9090909090909092
 2,gemini,2025-11-26,278423,Miami (OH) vs UNC Greensboro,82,71,UNC Greensboro +10.5,-105,3,loss,-3.0
+1,perp,2025-11-26,266538,Valparaiso vs Southern Indiana,56,64,Valparaiso -9.5,-115,3,loss,-3.0
+2,perp,2025-11-26,265028,Boston Col vs Harvard,73,60,Boston Col -6.5,-115,2,win,1.7391304347826086
+8,perp,2025-11-26,266537,N. Mexico St vs Georgia State,77,58,N. Mexico St -12.5,-111,1,win,0.9009009009009008
+1,claude,2025-11-26,282813,Houston vs Notre Dame,66,56,Houston -11.5,-120,3,loss,-3.0
+5,claude,2025-11-26,266536,S. Florida vs VCU,66,78,S. Florida +1.5,-118,2,loss,-2.0
+8,claude,2025-11-26,265034,Jax State vs NDSU,43,56,Jax State +3.5,-108,1,loss,-1.0
+3,gemini,2025-11-26,266537,N. Mexico St vs Georgia State,77,58,Georgia State +12.5,-111,3,loss,-3.0
+8,gemini,2025-11-26,266538,Valparaiso vs Southern Indiana,56,64,Southern Indiana +9.5,-105,1,win,0.9523809523809523
+10,gemini,2025-11-26,265034,Jax State vs NDSU,43,56,Jax State +3.5,-112,1,loss,-1.0

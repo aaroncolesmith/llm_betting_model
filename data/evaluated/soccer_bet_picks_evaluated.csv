@@ -92,3 +92,15 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 3,david,2025-11-26,265708,Copenhagen vs Kairat Almaty,3,2,Copenhagen -1.5,-115,3,loss,-3.0
 4,david,2025-11-26,265708,Copenhagen vs Kairat Almaty,3,2,Copenhagen -1.5,-115,2,loss,-2.0
 1,gary,2025-11-26,265708,Copenhagen vs Kairat Almaty,3,2,Copenhagen -1.5,-115,3,loss,-3.0
+2,cliff,2025-11-26,265712,Liverpool vs PSV,1,4,Liverpool -1.5,-135,3,loss,-3.0
+3,cliff,2025-11-26,265710,PSG vs Tottenham,5,3,PSG -1.5,105,3,win,3.1500000000000004
+11,cliff,2025-11-26,265715,Arsenal vs Bayern,3,1,Under 2.5,110,1,loss,-1.0
+1,cliff,2025-11-26,265712,Liverpool vs PSV,1,4,Liverpool -1.5,-155,3,loss,-3.0
+5,cliff,2025-11-26,265710,PSG vs Tottenham,5,3,PSG -1.5,105,2,win,2.1
+10,cliff,2025-11-26,265715,Arsenal vs Bayern,3,1,Under 2.5,110,1,loss,-1.0
+3,david,2025-11-26,265712,Liverpool vs PSV,1,4,Liverpool -1.5,-135,3,loss,-3.0
+2,david,2025-11-26,265712,Liverpool vs PSV,1,4,Liverpool -1.5,-155,3,loss,-3.0
+6,gary,2025-11-26,265712,Liverpool vs PSV,1,4,Liverpool -1.5,-135,2,loss,-2.0
+7,gary,2025-11-26,265709,Sporting vs Brugge,3,0,Sporting ML,-147,2,win,1.3605442176870748
+8,gary,2025-11-26,265710,PSG vs Tottenham,5,3,PSG -1.5,105,1,win,1.05
+9,gary,2025-11-26,265711,Olympiacos vs Real Madrid,3,4,Real Madrid -1.5,-102,1,loss,-1.0
