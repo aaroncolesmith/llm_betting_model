@@ -336,5 +336,9 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 5,claude,2025-11-26,266536,S. Florida vs VCU,66,78,S. Florida +1.5,-118,2,loss,-2.0
 8,claude,2025-11-26,265034,Jax State vs NDSU,43,56,Jax State +3.5,-108,1,loss,-1.0
 3,gemini,2025-11-26,266537,N. Mexico St vs Georgia State,77,58,Georgia State +12.5,-111,3,loss,-3.0
-8,gemini,2025-11-26,266538,Valparaiso vs Southern Indiana,56,64,Southern Indiana +9.5,-105,1,win,0.9523809523809523
+8,gemini,2025-11-26,266538,Valparaiso vs Southern Indiana,56,64,Southern Indiana +9.5,-105,1,win,0.9523809523809524
 10,gemini,2025-11-26,265034,Jax State vs NDSU,43,56,Jax State +3.5,-112,1,loss,-1.0
+6,perp,2025-11-26,266529,Marshall vs Lipscomb,67,90,Marshall -8.5,-112,1,loss,-1.0
+9,perp,2025-11-26,282801,Tulsa vs N. Iowa,63,60,Tulsa -2.5,-110,1,win,0.9090909090909092
+3,claude,2025-11-26,282801,Tulsa vs N. Iowa,63,60,Tulsa +2.5,-110,3,win,2.727272727272727
+10,claude,2025-11-26,266539,VA Tech vs Colorado St,66,64,VA Tech -4.5,-108,1,loss,-1.0
