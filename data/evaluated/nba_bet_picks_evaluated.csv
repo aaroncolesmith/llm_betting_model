@@ -636,3 +636,16 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 3,chatgpt,2025-11-26,261593,Heat vs Bucks,106.0,103.0,Heat -7.5,-114,2,loss,-2.0
 4,chatgpt,2025-11-26,261602,Pelicans vs Grizzlies,128.0,133.0,Grizzlies -2.5,-105,2,win,1.9047619047619049
 6,chatgpt,2025-11-26,261592,Hornets vs Knicks,101.0,129.0,Knicks -6.5,-110,2,win,1.818181818181818
+8,v2,2025-11-26,261605,Warriors vs Rockets,100.0,104.0,Rockets +1.5,-120,2,win,1.6666666666666667
+10,v2,2025-11-26,261603,Trail Blazers vs Spurs,102.0,115.0,Trail Blazers -2.5,-116,1,loss,-1.0
+2,v2,2025-11-26,261605,Warriors vs Rockets,100.0,104.0,Under 224.5,-112,3,win,2.678571428571429
+7,v2,2025-11-26,261604,Kings vs Suns,100.0,112.0,Kings +4.5,-110,2,loss,-2.0
+10,v2,2025-11-26,261603,Trail Blazers vs Spurs,102.0,115.0,Spurs +2.0,-110,1,win,0.9090909090909092
+3,v2_perp,2025-11-26,261604,Kings vs Suns,100.0,112.0,Suns -3.5,-110,2,win,1.818181818181818
+4,v2_perp,2025-11-26,261603,Trail Blazers vs Spurs,102.0,115.0,Trail Blazers -2.5,-116,2,loss,-2.0
+10,v2_perp,2025-11-26,261605,Warriors vs Rockets,100.0,104.0,Rockets +1.5,-120,1,win,0.8333333333333334
+3,gemini,2025-11-26,261605,Warriors vs Rockets,100.0,104.0,Warriors -1.5,-100,3,loss,-3.0
+6,gemini,2025-11-26,261603,Trail Blazers vs Spurs,102.0,115.0,Trail Blazers -2.5,-116,2,loss,-2.0
+5,chatgpt,2025-11-26,261605,Warriors vs Rockets,100.0,104.0,Warriors -1.5,-110,2,loss,-2.0
+7,chatgpt,2025-11-26,261603,Trail Blazers vs Spurs,102.0,115.0,Trail Blazers -2.0,-110,1,loss,-1.0
+8,chatgpt,2025-11-26,261604,Kings vs Suns,100.0,112.0,Suns -3.5,-110,1,win,0.9090909090909091
