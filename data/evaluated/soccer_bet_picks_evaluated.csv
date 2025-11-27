@@ -132,3 +132,19 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 6,grover,2025-11-27,265760,Roma vs Midtjylland,2,1,Roma -1.5,120,2,loss,-2.0
 7,grover,2025-11-27,265756,Viktoria vs Freiburg,0,0,Freiburg -0.5,110,2,loss,-2.0
 8,grover,2025-11-27,265759,Porto vs Nice,3,0,Porto -1.5,110,2,win,2.2
+3,cliff,2025-11-27,265907,Nottingham vs Malmo,3,0,Nottingham -1.5,-165,3,win,1.8181818181818183
+7,cliff,2025-11-27,265765,Betis vs FC Utrecht,2,1,Betis -1.5,-110,2,loss,-2.0
+8,cliff,2025-11-27,265910,Bologna vs Red Bull,4,1,Bologna -1.5,105,1,win,1.05
+3,david,2025-11-27,265907,Nottingham vs Malmo,3,0,Nottingham -1.5,-165,3,win,1.8181818181818183
+8,david,2025-11-27,265908,Genk vs Basel,2,1,Genk -0.5,-118,1,win,0.847457627118644
+9,david,2025-11-27,265762,PAN vs Sturm Graz,2,1,PAN -0.5,-165,1,win,0.6060606060606061
+10,david,2025-11-27,265765,Betis vs FC Utrecht,2,1,Betis -1.5,-110,1,loss,-1.0
+2,gary,2025-11-27,265907,Nottingham vs Malmo,3,0,Nottingham -1.5,-165,3,win,1.8181818181818183
+5,gary,2025-11-27,265908,Genk vs Basel,2,1,Genk ML,-110,2,win,1.818181818181818
+7,gary,2025-11-27,265763,Maccabi vs Lyon,0,6,Lyon ML,-131,2,win,1.5267175572519085
+9,gary,2025-11-27,265765,Betis vs FC Utrecht,2,1,Betis -1.5,-110,1,loss,-1.0
+10,gary,2025-11-27,265910,Bologna vs Red Bull,4,1,Bologna -1.5,105,1,win,1.05
+4,grover,2025-11-27,265909,Go Ahead Eagles vs Stuttgart,0,4,Stuttgart -1.5,130,2,win,2.6
+5,grover,2025-11-27,265764,Belgrade vs Steaua,1,0,Belgrade -1.5,125,2,loss,-2.0
+9,grover,2025-11-27,265761,Rangers vs Braga,1,1,Braga -0.5,115,2,loss,-2.0
+10,grover,2025-11-27,265910,Bologna vs Red Bull,4,1,Bologna -1.5,105,2,win,2.1
