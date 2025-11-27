@@ -104,3 +104,31 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 7,gary,2025-11-26,265709,Sporting vs Brugge,3,0,Sporting ML,-147,2,win,1.3605442176870748
 8,gary,2025-11-26,265710,PSG vs Tottenham,5,3,PSG -1.5,105,1,win,1.05
 9,gary,2025-11-26,265711,Olympiacos vs Real Madrid,3,4,Real Madrid -1.5,-102,1,loss,-1.0
+4,cliff,2025-11-27,265906,Aston Villa vs Young Boys,2,1,Aston Villa -1.5,-168,2,loss,-2.0
+7,cliff,2025-11-27,265759,Porto vs Nice,3,0,Porto -1.5,110,2,win,2.2
+10,cliff,2025-11-27,265905,Feyenoord vs Celtic,1,3,Under 2.5,136,1,loss,-1.0
+2,cliff,2025-11-27,265906,Aston Villa vs Young Boys,2,1,Aston Villa -1.5,-166,3,loss,-3.0
+6,cliff,2025-11-27,265759,Porto vs Nice,3,0,Porto -1.5,110,2,win,2.2
+9,cliff,2025-11-27,265905,Feyenoord vs Celtic,1,3,Feyenoord -0.5,-152,1,loss,-1.0
+2,david,2025-11-27,265906,Aston Villa vs Young Boys,2,1,Aston Villa -1.5,-168,3,loss,-3.0
+7,david,2025-11-27,265905,Feyenoord vs Celtic,1,3,Feyenoord -0.5,-160,2,loss,-2.0
+10,david,2025-11-27,265904,Lille vs Zagreb,4,0,Lille -0.5,-175,1,win,0.5714285714285714
+1,david,2025-11-27,265906,Aston Villa vs Young Boys,2,1,Aston Villa -1.5,-166,3,loss,-3.0
+4,david,2025-11-27,265759,Porto vs Nice,3,0,Porto -1.5,110,2,win,2.2
+5,david,2025-11-27,265758,Fenerbahce vs Ferencvaros,1,1,Fenerbahce -1.5,152,2,loss,-2.0
+6,david,2025-11-27,265760,Roma vs Midtjylland,2,1,Roma -1.5,120,2,loss,-2.0
+1,gary,2025-11-27,265904,Lille vs Zagreb,4,0,Lille ML,-163,3,win,1.8404907975460123
+2,gary,2025-11-27,265905,Feyenoord vs Celtic,1,3,Feyenoord ML,-145,3,loss,-3.0
+3,gary,2025-11-27,265759,Porto vs Nice,3,0,Porto -1.5,110,3,win,3.3000000000000003
+4,gary,2025-11-27,265903,Ludogorets vs Celta Vigo,3,2,Celta Vigo ML,-135,2,loss,-2.0
+5,gary,2025-11-27,265906,Aston Villa vs Young Boys,2,1,Aston Villa -1.5,-168,2,loss,-2.0
+10,gary,2025-11-27,265760,Roma vs Midtjylland,2,1,Roma -1.5,115,1,loss,-1.0
+3,gary,2025-11-27,265906,Aston Villa vs Young Boys,2,1,Aston Villa -1.5,-166,3,loss,-3.0
+6,gary,2025-11-27,265905,Feyenoord vs Celtic,1,3,Feyenoord ML,-138,2,loss,-2.0
+8,gary,2025-11-27,265903,Ludogorets vs Celta Vigo,3,2,Celta Vigo ML,-135,2,loss,-2.0
+1,grover,2025-11-27,265758,Fenerbahce vs Ferencvaros,1,1,Fenerbahce -1.5,152,3,loss,-3.0
+2,grover,2025-11-27,265757,PAOK vs Brann,1,1,PAOK -1.5,150,3,loss,-3.0
+3,grover,2025-11-27,265904,Lille vs Zagreb,4,0,Lille -1.5,135,3,win,4.050000000000001
+6,grover,2025-11-27,265760,Roma vs Midtjylland,2,1,Roma -1.5,120,2,loss,-2.0
+7,grover,2025-11-27,265756,Viktoria vs Freiburg,0,0,Freiburg -0.5,110,2,loss,-2.0
+8,grover,2025-11-27,265759,Porto vs Nice,3,0,Porto -1.5,110,2,win,2.2
