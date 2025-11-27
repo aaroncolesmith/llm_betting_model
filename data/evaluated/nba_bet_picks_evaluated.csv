@@ -648,4 +648,4 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 6,gemini,2025-11-26,261603,Trail Blazers vs Spurs,102.0,115.0,Trail Blazers -2.5,-116,2,loss,-2.0
 5,chatgpt,2025-11-26,261605,Warriors vs Rockets,100.0,104.0,Warriors -1.5,-110,2,loss,-2.0
 7,chatgpt,2025-11-26,261603,Trail Blazers vs Spurs,102.0,115.0,Trail Blazers -2.0,-110,1,loss,-1.0
-8,chatgpt,2025-11-26,261604,Kings vs Suns,100.0,112.0,Suns -3.5,-110,1,win,0.9090909090909091
+8,chatgpt,2025-11-26,261604,Kings vs Suns,100.0,112.0,Suns -3.5,-110,1,win,0.9090909090909092
