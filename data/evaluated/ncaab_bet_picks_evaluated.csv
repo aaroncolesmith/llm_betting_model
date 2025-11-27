@@ -349,4 +349,8 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 1,gemini,2025-11-26,266542,Saint Mary's vs Wichita State,70,65,Wichita State +10.5,-110,3,win,2.727272727272727
 4,gemini,2025-11-26,265029,Memphis vs S. Illinois,74,58,S. Illinois +10.5,-110,2,loss,-2.0
 5,gemini,2025-11-26,266533,Wyoming vs Denver,101,59,Denver +8.5,-115,2,loss,-2.0
-9,gemini,2025-11-26,282814,Auburn vs St. John's,85,74,Auburn +4.5,-110,1,win,0.9090909090909091
+9,gemini,2025-11-26,282814,Auburn vs St. John's,85,74,Auburn +4.5,-110,1,win,0.9090909090909092
+4,perp,2025-11-26,282819,Iowa vs Grand Canyon,59,46,Iowa -8.5,-115,2,win,1.7391304347826086
+4,claude,2025-11-26,282809,Michigan vs Gonzaga,101,61,Michigan +2.0,-110,2,win,1.818181818181818
+9,claude,2025-11-26,282810,Texas vs NC State,102,97,Texas +3.5,-110,1,win,0.9090909090909092
+7,gemini,2025-11-26,282819,Iowa vs Grand Canyon,59,46,Grand Canyon +8.5,-105,1,loss,-1.0
