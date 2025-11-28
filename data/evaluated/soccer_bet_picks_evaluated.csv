@@ -148,3 +148,6 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 5,grover,2025-11-27,265764,Belgrade vs Steaua,1,0,Belgrade -1.5,125,2,loss,-2.0
 9,grover,2025-11-27,265761,Rangers vs Braga,1,1,Braga -0.5,115,2,loss,-2.0
 10,grover,2025-11-27,265910,Bologna vs Red Bull,4,1,Bologna -1.5,105,2,win,2.1
+11,cliff,2025-11-28,265818,Como 1907 vs Sassuolo,2,0,Como 1907 -0.5,-175,1,win,0.5714285714285714
+1,gary,2025-11-28,265818,Como 1907 vs Sassuolo,2,0,Como 1907 ML,-156,3,win,1.9230769230769236
+4,gary,2025-11-28,265829,Metz vs Rennes,0,1,Rennes ML,-101,2,win,1.98019801980198

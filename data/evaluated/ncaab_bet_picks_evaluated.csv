@@ -354,3 +354,22 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 4,claude,2025-11-26,282809,Michigan vs Gonzaga,101,61,Michigan +2.0,-110,2,win,1.818181818181818
 9,claude,2025-11-26,282810,Texas vs NC State,102,97,Texas +3.5,-110,1,win,0.9090909090909092
 7,gemini,2025-11-26,282819,Iowa vs Grand Canyon,59,46,Grand Canyon +8.5,-105,1,loss,-1.0
+1,perp,2025-11-28,266559,Youngstown St vs Chicago St,87,64,Youngstown St -14.5,-106,3,win,2.830188679245283
+2,perp,2025-11-28,265058,Virginia vs Queens,94,69,Virginia -25.5,-108,3,loss,-3.0
+3,perp,2025-11-28,265052,UNC Wilmington vs Navy,87,57,UNC Wilmington -8.5,-110,2,win,1.818181818181818
+4,perp,2025-11-28,265048,Tulane vs Nicholls St,82,72,Tulane -8.5,-115,2,win,1.7391304347826086
+6,perp,2025-11-28,276085,Davidson vs NC A&T,90,74,Davidson -13.5,-115,2,win,1.7391304347826086
+7,perp,2025-11-28,264539,Penn vs Merrimack,77,65,Penn -3.5,-107,1,win,0.9345794392523364
+8,perp,2025-11-28,266560,Lehigh vs UCSB,70,72,UCSB -10.5,-105,1,loss,-1.0
+3,claude,2025-11-28,282840,Colorado vs Washington,81,68,Colorado +2.5,-110,3,win,2.727272727272727
+4,claude,2025-11-28,264539,Penn vs Merrimack,77,65,Penn -3.5,-107,2,win,1.8691588785046729
+5,claude,2025-11-28,282834,Illinois St vs Furman,72,65,Illinois St -3.5,-105,2,win,1.9047619047619049
+6,claude,2025-11-28,282847,Colorado St vs S. Florida,83,68,Colorado St +2.5,-105,2,win,1.9047619047619049
+10,claude,2025-11-28,275594,Arkansas St vs NDSU,85,80,Arkansas St -3.0,-110,1,win,0.9090909090909092
+1,gemini,2025-11-28,265058,Virginia vs Queens,94,69,Queens +25.5,-112,3,win,2.678571428571429
+2,gemini,2025-11-28,282841,Florida vs Providence,90,78,Providence +11.5,-108,3,loss,-3.0
+4,gemini,2025-11-28,265052,UNC Wilmington vs Navy,87,57,Navy +8.5,-110,2,loss,-2.0
+7,gemini,2025-11-27,282816,Alabama vs Maryland,105,72,Alabama -13.0,-110,1,win,0.9090909090909091
+8,gemini,2025-11-28,266559,Youngstown St vs Chicago St,87,64,Chicago St +14.5,-106,1,loss,-1.0
+9,gemini,2025-11-28,265053,American U vs Maine,74,61,Maine +7.5,-112,1,loss,-1.0
+10,gemini,2025-11-28,282847,Colorado St vs S. Florida,83,68,Colorado St +2.5,-115,1,win,0.8695652173913043
