@@ -250,50 +250,6 @@
 
     Here is the historical dataset of your betting advice and results:
     rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,bet_payout
-1,perp,2025-11-11,266367,Michigan vs Wake Forest,85,84,Wake Forest +15.5,-108,3,win,2.7777777777777777
-2,perp,2025-11-11,264701,Illinois vs Texas Tech,81,77,Illinois -3.5,-115,2,win,1.7391304347826086
-3,perp,2025-11-11,266649,Gonzaga vs Creighton,90,63,Creighton +11.5,-110,1,loss,-1.0
-4,perp,2025-11-11,264732,Louisville vs Kentucky,96,88,Kentucky +6.5,-112,1,loss,-1.0
-5,perp,2025-11-11,264731,Florida vs Florida St,78,76,Florida St +17.5,-111,1,win,0.9009009009009008
-6,perp,2025-11-11,264714,Kansas vs Texas A&M-CC,77,46,Texas A&M-CC +27,-110,1,loss,-1.0
-7,perp,2025-11-11,266359,Auburn vs Wofford,93,62,Wofford +27.5,-110,1,loss,-1.0
-8,perp,2025-11-11,264709,Wisconsin vs Ball State,86,55,Ball State +27.5,-115,1,loss,-1.0
-9,perp,2025-11-11,264718,BYU vs Delaware,85,68,Delaware +35.5,-108,1,win,0.925925925925926
-10,perp,2025-11-11,271994,Arizona vs N. Arizona,84,49,N. Arizona +35.5,-105,1,win,0.9523809523809524
-1,perp,2025-11-11,266367,Michigan vs Wake Forest,85,84,Michigan -15,-110,2,loss,-2.0
-2,perp,2025-11-11,264721,UNC vs Radford,89,74,UNC -19.5,-112,2,loss,-2.0
-3,perp,2025-11-11,264732,Louisville vs Kentucky,96,88,Louisville -6.5,-110,2,win,1.818181818181818
-4,perp,2025-11-11,266649,Gonzaga vs Creighton,90,63,Gonzaga -11.5,-112,2,win,1.7857142857142858
-5,perp,2025-11-11,264701,Illinois vs Texas Tech,81,77,Illinois -3.5,-115,2,win,1.7391304347826086
-6,perp,2025-11-11,264714,Kansas vs Texas A&M-CC,77,46,Kansas -27.5,-114,1,win,0.8771929824561403
-7,perp,2025-11-11,266359,Auburn vs Wofford,93,62,Auburn -27.5,-110,1,win,0.9090909090909092
-9,perp,2025-11-11,264718,BYU vs Delaware,85,68,BYU -36.5,-105,1,loss,-1.0
-10,perp,2025-11-11,271994,Arizona vs N. Arizona,84,49,Arizona -35.5,-115,1,loss,-1.0
-11,perp,2025-11-11,264731,Florida vs Florida St,78,76,Florida -17.5,-111,1,loss,-1.0
-1,perp,2025-11-12,264754,Georgetown vs Binghamton,83,70,Binghamton +27.5,-110,3,win,2.727272727272727
-2,perp,2025-11-12,264748,St. Bonaventure vs Siena,75,66,St. Bonaventure -8.5,-110,2,win,1.818181818181818
-3,perp,2025-11-12,264757,Missouri vs Minnesota,83,60,Missouri -6.5,-115,2,win,1.7391304347826086
-4,perp,2025-11-12,266373,Marshall vs Elon,96,89,Marshall -9.5,-105,2,loss,-2.0
-5,perp,2025-11-12,264745,South Dakota vs Southern Indiana,89,74,South Dakota -7.5,-112,2,win,1.7857142857142858
-6,perp,2025-11-12,266380,Texas St vs UTSA,80,69,Texas St -3.5,-105,2,win,1.9047619047619049
-7,perp,2025-11-12,264739,Evansville vs Middle Tenn,72,77,Evansville -2.5,-110,1,loss,-1.0
-8,perp,2025-11-12,266379,Valparaiso vs Nicholls St,68,63,Valparaiso -2.5,-109,1,win,0.9174311926605504
-9,perp,2025-11-12,267558,Fresno State vs UCSD,73,78,UCSD +1.5,-110,1,win,0.9090909090909092
-10,perp,2025-11-12,264741,San Diego vs Idaho,78,74,Idaho -1.5,-105,1,loss,-1.0
-11,perp,2025-11-12,266378,Boston U vs Brown,90,77,Boston U -2.5,-117,1,win,0.8547008547008547
-12,perp,2025-11-12,264502,Oral Roberts vs Tulsa,87,88,Tulsa -6.5,-105,1,loss,-1.0
-1,perp,2025-11-13,264769,West Virginia vs Pittsburgh,71,49,West Virginia -6.5,-110,3,win,2.727272727272727
-2,perp,2025-11-13,266382,Michigan St vs San Jose St,79,60,Michigan St -24.5,-110,2,loss,-2.0
-3,perp,2025-11-13,264764,Seton Hall vs Monmouth,70,58,Seton Hall -14.5,-110,2,loss,-2.0
-4,perp,2025-11-13,264767,Alabama vs Purdue,80,87,Alabama -3.5,-105,2,loss,-2.0
-5,perp,2025-11-13,264768,Wichita State vs Loyola (IL),95,74,Wichita State -5.5,-110,2,win,1.818181818181818
-6,perp,2025-11-13,280381,Howard vs Alcorn State,72,64,Howard -6.5,-112,2,win,1.7857142857142858
-7,perp,2025-11-13,264766,K State vs California,99,96,K State -6.5,-112,1,loss,-1.0
-9,perp,2025-11-13,264765,LSU vs FIU,98,81,LSU -21.5,-110,1,loss,-1.0
-10,perp,2025-11-13,264763,UMASS vs Dolphins,94,80,UMASS -15.5,-100,1,loss,-1.0
-8,perp,2025-11-14,266387,Texas A&M vs UCF,74,86,Texas A&M -9.5,-115,1,loss,-1.0
-11,perp,2025-11-14,264510,Brown vs Hampton,63,72,Brown -2.5,-110,1,loss,-1.0
-12,perp,2025-11-14,264512,UC Davis vs Sac State,77,73,UC Davis -4.5,-110,1,loss,-1.0
 1,perp,2025-11-14,264508,E. Michigan vs IUIN,83,90,E. Michigan -5.5,-110,3,loss,-3.0
 2,perp,2025-11-14,271998,Rutgers vs Lehigh,84,72,Lehigh +17.5,-111,2,win,1.8018018018018016
 3,perp,2025-11-14,267343,Jax State vs Coastal Car,74,67,Jax State -7.5,-115,2,loss,-2.0
