@@ -375,7 +375,8 @@ def process_results(model_name: str, picks_dir: Path, results_csv_path: Path):
     # === 1. Load Picks File ===
     picks_file = picks_dir / f'ncaab_bets_{model_name}.txt'
     try:
-        df_picks = pd.read_csv(picks_file)
+        # Use on_bad_lines='warn' to skip bad lines but print a warning
+        df_picks = pd.read_csv(picks_file, on_bad_lines='warn')
     except FileNotFoundError:
         print(f"Error: Picks file not found at {picks_file}")
         return None # Exit function
