@@ -382,3 +382,6 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 6,gemini,2025-11-28,265050,Pittsburgh vs Ohio State,67,66,Pittsburgh +4.5,-110,2,win,1.818181818181818
 7,claude,2025-11-28,265056,Mississippi St vs SMU,81,87,Mississippi St +1.5,-112,2,loss,-2.0
 5,gemini,2025-11-28,265056,Mississippi St vs SMU,81,87,Mississippi St +1.5,-108,2,loss,-2.0
+10,perp,2025-11-28,282844,Dayton vs BYU,79,83,BYU -9.5,-115,1,loss,-1.0
+11,claude,2025-11-28,265057,Idaho vs Sam Houston,68,94,Idaho +1.5,-118,1,loss,-1.0
+3,gemini,2025-11-28,282844,Dayton vs BYU,79,83,Dayton +9.5,-105,3,win,2.8571428571428568

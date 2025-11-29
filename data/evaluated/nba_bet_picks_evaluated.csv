@@ -667,3 +667,10 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 7,gemini,2025-11-28,261606,Knicks vs Bucks,118.0,109.0,Knicks -8.5,-110,1,win,0.9090909090909092
 9,gemini,2025-11-28,261610,Hawks vs Cavaliers,130.0,123.0,Under 236.5,-110,1,loss,-1.0
 10,gemini,2025-11-28,261608,Pistons vs Magic,109.0,112.0,Over 231.5,-115,1,loss,-1.0
+1,v2,2025-11-28,261612,Thunder vs Suns,123.0,119.0,Thunder -14.5,-115,3,loss,-3.0
+5,v2,2025-11-28,261613,Nuggets vs Spurs,136.0,139.0,Nuggets -7.5,-110,2,loss,-2.0
+8,v2,2025-11-28,261614,Jazz vs Kings,128.0,119.0,Kings +2.5,-115,2,loss,-2.0
+4,v2_perp,2025-11-28,261613,Nuggets vs Spurs,136.0,139.0,Nuggets -7.5,-110,2,loss,-2.0
+9,v2_perp,2025-11-28,261612,Thunder vs Suns,123.0,119.0,Thunder -14.5,-115,1,loss,-1.0
+1,gemini,2025-11-28,261612,Thunder vs Suns,123.0,119.0,Thunder -14.5,-115,3,loss,-3.0
+8,gemini,2025-11-28,261613,Nuggets vs Spurs,136.0,139.0,Spurs +7.5,-110,1,win,0.9090909090909092
