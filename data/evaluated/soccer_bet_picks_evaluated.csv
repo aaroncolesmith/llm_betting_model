@@ -164,3 +164,8 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 5,grover,2025-11-29,265611,Man City vs Leeds,3,2,Man City -1.5,-155,2,loss,-2.0
 6,grover,2025-11-29,265615,Brentford vs Burnley,3,1,Brentford -1.5,120,2,win,2.4
 10,grover,2025-11-29,265619,Union Berlin vs Heidenheim,1,2,Union Berlin -0.5,-160,1,loss,-1.0
+2,cliff,2025-11-29,265815,Juventus vs Cagliari,2,1,Juventus -1.5,-145,3,loss,-3.0
+6,cliff,2025-11-29,265826,Monaco vs PSG,1,0,PSG -0.5,-165,2,loss,-2.0
+5,gary,2025-11-29,265826,Monaco vs PSG,1,0,PSG ML,-170,2,loss,-2.0
+7,gary,2025-11-29,265808,Barcelona vs Alaves,3,1,Barcelona -2.0,-115,2,push,0.0
+7,grover,2025-11-29,265815,Juventus vs Cagliari,2,1,Juventus -1.5,-102,2,loss,-2.0
