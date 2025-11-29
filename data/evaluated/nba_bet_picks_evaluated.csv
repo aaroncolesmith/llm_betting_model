@@ -681,4 +681,4 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 10,v2_perp,2025-11-28,261615,Clippers vs Grizzlies,107.0,112.0,Clippers -6.5,-110,1,loss,-1.0
 4,gemini,2025-11-28,261616,Lakers vs Mavericks,129.0,119.0,Under 231.5,-110,2,loss,-2.0
 6,gemini,2025-11-28,261615,Clippers vs Grizzlies,107.0,112.0,Grizzlies +6.5,-110,2,win,1.818181818181818
-10,chatgpt,2025-11-28,261616,Lakers vs Mavericks,129.0,119.0,Lakers -6.5,-110,1,win,0.9090909090909091
+10,chatgpt,2025-11-28,261616,Lakers vs Mavericks,129.0,119.0,Lakers -6.5,-110,1,win,0.9090909090909092
