@@ -211,6 +211,7 @@ def build_ncaa_prompt(model_version):
     □ **Step 7**: Verify the sign (+ or -) matches favorite/underdog position
     □ **Step 8**: Set binary indicator: bet_home_X=1 if home team, bet_away_X=1 if away team
     □ **Step 9**: Cross-check one final time before writing
+    
 
     **If you are uncertain about ANY detail, SKIP THAT PICK rather than guess.**
 
@@ -310,6 +311,7 @@ def build_ncaa_prompt(model_version):
     □ Every spread sign (+ or -) matches the favorite/underdog position
     □ Every predicted score is in "HomeScore-AwayScore" format
     □ All CSV columns match the exact structure required
+    □ Ensure the reason column in the csv is enclosed in double quotes
 
     ---
 

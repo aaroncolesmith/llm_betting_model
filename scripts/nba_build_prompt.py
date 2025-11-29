@@ -305,6 +305,7 @@ Before submitting your picks, verify:
 □ Every spread sign (+ or -) matches the favorite/underdog position
 □ Every predicted score is in "HomeScore-AwayScore" format
 □ All CSV columns match the exact structure required
+□ Ensure the reason column in the csv is enclosed in double quotes
 
 ---
 
