@@ -152,3 +152,15 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 1,gary,2025-11-28,265818,Como 1907 vs Sassuolo,2,0,Como 1907 ML,-156,3,win,1.923076923076924
 4,gary,2025-11-28,265829,Metz vs Rennes,0,1,Rennes ML,-101,2,win,1.98019801980198
 1,david,2025-11-29,265811,Mallorca vs Osasuna,2,2,Mallorca -0.5,120,3,loss,-3.0
+2,david,2025-11-29,265819,Genoa vs Hellas,2,1,Genoa -0.5,-102,2,win,1.96078431372549
+3,david,2025-11-29,265619,Union Berlin vs Heidenheim,1,2,Union Berlin -0.5,-160,2,loss,-2.0
+7,david,2025-11-29,265615,Brentford vs Burnley,3,1,Burnley +1.5,-175,1,loss,-1.0
+8,david,2025-11-29,265609,Sunderland vs Bournemouth,3,2,Sunderland +0.5,-175,1,win,0.5714285714285714
+1,gary,2025-11-29,265619,Union Berlin vs Heidenheim,1,2,Union Berlin ML,-150,3,loss,-3.0
+6,gary,2025-11-29,265625,Bayern vs St Pauli,3,1,Bayern -2.5,-126,2,loss,-2.0
+8,gary,2025-11-29,265819,Genoa vs Hellas,2,1,Genoa ML,105,2,win,2.1
+9,gary,2025-11-29,265611,Man City vs Leeds,3,2,Man City -1.5,-155,1,loss,-1.0
+3,grover,2025-11-29,265625,Bayern vs St Pauli,3,1,Bayern -2.5,-126,3,loss,-3.0
+5,grover,2025-11-29,265611,Man City vs Leeds,3,2,Man City -1.5,-155,2,loss,-2.0
+6,grover,2025-11-29,265615,Brentford vs Burnley,3,1,Brentford -1.5,120,2,win,2.4
+10,grover,2025-11-29,265619,Union Berlin vs Heidenheim,1,2,Union Berlin -0.5,-160,1,loss,-1.0
