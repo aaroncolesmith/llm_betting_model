@@ -607,3 +607,14 @@ game_id,start_time,league_name,home_team,away_team,home_score,away_score,status
 261612,2025-11-29T02:30:00.000Z,nba,Thunder,Suns,123,119,complete
 261613,2025-11-29T02:30:00.000Z,nba,Nuggets,Spurs,136,139,complete
 261614,2025-11-29T02:30:00.000Z,nba,Jazz,Kings,128,119,complete
+261606,2025-11-29T00:30:00.000Z,nba,Knicks,Bucks,118,109,complete
+261607,2025-11-29T00:30:00.000Z,nba,Pacers,Wizards,119,86,complete
+261608,2025-11-29T00:30:00.000Z,nba,Pistons,Magic,109,112,complete
+261609,2025-11-29T00:30:00.000Z,nba,Hornets,Bulls,123,116,complete
+261610,2025-11-29T00:30:00.000Z,nba,Hawks,Cavaliers,130,123,complete
+261611,2025-11-29T00:30:00.000Z,nba,Nets,76ers,103,115,complete
+261612,2025-11-29T02:30:00.000Z,nba,Thunder,Suns,123,119,complete
+261613,2025-11-29T02:30:00.000Z,nba,Nuggets,Spurs,136,139,complete
+261614,2025-11-29T02:30:00.000Z,nba,Jazz,Kings,128,119,complete
+261615,2025-11-29T03:00:00.000Z,nba,Clippers,Grizzlies,107,112,complete
+261616,2025-11-29T03:00:00.000Z,nba,Lakers,Mavericks,129,119,complete
