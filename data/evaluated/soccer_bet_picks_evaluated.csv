@@ -174,3 +174,11 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 9,david,2025-11-29,265612,Everton vs Newcastle,1,4,Everton +0.5,-200,1,loss,-1.0
 10,david,2025-11-29,265807,Levante vs Athletic,0,2,Levante +0.5,105,1,loss,-1.0
 2,gary,2025-11-29,265832,Paris FC vs Auxerre,1,1,Paris FC ML,-120,3,loss,-3.0
+1,cliff,2025-11-29,265814,Atlético vs Real Oviedo,2,0,Atlético -1.5,-155,3,win,1.935483870967742
+3,cliff,2025-11-29,265821,Milan vs Lazio,1,0,Milan -0.5,-165,2,win,1.2121212121212122
+4,cliff,2025-11-29,265825,Marseille vs Toulouse,2,2,Marseille -0.5,-175,2,loss,-2.0
+6,david,2025-11-29,265608,Tottenham vs Fulham,1,2,Tottenham -0.5,110,1,loss,-1.0
+3,gary,2025-11-29,265821,Milan vs Lazio,1,0,Milan ML,-160,3,win,1.875
+2,grover,2025-11-29,265814,Atlético vs Real Oviedo,2,0,Atlético -1.5,-155,3,win,1.935483870967742
+4,grover,2025-11-29,265825,Marseille vs Toulouse,2,2,Marseille -1,-125,3,loss,-3.0
+9,grover,2025-11-29,265821,Milan vs Lazio,1,0,Milan -0.5,-175,2,win,1.1428571428571428
