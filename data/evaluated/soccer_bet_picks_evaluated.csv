@@ -151,3 +151,4 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 11,cliff,2025-11-28,265818,Como 1907 vs Sassuolo,2,0,Como 1907 -0.5,-175,1,win,0.5714285714285714
 1,gary,2025-11-28,265818,Como 1907 vs Sassuolo,2,0,Como 1907 ML,-156,3,win,1.923076923076924
 4,gary,2025-11-28,265829,Metz vs Rennes,0,1,Rennes ML,-101,2,win,1.98019801980198
+1,david,2025-11-29,265811,Mallorca vs Osasuna,2,2,Mallorca -0.5,120,3,loss,-3.0
