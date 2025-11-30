@@ -184,3 +184,5 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 9,grover,2025-11-29,265821,Milan vs Lazio,1,0,Milan -0.5,-175,2,win,1.1428571428571428
 7,cliff,2025-11-29,282400,Inter Miami vs NYCFC,5,1,Inter Miami -1.5,120,2,win,2.4
 8,grover,2025-11-29,282400,Inter Miami vs NYCFC,5,1,Inter Miami -1.5,125,2,win,2.5
+4,david,2025-11-30,265820,Lecce vs Torino,2,1,Lecce +0.5,145,2,win,2.9
+10,david,2025-11-30,265809,Real Sociedad vs Villarreal,2,3,Real Sociedad +0.5,135,1,loss,-1.0
