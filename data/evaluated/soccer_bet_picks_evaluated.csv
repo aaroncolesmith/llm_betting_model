@@ -217,3 +217,7 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 1,gary,2025-11-30,265813,Celta Vigo vs Espanyol,0,1,Celta Vigo ML,105,3,loss,-3.0
 4,grover,2025-11-30,265813,Celta Vigo vs Espanyol,0,1,Celta Vigo -0.5,105,3,loss,-3.0
 5,grover,2025-11-30,265622,Freiburg vs Mainz,4,0,Freiburg -0.5,-114,2,win,1.7543859649122806
+1,cliff,2025-11-30,265833,Lyon vs Nantes,3,0,Lyon -1.5,110,3,win,3.3000000000000003
+10,gary,2025-11-30,265812,Girona vs Real Madrid,1,1,Real Madrid -1.5,110,1,loss,-1.0
+1,grover,2025-11-30,265833,Lyon vs Nantes,3,0,Lyon -1.5,110,3,win,3.3000000000000003
+10,grover,2025-11-30,265824,Roma vs Napoli,0,1,Roma -0.5,145,1,loss,-1.0
