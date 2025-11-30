@@ -186,3 +186,18 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 8,grover,2025-11-29,282400,Inter Miami vs NYCFC,5,1,Inter Miami -1.5,125,2,win,2.5
 4,david,2025-11-30,265820,Lecce vs Torino,2,1,Lecce +0.5,145,2,win,2.9
 10,david,2025-11-30,265809,Real Sociedad vs Villarreal,2,3,Real Sociedad +0.5,135,1,loss,-1.0
+5,cliff,2025-11-30,265616,Aston Villa vs Wolverhampton,1,0,Aston Villa -1.5,130,2,loss,-2.0
+8,cliff,2025-11-30,265828,Strasbourg vs Brest,1,2,Strasbourg -0.5,-135,1,loss,-1.0
+2,cliff,2025-11-30,265823,Pisa vs Inter,0,2,Inter -1.5,-120,3,win,2.5
+3,cliff,2025-11-30,265607,West Ham vs Liverpool,0,2,Liverpool -0.5,-167,2,win,1.1976047904191616
+5,cliff,2025-11-30,265828,Strasbourg vs Brest,1,2,Strasbourg -0.5,-140,2,loss,-2.0
+4,david,2025-11-30,265828,Strasbourg vs Brest,1,2,Strasbourg -0.5,-135,2,loss,-2.0
+1,david,2025-11-30,265607,West Ham vs Liverpool,0,2,West Ham +0.5,125,3,loss,-3.0
+2,david,2025-11-30,265617,HSV vs Stuttgart,2,1,HSV +0.5,110,2,win,2.2
+5,david,2025-11-30,265610,Nottingham vs Albion,0,2,Nottingham +0.5,145,1,loss,-1.0
+10,gary,2025-11-30,265823,Pisa vs Inter,0,2,Inter -1.5,-110,1,win,0.9090909090909092
+2,gary,2025-11-30,265828,Strasbourg vs Brest,1,2,Strasbourg ML,-120,3,loss,-3.0
+8,gary,2025-11-30,265823,Pisa vs Inter,0,2,Inter -1.5,-120,2,win,1.6666666666666667
+1,grover,2025-11-30,265616,Aston Villa vs Wolverhampton,1,0,Aston Villa -1.5,130,3,loss,-3.0
+2,grover,2025-11-30,265616,Aston Villa vs Wolverhampton,1,0,Aston Villa -1.5,135,3,loss,-3.0
+7,grover,2025-11-30,265828,Strasbourg vs Brest,1,2,Strasbourg -0.5,-125,2,loss,-2.0
