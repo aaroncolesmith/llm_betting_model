@@ -19,3 +19,13 @@ rank,game_id,start_time,match,pick,odds,units,confidence_pct,reason,predicted_sc
 8,282400,2025-11-29T23:00:00.000Z,Inter Miami vs NYCFC,Inter Miami -1.5,125,2,83,"MLS playoff – Miami with Messi huge edge +125",3-1,1,0,0,0,0,0,-192,425,360,3.5,105,-129,-1.5,125,1.5,-167,2025-11-29T10:00:00Z
 9,265821,2025-11-29T19:45:00.000Z,Milan vs Lazio,Milan -0.5,-175,2,81,"Reduced to PK at -175 – strongest home side left",2-0,1,0,0,0,0,0,-160,475,280,2.5,110,-139,-0.5,-175,0.5,125,2025-11-29T10:00:00Z
 10,265619,2025-11-29T14:30:00.000Z,Union Berlin vs Heidenheim,Union Berlin -0.5,-160,1,78,"Solid home side vs poor traveler",1-0,1,0,0,0,0,0,-150,400,285,2.5,-115,-113,-0.5,-160,1.0,120,2025-11-29T10:00:00Z
+1,265833,2025-11-30T19:45:00.000Z,Lyon vs Nantes,Lyon -1.5,110,3,94,"Best +money -1.5 home favorite on the board",3-0,1,0,0,0,0,0,-238,600,375,2.5,-150,117,-1.5,110,1.5,-155,2025-11-30T10:00:00Z
+2,265616,2025-11-30T14:05:00.000Z,Aston Villa vs Wolverhampton,Aston Villa -1.5,135,3,93,"Still +135 on -1.5 at home - huge value",3-1,1,0,0,0,0,0,-200,525,335,2.5,-119,-105,-1.5,135,1.5,-182,2025-11-30T10:00:00Z
+3,265817,2025-12-01T19:45:00.000Z,Bologna vs Cremonese,Bologna -1.5,125,3,91,"Clear +money -1.5 vs very weak opponent",3-0,1,0,0,0,0,0,-220,640,320,2.5,106,-130,-1.5,125,1.5,-175,2025-11-30T10:00:00Z
+4,265813,2025-11-30T17:30:00.000Z,Celta Vigo vs Espanyol,Celta Vigo -0.5,105,3,89,"Line dropped to -0.5 at +105 - massive value",2-0,1,0,0,0,0,0,105,270,240,2.5,-114,-111,-0.5,-105,0.5,-135,2025-11-30T10:00:00Z
+5,265622,2025-11-30T18:30:00.000Z,Freiburg vs Mainz,Freiburg -0.5,-114,2,87,"Home -0.5 at essentially pick'em price",2-0,1,0,0,0,0,0,-114,310,250,2.5,-105,-123,-0.5,-120,0.5,-118,2025-11-30T10:00:00Z
+6,265816,2025-11-30T17:00:00.000Z,Atalanta vs Fiorentina,Atalanta -0.5,-145,2,85,"Atalanta dominant at home",2-1,1,0,0,0,0,0,-145,400,285,2.5,-119,-106,-0.5,-152,0.5,115,2025-11-30T10:00:00Z
+7,265828,2025-11-30T14:00:00.000Z,Strasbourg vs Brest,Strasbourg -0.5,-125,2,83,"Home favorite at playable juice",1-0,1,0,0,0,0,0,-125,330,280,2.5,-147,114,-0.5,-140,0.5,-102,2025-11-30T10:00:00Z
+8,265827,2025-11-30T16:15:00.000Z,Lorient vs Nice,Lorient -0.5,130,2,82,"Home -0.5 at +130 - huge overlay",2-1,1,0,0,0,0,0,145,190,230,2.5,-115,-110,-0.5,130,0.5,-185,2025-11-30T10:00:00Z
+9,265973,2025-12-02T20:15:00.000Z,Newcastle vs Tottenham,Newcastle -0.5,-143,1,79,"Newcastle red-hot, line hasn't moved enough",2-1,1,0,0,0,0,0,-143,350,300,2.5,-140,110,-0.5,-152,0.5,115,2025-11-30T10:00:00Z
+10,265824,2025-11-30T19:45:00.000Z,Roma vs Napoli,Roma -0.5,145,1,77,"Roma reduced to -0.5 at +145 - excellent value",2-1,1,0,0,0,0,0,158,210,187,2.5,151,-198,-0.5,145,0.5,-200,2025-11-30T10:00:00Z
