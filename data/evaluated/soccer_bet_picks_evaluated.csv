@@ -201,3 +201,15 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 1,grover,2025-11-30,265616,Aston Villa vs Wolverhampton,1,0,Aston Villa -1.5,130,3,loss,-3.0
 2,grover,2025-11-30,265616,Aston Villa vs Wolverhampton,1,0,Aston Villa -1.5,135,3,loss,-3.0
 7,grover,2025-11-30,265828,Strasbourg vs Brest,1,2,Strasbourg -0.5,-125,2,loss,-2.0
+9,cliff,2025-11-30,265816,Atalanta vs Fiorentina,2,0,Atalanta -0.5,-145,1,win,0.6896551724137931
+6,cliff,2025-11-30,265623,FRA vs WOLF,1,1,FRA -0.5,-125,2,loss,-2.0
+7,cliff,2025-11-30,265816,Atalanta vs Fiorentina,2,0,Atalanta -0.5,-152,2,win,1.3157894736842106
+10,cliff,2025-11-30,265830,Le Havre vs Lille,0,1,Lille -0.5,-130,1,win,0.7692307692307693
+3,david,2025-11-30,265806,Sevilla vs Betis,0,2,Sevilla +0.5,130,2,loss,-2.0
+6,david,2025-11-30,265614,Chelsea vs Arsenal,1,1,Chelsea +0.5,110,1,win,1.1
+8,david,2025-11-30,265827,Lorient vs Nice,3,1,Nice +0.5,-185,1,loss,-1.0
+9,david,2025-11-30,265831,Angers vs Lens,1,2,Angers +0.5,105,1,loss,-1.0
+4,gary,2025-11-30,265830,Le Havre vs Lille,0,1,Lille ML,-119,3,win,2.5210084033613445
+5,gary,2025-11-30,265623,FRA vs WOLF,1,1,FRA ML,-115,2,loss,-2.0
+6,grover,2025-11-30,265816,Atalanta vs Fiorentina,2,0,Atalanta -0.5,-145,2,win,1.3793103448275863
+8,grover,2025-11-30,265827,Lorient vs Nice,3,1,Lorient -0.5,130,2,win,2.6
