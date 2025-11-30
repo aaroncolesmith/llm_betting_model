@@ -182,3 +182,5 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 2,grover,2025-11-29,265814,Atlético vs Real Oviedo,2,0,Atlético -1.5,-155,3,win,1.935483870967742
 4,grover,2025-11-29,265825,Marseille vs Toulouse,2,2,Marseille -1,-125,3,loss,-3.0
 9,grover,2025-11-29,265821,Milan vs Lazio,1,0,Milan -0.5,-175,2,win,1.1428571428571428
+7,cliff,2025-11-29,282400,Inter Miami vs NYCFC,5,1,Inter Miami -1.5,120,2,win,2.4
+8,grover,2025-11-29,282400,Inter Miami vs NYCFC,5,1,Inter Miami -1.5,125,2,win,2.5
