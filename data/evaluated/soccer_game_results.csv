@@ -1061,3 +1061,57 @@ game_id,start_time,league_name,home_team,away_team,home_score,away_score,status
 265614,2025-11-30T16:30:00.000Z,epl,Chelsea,Arsenal,1,1,complete
 265623,2025-11-30T16:30:00.000Z,bundesliga,FRA,WOLF,1,1,complete
 265816,2025-11-30T17:00:00.000Z,seriea,Atalanta,Fiorentina,2,0,complete
+265820,2025-11-30T11:30:00.000Z,seriea,Lecce,Torino,2,1,complete
+265613,2025-11-30T12:00:00.000Z,epl,Crystal Palace,Man U,1,2,complete
+265809,2025-11-30T13:00:00.000Z,laliga,Real Sociedad,Villarreal,2,3,complete
+265823,2025-11-30T14:00:00.000Z,seriea,Pisa,Inter,0,2,complete
+265828,2025-11-30T14:00:00.000Z,ligue1,Strasbourg,Brest,1,2,complete
+265607,2025-11-30T14:05:00.000Z,epl,West Ham,Liverpool,0,2,complete
+265610,2025-11-30T14:05:00.000Z,epl,Nottingham,Albion,0,2,complete
+265616,2025-11-30T14:05:00.000Z,epl,Aston Villa,Wolverhampton,1,0,complete
+265617,2025-11-30T14:30:00.000Z,bundesliga,HSV,Stuttgart,2,1,complete
+265806,2025-11-30T15:15:00.000Z,laliga,Sevilla,Betis,0,2,complete
+265827,2025-11-30T16:15:00.000Z,ligue1,Lorient,Nice,3,1,complete
+265830,2025-11-30T16:15:00.000Z,ligue1,Le Havre,Lille,0,1,complete
+265831,2025-11-30T16:15:00.000Z,ligue1,Angers,Lens,1,2,complete
+265614,2025-11-30T16:30:00.000Z,epl,Chelsea,Arsenal,1,1,complete
+265623,2025-11-30T16:30:00.000Z,bundesliga,FRA,WOLF,1,1,complete
+265816,2025-11-30T17:00:00.000Z,seriea,Atalanta,Fiorentina,2,0,complete
+265813,2025-11-30T17:30:00.000Z,laliga,Celta Vigo,Espanyol,0,1,complete
+265622,2025-11-30T18:30:00.000Z,bundesliga,Freiburg,Mainz,4,0,complete
+265820,2025-11-30T11:30:00.000Z,seriea,Lecce,Torino,2,1,complete
+265613,2025-11-30T12:00:00.000Z,epl,Crystal Palace,Man U,1,2,complete
+265809,2025-11-30T13:00:00.000Z,laliga,Real Sociedad,Villarreal,2,3,complete
+265823,2025-11-30T14:00:00.000Z,seriea,Pisa,Inter,0,2,complete
+265828,2025-11-30T14:00:00.000Z,ligue1,Strasbourg,Brest,1,2,complete
+265607,2025-11-30T14:05:00.000Z,epl,West Ham,Liverpool,0,2,complete
+265610,2025-11-30T14:05:00.000Z,epl,Nottingham,Albion,0,2,complete
+265616,2025-11-30T14:05:00.000Z,epl,Aston Villa,Wolverhampton,1,0,complete
+265617,2025-11-30T14:30:00.000Z,bundesliga,HSV,Stuttgart,2,1,complete
+265806,2025-11-30T15:15:00.000Z,laliga,Sevilla,Betis,0,2,complete
+265827,2025-11-30T16:15:00.000Z,ligue1,Lorient,Nice,3,1,complete
+265830,2025-11-30T16:15:00.000Z,ligue1,Le Havre,Lille,0,1,complete
+265831,2025-11-30T16:15:00.000Z,ligue1,Angers,Lens,1,2,complete
+265614,2025-11-30T16:30:00.000Z,epl,Chelsea,Arsenal,1,1,complete
+265623,2025-11-30T16:30:00.000Z,bundesliga,FRA,WOLF,1,1,complete
+265816,2025-11-30T17:00:00.000Z,seriea,Atalanta,Fiorentina,2,0,complete
+265813,2025-11-30T17:30:00.000Z,laliga,Celta Vigo,Espanyol,0,1,complete
+265622,2025-11-30T18:30:00.000Z,bundesliga,Freiburg,Mainz,4,0,complete
+265820,2025-11-30T11:30:00.000Z,seriea,Lecce,Torino,2,1,complete
+265613,2025-11-30T12:00:00.000Z,epl,Crystal Palace,Man U,1,2,complete
+265809,2025-11-30T13:00:00.000Z,laliga,Real Sociedad,Villarreal,2,3,complete
+265823,2025-11-30T14:00:00.000Z,seriea,Pisa,Inter,0,2,complete
+265828,2025-11-30T14:00:00.000Z,ligue1,Strasbourg,Brest,1,2,complete
+265607,2025-11-30T14:05:00.000Z,epl,West Ham,Liverpool,0,2,complete
+265610,2025-11-30T14:05:00.000Z,epl,Nottingham,Albion,0,2,complete
+265616,2025-11-30T14:05:00.000Z,epl,Aston Villa,Wolverhampton,1,0,complete
+265617,2025-11-30T14:30:00.000Z,bundesliga,HSV,Stuttgart,2,1,complete
+265806,2025-11-30T15:15:00.000Z,laliga,Sevilla,Betis,0,2,complete
+265827,2025-11-30T16:15:00.000Z,ligue1,Lorient,Nice,3,1,complete
+265830,2025-11-30T16:15:00.000Z,ligue1,Le Havre,Lille,0,1,complete
+265831,2025-11-30T16:15:00.000Z,ligue1,Angers,Lens,1,2,complete
+265614,2025-11-30T16:30:00.000Z,epl,Chelsea,Arsenal,1,1,complete
+265623,2025-11-30T16:30:00.000Z,bundesliga,FRA,WOLF,1,1,complete
+265816,2025-11-30T17:00:00.000Z,seriea,Atalanta,Fiorentina,2,0,complete
+265813,2025-11-30T17:30:00.000Z,laliga,Celta Vigo,Espanyol,0,1,complete
+265622,2025-11-30T18:30:00.000Z,bundesliga,Freiburg,Mainz,4,0,complete
