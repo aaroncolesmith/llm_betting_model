@@ -228,15 +228,5 @@ game_id,home_team,away_team,start_time,num_bets_first,num_bets_avg,num_bets_last
 
 Here is the historical dataset of your betting advice and results:
 rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,bet_payout
-9,chatgpt,2025-11-26,261591,Celtics vs Pistons,117.0,114.0,Pistons -3.5,-114,1,loss,-1.0
-1,chatgpt,2025-11-26,261600,Raptors vs Pacers,97.0,95.0,Raptors -9.5,-110,3,loss,-3.0
-2,chatgpt,2025-11-26,261601,Thunder vs Timberwolves,113.0,105.0,Thunder -8.5,-109,3,loss,-3.0
-3,chatgpt,2025-11-26,261593,Heat vs Bucks,106.0,103.0,Heat -7.5,-114,2,loss,-2.0
-4,chatgpt,2025-11-26,261602,Pelicans vs Grizzlies,128.0,133.0,Grizzlies -2.5,-105,2,win,1.9047619047619049
-6,chatgpt,2025-11-26,261592,Hornets vs Knicks,101.0,129.0,Knicks -6.5,-110,2,win,1.818181818181818
-5,chatgpt,2025-11-26,261605,Warriors vs Rockets,100.0,104.0,Warriors -1.5,-110,2,loss,-2.0
-7,chatgpt,2025-11-26,261603,Trail Blazers vs Spurs,102.0,115.0,Trail Blazers -2.0,-110,1,loss,-1.0
-8,chatgpt,2025-11-26,261604,Kings vs Suns,100.0,112.0,Suns -3.5,-110,1,win,0.9090909090909092
-10,chatgpt,2025-11-28,261616,Lakers vs Mavericks,129.0,119.0,Lakers -6.5,-110,1,win,0.9090909090909092
 
     
