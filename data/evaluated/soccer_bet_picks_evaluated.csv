@@ -221,3 +221,6 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 10,gemini,2025-11-30,265812,Girona vs Real Madrid,1,1,Real Madrid -1.5,110,1,loss,-1.0
 1,grok,2025-11-30,265833,Lyon vs Nantes,3,0,Lyon -1.5,110,3,win,3.3000000000000003
 10,grok,2025-11-30,265824,Roma vs Napoli,0,1,Roma -0.5,145,1,loss,-1.0
+4,claude,2025-12-01,265817,Bologna vs Cremonese,1,3,Bologna -1.5,125,2,loss,-2.0
+7,gemini,2025-12-01,265810,Vallecano vs Valencia,1,1,Vallecano ML,-105,2,loss,-2.0
+3,grok,2025-12-01,265817,Bologna vs Cremonese,1,3,Bologna -1.5,125,3,loss,-3.0

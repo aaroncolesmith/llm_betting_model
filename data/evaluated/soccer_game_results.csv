@@ -1136,3 +1136,5 @@ game_id,start_time,league_name,home_team,away_team,home_score,away_score,status
 265824,2025-11-30T19:45:00.000Z,seriea,Roma,Napoli,0,1,complete
 265833,2025-11-30T19:45:00.000Z,ligue1,Lyon,Nantes,3,0,complete
 265812,2025-11-30T20:00:00.000Z,laliga,Girona,Real Madrid,1,1,complete
+265817,2025-12-01T19:45:00.000Z,seriea,Bologna,Cremonese,1,3,complete
+265810,2025-12-01T20:00:00.000Z,laliga,Vallecano,Valencia,1,1,complete
