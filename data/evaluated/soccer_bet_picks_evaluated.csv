@@ -1,223 +1,223 @@
 rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,bet_payout
-1,cliff,2025-11-21,263445,Mainz vs HOFF,1,1,Under 2.5,130,3,win,3.9
-2,cliff,2025-11-21,263516,Nice vs Marseille,1,5,Marseille -0.5,-115,3,win,2.608695652173913
-3,cliff,2025-11-21,263496,Valencia vs Levante,1,0,Valencia -0.5,-102,3,win,2.941176470588235
-9,david,2025-11-21,263496,Valencia vs Levante,1,0,Valencia -0.5,-102,1,win,0.9803921568627452
-1,david,2025-11-21,263496,Valencia vs Levante,1,0,Valencia -0.5,-102,3,win,2.941176470588235
-6,david,2025-11-21,263445,Mainz vs HOFF,1,1,Mainz -0.5,130,1,loss,-1.0
-10,gary,2025-11-21,263445,Mainz vs HOFF,1,1,Over 2.5,-167,1,loss,-1.0
-1,gary,2025-11-21,263516,Nice vs Marseille,1,5,Marseille ML,-102,3,win,2.941176470588235
-4,gary,2025-11-21,263445,Mainz vs HOFF,1,1,Over 2.5,-167,2,loss,-2.0
-5,gary,2025-11-21,263496,Valencia vs Levante,1,0,Valencia ML,105,2,win,2.1
-1,cliff,2025-11-22,263435,Burnley vs Chelsea,0,2,Chelsea -1.5,125,3,win,3.75
-4,gary,2025-11-22,263435,Burnley vs Chelsea,0,2,Chelsea -1.5,125,2,win,2.5
-4,cliff,2025-11-22,263504,Alaves vs Celta Vigo,0,1,Under 2.5,-168,2,win,1.1904761904761905
-4,david,2025-11-22,263504,Alaves vs Celta Vigo,0,1,Alaves -0.5,135,2,loss,-2.0
-3,gary,2025-11-22,263504,Alaves vs Celta Vigo,0,1,Under 2.5,-168,2,win,1.1904761904761905
-3,cliff,2025-11-22,263447,Bayern vs Freiburg,6,2,Bayern -2.5,120,3,win,3.6
-10,cliff,2025-11-22,263446,Dortmund vs Stuttgart,3,3,Dortmund -0.5,-143,1,loss,-1.0
-5,cliff,2025-11-22,263512,Udinese vs Bologna,0,3,Bologna -0.5,-105,2,win,1.9047619047619049
-6,cliff,2025-11-22,263442,Augsburg vs HSV,1,0,Augsburg -0.5,115,2,win,2.3
-1,david,2025-11-22,263447,Bayern vs Freiburg,6,2,Bayern -2.5,120,3,win,3.6
-4,david,2025-11-22,263446,Dortmund vs Stuttgart,3,3,Dortmund -0.5,-143,2,loss,-2.0
-8,david,2025-11-22,263442,Augsburg vs HSV,1,0,Augsburg -0.5,115,1,win,1.15
-2,david,2025-11-22,263442,Augsburg vs HSV,1,0,Augsburg -0.5,115,3,win,3.45
-5,david,2025-11-22,263512,Udinese vs Bologna,0,3,Bologna -0.5,-105,1,win,0.9523809523809524
-1,gary,2025-11-22,263447,Bayern vs Freiburg,6,2,Bayern -2.5,120,3,win,3.6
-7,gary,2025-11-22,263446,Dortmund vs Stuttgart,3,3,Dortmund -0.5,-143,1,loss,-1.0
-6,gary,2025-11-22,263442,Augsburg vs HSV,1,0,Augsburg ML,130,1,win,1.3
-7,gary,2025-11-22,263512,Udinese vs Bologna,0,3,Bologna ML,105,1,win,1.05
-4,cliff,2025-11-22,263432,Liverpool vs Nottingham,0,3,Liverpool -1.5,105,2,loss,-2.0
-5,cliff,2025-11-22,263498,Barcelona vs Athletic,4,0,Barcelona -1.5,108,2,win,2.16
-8,cliff,2025-11-22,263438,Bournemouth vs West Ham,2,2,Bournemouth -0.5,-175,2,loss,-2.0
-9,cliff,2025-11-22,263429,Wolverhampton vs Crystal Palace,0,2,Crystal Palace -0.5,-110,1,win,0.9090909090909092
-7,cliff,2025-11-22,263436,Albion vs Brentford,2,1,Albion -0.5,-118,2,win,1.694915254237288
-2,david,2025-11-22,263432,Liverpool vs Nottingham,0,3,Liverpool -1.5,105,3,loss,-3.0
-3,david,2025-11-22,263498,Barcelona vs Athletic,4,0,Barcelona -1.5,108,3,win,3.24
-6,david,2025-11-22,263438,Bournemouth vs West Ham,2,2,Bournemouth -0.5,-175,2,loss,-2.0
-10,david,2025-11-22,263436,Albion vs Brentford,2,1,Albion -0.5,-118,1,win,0.847457627118644
-3,david,2025-11-22,263436,Albion vs Brentford,2,1,Albion -0.5,-118,2,win,1.694915254237288
-2,gary,2025-11-22,263432,Liverpool vs Nottingham,0,3,Liverpool -1.5,105,3,loss,-3.0
-3,gary,2025-11-22,263498,Barcelona vs Athletic,4,0,Barcelona -1.5,108,3,win,3.24
-9,gary,2025-11-22,263436,Albion vs Brentford,2,1,Albion -0.5,-118,1,win,0.847457627118644
-2,gary,2025-11-22,263436,Albion vs Brentford,2,1,Albion ML,-108,3,win,2.7777777777777777
-12,cliff,2025-11-22,263523,Lens vs Strasbourg,1,0,Lens -0.5,-105,1,win,0.9523809523809524
-7,david,2025-11-22,263523,Lens vs Strasbourg,1,0,Lens -0.5,-105,2,win,1.9047619047619049
-7,cliff,2025-11-22,263430,Newcastle vs Man City,2,1,Man City -0.5,-110,2,loss,-2.0
-6,gary,2025-11-22,263430,Newcastle vs Man City,2,1,Man City -0.5,-110,2,loss,-2.0
-2,cliff,2025-11-22,263515,PSG vs Le Havre,3,0,PSG -2.5,134,3,win,4.0200000000000005
-6,cliff,2025-11-22,263495,Villarreal vs Mallorca,2,1,Villarreal -1.5,115,2,loss,-2.0
-11,cliff,2025-11-22,263514,Napoli vs Atalanta,3,1,Napoli -0.5,110,1,win,1.1
-5,david,2025-11-22,263515,PSG vs Le Havre,3,0,PSG -2.5,134,2,win,2.68
-5,gary,2025-11-22,263515,PSG vs Le Havre,3,0,PSG -2.5,134,2,win,2.68
-8,gary,2025-11-22,263495,Villarreal vs Mallorca,2,1,Villarreal -1.5,115,1,loss,-1.0
-1,cliff,2025-11-23,263437,Arsenal vs Tottenham,4,1,Arsenal -1.5,115,3,win,3.45
-8,cliff,2025-11-23,263509,Lazio vs Lecce,2,0,Lazio -0.5,-145,2,win,1.3793103448275863
-4,david,2025-11-23,263437,Arsenal vs Tottenham,4,1,Arsenal -1.5,115,2,win,2.3
-5,david,2025-11-23,263509,Lazio vs Lecce,2,0,Lazio -0.5,-145,2,win,1.3793103448275863
-9,david,2025-11-23,263519,Brest vs Metz,3,2,Brest -0.5,-135,1,win,0.7407407407407407
-4,gary,2025-11-23,263509,Lazio vs Lecce,2,0,Lazio ML,-135,2,win,1.4814814814814814
-8,gary,2025-11-23,263497,Getafe vs Atlético,0,1,Atlético ML,-130,1,win,0.7692307692307693
-9,gary,2025-11-23,263520,Toulouse vs Angers,0,1,Toulouse ML,-145,1,loss,-1.0
-10,gary,2025-11-23,263519,Brest vs Metz,3,2,Brest ML,-125,1,win,0.8
-3,cliff,2025-11-23,263502,Elche vs Real Madrid,2,2,Real Madrid -1.5,-105,3,loss,-3.0
-4,cliff,2025-11-23,263508,Inter vs Milan,0,1,Under 2.5,-131,2,win,1.5267175572519085
-5,cliff,2025-11-23,263518,Lille vs Paris FC,4,2,Lille -0.5,-175,2,win,1.1428571428571428
-8,david,2025-11-23,263518,Lille vs Paris FC,4,2,Lille -0.5,-175,1,win,0.5714285714285714
-3,gary,2025-11-23,263502,Elche vs Real Madrid,2,2,Real Madrid -1.5,-105,3,loss,-3.0
-6,gary,2025-11-23,263518,Lille vs Paris FC,4,2,Lille ML,-155,2,win,1.2903225806451613
-10,david,2025-11-23,281952,Union vs NYCFC,0,1,Union -0.5,-120,1,loss,-1.0
-7,cliff,2025-11-24,272227,Man U vs Everton,0,1,Man U -0.5,-150,2,loss,-2.0
-6,cliff,2025-11-24,272227,Man U vs Everton,0,1,Man U -0.5,-140,2,loss,-2.0
-6,david,2025-11-24,263510,Sassuolo vs Pisa,2,2,Sassuolo -0.5,-105,2,loss,-2.0
-7,david,2025-11-24,263501,Espanyol vs Sevilla,2,1,Espanyol -0.5,-105,1,win,0.9523809523809524
-8,david,2025-11-24,263501,Espanyol vs Sevilla,2,1,Espanyol -0.5,-110,1,win,0.9090909090909092
-9,david,2025-11-24,272227,Man U vs Everton,0,1,Man U -0.5,-140,1,loss,-1.0
-5,gary,2025-11-24,272227,Man U vs Everton,0,1,Man U ML,-135,2,loss,-2.0
-7,gary,2025-11-24,263510,Sassuolo vs Pisa,2,2,Sassuolo ML,105,2,loss,-2.0
-6,cliff,2025-11-25,265699,Galatasaray vs Union Saint-Gilloise,0,1,Galatasaray -0.5,-185,2,loss,-2.0
-5,cliff,2025-11-25,265699,Galatasaray vs Union Saint-Gilloise,0,1,Under 3.5,-173,2,win,1.1560693641618498
-2,david,2025-11-25,265699,Galatasaray vs Union Saint-Gilloise,0,1,Galatasaray -0.5,-185,3,loss,-3.0
-5,david,2025-11-25,265699,Galatasaray vs Union Saint-Gilloise,0,1,Galatasaray -0.5,-185,2,loss,-2.0
-2,cliff,2025-11-25,265703,Man City vs Leverkusen,0,2,Man City -1.5,-165,3,loss,-3.0
-9,cliff,2025-11-25,265706,Dortmund vs Villarreal,4,0,Under 2.5,110,1,loss,-1.0
-10,cliff,2025-11-25,265705,Chelsea vs Barcelona,3,0,Chelsea -0.5,115,1,win,1.15
-11,cliff,2025-11-25,265700,Napoli vs Qarabag,2,0,Napoli -1.5,-130,1,win,0.7692307692307693
-1,cliff,2025-11-25,265703,Man City vs Leverkusen,0,2,Man City -1.5,-165,3,loss,-3.0
-9,cliff,2025-11-25,265706,Dortmund vs Villarreal,4,0,Dortmund -0.5,-135,1,win,0.7407407407407407
-1,david,2025-11-25,265703,Man City vs Leverkusen,0,2,Man City -1.5,-165,3,loss,-3.0
-2,gary,2025-11-25,265700,Napoli vs Qarabag,2,0,Napoli -1.5,-130,3,win,2.307692307692308
-8,cliff,2025-11-26,265708,Copenhagen vs Kairat Almaty,3,2,Copenhagen -1.5,-115,2,loss,-2.0
-4,cliff,2025-11-26,265708,Copenhagen vs Kairat Almaty,3,2,Copenhagen -1.5,-120,2,loss,-2.0
-3,david,2025-11-26,265708,Copenhagen vs Kairat Almaty,3,2,Copenhagen -1.5,-115,3,loss,-3.0
-4,david,2025-11-26,265708,Copenhagen vs Kairat Almaty,3,2,Copenhagen -1.5,-115,2,loss,-2.0
-1,gary,2025-11-26,265708,Copenhagen vs Kairat Almaty,3,2,Copenhagen -1.5,-115,3,loss,-3.0
-2,cliff,2025-11-26,265712,Liverpool vs PSV,1,4,Liverpool -1.5,-135,3,loss,-3.0
-3,cliff,2025-11-26,265710,PSG vs Tottenham,5,3,PSG -1.5,105,3,win,3.1500000000000004
-11,cliff,2025-11-26,265715,Arsenal vs Bayern,3,1,Under 2.5,110,1,loss,-1.0
-1,cliff,2025-11-26,265712,Liverpool vs PSV,1,4,Liverpool -1.5,-155,3,loss,-3.0
-5,cliff,2025-11-26,265710,PSG vs Tottenham,5,3,PSG -1.5,105,2,win,2.1
-10,cliff,2025-11-26,265715,Arsenal vs Bayern,3,1,Under 2.5,110,1,loss,-1.0
-3,david,2025-11-26,265712,Liverpool vs PSV,1,4,Liverpool -1.5,-135,3,loss,-3.0
-2,david,2025-11-26,265712,Liverpool vs PSV,1,4,Liverpool -1.5,-155,3,loss,-3.0
-6,gary,2025-11-26,265712,Liverpool vs PSV,1,4,Liverpool -1.5,-135,2,loss,-2.0
-7,gary,2025-11-26,265709,Sporting vs Brugge,3,0,Sporting ML,-147,2,win,1.3605442176870748
-8,gary,2025-11-26,265710,PSG vs Tottenham,5,3,PSG -1.5,105,1,win,1.05
-9,gary,2025-11-26,265711,Olympiacos vs Real Madrid,3,4,Real Madrid -1.5,-102,1,loss,-1.0
-4,cliff,2025-11-27,265906,Aston Villa vs Young Boys,2,1,Aston Villa -1.5,-168,2,loss,-2.0
-7,cliff,2025-11-27,265759,Porto vs Nice,3,0,Porto -1.5,110,2,win,2.2
-10,cliff,2025-11-27,265905,Feyenoord vs Celtic,1,3,Under 2.5,136,1,loss,-1.0
-2,cliff,2025-11-27,265906,Aston Villa vs Young Boys,2,1,Aston Villa -1.5,-166,3,loss,-3.0
-6,cliff,2025-11-27,265759,Porto vs Nice,3,0,Porto -1.5,110,2,win,2.2
-9,cliff,2025-11-27,265905,Feyenoord vs Celtic,1,3,Feyenoord -0.5,-152,1,loss,-1.0
-2,david,2025-11-27,265906,Aston Villa vs Young Boys,2,1,Aston Villa -1.5,-168,3,loss,-3.0
-7,david,2025-11-27,265905,Feyenoord vs Celtic,1,3,Feyenoord -0.5,-160,2,loss,-2.0
-10,david,2025-11-27,265904,Lille vs Zagreb,4,0,Lille -0.5,-175,1,win,0.5714285714285714
-1,david,2025-11-27,265906,Aston Villa vs Young Boys,2,1,Aston Villa -1.5,-166,3,loss,-3.0
-4,david,2025-11-27,265759,Porto vs Nice,3,0,Porto -1.5,110,2,win,2.2
-5,david,2025-11-27,265758,Fenerbahce vs Ferencvaros,1,1,Fenerbahce -1.5,152,2,loss,-2.0
-6,david,2025-11-27,265760,Roma vs Midtjylland,2,1,Roma -1.5,120,2,loss,-2.0
-1,gary,2025-11-27,265904,Lille vs Zagreb,4,0,Lille ML,-163,3,win,1.8404907975460123
-2,gary,2025-11-27,265905,Feyenoord vs Celtic,1,3,Feyenoord ML,-145,3,loss,-3.0
-3,gary,2025-11-27,265759,Porto vs Nice,3,0,Porto -1.5,110,3,win,3.3000000000000003
-4,gary,2025-11-27,265903,Ludogorets vs Celta Vigo,3,2,Celta Vigo ML,-135,2,loss,-2.0
-5,gary,2025-11-27,265906,Aston Villa vs Young Boys,2,1,Aston Villa -1.5,-168,2,loss,-2.0
-10,gary,2025-11-27,265760,Roma vs Midtjylland,2,1,Roma -1.5,115,1,loss,-1.0
-3,gary,2025-11-27,265906,Aston Villa vs Young Boys,2,1,Aston Villa -1.5,-166,3,loss,-3.0
-6,gary,2025-11-27,265905,Feyenoord vs Celtic,1,3,Feyenoord ML,-138,2,loss,-2.0
-8,gary,2025-11-27,265903,Ludogorets vs Celta Vigo,3,2,Celta Vigo ML,-135,2,loss,-2.0
-1,grover,2025-11-27,265758,Fenerbahce vs Ferencvaros,1,1,Fenerbahce -1.5,152,3,loss,-3.0
-2,grover,2025-11-27,265757,PAOK vs Brann,1,1,PAOK -1.5,150,3,loss,-3.0
-3,grover,2025-11-27,265904,Lille vs Zagreb,4,0,Lille -1.5,135,3,win,4.050000000000001
-6,grover,2025-11-27,265760,Roma vs Midtjylland,2,1,Roma -1.5,120,2,loss,-2.0
-7,grover,2025-11-27,265756,Viktoria vs Freiburg,0,0,Freiburg -0.5,110,2,loss,-2.0
-8,grover,2025-11-27,265759,Porto vs Nice,3,0,Porto -1.5,110,2,win,2.2
-3,cliff,2025-11-27,265907,Nottingham vs Malmo,3,0,Nottingham -1.5,-165,3,win,1.8181818181818183
-7,cliff,2025-11-27,265765,Betis vs FC Utrecht,2,1,Betis -1.5,-110,2,loss,-2.0
-8,cliff,2025-11-27,265910,Bologna vs Red Bull,4,1,Bologna -1.5,105,1,win,1.05
-3,david,2025-11-27,265907,Nottingham vs Malmo,3,0,Nottingham -1.5,-165,3,win,1.8181818181818183
-8,david,2025-11-27,265908,Genk vs Basel,2,1,Genk -0.5,-118,1,win,0.847457627118644
-9,david,2025-11-27,265762,PAN vs Sturm Graz,2,1,PAN -0.5,-165,1,win,0.6060606060606061
-10,david,2025-11-27,265765,Betis vs FC Utrecht,2,1,Betis -1.5,-110,1,loss,-1.0
-2,gary,2025-11-27,265907,Nottingham vs Malmo,3,0,Nottingham -1.5,-165,3,win,1.8181818181818183
-5,gary,2025-11-27,265908,Genk vs Basel,2,1,Genk ML,-110,2,win,1.818181818181818
-7,gary,2025-11-27,265763,Maccabi vs Lyon,0,6,Lyon ML,-131,2,win,1.5267175572519085
-9,gary,2025-11-27,265765,Betis vs FC Utrecht,2,1,Betis -1.5,-110,1,loss,-1.0
-10,gary,2025-11-27,265910,Bologna vs Red Bull,4,1,Bologna -1.5,105,1,win,1.05
-4,grover,2025-11-27,265909,Go Ahead Eagles vs Stuttgart,0,4,Stuttgart -1.5,130,2,win,2.6
-5,grover,2025-11-27,265764,Belgrade vs Steaua,1,0,Belgrade -1.5,125,2,loss,-2.0
-9,grover,2025-11-27,265761,Rangers vs Braga,1,1,Braga -0.5,115,2,loss,-2.0
-10,grover,2025-11-27,265910,Bologna vs Red Bull,4,1,Bologna -1.5,105,2,win,2.1
-11,cliff,2025-11-28,265818,Como 1907 vs Sassuolo,2,0,Como 1907 -0.5,-175,1,win,0.5714285714285714
-1,gary,2025-11-28,265818,Como 1907 vs Sassuolo,2,0,Como 1907 ML,-156,3,win,1.923076923076924
-4,gary,2025-11-28,265829,Metz vs Rennes,0,1,Rennes ML,-101,2,win,1.98019801980198
-1,david,2025-11-29,265811,Mallorca vs Osasuna,2,2,Mallorca -0.5,120,3,loss,-3.0
-2,david,2025-11-29,265819,Genoa vs Hellas,2,1,Genoa -0.5,-102,2,win,1.96078431372549
-3,david,2025-11-29,265619,Union Berlin vs Heidenheim,1,2,Union Berlin -0.5,-160,2,loss,-2.0
-7,david,2025-11-29,265615,Brentford vs Burnley,3,1,Burnley +1.5,-175,1,loss,-1.0
-8,david,2025-11-29,265609,Sunderland vs Bournemouth,3,2,Sunderland +0.5,-175,1,win,0.5714285714285714
-1,gary,2025-11-29,265619,Union Berlin vs Heidenheim,1,2,Union Berlin ML,-150,3,loss,-3.0
-6,gary,2025-11-29,265625,Bayern vs St Pauli,3,1,Bayern -2.5,-126,2,loss,-2.0
-8,gary,2025-11-29,265819,Genoa vs Hellas,2,1,Genoa ML,105,2,win,2.1
-9,gary,2025-11-29,265611,Man City vs Leeds,3,2,Man City -1.5,-155,1,loss,-1.0
-3,grover,2025-11-29,265625,Bayern vs St Pauli,3,1,Bayern -2.5,-126,3,loss,-3.0
-5,grover,2025-11-29,265611,Man City vs Leeds,3,2,Man City -1.5,-155,2,loss,-2.0
-6,grover,2025-11-29,265615,Brentford vs Burnley,3,1,Brentford -1.5,120,2,win,2.4
-10,grover,2025-11-29,265619,Union Berlin vs Heidenheim,1,2,Union Berlin -0.5,-160,1,loss,-1.0
-2,cliff,2025-11-29,265815,Juventus vs Cagliari,2,1,Juventus -1.5,-145,3,loss,-3.0
-6,cliff,2025-11-29,265826,Monaco vs PSG,1,0,PSG -0.5,-165,2,loss,-2.0
-5,gary,2025-11-29,265826,Monaco vs PSG,1,0,PSG ML,-170,2,loss,-2.0
-7,gary,2025-11-29,265808,Barcelona vs Alaves,3,1,Barcelona -2.0,-115,2,push,0.0
-7,grover,2025-11-29,265815,Juventus vs Cagliari,2,1,Juventus -1.5,-102,2,loss,-2.0
-10,cliff,2025-11-29,265832,Paris FC vs Auxerre,1,1,Paris FC -0.5,-120,1,loss,-1.0
-5,david,2025-11-29,265832,Paris FC vs Auxerre,1,1,Paris FC -0.5,-135,1,loss,-1.0
-9,david,2025-11-29,265612,Everton vs Newcastle,1,4,Everton +0.5,-200,1,loss,-1.0
-10,david,2025-11-29,265807,Levante vs Athletic,0,2,Levante +0.5,105,1,loss,-1.0
-2,gary,2025-11-29,265832,Paris FC vs Auxerre,1,1,Paris FC ML,-120,3,loss,-3.0
-1,cliff,2025-11-29,265814,Atlético vs Real Oviedo,2,0,Atlético -1.5,-155,3,win,1.935483870967742
-3,cliff,2025-11-29,265821,Milan vs Lazio,1,0,Milan -0.5,-165,2,win,1.2121212121212122
-4,cliff,2025-11-29,265825,Marseille vs Toulouse,2,2,Marseille -0.5,-175,2,loss,-2.0
-6,david,2025-11-29,265608,Tottenham vs Fulham,1,2,Tottenham -0.5,110,1,loss,-1.0
-3,gary,2025-11-29,265821,Milan vs Lazio,1,0,Milan ML,-160,3,win,1.875
-2,grover,2025-11-29,265814,Atlético vs Real Oviedo,2,0,Atlético -1.5,-155,3,win,1.935483870967742
-4,grover,2025-11-29,265825,Marseille vs Toulouse,2,2,Marseille -1,-125,3,loss,-3.0
-9,grover,2025-11-29,265821,Milan vs Lazio,1,0,Milan -0.5,-175,2,win,1.1428571428571428
-7,cliff,2025-11-29,282400,Inter Miami vs NYCFC,5,1,Inter Miami -1.5,120,2,win,2.4
-8,grover,2025-11-29,282400,Inter Miami vs NYCFC,5,1,Inter Miami -1.5,125,2,win,2.5
-4,david,2025-11-30,265820,Lecce vs Torino,2,1,Lecce +0.5,145,2,win,2.9
-10,david,2025-11-30,265809,Real Sociedad vs Villarreal,2,3,Real Sociedad +0.5,135,1,loss,-1.0
-5,cliff,2025-11-30,265616,Aston Villa vs Wolverhampton,1,0,Aston Villa -1.5,130,2,loss,-2.0
-8,cliff,2025-11-30,265828,Strasbourg vs Brest,1,2,Strasbourg -0.5,-135,1,loss,-1.0
-2,cliff,2025-11-30,265823,Pisa vs Inter,0,2,Inter -1.5,-120,3,win,2.5
-3,cliff,2025-11-30,265607,West Ham vs Liverpool,0,2,Liverpool -0.5,-167,2,win,1.1976047904191616
-5,cliff,2025-11-30,265828,Strasbourg vs Brest,1,2,Strasbourg -0.5,-140,2,loss,-2.0
-4,david,2025-11-30,265828,Strasbourg vs Brest,1,2,Strasbourg -0.5,-135,2,loss,-2.0
-1,david,2025-11-30,265607,West Ham vs Liverpool,0,2,West Ham +0.5,125,3,loss,-3.0
-2,david,2025-11-30,265617,HSV vs Stuttgart,2,1,HSV +0.5,110,2,win,2.2
-5,david,2025-11-30,265610,Nottingham vs Albion,0,2,Nottingham +0.5,145,1,loss,-1.0
-10,gary,2025-11-30,265823,Pisa vs Inter,0,2,Inter -1.5,-110,1,win,0.9090909090909092
-2,gary,2025-11-30,265828,Strasbourg vs Brest,1,2,Strasbourg ML,-120,3,loss,-3.0
-8,gary,2025-11-30,265823,Pisa vs Inter,0,2,Inter -1.5,-120,2,win,1.6666666666666667
-1,grover,2025-11-30,265616,Aston Villa vs Wolverhampton,1,0,Aston Villa -1.5,130,3,loss,-3.0
-2,grover,2025-11-30,265616,Aston Villa vs Wolverhampton,1,0,Aston Villa -1.5,135,3,loss,-3.0
-7,grover,2025-11-30,265828,Strasbourg vs Brest,1,2,Strasbourg -0.5,-125,2,loss,-2.0
-9,cliff,2025-11-30,265816,Atalanta vs Fiorentina,2,0,Atalanta -0.5,-145,1,win,0.6896551724137931
-6,cliff,2025-11-30,265623,FRA vs WOLF,1,1,FRA -0.5,-125,2,loss,-2.0
-7,cliff,2025-11-30,265816,Atalanta vs Fiorentina,2,0,Atalanta -0.5,-152,2,win,1.3157894736842106
-10,cliff,2025-11-30,265830,Le Havre vs Lille,0,1,Lille -0.5,-130,1,win,0.7692307692307693
-3,david,2025-11-30,265806,Sevilla vs Betis,0,2,Sevilla +0.5,130,2,loss,-2.0
-6,david,2025-11-30,265614,Chelsea vs Arsenal,1,1,Chelsea +0.5,110,1,win,1.1
-8,david,2025-11-30,265827,Lorient vs Nice,3,1,Nice +0.5,-185,1,loss,-1.0
-9,david,2025-11-30,265831,Angers vs Lens,1,2,Angers +0.5,105,1,loss,-1.0
-4,gary,2025-11-30,265830,Le Havre vs Lille,0,1,Lille ML,-119,3,win,2.5210084033613445
-5,gary,2025-11-30,265623,FRA vs WOLF,1,1,FRA ML,-115,2,loss,-2.0
-6,grover,2025-11-30,265816,Atalanta vs Fiorentina,2,0,Atalanta -0.5,-145,2,win,1.3793103448275863
-8,grover,2025-11-30,265827,Lorient vs Nice,3,1,Lorient -0.5,130,2,win,2.6
-7,david,2025-11-30,265813,Celta Vigo vs Espanyol,0,1,Espanyol +0.5,-135,1,win,0.7407407407407407
-1,gary,2025-11-30,265813,Celta Vigo vs Espanyol,0,1,Celta Vigo ML,105,3,loss,-3.0
-4,grover,2025-11-30,265813,Celta Vigo vs Espanyol,0,1,Celta Vigo -0.5,105,3,loss,-3.0
-5,grover,2025-11-30,265622,Freiburg vs Mainz,4,0,Freiburg -0.5,-114,2,win,1.7543859649122806
-1,cliff,2025-11-30,265833,Lyon vs Nantes,3,0,Lyon -1.5,110,3,win,3.3000000000000003
-10,gary,2025-11-30,265812,Girona vs Real Madrid,1,1,Real Madrid -1.5,110,1,loss,-1.0
-1,grover,2025-11-30,265833,Lyon vs Nantes,3,0,Lyon -1.5,110,3,win,3.3000000000000003
-10,grover,2025-11-30,265824,Roma vs Napoli,0,1,Roma -0.5,145,1,loss,-1.0
+1,claude,2025-11-21,263445,Mainz vs HOFF,1,1,Under 2.5,130,3,win,3.9
+2,claude,2025-11-21,263516,Nice vs Marseille,1,5,Marseille -0.5,-115,3,win,2.608695652173913
+3,claude,2025-11-21,263496,Valencia vs Levante,1,0,Valencia -0.5,-102,3,win,2.941176470588235
+9,deepseek,2025-11-21,263496,Valencia vs Levante,1,0,Valencia -0.5,-102,1,win,0.9803921568627452
+1,deepseek,2025-11-21,263496,Valencia vs Levante,1,0,Valencia -0.5,-102,3,win,2.941176470588235
+6,deepseek,2025-11-21,263445,Mainz vs HOFF,1,1,Mainz -0.5,130,1,loss,-1.0
+10,gemini,2025-11-21,263445,Mainz vs HOFF,1,1,Over 2.5,-167,1,loss,-1.0
+1,gemini,2025-11-21,263516,Nice vs Marseille,1,5,Marseille ML,-102,3,win,2.941176470588235
+4,gemini,2025-11-21,263445,Mainz vs HOFF,1,1,Over 2.5,-167,2,loss,-2.0
+5,gemini,2025-11-21,263496,Valencia vs Levante,1,0,Valencia ML,105,2,win,2.1
+1,claude,2025-11-22,263435,Burnley vs Chelsea,0,2,Chelsea -1.5,125,3,win,3.75
+4,gemini,2025-11-22,263435,Burnley vs Chelsea,0,2,Chelsea -1.5,125,2,win,2.5
+4,claude,2025-11-22,263504,Alaves vs Celta Vigo,0,1,Under 2.5,-168,2,win,1.1904761904761905
+4,deepseek,2025-11-22,263504,Alaves vs Celta Vigo,0,1,Alaves -0.5,135,2,loss,-2.0
+3,gemini,2025-11-22,263504,Alaves vs Celta Vigo,0,1,Under 2.5,-168,2,win,1.1904761904761905
+3,claude,2025-11-22,263447,Bayern vs Freiburg,6,2,Bayern -2.5,120,3,win,3.6
+10,claude,2025-11-22,263446,Dortmund vs Stuttgart,3,3,Dortmund -0.5,-143,1,loss,-1.0
+5,claude,2025-11-22,263512,Udinese vs Bologna,0,3,Bologna -0.5,-105,2,win,1.9047619047619049
+6,claude,2025-11-22,263442,Augsburg vs HSV,1,0,Augsburg -0.5,115,2,win,2.3
+1,deepseek,2025-11-22,263447,Bayern vs Freiburg,6,2,Bayern -2.5,120,3,win,3.6
+4,deepseek,2025-11-22,263446,Dortmund vs Stuttgart,3,3,Dortmund -0.5,-143,2,loss,-2.0
+8,deepseek,2025-11-22,263442,Augsburg vs HSV,1,0,Augsburg -0.5,115,1,win,1.15
+2,deepseek,2025-11-22,263442,Augsburg vs HSV,1,0,Augsburg -0.5,115,3,win,3.45
+5,deepseek,2025-11-22,263512,Udinese vs Bologna,0,3,Bologna -0.5,-105,1,win,0.9523809523809524
+1,gemini,2025-11-22,263447,Bayern vs Freiburg,6,2,Bayern -2.5,120,3,win,3.6
+7,gemini,2025-11-22,263446,Dortmund vs Stuttgart,3,3,Dortmund -0.5,-143,1,loss,-1.0
+6,gemini,2025-11-22,263442,Augsburg vs HSV,1,0,Augsburg ML,130,1,win,1.3
+7,gemini,2025-11-22,263512,Udinese vs Bologna,0,3,Bologna ML,105,1,win,1.05
+4,claude,2025-11-22,263432,Liverpool vs Nottingham,0,3,Liverpool -1.5,105,2,loss,-2.0
+5,claude,2025-11-22,263498,Barcelona vs Athletic,4,0,Barcelona -1.5,108,2,win,2.16
+8,claude,2025-11-22,263438,Bournemouth vs West Ham,2,2,Bournemouth -0.5,-175,2,loss,-2.0
+9,claude,2025-11-22,263429,Wolverhampton vs Crystal Palace,0,2,Crystal Palace -0.5,-110,1,win,0.9090909090909092
+7,claude,2025-11-22,263436,Albion vs Brentford,2,1,Albion -0.5,-118,2,win,1.694915254237288
+2,deepseek,2025-11-22,263432,Liverpool vs Nottingham,0,3,Liverpool -1.5,105,3,loss,-3.0
+3,deepseek,2025-11-22,263498,Barcelona vs Athletic,4,0,Barcelona -1.5,108,3,win,3.24
+6,deepseek,2025-11-22,263438,Bournemouth vs West Ham,2,2,Bournemouth -0.5,-175,2,loss,-2.0
+10,deepseek,2025-11-22,263436,Albion vs Brentford,2,1,Albion -0.5,-118,1,win,0.847457627118644
+3,deepseek,2025-11-22,263436,Albion vs Brentford,2,1,Albion -0.5,-118,2,win,1.694915254237288
+2,gemini,2025-11-22,263432,Liverpool vs Nottingham,0,3,Liverpool -1.5,105,3,loss,-3.0
+3,gemini,2025-11-22,263498,Barcelona vs Athletic,4,0,Barcelona -1.5,108,3,win,3.24
+9,gemini,2025-11-22,263436,Albion vs Brentford,2,1,Albion -0.5,-118,1,win,0.847457627118644
+2,gemini,2025-11-22,263436,Albion vs Brentford,2,1,Albion ML,-108,3,win,2.7777777777777777
+12,claude,2025-11-22,263523,Lens vs Strasbourg,1,0,Lens -0.5,-105,1,win,0.9523809523809524
+7,deepseek,2025-11-22,263523,Lens vs Strasbourg,1,0,Lens -0.5,-105,2,win,1.9047619047619049
+7,claude,2025-11-22,263430,Newcastle vs Man City,2,1,Man City -0.5,-110,2,loss,-2.0
+6,gemini,2025-11-22,263430,Newcastle vs Man City,2,1,Man City -0.5,-110,2,loss,-2.0
+2,claude,2025-11-22,263515,PSG vs Le Havre,3,0,PSG -2.5,134,3,win,4.0200000000000005
+6,claude,2025-11-22,263495,Villarreal vs Mallorca,2,1,Villarreal -1.5,115,2,loss,-2.0
+11,claude,2025-11-22,263514,Napoli vs Atalanta,3,1,Napoli -0.5,110,1,win,1.1
+5,deepseek,2025-11-22,263515,PSG vs Le Havre,3,0,PSG -2.5,134,2,win,2.68
+5,gemini,2025-11-22,263515,PSG vs Le Havre,3,0,PSG -2.5,134,2,win,2.68
+8,gemini,2025-11-22,263495,Villarreal vs Mallorca,2,1,Villarreal -1.5,115,1,loss,-1.0
+1,claude,2025-11-23,263437,Arsenal vs Tottenham,4,1,Arsenal -1.5,115,3,win,3.45
+8,claude,2025-11-23,263509,Lazio vs Lecce,2,0,Lazio -0.5,-145,2,win,1.3793103448275863
+4,deepseek,2025-11-23,263437,Arsenal vs Tottenham,4,1,Arsenal -1.5,115,2,win,2.3
+5,deepseek,2025-11-23,263509,Lazio vs Lecce,2,0,Lazio -0.5,-145,2,win,1.3793103448275863
+9,deepseek,2025-11-23,263519,Brest vs Metz,3,2,Brest -0.5,-135,1,win,0.7407407407407407
+4,gemini,2025-11-23,263509,Lazio vs Lecce,2,0,Lazio ML,-135,2,win,1.4814814814814814
+8,gemini,2025-11-23,263497,Getafe vs Atlético,0,1,Atlético ML,-130,1,win,0.7692307692307693
+9,gemini,2025-11-23,263520,Toulouse vs Angers,0,1,Toulouse ML,-145,1,loss,-1.0
+10,gemini,2025-11-23,263519,Brest vs Metz,3,2,Brest ML,-125,1,win,0.8
+3,claude,2025-11-23,263502,Elche vs Real Madrid,2,2,Real Madrid -1.5,-105,3,loss,-3.0
+4,claude,2025-11-23,263508,Inter vs Milan,0,1,Under 2.5,-131,2,win,1.5267175572519085
+5,claude,2025-11-23,263518,Lille vs Paris FC,4,2,Lille -0.5,-175,2,win,1.1428571428571428
+8,deepseek,2025-11-23,263518,Lille vs Paris FC,4,2,Lille -0.5,-175,1,win,0.5714285714285714
+3,gemini,2025-11-23,263502,Elche vs Real Madrid,2,2,Real Madrid -1.5,-105,3,loss,-3.0
+6,gemini,2025-11-23,263518,Lille vs Paris FC,4,2,Lille ML,-155,2,win,1.2903225806451613
+10,deepseek,2025-11-23,281952,Union vs NYCFC,0,1,Union -0.5,-120,1,loss,-1.0
+7,claude,2025-11-24,272227,Man U vs Everton,0,1,Man U -0.5,-150,2,loss,-2.0
+6,claude,2025-11-24,272227,Man U vs Everton,0,1,Man U -0.5,-140,2,loss,-2.0
+6,deepseek,2025-11-24,263510,Sassuolo vs Pisa,2,2,Sassuolo -0.5,-105,2,loss,-2.0
+7,deepseek,2025-11-24,263501,Espanyol vs Sevilla,2,1,Espanyol -0.5,-105,1,win,0.9523809523809524
+8,deepseek,2025-11-24,263501,Espanyol vs Sevilla,2,1,Espanyol -0.5,-110,1,win,0.9090909090909092
+9,deepseek,2025-11-24,272227,Man U vs Everton,0,1,Man U -0.5,-140,1,loss,-1.0
+5,gemini,2025-11-24,272227,Man U vs Everton,0,1,Man U ML,-135,2,loss,-2.0
+7,gemini,2025-11-24,263510,Sassuolo vs Pisa,2,2,Sassuolo ML,105,2,loss,-2.0
+6,claude,2025-11-25,265699,Galatasaray vs Union Saint-Gilloise,0,1,Galatasaray -0.5,-185,2,loss,-2.0
+5,claude,2025-11-25,265699,Galatasaray vs Union Saint-Gilloise,0,1,Under 3.5,-173,2,win,1.1560693641618498
+2,deepseek,2025-11-25,265699,Galatasaray vs Union Saint-Gilloise,0,1,Galatasaray -0.5,-185,3,loss,-3.0
+5,deepseek,2025-11-25,265699,Galatasaray vs Union Saint-Gilloise,0,1,Galatasaray -0.5,-185,2,loss,-2.0
+2,claude,2025-11-25,265703,Man City vs Leverkusen,0,2,Man City -1.5,-165,3,loss,-3.0
+9,claude,2025-11-25,265706,Dortmund vs Villarreal,4,0,Under 2.5,110,1,loss,-1.0
+10,claude,2025-11-25,265705,Chelsea vs Barcelona,3,0,Chelsea -0.5,115,1,win,1.15
+11,claude,2025-11-25,265700,Napoli vs Qarabag,2,0,Napoli -1.5,-130,1,win,0.7692307692307693
+1,claude,2025-11-25,265703,Man City vs Leverkusen,0,2,Man City -1.5,-165,3,loss,-3.0
+9,claude,2025-11-25,265706,Dortmund vs Villarreal,4,0,Dortmund -0.5,-135,1,win,0.7407407407407407
+1,deepseek,2025-11-25,265703,Man City vs Leverkusen,0,2,Man City -1.5,-165,3,loss,-3.0
+2,gemini,2025-11-25,265700,Napoli vs Qarabag,2,0,Napoli -1.5,-130,3,win,2.307692307692308
+8,claude,2025-11-26,265708,Copenhagen vs Kairat Almaty,3,2,Copenhagen -1.5,-115,2,loss,-2.0
+4,claude,2025-11-26,265708,Copenhagen vs Kairat Almaty,3,2,Copenhagen -1.5,-120,2,loss,-2.0
+3,deepseek,2025-11-26,265708,Copenhagen vs Kairat Almaty,3,2,Copenhagen -1.5,-115,3,loss,-3.0
+4,deepseek,2025-11-26,265708,Copenhagen vs Kairat Almaty,3,2,Copenhagen -1.5,-115,2,loss,-2.0
+1,gemini,2025-11-26,265708,Copenhagen vs Kairat Almaty,3,2,Copenhagen -1.5,-115,3,loss,-3.0
+2,claude,2025-11-26,265712,Liverpool vs PSV,1,4,Liverpool -1.5,-135,3,loss,-3.0
+3,claude,2025-11-26,265710,PSG vs Tottenham,5,3,PSG -1.5,105,3,win,3.1500000000000004
+11,claude,2025-11-26,265715,Arsenal vs Bayern,3,1,Under 2.5,110,1,loss,-1.0
+1,claude,2025-11-26,265712,Liverpool vs PSV,1,4,Liverpool -1.5,-155,3,loss,-3.0
+5,claude,2025-11-26,265710,PSG vs Tottenham,5,3,PSG -1.5,105,2,win,2.1
+10,claude,2025-11-26,265715,Arsenal vs Bayern,3,1,Under 2.5,110,1,loss,-1.0
+3,deepseek,2025-11-26,265712,Liverpool vs PSV,1,4,Liverpool -1.5,-135,3,loss,-3.0
+2,deepseek,2025-11-26,265712,Liverpool vs PSV,1,4,Liverpool -1.5,-155,3,loss,-3.0
+6,gemini,2025-11-26,265712,Liverpool vs PSV,1,4,Liverpool -1.5,-135,2,loss,-2.0
+7,gemini,2025-11-26,265709,Sporting vs Brugge,3,0,Sporting ML,-147,2,win,1.3605442176870748
+8,gemini,2025-11-26,265710,PSG vs Tottenham,5,3,PSG -1.5,105,1,win,1.05
+9,gemini,2025-11-26,265711,Olympiacos vs Real Madrid,3,4,Real Madrid -1.5,-102,1,loss,-1.0
+4,claude,2025-11-27,265906,Aston Villa vs Young Boys,2,1,Aston Villa -1.5,-168,2,loss,-2.0
+7,claude,2025-11-27,265759,Porto vs Nice,3,0,Porto -1.5,110,2,win,2.2
+10,claude,2025-11-27,265905,Feyenoord vs Celtic,1,3,Under 2.5,136,1,loss,-1.0
+2,claude,2025-11-27,265906,Aston Villa vs Young Boys,2,1,Aston Villa -1.5,-166,3,loss,-3.0
+6,claude,2025-11-27,265759,Porto vs Nice,3,0,Porto -1.5,110,2,win,2.2
+9,claude,2025-11-27,265905,Feyenoord vs Celtic,1,3,Feyenoord -0.5,-152,1,loss,-1.0
+2,deepseek,2025-11-27,265906,Aston Villa vs Young Boys,2,1,Aston Villa -1.5,-168,3,loss,-3.0
+7,deepseek,2025-11-27,265905,Feyenoord vs Celtic,1,3,Feyenoord -0.5,-160,2,loss,-2.0
+10,deepseek,2025-11-27,265904,Lille vs Zagreb,4,0,Lille -0.5,-175,1,win,0.5714285714285714
+1,deepseek,2025-11-27,265906,Aston Villa vs Young Boys,2,1,Aston Villa -1.5,-166,3,loss,-3.0
+4,deepseek,2025-11-27,265759,Porto vs Nice,3,0,Porto -1.5,110,2,win,2.2
+5,deepseek,2025-11-27,265758,Fenerbahce vs Ferencvaros,1,1,Fenerbahce -1.5,152,2,loss,-2.0
+6,deepseek,2025-11-27,265760,Roma vs Midtjylland,2,1,Roma -1.5,120,2,loss,-2.0
+1,gemini,2025-11-27,265904,Lille vs Zagreb,4,0,Lille ML,-163,3,win,1.8404907975460123
+2,gemini,2025-11-27,265905,Feyenoord vs Celtic,1,3,Feyenoord ML,-145,3,loss,-3.0
+3,gemini,2025-11-27,265759,Porto vs Nice,3,0,Porto -1.5,110,3,win,3.3000000000000003
+4,gemini,2025-11-27,265903,Ludogorets vs Celta Vigo,3,2,Celta Vigo ML,-135,2,loss,-2.0
+5,gemini,2025-11-27,265906,Aston Villa vs Young Boys,2,1,Aston Villa -1.5,-168,2,loss,-2.0
+10,gemini,2025-11-27,265760,Roma vs Midtjylland,2,1,Roma -1.5,115,1,loss,-1.0
+3,gemini,2025-11-27,265906,Aston Villa vs Young Boys,2,1,Aston Villa -1.5,-166,3,loss,-3.0
+6,gemini,2025-11-27,265905,Feyenoord vs Celtic,1,3,Feyenoord ML,-138,2,loss,-2.0
+8,gemini,2025-11-27,265903,Ludogorets vs Celta Vigo,3,2,Celta Vigo ML,-135,2,loss,-2.0
+1,grok,2025-11-27,265758,Fenerbahce vs Ferencvaros,1,1,Fenerbahce -1.5,152,3,loss,-3.0
+2,grok,2025-11-27,265757,PAOK vs Brann,1,1,PAOK -1.5,150,3,loss,-3.0
+3,grok,2025-11-27,265904,Lille vs Zagreb,4,0,Lille -1.5,135,3,win,4.050000000000001
+6,grok,2025-11-27,265760,Roma vs Midtjylland,2,1,Roma -1.5,120,2,loss,-2.0
+7,grok,2025-11-27,265756,Viktoria vs Freiburg,0,0,Freiburg -0.5,110,2,loss,-2.0
+8,grok,2025-11-27,265759,Porto vs Nice,3,0,Porto -1.5,110,2,win,2.2
+3,claude,2025-11-27,265907,Nottingham vs Malmo,3,0,Nottingham -1.5,-165,3,win,1.8181818181818183
+7,claude,2025-11-27,265765,Betis vs FC Utrecht,2,1,Betis -1.5,-110,2,loss,-2.0
+8,claude,2025-11-27,265910,Bologna vs Red Bull,4,1,Bologna -1.5,105,1,win,1.05
+3,deepseek,2025-11-27,265907,Nottingham vs Malmo,3,0,Nottingham -1.5,-165,3,win,1.8181818181818183
+8,deepseek,2025-11-27,265908,Genk vs Basel,2,1,Genk -0.5,-118,1,win,0.847457627118644
+9,deepseek,2025-11-27,265762,PAN vs Sturm Graz,2,1,PAN -0.5,-165,1,win,0.6060606060606061
+10,deepseek,2025-11-27,265765,Betis vs FC Utrecht,2,1,Betis -1.5,-110,1,loss,-1.0
+2,gemini,2025-11-27,265907,Nottingham vs Malmo,3,0,Nottingham -1.5,-165,3,win,1.8181818181818183
+5,gemini,2025-11-27,265908,Genk vs Basel,2,1,Genk ML,-110,2,win,1.818181818181818
+7,gemini,2025-11-27,265763,Maccabi vs Lyon,0,6,Lyon ML,-131,2,win,1.5267175572519085
+9,gemini,2025-11-27,265765,Betis vs FC Utrecht,2,1,Betis -1.5,-110,1,loss,-1.0
+10,gemini,2025-11-27,265910,Bologna vs Red Bull,4,1,Bologna -1.5,105,1,win,1.05
+4,grok,2025-11-27,265909,Go Ahead Eagles vs Stuttgart,0,4,Stuttgart -1.5,130,2,win,2.6
+5,grok,2025-11-27,265764,Belgrade vs Steaua,1,0,Belgrade -1.5,125,2,loss,-2.0
+9,grok,2025-11-27,265761,Rangers vs Braga,1,1,Braga -0.5,115,2,loss,-2.0
+10,grok,2025-11-27,265910,Bologna vs Red Bull,4,1,Bologna -1.5,105,2,win,2.1
+11,claude,2025-11-28,265818,Como 1907 vs Sassuolo,2,0,Como 1907 -0.5,-175,1,win,0.5714285714285714
+1,gemini,2025-11-28,265818,Como 1907 vs Sassuolo,2,0,Como 1907 ML,-156,3,win,1.923076923076924
+4,gemini,2025-11-28,265829,Metz vs Rennes,0,1,Rennes ML,-101,2,win,1.98019801980198
+1,deepseek,2025-11-29,265811,Mallorca vs Osasuna,2,2,Mallorca -0.5,120,3,loss,-3.0
+2,deepseek,2025-11-29,265819,Genoa vs Hellas,2,1,Genoa -0.5,-102,2,win,1.96078431372549
+3,deepseek,2025-11-29,265619,Union Berlin vs Heidenheim,1,2,Union Berlin -0.5,-160,2,loss,-2.0
+7,deepseek,2025-11-29,265615,Brentford vs Burnley,3,1,Burnley +1.5,-175,1,loss,-1.0
+8,deepseek,2025-11-29,265609,Sunderland vs Bournemouth,3,2,Sunderland +0.5,-175,1,win,0.5714285714285714
+1,gemini,2025-11-29,265619,Union Berlin vs Heidenheim,1,2,Union Berlin ML,-150,3,loss,-3.0
+6,gemini,2025-11-29,265625,Bayern vs St Pauli,3,1,Bayern -2.5,-126,2,loss,-2.0
+8,gemini,2025-11-29,265819,Genoa vs Hellas,2,1,Genoa ML,105,2,win,2.1
+9,gemini,2025-11-29,265611,Man City vs Leeds,3,2,Man City -1.5,-155,1,loss,-1.0
+3,grok,2025-11-29,265625,Bayern vs St Pauli,3,1,Bayern -2.5,-126,3,loss,-3.0
+5,grok,2025-11-29,265611,Man City vs Leeds,3,2,Man City -1.5,-155,2,loss,-2.0
+6,grok,2025-11-29,265615,Brentford vs Burnley,3,1,Brentford -1.5,120,2,win,2.4
+10,grok,2025-11-29,265619,Union Berlin vs Heidenheim,1,2,Union Berlin -0.5,-160,1,loss,-1.0
+2,claude,2025-11-29,265815,Juventus vs Cagliari,2,1,Juventus -1.5,-145,3,loss,-3.0
+6,claude,2025-11-29,265826,Monaco vs PSG,1,0,PSG -0.5,-165,2,loss,-2.0
+5,gemini,2025-11-29,265826,Monaco vs PSG,1,0,PSG ML,-170,2,loss,-2.0
+7,gemini,2025-11-29,265808,Barcelona vs Alaves,3,1,Barcelona -2.0,-115,2,push,0.0
+7,grok,2025-11-29,265815,Juventus vs Cagliari,2,1,Juventus -1.5,-102,2,loss,-2.0
+10,claude,2025-11-29,265832,Paris FC vs Auxerre,1,1,Paris FC -0.5,-120,1,loss,-1.0
+5,deepseek,2025-11-29,265832,Paris FC vs Auxerre,1,1,Paris FC -0.5,-135,1,loss,-1.0
+9,deepseek,2025-11-29,265612,Everton vs Newcastle,1,4,Everton +0.5,-200,1,loss,-1.0
+10,deepseek,2025-11-29,265807,Levante vs Athletic,0,2,Levante +0.5,105,1,loss,-1.0
+2,gemini,2025-11-29,265832,Paris FC vs Auxerre,1,1,Paris FC ML,-120,3,loss,-3.0
+1,claude,2025-11-29,265814,Atlético vs Real Oviedo,2,0,Atlético -1.5,-155,3,win,1.935483870967742
+3,claude,2025-11-29,265821,Milan vs Lazio,1,0,Milan -0.5,-165,2,win,1.2121212121212122
+4,claude,2025-11-29,265825,Marseille vs Toulouse,2,2,Marseille -0.5,-175,2,loss,-2.0
+6,deepseek,2025-11-29,265608,Tottenham vs Fulham,1,2,Tottenham -0.5,110,1,loss,-1.0
+3,gemini,2025-11-29,265821,Milan vs Lazio,1,0,Milan ML,-160,3,win,1.875
+2,grok,2025-11-29,265814,Atlético vs Real Oviedo,2,0,Atlético -1.5,-155,3,win,1.935483870967742
+4,grok,2025-11-29,265825,Marseille vs Toulouse,2,2,Marseille -1,-125,3,loss,-3.0
+9,grok,2025-11-29,265821,Milan vs Lazio,1,0,Milan -0.5,-175,2,win,1.1428571428571428
+7,claude,2025-11-29,282400,Inter Miami vs NYCFC,5,1,Inter Miami -1.5,120,2,win,2.4
+8,grok,2025-11-29,282400,Inter Miami vs NYCFC,5,1,Inter Miami -1.5,125,2,win,2.5
+4,deepseek,2025-11-30,265820,Lecce vs Torino,2,1,Lecce +0.5,145,2,win,2.9
+10,deepseek,2025-11-30,265809,Real Sociedad vs Villarreal,2,3,Real Sociedad +0.5,135,1,loss,-1.0
+5,claude,2025-11-30,265616,Aston Villa vs Wolverhampton,1,0,Aston Villa -1.5,130,2,loss,-2.0
+8,claude,2025-11-30,265828,Strasbourg vs Brest,1,2,Strasbourg -0.5,-135,1,loss,-1.0
+2,claude,2025-11-30,265823,Pisa vs Inter,0,2,Inter -1.5,-120,3,win,2.5
+3,claude,2025-11-30,265607,West Ham vs Liverpool,0,2,Liverpool -0.5,-167,2,win,1.1976047904191616
+5,claude,2025-11-30,265828,Strasbourg vs Brest,1,2,Strasbourg -0.5,-140,2,loss,-2.0
+4,deepseek,2025-11-30,265828,Strasbourg vs Brest,1,2,Strasbourg -0.5,-135,2,loss,-2.0
+1,deepseek,2025-11-30,265607,West Ham vs Liverpool,0,2,West Ham +0.5,125,3,loss,-3.0
+2,deepseek,2025-11-30,265617,HSV vs Stuttgart,2,1,HSV +0.5,110,2,win,2.2
+5,deepseek,2025-11-30,265610,Nottingham vs Albion,0,2,Nottingham +0.5,145,1,loss,-1.0
+10,gemini,2025-11-30,265823,Pisa vs Inter,0,2,Inter -1.5,-110,1,win,0.9090909090909092
+2,gemini,2025-11-30,265828,Strasbourg vs Brest,1,2,Strasbourg ML,-120,3,loss,-3.0
+8,gemini,2025-11-30,265823,Pisa vs Inter,0,2,Inter -1.5,-120,2,win,1.6666666666666667
+1,grok,2025-11-30,265616,Aston Villa vs Wolverhampton,1,0,Aston Villa -1.5,130,3,loss,-3.0
+2,grok,2025-11-30,265616,Aston Villa vs Wolverhampton,1,0,Aston Villa -1.5,135,3,loss,-3.0
+7,grok,2025-11-30,265828,Strasbourg vs Brest,1,2,Strasbourg -0.5,-125,2,loss,-2.0
+9,claude,2025-11-30,265816,Atalanta vs Fiorentina,2,0,Atalanta -0.5,-145,1,win,0.6896551724137931
+6,claude,2025-11-30,265623,FRA vs WOLF,1,1,FRA -0.5,-125,2,loss,-2.0
+7,claude,2025-11-30,265816,Atalanta vs Fiorentina,2,0,Atalanta -0.5,-152,2,win,1.3157894736842106
+10,claude,2025-11-30,265830,Le Havre vs Lille,0,1,Lille -0.5,-130,1,win,0.7692307692307693
+3,deepseek,2025-11-30,265806,Sevilla vs Betis,0,2,Sevilla +0.5,130,2,loss,-2.0
+6,deepseek,2025-11-30,265614,Chelsea vs Arsenal,1,1,Chelsea +0.5,110,1,win,1.1
+8,deepseek,2025-11-30,265827,Lorient vs Nice,3,1,Nice +0.5,-185,1,loss,-1.0
+9,deepseek,2025-11-30,265831,Angers vs Lens,1,2,Angers +0.5,105,1,loss,-1.0
+4,gemini,2025-11-30,265830,Le Havre vs Lille,0,1,Lille ML,-119,3,win,2.5210084033613445
+5,gemini,2025-11-30,265623,FRA vs WOLF,1,1,FRA ML,-115,2,loss,-2.0
+6,grok,2025-11-30,265816,Atalanta vs Fiorentina,2,0,Atalanta -0.5,-145,2,win,1.3793103448275863
+8,grok,2025-11-30,265827,Lorient vs Nice,3,1,Lorient -0.5,130,2,win,2.6
+7,deepseek,2025-11-30,265813,Celta Vigo vs Espanyol,0,1,Espanyol +0.5,-135,1,win,0.7407407407407407
+1,gemini,2025-11-30,265813,Celta Vigo vs Espanyol,0,1,Celta Vigo ML,105,3,loss,-3.0
+4,grok,2025-11-30,265813,Celta Vigo vs Espanyol,0,1,Celta Vigo -0.5,105,3,loss,-3.0
+5,grok,2025-11-30,265622,Freiburg vs Mainz,4,0,Freiburg -0.5,-114,2,win,1.7543859649122806
+1,claude,2025-11-30,265833,Lyon vs Nantes,3,0,Lyon -1.5,110,3,win,3.3000000000000003
+10,gemini,2025-11-30,265812,Girona vs Real Madrid,1,1,Real Madrid -1.5,110,1,loss,-1.0
+1,grok,2025-11-30,265833,Lyon vs Nantes,3,0,Lyon -1.5,110,3,win,3.3000000000000003
+10,grok,2025-11-30,265824,Roma vs Napoli,0,1,Roma -0.5,145,1,loss,-1.0
