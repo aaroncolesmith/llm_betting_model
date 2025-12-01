@@ -475,7 +475,7 @@ def process_results(model_name: str, picks_dir: Path, results_csv_path: Path):
 
     return df_evaluated_hist
 
-model_list = ['perp', 'claude', 
+model_list = ['perplexity', 'claude', 
 'gemini'
 ]
 
