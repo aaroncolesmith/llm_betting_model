@@ -22,7 +22,7 @@ def evaluate_soccer_bets(model_name: str):
     Evaluate soccer betting picks for a specific model.
     
     Args:
-        model_name: Model name (charlie, cliff, david, gary, grover)
+        model_name: Model name (chatgpt, claude, deepseek, gemini, grok)
     
     Returns:
         DataFrame with evaluated bets including historical data

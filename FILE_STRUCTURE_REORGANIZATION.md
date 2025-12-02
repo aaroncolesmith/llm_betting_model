@@ -26,9 +26,9 @@ Created three subdirectories under `data/` to organize files by purpose:
 
 #### **`data/bets/`** - Current betting picks
 Contains active bet files (*.txt) for each model:
-- NBA: `nba_bets_gemini.txt`, `nba_bets_v2.txt`, `nba_bets_v2_perp.txt`
-- NCAAB: `ncaab_bets_claude.txt`, `ncaab_bets_gemini.txt`, `ncaab_bets_perp.txt`
-- Soccer: `soccer_bets_cliff.txt`, `soccer_bets_david.txt`, `soccer_bets_gary.txt`
+- NBA: `nba_bets_gemini.txt`, `nba_bets_claude.txt`, `nba_bets_perplexity.txt`, `nba_bets_chatgpt.txt`
+- NCAAB: `ncaab_bets_claude.txt`, `ncaab_bets_gemini.txt`, `ncaab_bets_perplexity.txt`
+- Soccer: `soccer_bets_chatgpt.txt`, `soccer_bets_claude.txt`, `soccer_bets_deepseek.txt`, `soccer_bets_gemini.txt`, `soccer_bets_grok.txt`
 
 #### **`data/bets_db/`** - Historical betting databases
 Contains accumulated betting line data:

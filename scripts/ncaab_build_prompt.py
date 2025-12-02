@@ -463,7 +463,7 @@ def process_results(model_name: str, picks_dir: Path, results_csv_path: Path):
 
     return df_evaluated_hist
 
-model_list = ['perp', 'claude', 'gemini']
+model_list = ['perplexity', 'claude', 'gemini']
 
 for model_name in model_list:
     df = build_ncaa_prompt(model_name)

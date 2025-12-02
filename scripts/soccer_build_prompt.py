@@ -23,7 +23,7 @@ def build_soccer_prompt(model_name):
     Build soccer betting prompt for a specific model.
     
     Args:
-        model_name: Model name (charlie, cliff, david, gary, grover)
+        model_name: Model name (chatgpt, claude, deepseek, gemini, grok)
     
     Returns:
         DataFrame with aggregated betting data
@@ -385,7 +385,7 @@ def process_soccer_results(model_name: str, picks_dir: Path, results_csv_path: P
     Process soccer betting results for a given model.
     
     Args:
-        model_name: Model name (charlie, cliff, david, gary, grover)
+        model_name: Model name (chatgpt, claude, deepseek, gemini, grok)
         picks_dir: Directory containing picks files
         results_csv_path: Path to game results CSV
     
@@ -480,7 +480,7 @@ def process_soccer_results(model_name: str, picks_dir: Path, results_csv_path: P
 
 
 # Model list for soccer
-MODEL_LIST = ['charlie', 'cliff', 'david', 'gary', 'grover']
+MODEL_LIST = ['chatgpt', 'claude', 'deepseek', 'gemini', 'grok']
 
 if __name__ == '__main__':
     # Build prompts for all models
