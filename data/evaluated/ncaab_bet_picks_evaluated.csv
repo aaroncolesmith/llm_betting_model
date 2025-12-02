@@ -394,3 +394,6 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 11,claude,2025-12-01,267366,Jax State vs North Alabama,66,73,Jax State -5.5,-105,1,loss,-1.0
 4,gemini,2025-12-01,265101,Villanova vs Temple,74,56,Temple +12.5,-108,2,loss,-2.0
 8,gemini,2025-12-01,265103,Xavier vs St. Francis (PA),96,74,St. Francis (PA) +28.0,-107,1,win,0.9345794392523364
+3,perplexity,2025-12-01,265100,K State vs Bowling Green,66,82,K State -12.5,-105,2,loss,-2.0
+9,gemini,2025-12-01,265100,K State vs Bowling Green,66,82,Bowling Green +12.5,-115,1,win,0.8695652173913043
+10,gemini,2025-12-01,263613,Incarnate Word vs McNeese St,71,67,Incarnate Word +10.0,-110,1,win,0.9090909090909091
