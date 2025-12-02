@@ -716,3 +716,7 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 6,gemini,2025-12-01,261875,Jazz vs Rockets,133.0,125.0,Under 234.5,-110,1,loss,-1.0
 4,chatgpt,2025-12-01,261876,Nuggets vs Mavericks,121.0,131.0,Nuggets -11.5,-105,2,loss,-2.0
 6,chatgpt,2025-12-01,261875,Jazz vs Rockets,133.0,125.0,Rockets -11.5,-115,2,loss,-2.0
+9,claude,2025-12-01,261877,Lakers vs Suns,108.0,125.0,Lakers -4.5,-115,2,loss,-2.0
+3,perplexity,2025-12-01,261877,Lakers vs Suns,108.0,125.0,Lakers -4.5,-115,2,loss,-2.0
+4,gemini,2025-12-01,261877,Lakers vs Suns,108.0,125.0,Suns +4.5,-105,2,win,1.9047619047619049
+8,chatgpt,2025-12-01,261877,Lakers vs Suns,108.0,125.0,Lakers -4.5,-115,2,loss,-2.0
