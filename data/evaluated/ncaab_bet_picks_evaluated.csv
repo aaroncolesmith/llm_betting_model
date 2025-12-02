@@ -385,3 +385,12 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 10,perplexity,2025-11-28,282844,Dayton vs BYU,79,83,BYU -9.5,-115,1,loss,-1.0
 11,claude,2025-11-28,265057,Idaho vs Sam Houston,68,94,Idaho +1.5,-118,1,loss,-1.0
 3,gemini,2025-11-28,282844,Dayton vs BYU,79,83,Dayton +9.5,-105,3,win,2.8571428571428568
+1,perplexity,2025-12-01,265101,Villanova vs Temple,74,56,Villanova -12.5,-112,3,win,2.678571428571429
+2,perplexity,2025-12-01,266582,Cincinnati vs Tarleton St,76,58,Cincinnati -19.5,-118,3,loss,-3.0
+5,perplexity,2025-12-01,265103,Xavier vs St. Francis (PA),96,74,Xavier -28.0,-112,2,loss,-2.0
+7,perplexity,2025-12-01,266583,Troy vs Wolves,89,93,Troy -17.5,-110,2,loss,-2.0
+1,claude,2025-12-01,276086,Delaware vs Iona,66,89,Delaware +1.5,-105,2,loss,-2.0
+5,claude,2025-12-01,266584,Middle Tenn vs UAB,76,61,Middle Tenn +1.5,-110,2,win,1.818181818181818
+11,claude,2025-12-01,267366,Jax State vs North Alabama,66,73,Jax State -5.5,-105,1,loss,-1.0
+4,gemini,2025-12-01,265101,Villanova vs Temple,74,56,Temple +12.5,-108,2,loss,-2.0
+8,gemini,2025-12-01,265103,Xavier vs St. Francis (PA),96,74,St. Francis (PA) +28.0,-107,1,win,0.9345794392523364

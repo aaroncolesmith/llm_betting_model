@@ -682,3 +682,11 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 4,gemini,2025-11-28,261616,Lakers vs Mavericks,129.0,119.0,Under 231.5,-110,2,loss,-2.0
 6,gemini,2025-11-28,261615,Clippers vs Grizzlies,107.0,112.0,Grizzlies +6.5,-110,2,win,1.818181818181818
 10,chatgpt,2025-11-28,261616,Lakers vs Mavericks,129.0,119.0,Lakers -6.5,-110,1,win,0.9090909090909092
+1,claude,2025-12-01,261871,Pistons vs Hawks,99.0,98.0,Hawks +9.5,-105,3,win,2.8571428571428568
+6,claude,2025-12-01,261870,Wizards vs Bucks,129.0,126.0,Bucks -10.5,-105,2,loss,-2.0
+1,perplexity,2025-12-01,261871,Pistons vs Hawks,99.0,98.0,Pistons -9.5,-115,3,loss,-3.0
+7,perplexity,2025-12-01,261870,Wizards vs Bucks,129.0,126.0,Bucks -10.5,-105,1,loss,-1.0
+2,gemini,2025-12-01,261870,Wizards vs Bucks,129.0,126.0,Wizards +10.5,-115,3,win,2.608695652173913
+5,gemini,2025-12-01,261871,Pistons vs Hawks,99.0,98.0,Hawks +9.5,-105,2,win,1.9047619047619049
+3,chatgpt,2025-12-01,261871,Pistons vs Hawks,99.0,98.0,Hawks +9.5,-105,3,win,2.8571428571428568
+7,chatgpt,2025-12-01,261870,Wizards vs Bucks,129.0,126.0,Bucks -10.5,-105,2,loss,-2.0
