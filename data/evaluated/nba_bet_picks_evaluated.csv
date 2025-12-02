@@ -707,3 +707,12 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 5,chatgpt,2025-12-01,261869,Pacers vs Cavaliers,119.0,135.0,Cavaliers -4.5,-110,3,loss,-3.0
 9,chatgpt,2025-12-01,261872,Nets vs Hornets,116.0,103.0,Hornets -4.5,-110,2,loss,-2.0
 10,chatgpt,2025-12-01,261869,Pacers vs Cavaliers,119.0,135.0,Under 231.5,-110,1,loss,-1.0
+7,claude,2025-12-01,261875,Jazz vs Rockets,133.0,125.0,Rockets -11.5,-115,2,loss,-2.0
+8,claude,2025-12-01,261876,Nuggets vs Mavericks,121.0,131.0,Nuggets -11.5,-105,2,loss,-2.0
+2,perplexity,2025-12-01,261876,Nuggets vs Mavericks,121.0,131.0,Nuggets -11.5,-105,3,loss,-3.0
+6,perplexity,2025-12-01,261875,Jazz vs Rockets,133.0,125.0,Rockets -11.5,-115,1,loss,-1.0
+10,perplexity,2025-12-01,261875,Jazz vs Rockets,133.0,125.0,Under 234.5,-110,1,loss,-1.0
+1,gemini,2025-12-01,261876,Nuggets vs Mavericks,121.0,131.0,Mavericks +11.5,-115,3,win,2.608695652173913
+6,gemini,2025-12-01,261875,Jazz vs Rockets,133.0,125.0,Under 234.5,-110,1,loss,-1.0
+4,chatgpt,2025-12-01,261876,Nuggets vs Mavericks,121.0,131.0,Nuggets -11.5,-105,2,loss,-2.0
+6,chatgpt,2025-12-01,261875,Jazz vs Rockets,133.0,125.0,Rockets -11.5,-115,2,loss,-2.0

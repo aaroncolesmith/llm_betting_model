@@ -396,4 +396,6 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 8,gemini,2025-12-01,265103,Xavier vs St. Francis (PA),96,74,St. Francis (PA) +28.0,-107,1,win,0.9345794392523364
 3,perplexity,2025-12-01,265100,K State vs Bowling Green,66,82,K State -12.5,-105,2,loss,-2.0
 9,gemini,2025-12-01,265100,K State vs Bowling Green,66,82,Bowling Green +12.5,-115,1,win,0.8695652173913043
-10,gemini,2025-12-01,263613,Incarnate Word vs McNeese St,71,67,Incarnate Word +10.0,-110,1,win,0.9090909090909091
+10,gemini,2025-12-01,263613,Incarnate Word vs McNeese St,71,67,Incarnate Word +10.0,-110,1,win,0.9090909090909092
+4,perplexity,2025-12-01,265104,Stanford vs Portland,94,72,Stanford -18.5,-112,2,win,1.7857142857142858
+6,perplexity,2025-12-01,265102,Colorado vs Cal Baptist,78,70,Colorado -12.5,-110,2,loss,-2.0
