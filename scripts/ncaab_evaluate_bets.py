@@ -385,6 +385,10 @@ def process_results(model_name: str, picks_dir: Path, results_csv_path: Path):
     # Filter out rows where 'start_time' column contains the literal string 'start_time'
     df_picks = df_picks[df_picks['start_time'] != 'start_time'].reset_index(drop=True)
     
+    # Convert game_id to int64 to ensure proper type for merging
+    # After filtering headers, pandas may have inferred it as object type
+    df_picks['game_id'] = pd.to_numeric(df_picks['game_id'], errors='coerce').astype('Int64')
+    
     # display(df_picks.sample(3))
 
     # === 2. Process Pick Timestamps ===
