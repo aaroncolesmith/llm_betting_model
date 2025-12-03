@@ -4116,3 +4116,55 @@ game_id,start_time,league_name,home_team,away_team,home_score,away_score,status
 266593,2025-12-02T17:00:00.000Z,ncaab,TN-Martin,Charleston So,73,56,complete
 266586,2025-12-02T16:00:00.000Z,ncaab,Army ,G Washington,70,84,complete
 266593,2025-12-02T17:00:00.000Z,ncaab,TN-Martin,Charleston So,73,56,complete
+266586,2025-12-02T16:00:00.000Z,ncaab,Army ,G Washington,70,84,complete
+266593,2025-12-02T17:00:00.000Z,ncaab,TN-Martin,Charleston So,73,56,complete
+264553,2025-12-02T23:00:00.000Z,ncaab,Penn State,Campbell,87,76,complete
+265105,2025-12-02T23:00:00.000Z,ncaab,Bryant U,Stonehill,77,65,complete
+265123,2025-12-02T23:45:00.000Z,ncaab,Binghamton,Lehigh,80,71,complete
+263615,2025-12-03T00:00:00.000Z,ncaab,Indiana St,Red Devils,99,57,complete
+264547,2025-12-03T00:00:00.000Z,ncaab,Syracuse,Tennessee,62,60,complete
+264549,2025-12-03T00:00:00.000Z,ncaab,E. Carolina,MD-E Shore,68,56,complete
+264555,2025-12-03T00:00:00.000Z,ncaab,Butler,E. Michigan,84,68,complete
+265106,2025-12-03T00:00:00.000Z,ncaab,Pittsburgh,Texas A&M,73,81,complete
+265107,2025-12-03T00:00:00.000Z,ncaab,Rhode Island,Brown,66,56,complete
+265110,2025-12-03T00:00:00.000Z,ncaab,Providence,Fairleigh,94,64,complete
+265113,2025-12-03T00:00:00.000Z,ncaab,Duquesne,William & Mary,79,83,complete
+265118,2025-12-03T00:00:00.000Z,ncaab,Wake Forest,Oklahoma,68,86,complete
+265122,2025-12-03T00:00:00.000Z,ncaab,Dayton,E Tennessee St,88,71,complete
+265142,2025-12-03T00:00:00.000Z,ncaab,Charlotte,NC A&T,74,57,complete
+266590,2025-12-03T00:00:00.000Z,ncaab,Kennesaw St,Jackson St,88,73,complete
+266591,2025-12-03T00:00:00.000Z,ncaab,Mercer,Georgia State,78,67,complete
+266592,2025-12-03T00:00:00.000Z,ncaab,Jacksonville,Florida A&M,85,82,complete
+266594,2025-12-03T00:00:00.000Z,ncaab,North Florida,SIU-Edwardsville,63,72,complete
+267368,2025-12-03T00:00:00.000Z,ncaab,George Mason,Cornell,99,81,complete
+274949,2025-12-03T00:00:00.000Z,ncaab,Michigan St,Iowa,71,52,complete
+275597,2025-12-03T00:00:00.000Z,ncaab,S. Carolina,VA Tech,83,86,complete
+276933,2025-12-03T00:00:00.000Z,ncaab,UNC Asheville,UNC Greensboro,82,77,complete
+280391,2025-12-03T00:00:00.000Z,ncaab,S. Alabama,N. Mexico St,77,75,complete
+264550,2025-12-03T00:30:00.000Z,ncaab,Tulane,Grambling St,65,63,complete
+264552,2025-12-03T00:30:00.000Z,ncaab,Drake,W. Illinois,108,57,complete
+264554,2025-12-03T00:30:00.000Z,ncaab,Long Island,Winthrop,92,94,complete
+265111,2025-12-03T00:30:00.000Z,ncaab,Duke,Florida,67,66,complete
+265108,2025-12-03T01:00:00.000Z,ncaab,Maryland,Wagner,89,63,complete
+265109,2025-12-03T01:00:00.000Z,ncaab,Bradley,Washington St,64,60,complete
+265112,2025-12-03T01:00:00.000Z,ncaab,Loyola (IL),C. Michigan,83,72,complete
+265115,2025-12-03T01:00:00.000Z,ncaab,OK State,Sam Houston,93,83,complete
+265116,2025-12-03T01:00:00.000Z,ncaab,Marquette,Valparaiso,75,72,complete
+265119,2025-12-03T01:00:00.000Z,ncaab,Murray State,Morehead St,84,52,complete
+265120,2025-12-03T01:00:00.000Z,ncaab,Baylor,Sac State,110,88,complete
+266588,2025-12-03T01:00:00.000Z,ncaab,N. Illinois,Lindenwood,64,99,complete
+274948,2025-12-03T01:00:00.000Z,ncaab,Rutgers,Purdue,65,81,complete
+275596,2025-12-03T01:00:00.000Z,ncaab,Arkansas St,UT-Arlington,83,63,complete
+275942,2025-12-03T01:00:00.000Z,ncaab,North Texas,Hou Christian,77,75,complete
+264548,2025-12-03T02:00:00.000Z,ncaab,Notre Dame,Missouri,76,71,complete
+264551,2025-12-03T02:00:00.000Z,ncaab,Kansas,UConn,56,61,complete
+265121,2025-12-03T02:00:00.000Z,ncaab,Creighton,Nicholls St,96,76,complete
+265124,2025-12-03T02:00:00.000Z,ncaab,Grand Canyon,Stetson,67,45,complete
+266587,2025-12-03T02:00:00.000Z,ncaab,Pepperdine,Ab Christian,63,71,complete
+266589,2025-12-03T02:00:00.000Z,ncaab,Florida St,Georgia,73,107,complete
+275598,2025-12-03T02:00:00.000Z,ncaab,Ole Miss,Miami (FL),66,75,complete
+265114,2025-12-03T02:30:00.000Z,ncaab,Kentucky,UNC,64,67,complete
+265117,2025-12-03T03:00:00.000Z,ncaab,California,Utah,79,72,complete
+265125,2025-12-03T03:00:00.000Z,ncaab,Loyola Marymount,Saint Louis,70,91,complete
+267367,2025-12-03T03:00:00.000Z,ncaab,Nevada,UCSD,76,70,complete
+274950,2025-12-03T03:00:00.000Z,ncaab,Oregon,USC,77,82,complete

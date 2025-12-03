@@ -1,401 +1,438 @@
 rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,bet_payout
-1,perplexity,2025-11-11,266367,Michigan vs Wake Forest,85,84,Wake Forest +15.5,-108,3,win,2.7777777777777777
-2,perplexity,2025-11-11,264701,Illinois vs Texas Tech,81,77,Illinois -3.5,-115,2,win,1.7391304347826086
-3,perplexity,2025-11-11,266649,Gonzaga vs Creighton,90,63,Creighton +11.5,-110,1,loss,-1.0
-4,perplexity,2025-11-11,264732,Louisville vs Kentucky,96,88,Kentucky +6.5,-112,1,loss,-1.0
-5,perplexity,2025-11-11,264731,Florida vs Florida St,78,76,Florida St +17.5,-111,1,win,0.9009009009009008
-6,perplexity,2025-11-11,264714,Kansas vs Texas A&M-CC,77,46,Texas A&M-CC +27,-110,1,loss,-1.0
-7,perplexity,2025-11-11,266359,Auburn vs Wofford,93,62,Wofford +27.5,-110,1,loss,-1.0
-8,perplexity,2025-11-11,264709,Wisconsin vs Ball State,86,55,Ball State +27.5,-115,1,loss,-1.0
-9,perplexity,2025-11-11,264718,BYU vs Delaware,85,68,Delaware +35.5,-108,1,win,0.925925925925926
-10,perplexity,2025-11-11,271994,Arizona vs N. Arizona,84,49,N. Arizona +35.5,-105,1,win,0.9523809523809524
-1,perplexity,2025-11-11,266367,Michigan vs Wake Forest,85,84,Michigan -15,-110,2,loss,-2.0
-2,perplexity,2025-11-11,264721,UNC vs Radford,89,74,UNC -19.5,-112,2,loss,-2.0
-3,perplexity,2025-11-11,264732,Louisville vs Kentucky,96,88,Louisville -6.5,-110,2,win,1.818181818181818
-4,perplexity,2025-11-11,266649,Gonzaga vs Creighton,90,63,Gonzaga -11.5,-112,2,win,1.7857142857142858
-5,perplexity,2025-11-11,264701,Illinois vs Texas Tech,81,77,Illinois -3.5,-115,2,win,1.7391304347826086
-6,perplexity,2025-11-11,264714,Kansas vs Texas A&M-CC,77,46,Kansas -27.5,-114,1,win,0.8771929824561403
-7,perplexity,2025-11-11,266359,Auburn vs Wofford,93,62,Auburn -27.5,-110,1,win,0.9090909090909092
-9,perplexity,2025-11-11,264718,BYU vs Delaware,85,68,BYU -36.5,-105,1,loss,-1.0
-10,perplexity,2025-11-11,271994,Arizona vs N. Arizona,84,49,Arizona -35.5,-115,1,loss,-1.0
-11,perplexity,2025-11-11,264731,Florida vs Florida St,78,76,Florida -17.5,-111,1,loss,-1.0
-1,perplexity,2025-11-12,264754,Georgetown vs Binghamton,83,70,Binghamton +27.5,-110,3,win,2.727272727272727
-2,perplexity,2025-11-12,264748,St. Bonaventure vs Siena,75,66,St. Bonaventure -8.5,-110,2,win,1.818181818181818
-3,perplexity,2025-11-12,264757,Missouri vs Minnesota,83,60,Missouri -6.5,-115,2,win,1.7391304347826086
-4,perplexity,2025-11-12,266373,Marshall vs Elon,96,89,Marshall -9.5,-105,2,loss,-2.0
-5,perplexity,2025-11-12,264745,South Dakota vs Southern Indiana,89,74,South Dakota -7.5,-112,2,win,1.7857142857142858
-6,perplexity,2025-11-12,266380,Texas St vs UTSA,80,69,Texas St -3.5,-105,2,win,1.9047619047619049
-7,perplexity,2025-11-12,264739,Evansville vs Middle Tenn,72,77,Evansville -2.5,-110,1,loss,-1.0
-8,perplexity,2025-11-12,266379,Valparaiso vs Nicholls St,68,63,Valparaiso -2.5,-109,1,win,0.9174311926605504
-9,perplexity,2025-11-12,267558,Fresno State vs UCSD,73,78,UCSD +1.5,-110,1,win,0.9090909090909092
-10,perplexity,2025-11-12,264741,San Diego vs Idaho,78,74,Idaho -1.5,-105,1,loss,-1.0
-11,perplexity,2025-11-12,266378,Boston U vs Brown,90,77,Boston U -2.5,-117,1,win,0.8547008547008547
-12,perplexity,2025-11-12,264502,Oral Roberts vs Tulsa,87,88,Tulsa -6.5,-105,1,loss,-1.0
-1,perplexity,2025-11-13,264769,West Virginia vs Pittsburgh,71,49,West Virginia -6.5,-110,3,win,2.727272727272727
-2,perplexity,2025-11-13,266382,Michigan St vs San Jose St,79,60,Michigan St -24.5,-110,2,loss,-2.0
-3,perplexity,2025-11-13,264764,Seton Hall vs Monmouth,70,58,Seton Hall -14.5,-110,2,loss,-2.0
-4,perplexity,2025-11-13,264767,Alabama vs Purdue,80,87,Alabama -3.5,-105,2,loss,-2.0
-5,perplexity,2025-11-13,264768,Wichita State vs Loyola (IL),95,74,Wichita State -5.5,-110,2,win,1.818181818181818
-6,perplexity,2025-11-13,280381,Howard vs Alcorn State,72,64,Howard -6.5,-112,2,win,1.7857142857142858
-7,perplexity,2025-11-13,264766,K State vs California,99,96,K State -6.5,-112,1,loss,-1.0
-9,perplexity,2025-11-13,264765,LSU vs FIU,98,81,LSU -21.5,-110,1,loss,-1.0
-10,perplexity,2025-11-13,264763,UMASS vs Dolphins,94,80,UMASS -15.5,-100,1,loss,-1.0
-1,claude,2025-11-11,264701,Illinois vs Texas Tech,81,77,Over 168.5,-105,3,loss,-3.0
-2,claude,2025-11-11,264732,Louisville vs Kentucky,96,88,Louisville -6.5,-110,3,win,2.727272727272727
-3,claude,2025-11-11,264721,UNC vs Radford,89,74,UNC -19.5,-112,3,loss,-3.0
-4,claude,2025-11-11,266367,Michigan vs Wake Forest,85,84,Under 168.5,-110,2,loss,-2.0
-5,claude,2025-11-11,266649,Gonzaga vs Creighton,90,63,Over 165.5,-105,2,loss,-2.0
-6,claude,2025-11-11,264731,Florida vs Florida St,78,76,Florida St +17.5,-110,2,win,1.818181818181818
-7,claude,2025-11-11,264718,BYU vs Delaware,85,68,Over 164.5,-108,2,loss,-2.0
-8,claude,2025-11-11,271994,Arizona vs N. Arizona,84,49,Over 162.5,-105,2,loss,-2.0
-9,claude,2025-11-11,264714,Kansas vs Texas A&M-CC,77,46,Over 147.5,-105,1,loss,-1.0
-10,claude,2025-11-11,264709,Wisconsin vs Ball State,86,55,Ball State +27.5,-110,1,loss,-1.0
-11,claude,2025-11-11,266359,Auburn vs Wofford,93,62,Under 154.5,-115,1,loss,-1.0
-1,claude,2025-11-12,264501,Longwood vs JMU,82,72,Longwood +1.5,-123,3,win,2.4390243902439024
-2,claude,2025-11-12,266380,Texas St vs UTSA,80,69,Texas St -3.5,-105,3,win,2.8571428571428568
-3,claude,2025-11-12,266379,Valparaiso vs Nicholls St,68,63,Valparaiso -2.5,-109,2,win,1.834862385321101
-4,claude,2025-11-12,264739,Evansville vs Middle Tenn,72,77,Evansville -2.5,-110,2,loss,-2.0
-5,claude,2025-11-12,266378,Boston U vs Brown,90,77,Boston U -2.5,-117,2,win,1.709401709401709
-6,claude,2025-11-12,264757,Missouri vs Minnesota,83,60,Missouri -6.5,-115,2,win,1.7391304347826086
-7,claude,2025-11-12,264743,G Washington vs American U,107,67,American U +17.5,-110,2,loss,-2.0
-8,claude,2025-11-12,264756,VA Tech vs Saint Joe's,94,59,Under 157.5,-105,1,win,0.9523809523809524
-9,claude,2025-11-12,264752,Bryant U vs Dartmouth ,82,75,Bryant U -1.5,-109,1,win,0.9174311926605504
-10,claude,2025-11-12,264502,Oral Roberts vs Tulsa,87,88,Oral Roberts +6.5,-115,1,win,0.8695652173913043
-11,claude,2025-11-12,264741,San Diego vs Idaho,78,74,San Diego +1.5,-115,1,win,0.8695652173913043
-1,claude,2025-11-13,264767,Alabama vs Purdue,80,87,Alabama -3.5,-105,3,loss,-3.0
-2,claude,2025-11-13,267568,Grambling St vs Southern Miss,75,70,Grambling St -2.0,-111,3,win,2.702702702702702
-3,claude,2025-11-13,264768,Wichita State vs Loyola (IL),95,74,Wichita State -5.5,-110,3,win,2.727272727272727
-4,claude,2025-11-13,264769,West Virginia vs Pittsburgh,71,49,West Virginia -6.5,-110,2,win,1.818181818181818
-5,claude,2025-11-13,266381,Lafayette vs Cornell,78,97,Lafayette +4.5,-105,2,loss,-2.0
-6,claude,2025-11-13,280381,Howard vs Alcorn State,72,64,Howard -6.5,-112,2,win,1.7857142857142858
-7,claude,2025-11-13,264766,K State vs California,99,96,K State -6.5,-112,2,loss,-2.0
-8,claude,2025-11-13,264507,Alabama A&M vs Charleston So,68,64,Alabama A&M -1.5,-120,1,win,0.8333333333333334
-8,perplexity,2025-11-14,266387,Texas A&M vs UCF,74,86,Texas A&M -9.5,-115,1,loss,-1.0
-11,perplexity,2025-11-14,264510,Brown vs Hampton,63,72,Brown -2.5,-110,1,loss,-1.0
-12,perplexity,2025-11-14,264512,UC Davis vs Sac State,77,73,UC Davis -4.5,-110,1,loss,-1.0
-1,perplexity,2025-11-14,264508,E. Michigan vs IUIN,83,90,E. Michigan -5.5,-110,3,loss,-3.0
-2,perplexity,2025-11-14,271998,Rutgers vs Lehigh,84,72,Lehigh +17.5,-111,2,win,1.8018018018018016
-3,perplexity,2025-11-14,267343,Jax State vs Coastal Car,74,67,Jax State -7.5,-115,2,loss,-2.0
-4,perplexity,2025-11-14,266385,N. Iowa vs Furman,70,54,N. Iowa -9.5,-110,2,win,1.818181818181818
-5,perplexity,2025-11-14,264781,Iona vs Fordham,76,71,Iona -5.5,-110,2,loss,-2.0
-6,perplexity,2025-11-14,264775,Rhode Island vs Albany,80,61,Rhode Island -15.5,-105,1,win,0.9523809523809524
-7,perplexity,2025-11-14,264770,Tulane vs New Orleans,63,85,Tulane -12.5,-108,1,loss,-1.0
-8,perplexity,2025-11-14,264779,Fairfield vs Stonehill,73,71,Fairfield -6.5,-115,1,loss,-1.0
-9,perplexity,2025-11-14,264771,Towson vs Norfolk State,51,41,Towson -13.5,-106,1,loss,-1.0
-10,perplexity,2025-11-14,264776,USC vs Illinois St,87,67,USC -15.5,-115,1,win,0.8695652173913043
-11,perplexity,2025-11-14,266387,Texas A&M vs UCF,74,86,Texas A&M -10.5,-105,1,loss,-1.0
-12,perplexity,2025-11-14,267627,Arkansas vs Samford,79,75,Arkansas -25.5,-108,1,loss,-1.0
-9,claude,2025-11-14,264510,Brown vs Hampton,63,72,Brown -2.5,-110,1,loss,-1.0
-10,claude,2025-11-14,264773,DePaul vs Northwestern,79,81,DePaul +6.5,-110,1,win,0.9090909090909092
-11,claude,2025-11-14,264790,TCU vs Michigan,63,67,TCU +7.0,-110,1,win,0.9090909090909092
-1,claude,2025-11-14,264781,Iona vs Fordham,76,71,Iona -5.5,-110,3,loss,-3.0
-2,claude,2025-11-14,264792,Wolves vs Citadel,100,92,Wolves -6.5,-114,3,win,2.631578947368421
-3,claude,2025-11-14,264779,Fairfield vs Stonehill,73,71,Fairfield -6.5,-115,3,loss,-3.0
-4,claude,2025-11-14,264508,E. Michigan vs IUIN,83,90,E. Michigan -5.5,-110,2,loss,-2.0
-5,claude,2025-11-14,264771,Towson vs Norfolk State,51,41,Towson -13.5,-106,2,loss,-2.0
-6,claude,2025-11-14,266385,N. Iowa vs Furman,70,54,N. Iowa -9.5,-110,2,win,1.818181818181818
-7,claude,2025-11-14,264770,Tulane vs New Orleans,63,85,Tulane -12.5,-108,2,loss,-2.0
-8,claude,2025-11-14,264510,Brown vs Hampton,63,72,Brown -1.5,-105,1,loss,-1.0
-9,claude,2025-11-14,264778,Lindenwood vs Charleston So,77,83,Charleston So +3.5,-105,1,win,0.9523809523809524
-10,claude,2025-11-14,264773,DePaul vs Northwestern,79,81,DePaul +4.5,-112,1,win,0.8928571428571429
-11,claude,2025-11-14,264790,TCU vs Michigan,63,67,TCU +7.5,-110,1,win,0.9090909090909092
-1,perplexity,2025-11-15,264823,Marquette vs Maryland,82,89,Marquette -8.5,-110,3,loss,-3.0
-2,perplexity,2025-11-15,264801,Kansas vs Princeton,76,57,Kansas -22.5,-110,2,loss,-2.0
-3,perplexity,2025-11-15,264802,SMU vs Butler,87,85,SMU -7.5,-110,2,loss,-2.0
-4,perplexity,2025-11-15,267559,Temple vs Boston Col,71,76,Temple -3.5,-110,2,loss,-2.0
-5,perplexity,2025-11-15,264812,St. Bonaventure vs Youngstown St,84,80,St. Bonaventure -10.5,-110,2,loss,-2.0
-6,perplexity,2025-11-15,276082,Davidson vs Bowling Green,91,87,Davidson -4.5,-112,1,loss,-1.0
-7,perplexity,2025-11-15,266402,UCSD vs Idaho,75,67,UCSD -5.5,-115,1,win,0.8695652173913043
-8,perplexity,2025-11-15,267628,UC Riverside vs North Dakota,74,76,UC Riverside -3.5,-105,1,loss,-1.0
-9,perplexity,2025-11-15,266404,Texas St vs Texas Southern,77,67,Texas St -3.5,-113,1,win,0.8849557522123894
-10,perplexity,2025-11-15,266388,Winthrop vs Mercer,105,69,Winthrop -2.5,-115,1,win,0.8695652173913043
-11,perplexity,2025-11-15,264810,Villanova vs Duquesne,87,77,Villanova -10.5,-110,1,loss,-1.0
-12,perplexity,2025-11-15,264814,Utah vs Sam Houston,85,79,Utah -13.5,-105,1,loss,-1.0
-1,claude,2025-11-15,267559,Temple vs Boston Col,71,76,Temple -3.5,-110,3,loss,-3.0
-2,claude,2025-11-15,264825,Denver vs UTSA,79,84,Denver -4.5,-108,3,loss,-3.0
-3,claude,2025-11-15,278414,UNC Greensboro vs Austin Peay,63,69,UNC Greensboro -1.5,-107,3,loss,-3.0
-4,claude,2025-11-15,266388,Winthrop vs Mercer,105,69,Winthrop -2.5,-115,2,win,1.7391304347826086
-5,claude,2025-11-15,264820,Nebraska vs Oklahoma,105,99,Nebraska -1.5,-110,2,win,1.818181818181818
-6,claude,2025-11-15,276082,Davidson vs Bowling Green,91,87,Davidson -4.5,-112,2,loss,-2.0
-7,claude,2025-11-15,267628,UC Riverside vs North Dakota,74,76,UC Riverside -3.5,-105,2,loss,-2.0
-8,claude,2025-11-15,266404,Texas St vs Texas Southern,77,67,Texas St -3.5,-113,1,win,0.8849557522123894
-9,claude,2025-11-15,264807,UConn vs BYU,86,84,UConn -6.5,-105,1,loss,-1.0
-10,claude,2025-11-15,271999,SE Missouri vs St. Thomas,72,84,SE Missouri +2.5,-111,1,win,0.9009009009009008
-11,claude,2025-11-15,264517,Air Force vs Miami (OH),61,76,Air Force +10.5,-105,1,loss,-1.0
-1,perplexity,2025-11-17,264848,Pittsburgh vs Bucknell,84,50,Pittsburgh -15.5,-111,3,win,2.702702702702702
-2,perplexity,2025-11-17,264849,NC State vs VCU,85,79,NC State -11.5,-115,2,loss,-2.0
-3,perplexity,2025-11-17,267629,UCF vs Oakland,87,83,UCF -13.5,-110,2,loss,-2.0
-4,perplexity,2025-11-17,264852,Charleston vs Drake,62,71,Charleston -7.5,-105,2,loss,-2.0
-5,perplexity,2025-11-17,267346,Siena vs Colgate,69,72,Siena -6.5,-113,2,loss,-2.0
-6,perplexity,2025-11-17,264851,Clemson vs North Alabama,81,61,Clemson -25.5,-112,1,loss,-1.0
-7,perplexity,2025-11-17,264857,Colorado vs Alabama St,94,66,Colorado -22.5,-110,1,win,0.9090909090909092
-8,perplexity,2025-11-17,264861,Wisconsin vs SIU-Edwardsville,94,69,Wisconsin -25.5,-110,1,loss,-1.0
-9,perplexity,2025-11-17,264860,Arizona St vs Georgia State,75,62,Arizona St -18.5,-115,1,loss,-1.0
-10,perplexity,2025-11-17,280384,UCSB vs Loyola Marymount,74,78,UCSB -3.5,-105,1,loss,-1.0
-11,perplexity,2025-11-17,266417,Oregon vs Oregon St,87,75,Oregon -14.5,-105,1,loss,-1.0
-12,perplexity,2025-11-17,264858,Tennessee vs Rice,91,66,Tennessee -26.5,-105,1,loss,-1.0
-1,claude,2025-11-17,264852,Charleston vs Drake,62,71,Charleston -7.5,-105,2,loss,-2.0
-2,claude,2025-11-17,264859,Tenn Tech vs Wolves,59,61,Tenn Tech -4.5,-110,2,loss,-2.0
-3,claude,2025-11-17,264855,NDSU vs S. Illinois,92,85,NDSU -1.5,103,2,win,2.06
-4,claude,2025-11-17,267346,Siena vs Colgate,69,72,Siena -6.5,-113,2,loss,-2.0
-5,claude,2025-11-17,264863,Dolphins vs Niagara,74,68,Dolphins -2.5,-107,1,win,0.9345794392523364
-6,claude,2025-11-17,264856,Penn vs Saint Joe's,83,74,Penn +5.5,-105,1,win,0.9523809523809524
-7,claude,2025-11-17,280384,UCSB vs Loyola Marymount,74,78,UCSB -3.5,-105,1,loss,-1.0
-9,claude,2025-11-17,278479,UL Monroe vs Lamar,66,79,UL Monroe +10.5,-115,1,loss,-1.0
-3,gemini,2025-11-17,264849,NC State vs VCU,85,79,NC State -11.5,-115,3,loss,-3.0
-4,gemini,2025-11-17,267346,Siena vs Colgate,69,72,Siena -6.5,-113,3,loss,-3.0
-5,gemini,2025-11-17,267629,UCF vs Oakland,87,83,UCF -13.5,-110,2,loss,-2.0
-6,gemini,2025-11-17,264847,K State vs Tulsa,84,83,Tulsa +12.5,-115,2,win,1.7391304347826086
-7,gemini,2025-11-17,264863,Dolphins vs Niagara,74,68,Niagara +2.5,-112,2,loss,-2.0
-8,gemini,2025-11-17,264859,Tenn Tech vs Wolves,59,61,Tenn Tech -4.5,-110,2,loss,-2.0
-9,gemini,2025-11-17,264848,Pittsburgh vs Bucknell,84,50,Pittsburgh -15.5,-111,1,win,0.9009009009009008
-10,gemini,2025-11-17,264851,Clemson vs North Alabama,81,61,Under 144.5,-108,1,win,0.925925925925926
-1,perplexity,2025-11-18,264866,Kentucky vs Michigan St,66,83,Kentucky -4.5,-105,3,loss,-3.0
-2,perplexity,2025-11-18,266421,Drexel vs N.J.I.T.,75,43,Drexel -9.5,-111,2,win,1.8018018018018016
-3,perplexity,2025-11-18,266426,Kent State vs E. Kentucky,93,78,Kent State -10.5,-107,2,win,1.8691588785046729
-4,perplexity,2025-11-18,264868,Xavier vs Old Dominion,99,69,Xavier -10.5,-110,2,win,1.818181818181818
-5,perplexity,2025-11-18,264893,Brown vs Holy Cross,68,49,Brown -2.5,-115,2,win,1.7391304347826086
-8,perplexity,2025-11-18,264880,UNC Wilmington vs E. Carolina,85,60,UNC Wilmington -6.5,-115,1,win,0.8695652173913043
-9,perplexity,2025-11-18,276083,Delaware vs St. Peter's,81,70,Delaware -4.5,-115,1,win,0.8695652173913043
-10,perplexity,2025-11-18,264871,Providence vs New Hampshire,98,66,Providence -27.5,-111,1,win,0.9009009009009008
-12,perplexity,2025-11-18,266422,Florida St vs TN-Martin,87,73,Florida St -21.5,-105,1,loss,-1.0
-8,claude,2025-11-18,264866,Kentucky vs Michigan St,66,83,Kentucky -5.5,-110,1,loss,-1.0
-1,claude,2025-11-18,264870,Buffalo vs Vermont,94,90,Buffalo +2.5,-105,1,win,0.9523809523809524
-2,claude,2025-11-18,266427,JMU vs Towson,81,75,JMU +2.5,-110,1,win,0.9090909090909092
-3,claude,2025-11-18,264891,Charleston So vs IUIN,103,91,Charleston So +1.5,-110,1,win,0.9090909090909092
-4,claude,2025-11-18,264876,Detroit vs E. Michigan,62,72,Detroit -1.5,-105,1,loss,-1.0
-6,claude,2025-11-18,264866,Kentucky vs Michigan St,66,83,Michigan St +4.5,-115,1,win,0.8695652173913043
-6,perplexity,2025-11-18,266425,Texas A&M vs Montana,86,81,Texas A&M -17.5,-111,1,loss,-1.0
-7,perplexity,2025-11-18,264896,Yale vs Rhode Island,77,86,Yale -8.5,-110,1,loss,-1.0
-11,perplexity,2025-11-18,264865,Boise State vs Wichita State,62,59,Boise State -9.5,-115,1,loss,-1.0
-5,claude,2025-11-18,267561,Fresno State vs SFA,80,78,Fresno State +2.5,-110,1,win,0.9090909090909092
-2,perplexity,2025-11-19,264901,Penn State vs Harvard,84,80,Penn State -12.5,-110,2,loss,-2.0
-3,perplexity,2025-11-19,266430,Bowling Green vs William & Mary,74,82,Bowling Green -8.5,-111,2,loss,-2.0
-7,perplexity,2025-11-19,264914,Richmond vs VMI,87,54,Richmond -13.5,-110,1,win,0.9090909090909092
-10,perplexity,2025-11-19,267503,Wofford vs North Florida,86,78,Wofford -11.0,-113,1,loss,-1.0
-11,perplexity,2025-11-19,267570,Cleveland St vs Valparaiso,75,90,Cleveland St -2.0,-110,1,loss,-1.0
-12,perplexity,2025-11-19,275590,Samford vs FGCU,62,77,Samford -4.5,-110,1,loss,-1.0
-1,claude,2025-11-19,264919,Air Force vs Alabama St,66,64,Air Force -2.5,-105,1,loss,-1.0
-2,claude,2025-11-19,267570,Cleveland St vs Valparaiso,75,90,Cleveland St -2.0,-110,1,loss,-1.0
-4,claude,2025-11-19,267351,Jax State vs S. Alabama,65,71,Jax State -2.5,-110,1,loss,-1.0
-5,claude,2025-11-19,264905,Toledo vs Youngstown St,92,75,Toledo -1.5,-108,1,win,0.925925925925926
-1,gemini,2025-11-19,267503,Wofford vs North Florida,86,78,Wofford -11.0,-113,3,loss,-3.0
-2,gemini,2025-11-19,264901,Penn State vs Harvard,84,80,Harvard +12.5,-110,3,win,2.727272727272727
-3,gemini,2025-11-19,264902,Indiana St vs LA Tech,60,51,LA Tech +3.5,-115,2,loss,-2.0
-1,perplexity,2025-11-19,264910,UConn vs Arizona,67,71,UConn -6.5,-110,3,loss,-3.0
-4,perplexity,2025-11-19,264918,Notre Dame vs Bellarmine,86,79,Notre Dame -25.5,-110,2,loss,-2.0
-6,perplexity,2025-11-19,264912,Maryland vs St. Mary's,95,90,Maryland -20.5,-105,1,loss,-1.0
-9,perplexity,2025-11-19,267562,Temple vs Hofstra,81,76,Temple -5.5,-108,1,loss,-1.0
-3,claude,2025-11-19,272002,SC State vs Chattanooga,66,78,SC State +10.5,-105,1,loss,-1.0
-6,claude,2025-11-19,266435,Sam Houston vs Wyoming,78,70,Sam Houston -1.5,-115,1,win,0.8695652173913043
-7,claude,2025-11-19,264906,USC Upstate vs Tenn Tech,84,88,USC Upstate -1.5,-115,1,loss,-1.0
-8,claude,2025-11-19,274052,Utah Valley vs UC Irvine,79,72,Utah Valley -2.5,-110,1,win,0.9090909090909092
-4,gemini,2025-11-19,264917,Marquette vs Dayton,71,77,Dayton +5.5,-110,2,win,1.818181818181818
-5,gemini,2025-11-19,267562,Temple vs Hofstra,81,76,Temple -5.5,-108,2,loss,-2.0
-7,gemini,2025-11-19,264909,Creighton vs North Dakota,75,60,Creighton -27.5,-110,1,loss,-1.0
-9,gemini,2025-11-19,266435,Sam Houston vs Wyoming,78,70,Under 157.5,-110,1,win,0.9090909090909092
-10,gemini,2025-11-19,264911,Duquesne vs Loyola (MD),92,78,Under 149.5,-107,1,loss,-1.0
-5,perplexity,2025-11-19,264900,OK State vs S. Florida,103,95,OK State -3.5,-115,2,win,1.7391304347826086
-9,claude,2025-11-19,266429,Weber State vs Campbell,91,85,Weber State -2.5,-110,1,win,0.9090909090909092
-10,claude,2025-11-19,264913,Illinois vs Alabama,86,90,Alabama +2.5,-105,1,win,0.9523809523809524
-6,gemini,2025-11-19,274946,Saint Mary's vs Arkansas St,85,72,Saint Mary's -20.5,-110,1,loss,-1.0
-8,gemini,2025-11-19,266429,Weber State vs Campbell,91,85,Under 159.5,-110,1,loss,-1.0
-8,perplexity,2025-11-19,264903,Washington St vs Southern Utah,98,74,Washington St -12.5,-110,1,win,0.9090909090909092
-1,perplexity,2025-11-21,266458,Akron vs Iona,96,75,Akron -11.5,-105,3,win,2.8571428571428568
-3,perplexity,2025-11-21,266459,Clemson vs West Virginia,70,67,Clemson -3.5,-110,2,loss,-2.0
-4,perplexity,2025-11-21,266453,Florida St vs GA Southern,98,72,Florida St -18.0,-110,2,win,1.818181818181818
-5,perplexity,2025-11-21,272005,Rutgers vs Central Conn,54,67,Rutgers -15.5,-110,2,loss,-2.0
-6,perplexity,2025-11-21,267354,Siena vs Albany,73,63,Siena -11.5,-105,1,loss,-1.0
-7,perplexity,2025-11-21,271301,Lehigh vs Columbia,67,82,Lehigh -1.5,-117,1,loss,-1.0
-10,perplexity,2025-11-21,264530,App State vs Charlotte,65,63,App State -1.5,-110,1,win,0.9090909090909092
-1,claude,2025-11-21,264528,Stonehill vs Lafayette,74,70,Stonehill +1.5,-118,1,win,0.847457627118644
-2,claude,2025-11-21,271301,Lehigh vs Columbia,67,82,Lehigh +1.5,-102,1,loss,-1.0
-3,claude,2025-11-21,264529,E. Michigan vs Oakland,97,91,E. Michigan +1.5,-112,1,win,0.8928571428571429
-4,claude,2025-11-21,264530,App State vs Charlotte,65,63,App State -1.5,-110,1,win,0.9090909090909092
-5,claude,2025-11-21,266447,Cincinnati vs Louisville,64,74,Cincinnati +8.5,-110,1,loss,-1.0
-6,claude,2025-11-21,282311,New Mexico vs Mississippi St,80,78,New Mexico +6.5,-109,1,win,0.9174311926605504
-7,claude,2025-11-21,282310,Wake Forest vs Memphis,69,68,Wake Forest -2.5,-112,1,loss,-1.0
-8,claude,2025-11-21,266448,Radford vs UNC Wilmington,73,81,Radford +3.5,-105,1,loss,-1.0
-3,gemini,2025-11-21,264528,Stonehill vs Lafayette,74,70,Stonehill +1.5,-118,3,win,2.542372881355932
-5,gemini,2025-11-21,272005,Rutgers vs Central Conn,54,67,Rutgers -15.5,-110,2,loss,-2.0
-6,gemini,2025-11-21,267355,UAB vs S. Alabama,80,72,UAB -6.5,-108,2,win,1.851851851851852
-7,gemini,2025-11-21,266459,Clemson vs West Virginia,70,67,Clemson -3.5,-110,2,loss,-2.0
-9,gemini,2025-11-21,267354,Siena vs Albany,73,63,Siena -11.5,-105,1,loss,-1.0
-10,gemini,2025-11-21,271301,Lehigh vs Columbia,67,82,Lehigh +1.5,-102,1,loss,-1.0
-11,perplexity,2025-11-21,266461,Oregon St vs Evansville,69,73,Oregon St -6.5,-105,1,loss,-1.0
-9,claude,2025-11-21,264955,N. Colorado vs St. Thomas,72,73,N. Colorado +4.5,-110,1,win,0.9090909090909092
-2,gemini,2025-11-21,266461,Oregon St vs Evansville,69,73,Oregon St -6.5,-105,3,loss,-3.0
-8,perplexity,2025-11-21,264936,San Diego vs UC Riverside,71,85,San Diego -7.5,-115,1,loss,-1.0
-9,perplexity,2025-11-21,264957,Stanford vs Seattle,69,77,Stanford -10.0,-110,1,loss,-1.0
-10,claude,2025-11-21,266446,Pepperdine vs SFA,60,63,Pepperdine +1.5,-115,1,loss,-1.0
-1,gemini,2025-11-21,264936,San Diego vs UC Riverside,71,85,San Diego -7.5,-112,3,loss,-3.0
-4,gemini,2025-11-21,264958,Portland vs CS Fullerton,103,85,Portland -5.5,-111,2,win,1.8018018018018016
-8,gemini,2025-11-21,266462,Xavier vs Georgia,77,78,Georgia -10.5,-110,1,loss,-1.0
-12,perplexity,2025-11-21,264954,UCLA vs Presbyterian,86,46,UCLA -26.5,-105,1,win,0.9523809523809524
-1,perplexity,2025-11-22,264966,Marquette vs C. Michigan,85,71,Marquette -24.5,-110,3,loss,-3.0
-2,perplexity,2025-11-22,264971,OK State vs Nicholls St,95,81,OK State -24.0,-113,3,loss,-3.0
-3,perplexity,2025-11-22,280860,St. Peter's vs UMass Lowell,68,66,St. Peter's -7.5,-100,3,loss,-3.0
-4,perplexity,2025-11-22,266468,Kent State vs Cleveland St,91,71,Kent State -15.5,-104,3,win,2.8846153846153846
-2,gemini,2025-11-22,264966,Marquette vs C. Michigan,85,71,C. Michigan +24.5,-111,3,win,2.702702702702702
-3,gemini,2025-11-22,264971,OK State vs Nicholls St,95,81,Nicholls St +24.0,-107,3,win,2.803738317757009
-8,gemini,2025-11-22,266468,Kent State vs Cleveland St,91,71,Cleveland St +15.5,-118,1,loss,-1.0
-6,perplexity,2025-11-22,264979,Binghamton vs MD-E Shore,52,63,Binghamton -8.0,-113,2,loss,-2.0
-7,perplexity,2025-11-22,264978,Penn State vs Providence,65,77,Providence -4.5,-111,2,win,1.8018018018018016
-1,claude,2025-11-22,264978,Penn State vs Providence,65,77,Penn State +4.5,-111,3,loss,-3.0
-3,claude,2025-11-22,264968,Duquesne vs Northeastern,86,93,Duquesne -7.5,-115,3,loss,-3.0
-5,claude,2025-11-22,276557,E. Kentucky vs Mercer,83,95,Mercer +4.5,-110,2,win,1.818181818181818
-8,perplexity,2025-11-22,264980,St. Thomas vs CS Fullerton,80,88,St. Thomas -11.5,-115,2,loss,-2.0
-9,perplexity,2025-11-22,272008,Chattanooga vs North Alabama,71,57,Chattanooga -10.5,-108,2,win,1.851851851851852
-10,perplexity,2025-11-22,264961,Niagara vs Howard,70,80,Howard -4.5,-114,1,win,0.8771929824561403
-2,claude,2025-11-22,264975,Minnesota vs San Francisco,65,77,Minnesota +1.5,-118,3,loss,-3.0
-4,claude,2025-11-22,264961,Niagara vs Howard,70,80,Howard -4.5,-114,2,win,1.7543859649122806
-6,claude,2025-11-22,267357,Nevada vs UCSB,77,64,Nevada -5.5,-105,2,win,1.9047619047619049
-7,claude,2025-11-22,267601,Lipscomb vs W. Carolina,83,62,Lipscomb -5.0,-111,2,win,1.8018018018018016
-8,claude,2025-11-22,264972,Missouri St vs UT Grande Valley,74,67,Missouri St -1.5,-110,1,win,0.9090909090909092
-9,claude,2025-11-22,282320,Oregon St vs Iona,84,91,Iona +3.5,-105,1,win,0.9523809523809524
-10,claude,2025-11-22,264969,Wichita State vs Milwaukee,75,58,Wichita State -10.5,-110,1,win,0.9090909090909092
-11,claude,2025-11-22,264970,Indiana St vs Ball State,70,52,Ball State +7.5,-110,1,loss,-1.0
-1,gemini,2025-11-22,264969,Wichita State vs Milwaukee,75,58,Milwaukee +10.5,-110,3,loss,-3.0
-4,gemini,2025-11-22,266469,CS Bakersfield vs MS Valley St,86,70,MS Valley St +23.5,-110,2,win,1.818181818181818
-5,gemini,2025-11-22,282305,UIC vs Southern Indiana,84,73,Southern Indiana +11.5,-115,2,win,1.7391304347826086
-6,gemini,2025-11-22,272008,Chattanooga vs North Alabama,71,57,North Alabama +10.5,-115,2,loss,-2.0
-7,gemini,2025-11-22,264980,St. Thomas vs CS Fullerton,80,88,CS Fullerton +11.5,-110,1,win,0.9090909090909092
-10,gemini,2025-11-22,264975,Minnesota vs San Francisco,65,77,Minnesota +1.5,-118,1,loss,-1.0
-9,gemini,2025-11-22,264981,Portland vs N. Colorado,80,86,Portland +3.5,-110,1,loss,-1.0
-1,perplexity,2025-11-24,266478,Rhode Island vs Towson,55,62,Rhode Island -2.5,-110,3,loss,-3.0
-2,perplexity,2025-11-24,278417,Troy vs Toledo,68,75,Troy -2.5,-105,2,loss,-2.0
-7,claude,2025-11-24,264994,Bowling Green vs Bucknell,71,66,Bowling Green -7.5,-105,2,loss,-2.0
-7,gemini,2025-11-24,264994,Bowling Green vs Bucknell,71,66,Bucknell +7.5,-115,1,win,0.8695652173913043
-3,perplexity,2025-11-24,282338,Oregon St vs UMASS,65,73,Oregon St -2.5,-110,2,loss,-2.0
-4,perplexity,2025-11-24,266482,Tennessee vs Rutgers,85,60,Tennessee -15.5,-108,2,win,1.851851851851852
-5,perplexity,2025-11-24,266483,Vermont vs Liberty,73,79,Liberty -8.5,-115,2,loss,-2.0
-6,perplexity,2025-11-24,266484,Baylor vs Creighton,81,74,Baylor -3.5,-110,1,win,0.9090909090909092
-3,claude,2025-11-24,266484,Baylor vs Creighton,81,74,Baylor -3.5,-110,3,win,2.727272727272727
-10,claude,2025-11-24,282338,Oregon St vs UMASS,65,73,Oregon St -2.5,-110,1,loss,-1.0
-2,gemini,2025-11-24,266482,Tennessee vs Rutgers,85,60,Rutgers +15.5,-112,3,loss,-3.0
-7,perplexity,2025-11-24,266486,NC State vs Seton Hall,74,85,NC State -9.5,-115,1,loss,-1.0
-1,claude,2025-11-24,266488,Notre Dame vs Kansas,61,71,Notre Dame +4.5,-105,3,loss,-3.0
-3,gemini,2025-11-24,266486,NC State vs Seton Hall,74,85,Seton Hall +9.5,-105,3,win,2.8571428571428568
-10,gemini,2025-11-24,264536,Buffalo vs VMI,78,70,VMI +7.5,-115,1,loss,-1.0
-10,perplexity,2025-11-24,266492,George Mason vs Ohio,92,69,George Mason -7.5,-105,1,win,0.9523809523809524
-2,claude,2025-11-24,266489,Iowa State vs St. John's,83,82,Iowa State -2.5,-110,3,loss,-3.0
-8,claude,2025-11-24,266492,George Mason vs Ohio,92,69,George Mason -7.5,-105,1,win,0.9523809523809524
-9,claude,2025-11-24,266490,Boise State vs USC,67,70,Boise State +5.5,-110,1,win,0.9090909090909092
-1,gemini,2025-11-24,266493,Syracuse vs Houston,74,78,Syracuse +14.5,-110,3,win,2.727272727272727
-4,gemini,2025-11-24,266494,Bradley vs Princeton,88,64,Princeton +7.5,-105,2,loss,-2.0
-6,gemini,2025-11-24,266492,George Mason vs Ohio,92,69,Ohio +7.5,-115,2,loss,-2.0
-4,claude,2025-11-24,266496,Oregon vs Auburn,73,84,Oregon +3.5,-100,2,loss,-2.0
-8,gemini,2025-11-24,266496,Oregon vs Auburn,73,84,Oregon +3.5,-100,1,loss,-1.0
-5,claude,2025-11-24,266499,Alabama vs Gonzaga,85,95,Alabama +4.5,-110,2,loss,-2.0
-11,claude,2025-11-24,266500,San Diego State vs Michigan,54,94,San Diego State +5.5,-110,1,loss,-1.0
-5,gemini,2025-11-24,266499,Alabama vs Gonzaga,85,95,Alabama +4.5,-110,2,loss,-2.0
-9,gemini,2025-11-24,266500,San Diego State vs Michigan,54,94,San Diego State +5.5,-110,1,loss,-1.0
-9,perplexity,2025-11-25,266502,Maryland vs UNLV,74,67,Maryland -2.5,-105,1,win,0.9523809523809524
-6,claude,2025-11-25,266502,Maryland vs UNLV,74,67,Maryland -2.5,-105,2,win,1.9047619047619049
-5,perplexity,2025-11-24,266490,Boise State vs USC,67,70,USC -5.5,-111,2,loss,-2.0
-6,perplexity,2025-11-25,282638,George Mason vs FAU,74,65,FAU +4.5,-110,1,loss,-1.0
-1,claude,2025-11-25,266503,JMU vs Omaha,88,77,JMU -1.5,-115,3,win,2.608695652173913
-8,claude,2025-11-25,282638,George Mason vs FAU,74,65,George Mason -4.5,-110,1,win,0.9090909090909092
-10,claude,2025-11-25,282603,Princeton vs Temple,75,79,Princeton +7.5,-105,1,win,0.9523809523809524
-1,gemini,2025-11-25,266506,Florida St vs CS Bakersfield,89,59,CS Bakersfield +24.5,-105,3,loss,-3.0
-2,gemini,2025-11-25,265017,Villanova vs Old Dominion,89,75,Old Dominion +21.5,-108,3,win,2.7777777777777777
-3,gemini,2025-11-25,265014,Wake Forest vs Campbell,99,51,Campbell +17.5,-110,3,loss,-3.0
-5,gemini,2025-11-25,265007,Penn State vs Boston U,96,87,Boston U +15.5,-115,2,win,1.7391304347826086
-8,gemini,2025-11-25,267633,UCF vs Quinnipiac,102,91,Quinnipiac +13.5,-110,1,win,0.9090909090909092
-2,perplexity,2025-11-25,266522,UC Irvine vs N. Mexico St,45,57,UC Irvine -2.5,-105,3,loss,-3.0
-3,perplexity,2025-11-25,280389,Austin Peay vs N. Illinois,77,59,Austin Peay -6.5,-110,2,win,1.818181818181818
-4,perplexity,2025-11-25,275939,North Texas vs E. Washington,79,71,North Texas -12.5,-105,2,loss,-2.0
-8,perplexity,2025-11-25,282734,Arizona St vs Washington St,100,94,Arizona St -5.5,-110,1,win,0.9090909090909092
-9,perplexity,2025-11-25,266522,UC Irvine vs N. Mexico St,45,57,Under 138.5,-110,1,win,0.9090909090909092
-2,claude,2025-11-25,266521,Auburn vs Michigan,72,102,Auburn +5.5,-115,3,loss,-3.0
-5,claude,2025-11-25,272010,Cal Poly vs SE Missouri,68,84,Cal Poly +1.5,-111,2,loss,-2.0
-6,claude,2025-11-25,266522,UC Irvine vs N. Mexico St,45,57,UC Irvine -2.5,-105,2,loss,-2.0
-9,claude,2025-11-25,282734,Arizona St vs Washington St,100,94,Arizona St -5.5,-110,1,win,0.9090909090909092
-7,gemini,2025-11-25,265010,Nebraska vs Winthrop,80,73,Winthrop +14.5,-115,2,win,1.7391304347826086
-9,gemini,2025-11-25,265012,Indiana vs K State,86,69,K State +10.5,-111,1,loss,-1.0
-10,gemini,2025-11-25,275939,North Texas vs E. Washington,79,71,E. Washington +12.5,-115,1,win,0.8695652173913043
-1,perplexity,2025-11-25,266524,Iowa vs Ole Miss,74,69,Iowa -4.5,-105,3,win,2.8571428571428568
-7,perplexity,2025-11-25,275593,Montana vs Oakland,87,95,Montana -4.5,-105,1,loss,-1.0
-3,claude,2025-11-25,266524,Iowa vs Ole Miss,74,69,Iowa -4.5,-105,3,win,2.8571428571428568
-7,claude,2025-11-25,275593,Montana vs Oakland,87,95,Montana -4.5,-105,2,loss,-2.0
-11,claude,2025-11-25,271310,GA Southern vs UTSA,64,77,GA Southern -3.5,-112,1,loss,-1.0
-4,gemini,2025-11-25,266523,Gonzaga vs Maryland,100,61,Maryland +14.5,-110,2,loss,-2.0
-10,perplexity,2025-11-25,266525,San Diego State vs Oregon,97,80,Oregon -1.5,-115,1,loss,-1.0
-4,claude,2025-11-25,266525,San Diego State vs Oregon,97,80,San Diego State +1.5,-105,2,win,1.9047619047619049
-6,gemini,2025-11-26,266527,UNLV vs Alabama,76,115,UNLV +13.5,-110,2,loss,-2.0
-3,perplexity,2025-11-25,266506,Florida St vs CS Bakersfield,89,59,Florida St -24.5,-115,2,win,1.7391304347826086
-5,perplexity,2025-11-25,275939,North Texas vs E. Washington,79,71,North Texas -12.5,-105,1,loss,-1.0
-7,perplexity,2025-11-26,278423,Miami (OH) vs UNC Greensboro,82,71,Miami (OH) -10.5,-115,1,win,0.8695652173913043
-6,claude,2025-11-26,282800,San Jose St vs Loyola (IL),63,51,San Jose St -1.5,-102,2,win,1.96078431372549
-11,claude,2025-11-26,266531,Robert Morris vs UIC,88,74,Robert Morris +1.5,-110,1,win,0.9090909090909092
-2,gemini,2025-11-26,278423,Miami (OH) vs UNC Greensboro,82,71,UNC Greensboro +10.5,-105,3,loss,-3.0
-1,perplexity,2025-11-26,266538,Valparaiso vs Southern Indiana,56,64,Valparaiso -9.5,-115,3,loss,-3.0
-2,perplexity,2025-11-26,265028,Boston Col vs Harvard,73,60,Boston Col -6.5,-115,2,win,1.7391304347826086
-8,perplexity,2025-11-26,266537,N. Mexico St vs Georgia State,77,58,N. Mexico St -12.5,-111,1,win,0.9009009009009008
-1,claude,2025-11-26,282813,Houston vs Notre Dame,66,56,Houston -11.5,-120,3,loss,-3.0
-5,claude,2025-11-26,266536,S. Florida vs VCU,66,78,S. Florida +1.5,-118,2,loss,-2.0
-8,claude,2025-11-26,265034,Jax State vs NDSU,43,56,Jax State +3.5,-108,1,loss,-1.0
-3,gemini,2025-11-26,266537,N. Mexico St vs Georgia State,77,58,Georgia State +12.5,-111,3,loss,-3.0
-8,gemini,2025-11-26,266538,Valparaiso vs Southern Indiana,56,64,Southern Indiana +9.5,-105,1,win,0.9523809523809524
-10,gemini,2025-11-26,265034,Jax State vs NDSU,43,56,Jax State +3.5,-112,1,loss,-1.0
-6,perplexity,2025-11-26,266529,Marshall vs Lipscomb,67,90,Marshall -8.5,-112,1,loss,-1.0
-9,perplexity,2025-11-26,282801,Tulsa vs N. Iowa,63,60,Tulsa -2.5,-110,1,win,0.9090909090909092
-3,claude,2025-11-26,282801,Tulsa vs N. Iowa,63,60,Tulsa +2.5,-110,3,win,2.727272727272727
-10,claude,2025-11-26,266539,VA Tech vs Colorado St,66,64,VA Tech -4.5,-108,1,loss,-1.0
-2,claude,2025-11-26,282808,Tennessee vs Kansas,76,81,Tennessee -5.5,-110,3,loss,-3.0
-6,gemini,2025-11-26,282808,Tennessee vs Kansas,76,81,Kansas +5.5,-110,2,win,1.818181818181818
-10,perplexity,2025-11-26,266533,Wyoming vs Denver,101,59,Wyoming -8.5,-105,1,win,0.9523809523809524
-7,claude,2025-11-26,282814,Auburn vs St. John's,85,74,Auburn +4.5,-110,2,win,1.818181818181818
-1,gemini,2025-11-26,266542,Saint Mary's vs Wichita State,70,65,Wichita State +10.5,-110,3,win,2.727272727272727
-4,gemini,2025-11-26,265029,Memphis vs S. Illinois,74,58,S. Illinois +10.5,-110,2,loss,-2.0
-5,gemini,2025-11-26,266533,Wyoming vs Denver,101,59,Denver +8.5,-115,2,loss,-2.0
-9,gemini,2025-11-26,282814,Auburn vs St. John's,85,74,Auburn +4.5,-110,1,win,0.9090909090909092
-4,perplexity,2025-11-26,282819,Iowa vs Grand Canyon,59,46,Iowa -8.5,-115,2,win,1.7391304347826086
-4,claude,2025-11-26,282809,Michigan vs Gonzaga,101,61,Michigan +2.0,-110,2,win,1.818181818181818
-9,claude,2025-11-26,282810,Texas vs NC State,102,97,Texas +3.5,-110,1,win,0.9090909090909092
-7,gemini,2025-11-26,282819,Iowa vs Grand Canyon,59,46,Grand Canyon +8.5,-105,1,loss,-1.0
-1,perplexity,2025-11-28,266559,Youngstown St vs Chicago St,87,64,Youngstown St -14.5,-106,3,win,2.830188679245283
-2,perplexity,2025-11-28,265058,Virginia vs Queens,94,69,Virginia -25.5,-108,3,loss,-3.0
-3,perplexity,2025-11-28,265052,UNC Wilmington vs Navy,87,57,UNC Wilmington -8.5,-110,2,win,1.818181818181818
-4,perplexity,2025-11-28,265048,Tulane vs Nicholls St,82,72,Tulane -8.5,-115,2,win,1.7391304347826086
-6,perplexity,2025-11-28,276085,Davidson vs NC A&T,90,74,Davidson -13.5,-115,2,win,1.7391304347826086
-7,perplexity,2025-11-28,264539,Penn vs Merrimack,77,65,Penn -3.5,-107,1,win,0.9345794392523364
-8,perplexity,2025-11-28,266560,Lehigh vs UCSB,70,72,UCSB -10.5,-105,1,loss,-1.0
-3,claude,2025-11-28,282840,Colorado vs Washington,81,68,Colorado +2.5,-110,3,win,2.727272727272727
-4,claude,2025-11-28,264539,Penn vs Merrimack,77,65,Penn -3.5,-107,2,win,1.8691588785046729
-5,claude,2025-11-28,282834,Illinois St vs Furman,72,65,Illinois St -3.5,-105,2,win,1.9047619047619049
-6,claude,2025-11-28,282847,Colorado St vs S. Florida,83,68,Colorado St +2.5,-105,2,win,1.9047619047619049
-10,claude,2025-11-28,275594,Arkansas St vs NDSU,85,80,Arkansas St -3.0,-110,1,win,0.9090909090909092
-1,gemini,2025-11-28,265058,Virginia vs Queens,94,69,Queens +25.5,-112,3,win,2.678571428571429
-2,gemini,2025-11-28,282841,Florida vs Providence,90,78,Providence +11.5,-108,3,loss,-3.0
-4,gemini,2025-11-28,265052,UNC Wilmington vs Navy,87,57,Navy +8.5,-110,2,loss,-2.0
-7,gemini,2025-11-27,282816,Alabama vs Maryland,105,72,Alabama -13.0,-110,1,win,0.9090909090909092
-8,gemini,2025-11-28,266559,Youngstown St vs Chicago St,87,64,Chicago St +14.5,-106,1,loss,-1.0
-9,gemini,2025-11-28,265053,American U vs Maine,74,61,Maine +7.5,-112,1,loss,-1.0
-10,gemini,2025-11-28,282847,Colorado St vs S. Florida,83,68,Colorado St +2.5,-115,1,win,0.8695652173913043
-5,perplexity,2025-11-28,265055,Xavier vs Texas A&M-CC,88,67,Xavier -14.5,-115,2,win,1.7391304347826086
-9,perplexity,2025-11-28,266554,Florida St vs Texas A&M,59,95,Over 172.5,-108,1,loss,-1.0
-1,claude,2025-11-28,266554,Florida St vs Texas A&M,59,95,Florida St -1.5,-105,3,loss,-3.0
-2,claude,2025-11-28,282849,Saint Louis vs Stanford,77,78,Saint Louis -2.5,-111,3,loss,-3.0
-8,claude,2025-11-28,264540,Idaho State vs CS Northridge,82,50,Idaho State -1.5,-102,1,win,0.9803921568627452
-9,claude,2025-11-28,266561,G Tech vs DePaul,61,75,G Tech +1.5,-115,1,loss,-1.0
-6,gemini,2025-11-28,265050,Pittsburgh vs Ohio State,67,66,Pittsburgh +4.5,-110,2,win,1.818181818181818
-7,claude,2025-11-28,265056,Mississippi St vs SMU,81,87,Mississippi St +1.5,-112,2,loss,-2.0
-5,gemini,2025-11-28,265056,Mississippi St vs SMU,81,87,Mississippi St +1.5,-108,2,loss,-2.0
-10,perplexity,2025-11-28,282844,Dayton vs BYU,79,83,BYU -9.5,-115,1,loss,-1.0
-11,claude,2025-11-28,265057,Idaho vs Sam Houston,68,94,Idaho +1.5,-118,1,loss,-1.0
-3,gemini,2025-11-28,282844,Dayton vs BYU,79,83,Dayton +9.5,-105,3,win,2.8571428571428568
-1,perplexity,2025-12-01,265101,Villanova vs Temple,74,56,Villanova -12.5,-112,3,win,2.678571428571429
-2,perplexity,2025-12-01,266582,Cincinnati vs Tarleton St,76,58,Cincinnati -19.5,-118,3,loss,-3.0
-5,perplexity,2025-12-01,265103,Xavier vs St. Francis (PA),96,74,Xavier -28.0,-112,2,loss,-2.0
-7,perplexity,2025-12-01,266583,Troy vs Wolves,89,93,Troy -17.5,-110,2,loss,-2.0
-1,claude,2025-12-01,276086,Delaware vs Iona,66,89,Delaware +1.5,-105,2,loss,-2.0
-5,claude,2025-12-01,266584,Middle Tenn vs UAB,76,61,Middle Tenn +1.5,-110,2,win,1.818181818181818
-11,claude,2025-12-01,267366,Jax State vs North Alabama,66,73,Jax State -5.5,-105,1,loss,-1.0
-4,gemini,2025-12-01,265101,Villanova vs Temple,74,56,Temple +12.5,-108,2,loss,-2.0
-8,gemini,2025-12-01,265103,Xavier vs St. Francis (PA),96,74,St. Francis (PA) +28.0,-107,1,win,0.9345794392523364
-3,perplexity,2025-12-01,265100,K State vs Bowling Green,66,82,K State -12.5,-105,2,loss,-2.0
-9,gemini,2025-12-01,265100,K State vs Bowling Green,66,82,Bowling Green +12.5,-115,1,win,0.8695652173913043
-10,gemini,2025-12-01,263613,Incarnate Word vs McNeese St,71,67,Incarnate Word +10.0,-110,1,win,0.9090909090909092
-4,perplexity,2025-12-01,265104,Stanford vs Portland,94,72,Stanford -18.5,-112,2,win,1.7857142857142858
-6,perplexity,2025-12-01,265102,Colorado vs Cal Baptist,78,70,Colorado -12.5,-110,2,loss,-2.0
+1.0,perplexity,2025-11-11,266367,Michigan vs Wake Forest,85,84,Wake Forest +15.5,-108.0,3.0,win,2.7777777777777777
+2.0,perplexity,2025-11-11,264701,Illinois vs Texas Tech,81,77,Illinois -3.5,-115.0,2.0,win,1.7391304347826086
+3.0,perplexity,2025-11-11,266649,Gonzaga vs Creighton,90,63,Creighton +11.5,-110.0,1.0,loss,-1.0
+4.0,perplexity,2025-11-11,264732,Louisville vs Kentucky,96,88,Kentucky +6.5,-112.0,1.0,loss,-1.0
+5.0,perplexity,2025-11-11,264731,Florida vs Florida St,78,76,Florida St +17.5,-111.0,1.0,win,0.9009009009009008
+6.0,perplexity,2025-11-11,264714,Kansas vs Texas A&M-CC,77,46,Texas A&M-CC +27,-110.0,1.0,loss,-1.0
+7.0,perplexity,2025-11-11,266359,Auburn vs Wofford,93,62,Wofford +27.5,-110.0,1.0,loss,-1.0
+8.0,perplexity,2025-11-11,264709,Wisconsin vs Ball State,86,55,Ball State +27.5,-115.0,1.0,loss,-1.0
+9.0,perplexity,2025-11-11,264718,BYU vs Delaware,85,68,Delaware +35.5,-108.0,1.0,win,0.925925925925926
+10.0,perplexity,2025-11-11,271994,Arizona vs N. Arizona,84,49,N. Arizona +35.5,-105.0,1.0,win,0.9523809523809524
+1.0,perplexity,2025-11-11,266367,Michigan vs Wake Forest,85,84,Michigan -15,-110.0,2.0,loss,-2.0
+2.0,perplexity,2025-11-11,264721,UNC vs Radford,89,74,UNC -19.5,-112.0,2.0,loss,-2.0
+3.0,perplexity,2025-11-11,264732,Louisville vs Kentucky,96,88,Louisville -6.5,-110.0,2.0,win,1.818181818181818
+4.0,perplexity,2025-11-11,266649,Gonzaga vs Creighton,90,63,Gonzaga -11.5,-112.0,2.0,win,1.7857142857142858
+5.0,perplexity,2025-11-11,264701,Illinois vs Texas Tech,81,77,Illinois -3.5,-115.0,2.0,win,1.7391304347826086
+6.0,perplexity,2025-11-11,264714,Kansas vs Texas A&M-CC,77,46,Kansas -27.5,-114.0,1.0,win,0.8771929824561403
+7.0,perplexity,2025-11-11,266359,Auburn vs Wofford,93,62,Auburn -27.5,-110.0,1.0,win,0.9090909090909092
+9.0,perplexity,2025-11-11,264718,BYU vs Delaware,85,68,BYU -36.5,-105.0,1.0,loss,-1.0
+10.0,perplexity,2025-11-11,271994,Arizona vs N. Arizona,84,49,Arizona -35.5,-115.0,1.0,loss,-1.0
+11.0,perplexity,2025-11-11,264731,Florida vs Florida St,78,76,Florida -17.5,-111.0,1.0,loss,-1.0
+1.0,perplexity,2025-11-12,264754,Georgetown vs Binghamton,83,70,Binghamton +27.5,-110.0,3.0,win,2.727272727272727
+2.0,perplexity,2025-11-12,264748,St. Bonaventure vs Siena,75,66,St. Bonaventure -8.5,-110.0,2.0,win,1.818181818181818
+3.0,perplexity,2025-11-12,264757,Missouri vs Minnesota,83,60,Missouri -6.5,-115.0,2.0,win,1.7391304347826086
+4.0,perplexity,2025-11-12,266373,Marshall vs Elon,96,89,Marshall -9.5,-105.0,2.0,loss,-2.0
+5.0,perplexity,2025-11-12,264745,South Dakota vs Southern Indiana,89,74,South Dakota -7.5,-112.0,2.0,win,1.7857142857142858
+6.0,perplexity,2025-11-12,266380,Texas St vs UTSA,80,69,Texas St -3.5,-105.0,2.0,win,1.9047619047619049
+7.0,perplexity,2025-11-12,264739,Evansville vs Middle Tenn,72,77,Evansville -2.5,-110.0,1.0,loss,-1.0
+8.0,perplexity,2025-11-12,266379,Valparaiso vs Nicholls St,68,63,Valparaiso -2.5,-109.0,1.0,win,0.9174311926605504
+9.0,perplexity,2025-11-12,267558,Fresno State vs UCSD,73,78,UCSD +1.5,-110.0,1.0,win,0.9090909090909092
+10.0,perplexity,2025-11-12,264741,San Diego vs Idaho,78,74,Idaho -1.5,-105.0,1.0,loss,-1.0
+11.0,perplexity,2025-11-12,266378,Boston U vs Brown,90,77,Boston U -2.5,-117.0,1.0,win,0.8547008547008547
+12.0,perplexity,2025-11-12,264502,Oral Roberts vs Tulsa,87,88,Tulsa -6.5,-105.0,1.0,loss,-1.0
+1.0,perplexity,2025-11-13,264769,West Virginia vs Pittsburgh,71,49,West Virginia -6.5,-110.0,3.0,win,2.727272727272727
+2.0,perplexity,2025-11-13,266382,Michigan St vs San Jose St,79,60,Michigan St -24.5,-110.0,2.0,loss,-2.0
+3.0,perplexity,2025-11-13,264764,Seton Hall vs Monmouth,70,58,Seton Hall -14.5,-110.0,2.0,loss,-2.0
+4.0,perplexity,2025-11-13,264767,Alabama vs Purdue,80,87,Alabama -3.5,-105.0,2.0,loss,-2.0
+5.0,perplexity,2025-11-13,264768,Wichita State vs Loyola (IL),95,74,Wichita State -5.5,-110.0,2.0,win,1.818181818181818
+6.0,perplexity,2025-11-13,280381,Howard vs Alcorn State,72,64,Howard -6.5,-112.0,2.0,win,1.7857142857142858
+7.0,perplexity,2025-11-13,264766,K State vs California,99,96,K State -6.5,-112.0,1.0,loss,-1.0
+9.0,perplexity,2025-11-13,264765,LSU vs FIU,98,81,LSU -21.5,-110.0,1.0,loss,-1.0
+10.0,perplexity,2025-11-13,264763,UMASS vs Dolphins,94,80,UMASS -15.5,-100.0,1.0,loss,-1.0
+1.0,claude,2025-11-11,264701,Illinois vs Texas Tech,81,77,Over 168.5,-105.0,3.0,loss,-3.0
+2.0,claude,2025-11-11,264732,Louisville vs Kentucky,96,88,Louisville -6.5,-110.0,3.0,win,2.727272727272727
+3.0,claude,2025-11-11,264721,UNC vs Radford,89,74,UNC -19.5,-112.0,3.0,loss,-3.0
+4.0,claude,2025-11-11,266367,Michigan vs Wake Forest,85,84,Under 168.5,-110.0,2.0,loss,-2.0
+5.0,claude,2025-11-11,266649,Gonzaga vs Creighton,90,63,Over 165.5,-105.0,2.0,loss,-2.0
+6.0,claude,2025-11-11,264731,Florida vs Florida St,78,76,Florida St +17.5,-110.0,2.0,win,1.818181818181818
+7.0,claude,2025-11-11,264718,BYU vs Delaware,85,68,Over 164.5,-108.0,2.0,loss,-2.0
+8.0,claude,2025-11-11,271994,Arizona vs N. Arizona,84,49,Over 162.5,-105.0,2.0,loss,-2.0
+9.0,claude,2025-11-11,264714,Kansas vs Texas A&M-CC,77,46,Over 147.5,-105.0,1.0,loss,-1.0
+10.0,claude,2025-11-11,264709,Wisconsin vs Ball State,86,55,Ball State +27.5,-110.0,1.0,loss,-1.0
+11.0,claude,2025-11-11,266359,Auburn vs Wofford,93,62,Under 154.5,-115.0,1.0,loss,-1.0
+1.0,claude,2025-11-12,264501,Longwood vs JMU,82,72,Longwood +1.5,-123.0,3.0,win,2.4390243902439024
+2.0,claude,2025-11-12,266380,Texas St vs UTSA,80,69,Texas St -3.5,-105.0,3.0,win,2.8571428571428568
+3.0,claude,2025-11-12,266379,Valparaiso vs Nicholls St,68,63,Valparaiso -2.5,-109.0,2.0,win,1.834862385321101
+4.0,claude,2025-11-12,264739,Evansville vs Middle Tenn,72,77,Evansville -2.5,-110.0,2.0,loss,-2.0
+5.0,claude,2025-11-12,266378,Boston U vs Brown,90,77,Boston U -2.5,-117.0,2.0,win,1.709401709401709
+6.0,claude,2025-11-12,264757,Missouri vs Minnesota,83,60,Missouri -6.5,-115.0,2.0,win,1.7391304347826086
+7.0,claude,2025-11-12,264743,G Washington vs American U,107,67,American U +17.5,-110.0,2.0,loss,-2.0
+8.0,claude,2025-11-12,264756,VA Tech vs Saint Joe's,94,59,Under 157.5,-105.0,1.0,win,0.9523809523809524
+9.0,claude,2025-11-12,264752,Bryant U vs Dartmouth ,82,75,Bryant U -1.5,-109.0,1.0,win,0.9174311926605504
+10.0,claude,2025-11-12,264502,Oral Roberts vs Tulsa,87,88,Oral Roberts +6.5,-115.0,1.0,win,0.8695652173913043
+11.0,claude,2025-11-12,264741,San Diego vs Idaho,78,74,San Diego +1.5,-115.0,1.0,win,0.8695652173913043
+1.0,claude,2025-11-13,264767,Alabama vs Purdue,80,87,Alabama -3.5,-105.0,3.0,loss,-3.0
+2.0,claude,2025-11-13,267568,Grambling St vs Southern Miss,75,70,Grambling St -2.0,-111.0,3.0,win,2.702702702702702
+3.0,claude,2025-11-13,264768,Wichita State vs Loyola (IL),95,74,Wichita State -5.5,-110.0,3.0,win,2.727272727272727
+4.0,claude,2025-11-13,264769,West Virginia vs Pittsburgh,71,49,West Virginia -6.5,-110.0,2.0,win,1.818181818181818
+5.0,claude,2025-11-13,266381,Lafayette vs Cornell,78,97,Lafayette +4.5,-105.0,2.0,loss,-2.0
+6.0,claude,2025-11-13,280381,Howard vs Alcorn State,72,64,Howard -6.5,-112.0,2.0,win,1.7857142857142858
+7.0,claude,2025-11-13,264766,K State vs California,99,96,K State -6.5,-112.0,2.0,loss,-2.0
+8.0,claude,2025-11-13,264507,Alabama A&M vs Charleston So,68,64,Alabama A&M -1.5,-120.0,1.0,win,0.8333333333333334
+8.0,perplexity,2025-11-14,266387,Texas A&M vs UCF,74,86,Texas A&M -9.5,-115.0,1.0,loss,-1.0
+11.0,perplexity,2025-11-14,264510,Brown vs Hampton,63,72,Brown -2.5,-110.0,1.0,loss,-1.0
+12.0,perplexity,2025-11-14,264512,UC Davis vs Sac State,77,73,UC Davis -4.5,-110.0,1.0,loss,-1.0
+1.0,perplexity,2025-11-14,264508,E. Michigan vs IUIN,83,90,E. Michigan -5.5,-110.0,3.0,loss,-3.0
+2.0,perplexity,2025-11-14,271998,Rutgers vs Lehigh,84,72,Lehigh +17.5,-111.0,2.0,win,1.8018018018018016
+3.0,perplexity,2025-11-14,267343,Jax State vs Coastal Car,74,67,Jax State -7.5,-115.0,2.0,loss,-2.0
+4.0,perplexity,2025-11-14,266385,N. Iowa vs Furman,70,54,N. Iowa -9.5,-110.0,2.0,win,1.818181818181818
+5.0,perplexity,2025-11-14,264781,Iona vs Fordham,76,71,Iona -5.5,-110.0,2.0,loss,-2.0
+6.0,perplexity,2025-11-14,264775,Rhode Island vs Albany,80,61,Rhode Island -15.5,-105.0,1.0,win,0.9523809523809524
+7.0,perplexity,2025-11-14,264770,Tulane vs New Orleans,63,85,Tulane -12.5,-108.0,1.0,loss,-1.0
+8.0,perplexity,2025-11-14,264779,Fairfield vs Stonehill,73,71,Fairfield -6.5,-115.0,1.0,loss,-1.0
+9.0,perplexity,2025-11-14,264771,Towson vs Norfolk State,51,41,Towson -13.5,-106.0,1.0,loss,-1.0
+10.0,perplexity,2025-11-14,264776,USC vs Illinois St,87,67,USC -15.5,-115.0,1.0,win,0.8695652173913043
+11.0,perplexity,2025-11-14,266387,Texas A&M vs UCF,74,86,Texas A&M -10.5,-105.0,1.0,loss,-1.0
+12.0,perplexity,2025-11-14,267627,Arkansas vs Samford,79,75,Arkansas -25.5,-108.0,1.0,loss,-1.0
+9.0,claude,2025-11-14,264510,Brown vs Hampton,63,72,Brown -2.5,-110.0,1.0,loss,-1.0
+10.0,claude,2025-11-14,264773,DePaul vs Northwestern,79,81,DePaul +6.5,-110.0,1.0,win,0.9090909090909092
+11.0,claude,2025-11-14,264790,TCU vs Michigan,63,67,TCU +7.0,-110.0,1.0,win,0.9090909090909092
+1.0,claude,2025-11-14,264781,Iona vs Fordham,76,71,Iona -5.5,-110.0,3.0,loss,-3.0
+2.0,claude,2025-11-14,264792,Wolves vs Citadel,100,92,Wolves -6.5,-114.0,3.0,win,2.631578947368421
+3.0,claude,2025-11-14,264779,Fairfield vs Stonehill,73,71,Fairfield -6.5,-115.0,3.0,loss,-3.0
+4.0,claude,2025-11-14,264508,E. Michigan vs IUIN,83,90,E. Michigan -5.5,-110.0,2.0,loss,-2.0
+5.0,claude,2025-11-14,264771,Towson vs Norfolk State,51,41,Towson -13.5,-106.0,2.0,loss,-2.0
+6.0,claude,2025-11-14,266385,N. Iowa vs Furman,70,54,N. Iowa -9.5,-110.0,2.0,win,1.818181818181818
+7.0,claude,2025-11-14,264770,Tulane vs New Orleans,63,85,Tulane -12.5,-108.0,2.0,loss,-2.0
+8.0,claude,2025-11-14,264510,Brown vs Hampton,63,72,Brown -1.5,-105.0,1.0,loss,-1.0
+9.0,claude,2025-11-14,264778,Lindenwood vs Charleston So,77,83,Charleston So +3.5,-105.0,1.0,win,0.9523809523809524
+10.0,claude,2025-11-14,264773,DePaul vs Northwestern,79,81,DePaul +4.5,-112.0,1.0,win,0.8928571428571429
+11.0,claude,2025-11-14,264790,TCU vs Michigan,63,67,TCU +7.5,-110.0,1.0,win,0.9090909090909092
+1.0,perplexity,2025-11-15,264823,Marquette vs Maryland,82,89,Marquette -8.5,-110.0,3.0,loss,-3.0
+2.0,perplexity,2025-11-15,264801,Kansas vs Princeton,76,57,Kansas -22.5,-110.0,2.0,loss,-2.0
+3.0,perplexity,2025-11-15,264802,SMU vs Butler,87,85,SMU -7.5,-110.0,2.0,loss,-2.0
+4.0,perplexity,2025-11-15,267559,Temple vs Boston Col,71,76,Temple -3.5,-110.0,2.0,loss,-2.0
+5.0,perplexity,2025-11-15,264812,St. Bonaventure vs Youngstown St,84,80,St. Bonaventure -10.5,-110.0,2.0,loss,-2.0
+6.0,perplexity,2025-11-15,276082,Davidson vs Bowling Green,91,87,Davidson -4.5,-112.0,1.0,loss,-1.0
+7.0,perplexity,2025-11-15,266402,UCSD vs Idaho,75,67,UCSD -5.5,-115.0,1.0,win,0.8695652173913043
+8.0,perplexity,2025-11-15,267628,UC Riverside vs North Dakota,74,76,UC Riverside -3.5,-105.0,1.0,loss,-1.0
+9.0,perplexity,2025-11-15,266404,Texas St vs Texas Southern,77,67,Texas St -3.5,-113.0,1.0,win,0.8849557522123894
+10.0,perplexity,2025-11-15,266388,Winthrop vs Mercer,105,69,Winthrop -2.5,-115.0,1.0,win,0.8695652173913043
+11.0,perplexity,2025-11-15,264810,Villanova vs Duquesne,87,77,Villanova -10.5,-110.0,1.0,loss,-1.0
+12.0,perplexity,2025-11-15,264814,Utah vs Sam Houston,85,79,Utah -13.5,-105.0,1.0,loss,-1.0
+1.0,claude,2025-11-15,267559,Temple vs Boston Col,71,76,Temple -3.5,-110.0,3.0,loss,-3.0
+2.0,claude,2025-11-15,264825,Denver vs UTSA,79,84,Denver -4.5,-108.0,3.0,loss,-3.0
+3.0,claude,2025-11-15,278414,UNC Greensboro vs Austin Peay,63,69,UNC Greensboro -1.5,-107.0,3.0,loss,-3.0
+4.0,claude,2025-11-15,266388,Winthrop vs Mercer,105,69,Winthrop -2.5,-115.0,2.0,win,1.7391304347826086
+5.0,claude,2025-11-15,264820,Nebraska vs Oklahoma,105,99,Nebraska -1.5,-110.0,2.0,win,1.818181818181818
+6.0,claude,2025-11-15,276082,Davidson vs Bowling Green,91,87,Davidson -4.5,-112.0,2.0,loss,-2.0
+7.0,claude,2025-11-15,267628,UC Riverside vs North Dakota,74,76,UC Riverside -3.5,-105.0,2.0,loss,-2.0
+8.0,claude,2025-11-15,266404,Texas St vs Texas Southern,77,67,Texas St -3.5,-113.0,1.0,win,0.8849557522123894
+9.0,claude,2025-11-15,264807,UConn vs BYU,86,84,UConn -6.5,-105.0,1.0,loss,-1.0
+10.0,claude,2025-11-15,271999,SE Missouri vs St. Thomas,72,84,SE Missouri +2.5,-111.0,1.0,win,0.9009009009009008
+11.0,claude,2025-11-15,264517,Air Force vs Miami (OH),61,76,Air Force +10.5,-105.0,1.0,loss,-1.0
+1.0,perplexity,2025-11-17,264848,Pittsburgh vs Bucknell,84,50,Pittsburgh -15.5,-111.0,3.0,win,2.702702702702702
+2.0,perplexity,2025-11-17,264849,NC State vs VCU,85,79,NC State -11.5,-115.0,2.0,loss,-2.0
+3.0,perplexity,2025-11-17,267629,UCF vs Oakland,87,83,UCF -13.5,-110.0,2.0,loss,-2.0
+4.0,perplexity,2025-11-17,264852,Charleston vs Drake,62,71,Charleston -7.5,-105.0,2.0,loss,-2.0
+5.0,perplexity,2025-11-17,267346,Siena vs Colgate,69,72,Siena -6.5,-113.0,2.0,loss,-2.0
+6.0,perplexity,2025-11-17,264851,Clemson vs North Alabama,81,61,Clemson -25.5,-112.0,1.0,loss,-1.0
+7.0,perplexity,2025-11-17,264857,Colorado vs Alabama St,94,66,Colorado -22.5,-110.0,1.0,win,0.9090909090909092
+8.0,perplexity,2025-11-17,264861,Wisconsin vs SIU-Edwardsville,94,69,Wisconsin -25.5,-110.0,1.0,loss,-1.0
+9.0,perplexity,2025-11-17,264860,Arizona St vs Georgia State,75,62,Arizona St -18.5,-115.0,1.0,loss,-1.0
+10.0,perplexity,2025-11-17,280384,UCSB vs Loyola Marymount,74,78,UCSB -3.5,-105.0,1.0,loss,-1.0
+11.0,perplexity,2025-11-17,266417,Oregon vs Oregon St,87,75,Oregon -14.5,-105.0,1.0,loss,-1.0
+12.0,perplexity,2025-11-17,264858,Tennessee vs Rice,91,66,Tennessee -26.5,-105.0,1.0,loss,-1.0
+1.0,claude,2025-11-17,264852,Charleston vs Drake,62,71,Charleston -7.5,-105.0,2.0,loss,-2.0
+2.0,claude,2025-11-17,264859,Tenn Tech vs Wolves,59,61,Tenn Tech -4.5,-110.0,2.0,loss,-2.0
+3.0,claude,2025-11-17,264855,NDSU vs S. Illinois,92,85,NDSU -1.5,103.0,2.0,win,2.06
+4.0,claude,2025-11-17,267346,Siena vs Colgate,69,72,Siena -6.5,-113.0,2.0,loss,-2.0
+5.0,claude,2025-11-17,264863,Dolphins vs Niagara,74,68,Dolphins -2.5,-107.0,1.0,win,0.9345794392523364
+6.0,claude,2025-11-17,264856,Penn vs Saint Joe's,83,74,Penn +5.5,-105.0,1.0,win,0.9523809523809524
+7.0,claude,2025-11-17,280384,UCSB vs Loyola Marymount,74,78,UCSB -3.5,-105.0,1.0,loss,-1.0
+9.0,claude,2025-11-17,278479,UL Monroe vs Lamar,66,79,UL Monroe +10.5,-115.0,1.0,loss,-1.0
+3.0,gemini,2025-11-17,264849,NC State vs VCU,85,79,NC State -11.5,-115.0,3.0,loss,-3.0
+4.0,gemini,2025-11-17,267346,Siena vs Colgate,69,72,Siena -6.5,-113.0,3.0,loss,-3.0
+5.0,gemini,2025-11-17,267629,UCF vs Oakland,87,83,UCF -13.5,-110.0,2.0,loss,-2.0
+6.0,gemini,2025-11-17,264847,K State vs Tulsa,84,83,Tulsa +12.5,-115.0,2.0,win,1.7391304347826086
+7.0,gemini,2025-11-17,264863,Dolphins vs Niagara,74,68,Niagara +2.5,-112.0,2.0,loss,-2.0
+8.0,gemini,2025-11-17,264859,Tenn Tech vs Wolves,59,61,Tenn Tech -4.5,-110.0,2.0,loss,-2.0
+9.0,gemini,2025-11-17,264848,Pittsburgh vs Bucknell,84,50,Pittsburgh -15.5,-111.0,1.0,win,0.9009009009009008
+10.0,gemini,2025-11-17,264851,Clemson vs North Alabama,81,61,Under 144.5,-108.0,1.0,win,0.925925925925926
+1.0,perplexity,2025-11-18,264866,Kentucky vs Michigan St,66,83,Kentucky -4.5,-105.0,3.0,loss,-3.0
+2.0,perplexity,2025-11-18,266421,Drexel vs N.J.I.T.,75,43,Drexel -9.5,-111.0,2.0,win,1.8018018018018016
+3.0,perplexity,2025-11-18,266426,Kent State vs E. Kentucky,93,78,Kent State -10.5,-107.0,2.0,win,1.8691588785046729
+4.0,perplexity,2025-11-18,264868,Xavier vs Old Dominion,99,69,Xavier -10.5,-110.0,2.0,win,1.818181818181818
+5.0,perplexity,2025-11-18,264893,Brown vs Holy Cross,68,49,Brown -2.5,-115.0,2.0,win,1.7391304347826086
+8.0,perplexity,2025-11-18,264880,UNC Wilmington vs E. Carolina,85,60,UNC Wilmington -6.5,-115.0,1.0,win,0.8695652173913043
+9.0,perplexity,2025-11-18,276083,Delaware vs St. Peter's,81,70,Delaware -4.5,-115.0,1.0,win,0.8695652173913043
+10.0,perplexity,2025-11-18,264871,Providence vs New Hampshire,98,66,Providence -27.5,-111.0,1.0,win,0.9009009009009008
+12.0,perplexity,2025-11-18,266422,Florida St vs TN-Martin,87,73,Florida St -21.5,-105.0,1.0,loss,-1.0
+8.0,claude,2025-11-18,264866,Kentucky vs Michigan St,66,83,Kentucky -5.5,-110.0,1.0,loss,-1.0
+1.0,claude,2025-11-18,264870,Buffalo vs Vermont,94,90,Buffalo +2.5,-105.0,1.0,win,0.9523809523809524
+2.0,claude,2025-11-18,266427,JMU vs Towson,81,75,JMU +2.5,-110.0,1.0,win,0.9090909090909092
+3.0,claude,2025-11-18,264891,Charleston So vs IUIN,103,91,Charleston So +1.5,-110.0,1.0,win,0.9090909090909092
+4.0,claude,2025-11-18,264876,Detroit vs E. Michigan,62,72,Detroit -1.5,-105.0,1.0,loss,-1.0
+6.0,claude,2025-11-18,264866,Kentucky vs Michigan St,66,83,Michigan St +4.5,-115.0,1.0,win,0.8695652173913043
+6.0,perplexity,2025-11-18,266425,Texas A&M vs Montana,86,81,Texas A&M -17.5,-111.0,1.0,loss,-1.0
+7.0,perplexity,2025-11-18,264896,Yale vs Rhode Island,77,86,Yale -8.5,-110.0,1.0,loss,-1.0
+11.0,perplexity,2025-11-18,264865,Boise State vs Wichita State,62,59,Boise State -9.5,-115.0,1.0,loss,-1.0
+5.0,claude,2025-11-18,267561,Fresno State vs SFA,80,78,Fresno State +2.5,-110.0,1.0,win,0.9090909090909092
+2.0,perplexity,2025-11-19,264901,Penn State vs Harvard,84,80,Penn State -12.5,-110.0,2.0,loss,-2.0
+3.0,perplexity,2025-11-19,266430,Bowling Green vs William & Mary,74,82,Bowling Green -8.5,-111.0,2.0,loss,-2.0
+7.0,perplexity,2025-11-19,264914,Richmond vs VMI,87,54,Richmond -13.5,-110.0,1.0,win,0.9090909090909092
+10.0,perplexity,2025-11-19,267503,Wofford vs North Florida,86,78,Wofford -11.0,-113.0,1.0,loss,-1.0
+11.0,perplexity,2025-11-19,267570,Cleveland St vs Valparaiso,75,90,Cleveland St -2.0,-110.0,1.0,loss,-1.0
+12.0,perplexity,2025-11-19,275590,Samford vs FGCU,62,77,Samford -4.5,-110.0,1.0,loss,-1.0
+1.0,claude,2025-11-19,264919,Air Force vs Alabama St,66,64,Air Force -2.5,-105.0,1.0,loss,-1.0
+2.0,claude,2025-11-19,267570,Cleveland St vs Valparaiso,75,90,Cleveland St -2.0,-110.0,1.0,loss,-1.0
+4.0,claude,2025-11-19,267351,Jax State vs S. Alabama,65,71,Jax State -2.5,-110.0,1.0,loss,-1.0
+5.0,claude,2025-11-19,264905,Toledo vs Youngstown St,92,75,Toledo -1.5,-108.0,1.0,win,0.925925925925926
+1.0,gemini,2025-11-19,267503,Wofford vs North Florida,86,78,Wofford -11.0,-113.0,3.0,loss,-3.0
+2.0,gemini,2025-11-19,264901,Penn State vs Harvard,84,80,Harvard +12.5,-110.0,3.0,win,2.727272727272727
+3.0,gemini,2025-11-19,264902,Indiana St vs LA Tech,60,51,LA Tech +3.5,-115.0,2.0,loss,-2.0
+1.0,perplexity,2025-11-19,264910,UConn vs Arizona,67,71,UConn -6.5,-110.0,3.0,loss,-3.0
+4.0,perplexity,2025-11-19,264918,Notre Dame vs Bellarmine,86,79,Notre Dame -25.5,-110.0,2.0,loss,-2.0
+6.0,perplexity,2025-11-19,264912,Maryland vs St. Mary's,95,90,Maryland -20.5,-105.0,1.0,loss,-1.0
+9.0,perplexity,2025-11-19,267562,Temple vs Hofstra,81,76,Temple -5.5,-108.0,1.0,loss,-1.0
+3.0,claude,2025-11-19,272002,SC State vs Chattanooga,66,78,SC State +10.5,-105.0,1.0,loss,-1.0
+6.0,claude,2025-11-19,266435,Sam Houston vs Wyoming,78,70,Sam Houston -1.5,-115.0,1.0,win,0.8695652173913043
+7.0,claude,2025-11-19,264906,USC Upstate vs Tenn Tech,84,88,USC Upstate -1.5,-115.0,1.0,loss,-1.0
+8.0,claude,2025-11-19,274052,Utah Valley vs UC Irvine,79,72,Utah Valley -2.5,-110.0,1.0,win,0.9090909090909092
+4.0,gemini,2025-11-19,264917,Marquette vs Dayton,71,77,Dayton +5.5,-110.0,2.0,win,1.818181818181818
+5.0,gemini,2025-11-19,267562,Temple vs Hofstra,81,76,Temple -5.5,-108.0,2.0,loss,-2.0
+7.0,gemini,2025-11-19,264909,Creighton vs North Dakota,75,60,Creighton -27.5,-110.0,1.0,loss,-1.0
+9.0,gemini,2025-11-19,266435,Sam Houston vs Wyoming,78,70,Under 157.5,-110.0,1.0,win,0.9090909090909092
+10.0,gemini,2025-11-19,264911,Duquesne vs Loyola (MD),92,78,Under 149.5,-107.0,1.0,loss,-1.0
+5.0,perplexity,2025-11-19,264900,OK State vs S. Florida,103,95,OK State -3.5,-115.0,2.0,win,1.7391304347826086
+9.0,claude,2025-11-19,266429,Weber State vs Campbell,91,85,Weber State -2.5,-110.0,1.0,win,0.9090909090909092
+10.0,claude,2025-11-19,264913,Illinois vs Alabama,86,90,Alabama +2.5,-105.0,1.0,win,0.9523809523809524
+6.0,gemini,2025-11-19,274946,Saint Mary's vs Arkansas St,85,72,Saint Mary's -20.5,-110.0,1.0,loss,-1.0
+8.0,gemini,2025-11-19,266429,Weber State vs Campbell,91,85,Under 159.5,-110.0,1.0,loss,-1.0
+8.0,perplexity,2025-11-19,264903,Washington St vs Southern Utah,98,74,Washington St -12.5,-110.0,1.0,win,0.9090909090909092
+1.0,perplexity,2025-11-21,266458,Akron vs Iona,96,75,Akron -11.5,-105.0,3.0,win,2.8571428571428568
+3.0,perplexity,2025-11-21,266459,Clemson vs West Virginia,70,67,Clemson -3.5,-110.0,2.0,loss,-2.0
+4.0,perplexity,2025-11-21,266453,Florida St vs GA Southern,98,72,Florida St -18.0,-110.0,2.0,win,1.818181818181818
+5.0,perplexity,2025-11-21,272005,Rutgers vs Central Conn,54,67,Rutgers -15.5,-110.0,2.0,loss,-2.0
+6.0,perplexity,2025-11-21,267354,Siena vs Albany,73,63,Siena -11.5,-105.0,1.0,loss,-1.0
+7.0,perplexity,2025-11-21,271301,Lehigh vs Columbia,67,82,Lehigh -1.5,-117.0,1.0,loss,-1.0
+10.0,perplexity,2025-11-21,264530,App State vs Charlotte,65,63,App State -1.5,-110.0,1.0,win,0.9090909090909092
+1.0,claude,2025-11-21,264528,Stonehill vs Lafayette,74,70,Stonehill +1.5,-118.0,1.0,win,0.847457627118644
+2.0,claude,2025-11-21,271301,Lehigh vs Columbia,67,82,Lehigh +1.5,-102.0,1.0,loss,-1.0
+3.0,claude,2025-11-21,264529,E. Michigan vs Oakland,97,91,E. Michigan +1.5,-112.0,1.0,win,0.8928571428571429
+4.0,claude,2025-11-21,264530,App State vs Charlotte,65,63,App State -1.5,-110.0,1.0,win,0.9090909090909092
+5.0,claude,2025-11-21,266447,Cincinnati vs Louisville,64,74,Cincinnati +8.5,-110.0,1.0,loss,-1.0
+6.0,claude,2025-11-21,282311,New Mexico vs Mississippi St,80,78,New Mexico +6.5,-109.0,1.0,win,0.9174311926605504
+7.0,claude,2025-11-21,282310,Wake Forest vs Memphis,69,68,Wake Forest -2.5,-112.0,1.0,loss,-1.0
+8.0,claude,2025-11-21,266448,Radford vs UNC Wilmington,73,81,Radford +3.5,-105.0,1.0,loss,-1.0
+3.0,gemini,2025-11-21,264528,Stonehill vs Lafayette,74,70,Stonehill +1.5,-118.0,3.0,win,2.542372881355932
+5.0,gemini,2025-11-21,272005,Rutgers vs Central Conn,54,67,Rutgers -15.5,-110.0,2.0,loss,-2.0
+6.0,gemini,2025-11-21,267355,UAB vs S. Alabama,80,72,UAB -6.5,-108.0,2.0,win,1.851851851851852
+7.0,gemini,2025-11-21,266459,Clemson vs West Virginia,70,67,Clemson -3.5,-110.0,2.0,loss,-2.0
+9.0,gemini,2025-11-21,267354,Siena vs Albany,73,63,Siena -11.5,-105.0,1.0,loss,-1.0
+10.0,gemini,2025-11-21,271301,Lehigh vs Columbia,67,82,Lehigh +1.5,-102.0,1.0,loss,-1.0
+11.0,perplexity,2025-11-21,266461,Oregon St vs Evansville,69,73,Oregon St -6.5,-105.0,1.0,loss,-1.0
+9.0,claude,2025-11-21,264955,N. Colorado vs St. Thomas,72,73,N. Colorado +4.5,-110.0,1.0,win,0.9090909090909092
+2.0,gemini,2025-11-21,266461,Oregon St vs Evansville,69,73,Oregon St -6.5,-105.0,3.0,loss,-3.0
+8.0,perplexity,2025-11-21,264936,San Diego vs UC Riverside,71,85,San Diego -7.5,-115.0,1.0,loss,-1.0
+9.0,perplexity,2025-11-21,264957,Stanford vs Seattle,69,77,Stanford -10.0,-110.0,1.0,loss,-1.0
+10.0,claude,2025-11-21,266446,Pepperdine vs SFA,60,63,Pepperdine +1.5,-115.0,1.0,loss,-1.0
+1.0,gemini,2025-11-21,264936,San Diego vs UC Riverside,71,85,San Diego -7.5,-112.0,3.0,loss,-3.0
+4.0,gemini,2025-11-21,264958,Portland vs CS Fullerton,103,85,Portland -5.5,-111.0,2.0,win,1.8018018018018016
+8.0,gemini,2025-11-21,266462,Xavier vs Georgia,77,78,Georgia -10.5,-110.0,1.0,loss,-1.0
+12.0,perplexity,2025-11-21,264954,UCLA vs Presbyterian,86,46,UCLA -26.5,-105.0,1.0,win,0.9523809523809524
+1.0,perplexity,2025-11-22,264966,Marquette vs C. Michigan,85,71,Marquette -24.5,-110.0,3.0,loss,-3.0
+2.0,perplexity,2025-11-22,264971,OK State vs Nicholls St,95,81,OK State -24.0,-113.0,3.0,loss,-3.0
+3.0,perplexity,2025-11-22,280860,St. Peter's vs UMass Lowell,68,66,St. Peter's -7.5,-100.0,3.0,loss,-3.0
+4.0,perplexity,2025-11-22,266468,Kent State vs Cleveland St,91,71,Kent State -15.5,-104.0,3.0,win,2.8846153846153846
+2.0,gemini,2025-11-22,264966,Marquette vs C. Michigan,85,71,C. Michigan +24.5,-111.0,3.0,win,2.702702702702702
+3.0,gemini,2025-11-22,264971,OK State vs Nicholls St,95,81,Nicholls St +24.0,-107.0,3.0,win,2.803738317757009
+8.0,gemini,2025-11-22,266468,Kent State vs Cleveland St,91,71,Cleveland St +15.5,-118.0,1.0,loss,-1.0
+6.0,perplexity,2025-11-22,264979,Binghamton vs MD-E Shore,52,63,Binghamton -8.0,-113.0,2.0,loss,-2.0
+7.0,perplexity,2025-11-22,264978,Penn State vs Providence,65,77,Providence -4.5,-111.0,2.0,win,1.8018018018018016
+1.0,claude,2025-11-22,264978,Penn State vs Providence,65,77,Penn State +4.5,-111.0,3.0,loss,-3.0
+3.0,claude,2025-11-22,264968,Duquesne vs Northeastern,86,93,Duquesne -7.5,-115.0,3.0,loss,-3.0
+5.0,claude,2025-11-22,276557,E. Kentucky vs Mercer,83,95,Mercer +4.5,-110.0,2.0,win,1.818181818181818
+8.0,perplexity,2025-11-22,264980,St. Thomas vs CS Fullerton,80,88,St. Thomas -11.5,-115.0,2.0,loss,-2.0
+9.0,perplexity,2025-11-22,272008,Chattanooga vs North Alabama,71,57,Chattanooga -10.5,-108.0,2.0,win,1.851851851851852
+10.0,perplexity,2025-11-22,264961,Niagara vs Howard,70,80,Howard -4.5,-114.0,1.0,win,0.8771929824561403
+2.0,claude,2025-11-22,264975,Minnesota vs San Francisco,65,77,Minnesota +1.5,-118.0,3.0,loss,-3.0
+4.0,claude,2025-11-22,264961,Niagara vs Howard,70,80,Howard -4.5,-114.0,2.0,win,1.7543859649122806
+6.0,claude,2025-11-22,267357,Nevada vs UCSB,77,64,Nevada -5.5,-105.0,2.0,win,1.9047619047619049
+7.0,claude,2025-11-22,267601,Lipscomb vs W. Carolina,83,62,Lipscomb -5.0,-111.0,2.0,win,1.8018018018018016
+8.0,claude,2025-11-22,264972,Missouri St vs UT Grande Valley,74,67,Missouri St -1.5,-110.0,1.0,win,0.9090909090909092
+9.0,claude,2025-11-22,282320,Oregon St vs Iona,84,91,Iona +3.5,-105.0,1.0,win,0.9523809523809524
+10.0,claude,2025-11-22,264969,Wichita State vs Milwaukee,75,58,Wichita State -10.5,-110.0,1.0,win,0.9090909090909092
+11.0,claude,2025-11-22,264970,Indiana St vs Ball State,70,52,Ball State +7.5,-110.0,1.0,loss,-1.0
+1.0,gemini,2025-11-22,264969,Wichita State vs Milwaukee,75,58,Milwaukee +10.5,-110.0,3.0,loss,-3.0
+4.0,gemini,2025-11-22,266469,CS Bakersfield vs MS Valley St,86,70,MS Valley St +23.5,-110.0,2.0,win,1.818181818181818
+5.0,gemini,2025-11-22,282305,UIC vs Southern Indiana,84,73,Southern Indiana +11.5,-115.0,2.0,win,1.7391304347826086
+6.0,gemini,2025-11-22,272008,Chattanooga vs North Alabama,71,57,North Alabama +10.5,-115.0,2.0,loss,-2.0
+7.0,gemini,2025-11-22,264980,St. Thomas vs CS Fullerton,80,88,CS Fullerton +11.5,-110.0,1.0,win,0.9090909090909092
+10.0,gemini,2025-11-22,264975,Minnesota vs San Francisco,65,77,Minnesota +1.5,-118.0,1.0,loss,-1.0
+9.0,gemini,2025-11-22,264981,Portland vs N. Colorado,80,86,Portland +3.5,-110.0,1.0,loss,-1.0
+1.0,perplexity,2025-11-24,266478,Rhode Island vs Towson,55,62,Rhode Island -2.5,-110.0,3.0,loss,-3.0
+2.0,perplexity,2025-11-24,278417,Troy vs Toledo,68,75,Troy -2.5,-105.0,2.0,loss,-2.0
+7.0,claude,2025-11-24,264994,Bowling Green vs Bucknell,71,66,Bowling Green -7.5,-105.0,2.0,loss,-2.0
+7.0,gemini,2025-11-24,264994,Bowling Green vs Bucknell,71,66,Bucknell +7.5,-115.0,1.0,win,0.8695652173913043
+3.0,perplexity,2025-11-24,282338,Oregon St vs UMASS,65,73,Oregon St -2.5,-110.0,2.0,loss,-2.0
+4.0,perplexity,2025-11-24,266482,Tennessee vs Rutgers,85,60,Tennessee -15.5,-108.0,2.0,win,1.851851851851852
+5.0,perplexity,2025-11-24,266483,Vermont vs Liberty,73,79,Liberty -8.5,-115.0,2.0,loss,-2.0
+6.0,perplexity,2025-11-24,266484,Baylor vs Creighton,81,74,Baylor -3.5,-110.0,1.0,win,0.9090909090909092
+3.0,claude,2025-11-24,266484,Baylor vs Creighton,81,74,Baylor -3.5,-110.0,3.0,win,2.727272727272727
+10.0,claude,2025-11-24,282338,Oregon St vs UMASS,65,73,Oregon St -2.5,-110.0,1.0,loss,-1.0
+2.0,gemini,2025-11-24,266482,Tennessee vs Rutgers,85,60,Rutgers +15.5,-112.0,3.0,loss,-3.0
+7.0,perplexity,2025-11-24,266486,NC State vs Seton Hall,74,85,NC State -9.5,-115.0,1.0,loss,-1.0
+1.0,claude,2025-11-24,266488,Notre Dame vs Kansas,61,71,Notre Dame +4.5,-105.0,3.0,loss,-3.0
+3.0,gemini,2025-11-24,266486,NC State vs Seton Hall,74,85,Seton Hall +9.5,-105.0,3.0,win,2.8571428571428568
+10.0,gemini,2025-11-24,264536,Buffalo vs VMI,78,70,VMI +7.5,-115.0,1.0,loss,-1.0
+10.0,perplexity,2025-11-24,266492,George Mason vs Ohio,92,69,George Mason -7.5,-105.0,1.0,win,0.9523809523809524
+2.0,claude,2025-11-24,266489,Iowa State vs St. John's,83,82,Iowa State -2.5,-110.0,3.0,loss,-3.0
+8.0,claude,2025-11-24,266492,George Mason vs Ohio,92,69,George Mason -7.5,-105.0,1.0,win,0.9523809523809524
+9.0,claude,2025-11-24,266490,Boise State vs USC,67,70,Boise State +5.5,-110.0,1.0,win,0.9090909090909092
+1.0,gemini,2025-11-24,266493,Syracuse vs Houston,74,78,Syracuse +14.5,-110.0,3.0,win,2.727272727272727
+4.0,gemini,2025-11-24,266494,Bradley vs Princeton,88,64,Princeton +7.5,-105.0,2.0,loss,-2.0
+6.0,gemini,2025-11-24,266492,George Mason vs Ohio,92,69,Ohio +7.5,-115.0,2.0,loss,-2.0
+4.0,claude,2025-11-24,266496,Oregon vs Auburn,73,84,Oregon +3.5,-100.0,2.0,loss,-2.0
+8.0,gemini,2025-11-24,266496,Oregon vs Auburn,73,84,Oregon +3.5,-100.0,1.0,loss,-1.0
+5.0,claude,2025-11-24,266499,Alabama vs Gonzaga,85,95,Alabama +4.5,-110.0,2.0,loss,-2.0
+11.0,claude,2025-11-24,266500,San Diego State vs Michigan,54,94,San Diego State +5.5,-110.0,1.0,loss,-1.0
+5.0,gemini,2025-11-24,266499,Alabama vs Gonzaga,85,95,Alabama +4.5,-110.0,2.0,loss,-2.0
+9.0,gemini,2025-11-24,266500,San Diego State vs Michigan,54,94,San Diego State +5.5,-110.0,1.0,loss,-1.0
+9.0,perplexity,2025-11-25,266502,Maryland vs UNLV,74,67,Maryland -2.5,-105.0,1.0,win,0.9523809523809524
+6.0,claude,2025-11-25,266502,Maryland vs UNLV,74,67,Maryland -2.5,-105.0,2.0,win,1.9047619047619049
+5.0,perplexity,2025-11-24,266490,Boise State vs USC,67,70,USC -5.5,-111.0,2.0,loss,-2.0
+6.0,perplexity,2025-11-25,282638,George Mason vs FAU,74,65,FAU +4.5,-110.0,1.0,loss,-1.0
+1.0,claude,2025-11-25,266503,JMU vs Omaha,88,77,JMU -1.5,-115.0,3.0,win,2.608695652173913
+8.0,claude,2025-11-25,282638,George Mason vs FAU,74,65,George Mason -4.5,-110.0,1.0,win,0.9090909090909092
+10.0,claude,2025-11-25,282603,Princeton vs Temple,75,79,Princeton +7.5,-105.0,1.0,win,0.9523809523809524
+1.0,gemini,2025-11-25,266506,Florida St vs CS Bakersfield,89,59,CS Bakersfield +24.5,-105.0,3.0,loss,-3.0
+2.0,gemini,2025-11-25,265017,Villanova vs Old Dominion,89,75,Old Dominion +21.5,-108.0,3.0,win,2.7777777777777777
+3.0,gemini,2025-11-25,265014,Wake Forest vs Campbell,99,51,Campbell +17.5,-110.0,3.0,loss,-3.0
+5.0,gemini,2025-11-25,265007,Penn State vs Boston U,96,87,Boston U +15.5,-115.0,2.0,win,1.7391304347826086
+8.0,gemini,2025-11-25,267633,UCF vs Quinnipiac,102,91,Quinnipiac +13.5,-110.0,1.0,win,0.9090909090909092
+2.0,perplexity,2025-11-25,266522,UC Irvine vs N. Mexico St,45,57,UC Irvine -2.5,-105.0,3.0,loss,-3.0
+3.0,perplexity,2025-11-25,280389,Austin Peay vs N. Illinois,77,59,Austin Peay -6.5,-110.0,2.0,win,1.818181818181818
+4.0,perplexity,2025-11-25,275939,North Texas vs E. Washington,79,71,North Texas -12.5,-105.0,2.0,loss,-2.0
+8.0,perplexity,2025-11-25,282734,Arizona St vs Washington St,100,94,Arizona St -5.5,-110.0,1.0,win,0.9090909090909092
+9.0,perplexity,2025-11-25,266522,UC Irvine vs N. Mexico St,45,57,Under 138.5,-110.0,1.0,win,0.9090909090909092
+2.0,claude,2025-11-25,266521,Auburn vs Michigan,72,102,Auburn +5.5,-115.0,3.0,loss,-3.0
+5.0,claude,2025-11-25,272010,Cal Poly vs SE Missouri,68,84,Cal Poly +1.5,-111.0,2.0,loss,-2.0
+6.0,claude,2025-11-25,266522,UC Irvine vs N. Mexico St,45,57,UC Irvine -2.5,-105.0,2.0,loss,-2.0
+9.0,claude,2025-11-25,282734,Arizona St vs Washington St,100,94,Arizona St -5.5,-110.0,1.0,win,0.9090909090909092
+7.0,gemini,2025-11-25,265010,Nebraska vs Winthrop,80,73,Winthrop +14.5,-115.0,2.0,win,1.7391304347826086
+9.0,gemini,2025-11-25,265012,Indiana vs K State,86,69,K State +10.5,-111.0,1.0,loss,-1.0
+10.0,gemini,2025-11-25,275939,North Texas vs E. Washington,79,71,E. Washington +12.5,-115.0,1.0,win,0.8695652173913043
+1.0,perplexity,2025-11-25,266524,Iowa vs Ole Miss,74,69,Iowa -4.5,-105.0,3.0,win,2.8571428571428568
+7.0,perplexity,2025-11-25,275593,Montana vs Oakland,87,95,Montana -4.5,-105.0,1.0,loss,-1.0
+3.0,claude,2025-11-25,266524,Iowa vs Ole Miss,74,69,Iowa -4.5,-105.0,3.0,win,2.8571428571428568
+7.0,claude,2025-11-25,275593,Montana vs Oakland,87,95,Montana -4.5,-105.0,2.0,loss,-2.0
+11.0,claude,2025-11-25,271310,GA Southern vs UTSA,64,77,GA Southern -3.5,-112.0,1.0,loss,-1.0
+4.0,gemini,2025-11-25,266523,Gonzaga vs Maryland,100,61,Maryland +14.5,-110.0,2.0,loss,-2.0
+10.0,perplexity,2025-11-25,266525,San Diego State vs Oregon,97,80,Oregon -1.5,-115.0,1.0,loss,-1.0
+4.0,claude,2025-11-25,266525,San Diego State vs Oregon,97,80,San Diego State +1.5,-105.0,2.0,win,1.9047619047619049
+6.0,gemini,2025-11-26,266527,UNLV vs Alabama,76,115,UNLV +13.5,-110.0,2.0,loss,-2.0
+3.0,perplexity,2025-11-25,266506,Florida St vs CS Bakersfield,89,59,Florida St -24.5,-115.0,2.0,win,1.7391304347826086
+5.0,perplexity,2025-11-25,275939,North Texas vs E. Washington,79,71,North Texas -12.5,-105.0,1.0,loss,-1.0
+7.0,perplexity,2025-11-26,278423,Miami (OH) vs UNC Greensboro,82,71,Miami (OH) -10.5,-115.0,1.0,win,0.8695652173913043
+6.0,claude,2025-11-26,282800,San Jose St vs Loyola (IL),63,51,San Jose St -1.5,-102.0,2.0,win,1.96078431372549
+11.0,claude,2025-11-26,266531,Robert Morris vs UIC,88,74,Robert Morris +1.5,-110.0,1.0,win,0.9090909090909092
+2.0,gemini,2025-11-26,278423,Miami (OH) vs UNC Greensboro,82,71,UNC Greensboro +10.5,-105.0,3.0,loss,-3.0
+1.0,perplexity,2025-11-26,266538,Valparaiso vs Southern Indiana,56,64,Valparaiso -9.5,-115.0,3.0,loss,-3.0
+2.0,perplexity,2025-11-26,265028,Boston Col vs Harvard,73,60,Boston Col -6.5,-115.0,2.0,win,1.7391304347826086
+8.0,perplexity,2025-11-26,266537,N. Mexico St vs Georgia State,77,58,N. Mexico St -12.5,-111.0,1.0,win,0.9009009009009008
+1.0,claude,2025-11-26,282813,Houston vs Notre Dame,66,56,Houston -11.5,-120.0,3.0,loss,-3.0
+5.0,claude,2025-11-26,266536,S. Florida vs VCU,66,78,S. Florida +1.5,-118.0,2.0,loss,-2.0
+8.0,claude,2025-11-26,265034,Jax State vs NDSU,43,56,Jax State +3.5,-108.0,1.0,loss,-1.0
+3.0,gemini,2025-11-26,266537,N. Mexico St vs Georgia State,77,58,Georgia State +12.5,-111.0,3.0,loss,-3.0
+8.0,gemini,2025-11-26,266538,Valparaiso vs Southern Indiana,56,64,Southern Indiana +9.5,-105.0,1.0,win,0.9523809523809524
+10.0,gemini,2025-11-26,265034,Jax State vs NDSU,43,56,Jax State +3.5,-112.0,1.0,loss,-1.0
+6.0,perplexity,2025-11-26,266529,Marshall vs Lipscomb,67,90,Marshall -8.5,-112.0,1.0,loss,-1.0
+9.0,perplexity,2025-11-26,282801,Tulsa vs N. Iowa,63,60,Tulsa -2.5,-110.0,1.0,win,0.9090909090909092
+3.0,claude,2025-11-26,282801,Tulsa vs N. Iowa,63,60,Tulsa +2.5,-110.0,3.0,win,2.727272727272727
+10.0,claude,2025-11-26,266539,VA Tech vs Colorado St,66,64,VA Tech -4.5,-108.0,1.0,loss,-1.0
+2.0,claude,2025-11-26,282808,Tennessee vs Kansas,76,81,Tennessee -5.5,-110.0,3.0,loss,-3.0
+6.0,gemini,2025-11-26,282808,Tennessee vs Kansas,76,81,Kansas +5.5,-110.0,2.0,win,1.818181818181818
+10.0,perplexity,2025-11-26,266533,Wyoming vs Denver,101,59,Wyoming -8.5,-105.0,1.0,win,0.9523809523809524
+7.0,claude,2025-11-26,282814,Auburn vs St. John's,85,74,Auburn +4.5,-110.0,2.0,win,1.818181818181818
+1.0,gemini,2025-11-26,266542,Saint Mary's vs Wichita State,70,65,Wichita State +10.5,-110.0,3.0,win,2.727272727272727
+4.0,gemini,2025-11-26,265029,Memphis vs S. Illinois,74,58,S. Illinois +10.5,-110.0,2.0,loss,-2.0
+5.0,gemini,2025-11-26,266533,Wyoming vs Denver,101,59,Denver +8.5,-115.0,2.0,loss,-2.0
+9.0,gemini,2025-11-26,282814,Auburn vs St. John's,85,74,Auburn +4.5,-110.0,1.0,win,0.9090909090909092
+4.0,perplexity,2025-11-26,282819,Iowa vs Grand Canyon,59,46,Iowa -8.5,-115.0,2.0,win,1.7391304347826086
+4.0,claude,2025-11-26,282809,Michigan vs Gonzaga,101,61,Michigan +2.0,-110.0,2.0,win,1.818181818181818
+9.0,claude,2025-11-26,282810,Texas vs NC State,102,97,Texas +3.5,-110.0,1.0,win,0.9090909090909092
+7.0,gemini,2025-11-26,282819,Iowa vs Grand Canyon,59,46,Grand Canyon +8.5,-105.0,1.0,loss,-1.0
+1.0,perplexity,2025-11-28,266559,Youngstown St vs Chicago St,87,64,Youngstown St -14.5,-106.0,3.0,win,2.830188679245283
+2.0,perplexity,2025-11-28,265058,Virginia vs Queens,94,69,Virginia -25.5,-108.0,3.0,loss,-3.0
+3.0,perplexity,2025-11-28,265052,UNC Wilmington vs Navy,87,57,UNC Wilmington -8.5,-110.0,2.0,win,1.818181818181818
+4.0,perplexity,2025-11-28,265048,Tulane vs Nicholls St,82,72,Tulane -8.5,-115.0,2.0,win,1.7391304347826086
+6.0,perplexity,2025-11-28,276085,Davidson vs NC A&T,90,74,Davidson -13.5,-115.0,2.0,win,1.7391304347826086
+7.0,perplexity,2025-11-28,264539,Penn vs Merrimack,77,65,Penn -3.5,-107.0,1.0,win,0.9345794392523364
+8.0,perplexity,2025-11-28,266560,Lehigh vs UCSB,70,72,UCSB -10.5,-105.0,1.0,loss,-1.0
+3.0,claude,2025-11-28,282840,Colorado vs Washington,81,68,Colorado +2.5,-110.0,3.0,win,2.727272727272727
+4.0,claude,2025-11-28,264539,Penn vs Merrimack,77,65,Penn -3.5,-107.0,2.0,win,1.8691588785046729
+5.0,claude,2025-11-28,282834,Illinois St vs Furman,72,65,Illinois St -3.5,-105.0,2.0,win,1.9047619047619049
+6.0,claude,2025-11-28,282847,Colorado St vs S. Florida,83,68,Colorado St +2.5,-105.0,2.0,win,1.9047619047619049
+10.0,claude,2025-11-28,275594,Arkansas St vs NDSU,85,80,Arkansas St -3.0,-110.0,1.0,win,0.9090909090909092
+1.0,gemini,2025-11-28,265058,Virginia vs Queens,94,69,Queens +25.5,-112.0,3.0,win,2.678571428571429
+2.0,gemini,2025-11-28,282841,Florida vs Providence,90,78,Providence +11.5,-108.0,3.0,loss,-3.0
+4.0,gemini,2025-11-28,265052,UNC Wilmington vs Navy,87,57,Navy +8.5,-110.0,2.0,loss,-2.0
+7.0,gemini,2025-11-27,282816,Alabama vs Maryland,105,72,Alabama -13.0,-110.0,1.0,win,0.9090909090909092
+8.0,gemini,2025-11-28,266559,Youngstown St vs Chicago St,87,64,Chicago St +14.5,-106.0,1.0,loss,-1.0
+9.0,gemini,2025-11-28,265053,American U vs Maine,74,61,Maine +7.5,-112.0,1.0,loss,-1.0
+10.0,gemini,2025-11-28,282847,Colorado St vs S. Florida,83,68,Colorado St +2.5,-115.0,1.0,win,0.8695652173913043
+5.0,perplexity,2025-11-28,265055,Xavier vs Texas A&M-CC,88,67,Xavier -14.5,-115.0,2.0,win,1.7391304347826086
+9.0,perplexity,2025-11-28,266554,Florida St vs Texas A&M,59,95,Over 172.5,-108.0,1.0,loss,-1.0
+1.0,claude,2025-11-28,266554,Florida St vs Texas A&M,59,95,Florida St -1.5,-105.0,3.0,loss,-3.0
+2.0,claude,2025-11-28,282849,Saint Louis vs Stanford,77,78,Saint Louis -2.5,-111.0,3.0,loss,-3.0
+8.0,claude,2025-11-28,264540,Idaho State vs CS Northridge,82,50,Idaho State -1.5,-102.0,1.0,win,0.9803921568627452
+9.0,claude,2025-11-28,266561,G Tech vs DePaul,61,75,G Tech +1.5,-115.0,1.0,loss,-1.0
+6.0,gemini,2025-11-28,265050,Pittsburgh vs Ohio State,67,66,Pittsburgh +4.5,-110.0,2.0,win,1.818181818181818
+7.0,claude,2025-11-28,265056,Mississippi St vs SMU,81,87,Mississippi St +1.5,-112.0,2.0,loss,-2.0
+5.0,gemini,2025-11-28,265056,Mississippi St vs SMU,81,87,Mississippi St +1.5,-108.0,2.0,loss,-2.0
+10.0,perplexity,2025-11-28,282844,Dayton vs BYU,79,83,BYU -9.5,-115.0,1.0,loss,-1.0
+11.0,claude,2025-11-28,265057,Idaho vs Sam Houston,68,94,Idaho +1.5,-118.0,1.0,loss,-1.0
+3.0,gemini,2025-11-28,282844,Dayton vs BYU,79,83,Dayton +9.5,-105.0,3.0,win,2.8571428571428568
+1.0,perplexity,2025-12-01,265101,Villanova vs Temple,74,56,Villanova -12.5,-112.0,3.0,win,2.678571428571429
+2.0,perplexity,2025-12-01,266582,Cincinnati vs Tarleton St,76,58,Cincinnati -19.5,-118.0,3.0,loss,-3.0
+5.0,perplexity,2025-12-01,265103,Xavier vs St. Francis (PA),96,74,Xavier -28.0,-112.0,2.0,loss,-2.0
+7.0,perplexity,2025-12-01,266583,Troy vs Wolves,89,93,Troy -17.5,-110.0,2.0,loss,-2.0
+1.0,claude,2025-12-01,276086,Delaware vs Iona,66,89,Delaware +1.5,-105.0,2.0,loss,-2.0
+5.0,claude,2025-12-01,266584,Middle Tenn vs UAB,76,61,Middle Tenn +1.5,-110.0,2.0,win,1.818181818181818
+11.0,claude,2025-12-01,267366,Jax State vs North Alabama,66,73,Jax State -5.5,-105.0,1.0,loss,-1.0
+4.0,gemini,2025-12-01,265101,Villanova vs Temple,74,56,Temple +12.5,-108.0,2.0,loss,-2.0
+8.0,gemini,2025-12-01,265103,Xavier vs St. Francis (PA),96,74,St. Francis (PA) +28.0,-107.0,1.0,win,0.9345794392523364
+3.0,perplexity,2025-12-01,265100,K State vs Bowling Green,66,82,K State -12.5,-105.0,2.0,loss,-2.0
+9.0,gemini,2025-12-01,265100,K State vs Bowling Green,66,82,Bowling Green +12.5,-115.0,1.0,win,0.8695652173913043
+10.0,gemini,2025-12-01,263613,Incarnate Word vs McNeese St,71,67,Incarnate Word +10.0,-110.0,1.0,win,0.9090909090909092
+4.0,perplexity,2025-12-01,265104,Stanford vs Portland,94,72,Stanford -18.5,-112.0,2.0,win,1.7857142857142858
+6.0,perplexity,2025-12-01,265102,Colorado vs Cal Baptist,78,70,Colorado -12.5,-110.0,2.0,loss,-2.0
+8.0,perplexity,2025-12-02,265114,Kentucky vs UNC,64,67,Kentucky -7.5,-105.0,1.0,loss,-1.0
+9.0,perplexity,2025-12-02,264548,Notre Dame vs Missouri,76,71,Missouri -1.5,-110.0,1.0,loss,-1.0
+10.0,perplexity,2025-12-02,274949,Michigan St vs Iowa,71,52,Michigan St -4.5,-115.0,1.0,win,0.8695652173913043
+2.0,claude,2025-12-02,265106,Pittsburgh vs Texas A&M,73,81,Pittsburgh +1.5,-101.0,2.0,loss,-2.0
+3.0,claude,2025-12-02,264548,Notre Dame vs Missouri,76,71,Notre Dame +1.5,-110.0,2.0,win,1.818181818181818
+4.0,claude,2025-12-02,264551,Kansas vs UConn,56,61,Kansas +1.5,-105.0,2.0,loss,-2.0
+6.0,claude,2025-12-02,275597,S. Carolina vs VA Tech,83,86,S. Carolina -1.5,102.0,2.0,loss,-2.0
+7.0,claude,2025-12-02,274950,Oregon vs USC,77,82,Oregon +1.5,-105.0,1.0,loss,-1.0
+8.0,claude,2025-12-02,266589,Florida St vs Georgia,73,107,Florida St +2.5,-111.0,1.0,loss,-1.0
+9.0,claude,2025-12-02,274948,Michigan St vs Iowa,65,81,Michigan St -4.5,-115.0,1.0,loss,-1.0
+10.0,claude,2025-12-02,265118,Wake Forest vs Oklahoma,68,86,Wake Forest -4.5,-110.0,1.0,loss,-1.0
+1.0,claude,2025-12-02,275597,S. Carolina vs VA Tech,83,86,S. Carolina -1.5,-110.0,2.0,loss,-2.0
+2.0,claude,2025-12-02,264551,Kansas vs UConn,56,61,Kansas +1.5,-104.0,2.0,loss,-2.0
+3.0,claude,2025-12-02,265106,Pittsburgh vs Texas A&M,73,81,Pittsburgh +3.5,-111.0,2.0,loss,-2.0
+4.0,claude,2025-12-02,264548,Notre Dame vs Missouri,76,71,Notre Dame -1.0,-105.0,2.0,win,1.9047619047619049
+5.0,claude,2025-12-02,266589,Florida St vs Georgia,73,107,Florida St -1.5,-110.0,2.0,loss,-2.0
+6.0,claude,2025-12-02,274949,Michigan St vs Iowa,71,52,Michigan St -4.5,-116.0,2.0,win,1.7241379310344829
+7.0,claude,2025-12-02,265123,Binghamton vs Lehigh,80,71,Binghamton +3.5,-105.0,1.0,win,0.9523809523809524
+8.0,claude,2025-12-02,280391,S. Alabama vs N. Mexico St,77,75,S. Alabama +3.0,-105.0,1.0,win,0.9523809523809524
+9.0,claude,2025-12-02,265118,Wake Forest vs Oklahoma,68,86,Wake Forest -4.5,-108.0,1.0,loss,-1.0
+10.0,claude,2025-12-02,275598,Ole Miss vs Miami (FL),66,75,Ole Miss -2.5,-108.0,1.0,loss,-1.0
+11.0,claude,2025-12-02,274950,Oregon vs USC,77,82,Oregon +3.5,-110.0,1.0,loss,-1.0
+1.0,gemini,2025-12-02,264551,Kansas vs UConn,56,61,Kansas +1.5,-115.0,3.0,loss,-3.0
+2.0,gemini,2025-12-02,274948,Rutgers vs Purdue,65,81,Rutgers +15.5,-105.0,3.0,loss,-3.0
+3.0,gemini,2025-12-02,264547,Syracuse vs Tennessee,62,60,Syracuse +6.5,-110.0,3.0,win,2.727272727272727
+5.0,gemini,2025-12-02,265106,Pittsburgh vs Texas A&M,73,81,Pittsburgh +1.5,-101.0,2.0,loss,-2.0
+6.0,gemini,2025-12-02,265111,Duke vs Florida,67,66,Florida +8.5,-110.0,2.0,win,1.8181818181818181
+7.0,gemini,2025-12-02,264548,Notre Dame vs Missouri,76,71,Notre Dame +1.5,-110.0,2.0,win,1.8181818181818181
+2.0,gemini,2025-12-02,274948,Rutgers vs Purdue,65,81,Rutgers +13.5,-110.0,3.0,loss,-3.0
+3.0,gemini,2025-12-02,264547,Syracuse vs Tennessee,62,60,Syracuse +7.5,-110.0,3.0,win,2.727272727272727
+4.0,gemini,2025-12-02,265106,Pittsburgh vs Texas A&M,73,81,Pittsburgh +3.5,-107.0,2.0,loss,-2.0
+5.0,gemini,2025-12-02,274950,Oregon vs USC,77,82,Oregon +3.5,-115.0,2.0,loss,-2.0
+6.0,gemini,2025-12-01,265101,Villanova vs Temple,74,56,Temple +12.5,-108.0,2.0,loss,-2.0
+7.0,gemini,2025-12-02,265111,Duke vs Florida,67,66,Florida +9.5,-110.0,2.0,win,1.8181818181818181
+8.0,gemini,2025-12-02,274949,Michigan St vs Iowa,71,52,Iowa +4.5,-105.0,1.0,loss,-1.0
+9.0,gemini,2025-12-02,266589,Florida St vs Georgia,73,107,Georgia +1.5,-110.0,1.0,win,0.9090909090909091
+10.0,gemini,2025-12-02,265123,Binghamton vs Lehigh,80,71,Binghamton +3.5,-105.0,1.0,win,0.9523809523809523
