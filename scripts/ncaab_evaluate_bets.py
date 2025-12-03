@@ -381,6 +381,10 @@ def process_results(model_name: str, picks_dir: Path, results_csv_path: Path):
         print(f"Error: Picks file not found at {picks_file}")
         return None # Exit function
     
+    # Remove duplicate header rows that may have been concatenated
+    # Filter out rows where 'start_time' column contains the literal string 'start_time'
+    df_picks = df_picks[df_picks['start_time'] != 'start_time'].reset_index(drop=True)
+    
     # display(df_picks.sample(3))
 
     # === 2. Process Pick Timestamps ===
