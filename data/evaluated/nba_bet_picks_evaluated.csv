@@ -751,10 +751,10 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 1,chatgpt,2025-12-02,261883,Warriors vs Thunder,112.0,124.0,Warriors -11.5,-110,3,loss,-3.0
 2,chatgpt,2025-12-02,261880,Celtics vs Knicks,123.0,117.0,Knicks -1.0,-106,2,loss,-2.0
 3,chatgpt,2025-12-02,261879,Raptors vs Trail Blazers,121.0,118.0,Raptors -4.5,-115,2,loss,-2.0
-4,chatgpt,2025-12-02,261881,Spurs vs Grizzlies,126.0,119.0,Spurs -5.5,-108,2,win,1.8518518518518519
+4,chatgpt,2025-12-02,261881,Spurs vs Grizzlies,126.0,119.0,Spurs -5.5,-108,2,win,1.851851851851852
 5,chatgpt,2025-12-02,261883,Warriors vs Thunder,112.0,124.0,Warriors ML,-587,1,loss,-1.0
 6,chatgpt,2025-12-02,261882,Pelicans vs Timberwolves,142.0,149.0,Timberwolves -12.5,-110,1,loss,-1.0
-7,chatgpt,2025-12-02,261878,76ers vs Wizards,121.0,102.0,76ers -13.5,-105,1,win,0.9523809523809523
+7,chatgpt,2025-12-02,261878,76ers vs Wizards,121.0,102.0,76ers -13.5,-105,1,win,0.9523809523809524
 8,chatgpt,2025-12-02,261880,Celtics vs Knicks,123.0,117.0,Under 230.5,-110,1,loss,-1.0
-9,chatgpt,2025-12-02,261882,Pelicans vs Timberwolves,142.0,149.0,Over 231.5,-110,1,win,0.9090909090909091
+9,chatgpt,2025-12-02,261882,Pelicans vs Timberwolves,142.0,149.0,Over 231.5,-110,1,win,0.9090909090909092
 10,chatgpt,2025-12-02,261879,Raptors vs Trail Blazers,121.0,118.0,Trail Blazers ML,166,1,loss,-1.0
