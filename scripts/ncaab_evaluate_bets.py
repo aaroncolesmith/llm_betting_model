@@ -438,24 +438,31 @@ def process_results(model_name: str, picks_dir: Path, results_csv_path: Path):
     df_new_results = pd.DataFrame() # Initialize as empty
 
     if not missing_games.empty:
-        date_str_list = missing_games['date'].astype(str).str.replace('-', '').unique().tolist()
+        # Filter out rows with NaT dates before processing
+        # NaT dates would cause API errors when converted to strings
+        missing_games_valid = missing_games[missing_games['date'].notna()].copy()
         
-        if date_str_list:
-            print(f"Found missing ds results for {len(date_str_list)} dates. Fetching...")
-            df_new_results = get_complete_game_results(sport, date_str_list, HEADERS)
+        if missing_games_valid.empty:
+            print("No valid dates found in missing games (all are NaT). Skipping fetch.")
+        else:
+            date_str_list = missing_games_valid['date'].astype(str).str.replace('-', '').unique().tolist()
             
-            if not df_new_results.empty:
-                print(f"Appending {len(df_new_results)} new results to {results_csv_path}")
-                # Append new data
-                df_new_results.to_csv(
-                    results_csv_path,
-                    mode='a',
-                    # Write header ONLY if the file didn't exist before
-                    header=not results_file_exists, 
-                    index=False
-                )
-            else:
-                print("API call returned no new results.")
+            if date_str_list:
+                print(f"Found missing ds results for {len(date_str_list)} dates. Fetching...")
+                df_new_results = get_complete_game_results(sport, date_str_list, HEADERS)
+                
+                if not df_new_results.empty:
+                    print(f"Appending {len(df_new_results)} new results to {results_csv_path}")
+                    # Append new data
+                    df_new_results.to_csv(
+                        results_csv_path,
+                        mode='a',
+                        # Write header ONLY if the file didn't exist before
+                        header=not results_file_exists, 
+                        index=False
+                    )
+                else:
+                    print("API call returned no new results.")
     else:
         print("No missing game results found. All picks are up-to-date.")
 
