@@ -385,9 +385,23 @@ def process_results(model_name: str, picks_dir: Path, results_csv_path: Path):
     # Filter out rows where 'start_time' column contains the literal string 'start_time'
     df_picks = df_picks[df_picks['start_time'] != 'start_time'].reset_index(drop=True)
     
-    # Convert game_id to int64 to ensure proper type for merging
-    # After filtering headers, pandas may have inferred it as object type
-    df_picks['game_id'] = pd.to_numeric(df_picks['game_id'], errors='coerce').astype('Int64')
+    # Convert numeric columns to proper types after filtering headers
+    # After filtering headers, pandas may have inferred them as object type
+    numeric_columns = [
+        'game_id', 'rank', 'odds', 'units', 'confidence_pct',
+        'bet_home_spread', 'bet_home_ml', 'bet_away_spread', 'bet_away_ml', 
+        'bet_over', 'bet_under',
+        'home_money_line', 'away_money_line', 'total_score',
+        'over_odds', 'under_odds', 'home_spread', 'home_spread_odds',
+        'away_spread', 'away_spread_odds'
+    ]
+    
+    for col in numeric_columns:
+        if col in df_picks.columns:
+            df_picks[col] = pd.to_numeric(df_picks[col], errors='coerce')
+    
+    # Ensure game_id is Int64 for merging
+    df_picks['game_id'] = df_picks['game_id'].astype('Int64')
     
     # display(df_picks.sample(3))
 
