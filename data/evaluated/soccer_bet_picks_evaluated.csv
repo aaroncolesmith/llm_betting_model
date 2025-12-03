@@ -229,3 +229,6 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 3,gemini,2025-12-02,265975,Fulham vs Man City,4,5,Man City ML,-164,3,win,1.829268292682927
 9,gemini,2025-12-02,265973,Newcastle vs Tottenham,2,2,Newcastle ML,-143,2,loss,-2.0
 9,grok,2025-12-02,265973,Newcastle vs Tottenham,2,2,Newcastle -0.5,-143,1,loss,-1.0
+9,claude,2025-12-03,280928,Athletic vs Real Madrid,0,3,Real Madrid -0.5,-145,1,win,0.6896551724137931
+3,deepseek,2025-12-03,280928,Athletic vs Real Madrid,0,3,Athletic +0.5,100,2,loss,-2.0
+6,gemini,2025-12-03,280928,Athletic vs Real Madrid,0,3,Real Madrid ML,-124,2,win,1.6129032258064515
