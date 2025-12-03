@@ -232,3 +232,14 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 9,claude,2025-12-03,280928,Athletic vs Real Madrid,0,3,Real Madrid -0.5,-145,1,win,0.6896551724137931
 3,deepseek,2025-12-03,280928,Athletic vs Real Madrid,0,3,Athletic +0.5,100,2,loss,-2.0
 6,gemini,2025-12-03,280928,Athletic vs Real Madrid,0,3,Real Madrid ML,-124,2,win,1.6129032258064515
+1,claude,2025-12-03,265978,Arsenal vs Brentford,2,0,Arsenal -1.5,110,3,loss,-3.0
+2,claude,2025-12-03,265971,Liverpool vs Sunderland,1,1,Liverpool -1.5,-110,3,loss,-3.0
+3,claude,2025-12-03,265974,Leeds vs Chelsea,3,1,Chelsea -0.5,-125,2,loss,-2.0
+7,claude,2025-12-03,265972,Wolverhampton vs Nottingham,0,1,Nottingham -0.5,-175,2,win,1.1428571428571428
+1,deepseek,2025-12-03,265972,Wolverhampton vs Nottingham,0,1,Wolverhampton +0.5,115,3,loss,-3.0
+2,deepseek,2025-12-03,265976,Burnley vs Crystal Palace,0,1,Burnley +0.5,105,2,loss,-2.0
+5,deepseek,2025-12-03,265974,Leeds vs Chelsea,3,1,Leeds +0.5,-115,1,win,0.8695652173913043
+6,deepseek,2025-12-03,265977,Albion vs Aston Villa,3,4,Albion -0.5,105,1,loss,-1.0
+4,gemini,2025-12-03,265976,Burnley vs Crystal Palace,0,1,Crystal Palace ML,-140,2,win,1.4285714285714286
+9,gemini,2025-12-03,265971,Liverpool vs Sunderland,1,1,Liverpool -1.5,-110,1,loss,-1.0
+1,grok,2025-12-03,265978,Arsenal vs Brentford,2,0,Arsenal -1.5,110,3,win,3.3000000000000003
