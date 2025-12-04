@@ -243,3 +243,5 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 4,gemini,2025-12-03,265976,Burnley vs Crystal Palace,0,1,Crystal Palace ML,-140,2,win,1.4285714285714286
 9,gemini,2025-12-03,265971,Liverpool vs Sunderland,1,1,Liverpool -1.5,-110,1,loss,-1.0
 1,grok,2025-12-03,265978,Arsenal vs Brentford,2,0,Arsenal -1.5,110,3,win,3.3000000000000003
+4,claude,2025-12-04,265970,Man U vs West Ham,1,1,Man U -1.5,110,2,loss,-2.0
+6,grok,2025-12-04,265970,Man U vs West Ham,1,1,Man U -1.5,110,2,loss,-2.0
