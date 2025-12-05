@@ -247,3 +247,7 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 6,grok,2025-12-04,265970,Man U vs West Ham,1,1,Man U -1.5,110,2,loss,-2.0
 6,claude,2025-12-05,266191,Brest vs Monaco,1,0,Monaco -0.5,-150,2,loss,-2.0
 4,deepseek,2025-12-05,266191,Brest vs Monaco,1,0,Brest +0.5,105,2,win,2.1
+10,claude,2025-12-05,266196,Lille vs Marseille,1,0,Lille -0.5,-200,1,win,0.5
+4,grok,2025-12-05,266196,Lille vs Marseille,1,0,Lille -0.5,140,3,win,4.199999999999999
+5,grok,2025-12-05,266119,Mainz vs M'gladbach,0,1,Mainz -0.5,130,2,loss,-2.0
+9,grok,2025-12-05,266169,Real Oviedo vs Mallorca,0,0,Real Oviedo -0.5,155,2,loss,-2.0
