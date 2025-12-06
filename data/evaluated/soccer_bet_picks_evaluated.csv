@@ -255,3 +255,36 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 1,gemini,2025-12-06,266171,Villarreal vs Getafe,2,0,Villarreal ML,-166,3,win,1.8072289156626509
 6,gemini,2025-12-06,266110,Aston Villa vs Arsenal,2,1,Arsenal ML,-110,2,loss,-2.0
 4,gemini,2025-12-06,266110,Aston Villa vs Arsenal,2,1,Arsenal ML,-110,2,loss,-2.0
+8,claude,2025-12-06,266104,Newcastle vs Burnley,2,1,Newcastle -1.5,-125,1,loss,-1.0
+2,claude,2025-12-06,266105,Man City vs Sunderland,3,0,Man City -1.5,-135,3,win,2.2222222222222223
+3,claude,2025-12-06,266104,Newcastle vs Burnley,2,1,Newcastle -1.5,-120,2,loss,-2.0
+4,claude,2025-12-06,266103,Tottenham vs Brentford,2,0,Tottenham -0.5,120,2,win,2.4
+7,claude,2025-12-06,266115,Augsburg vs Leverkusen,2,0,Leverkusen -0.5,-115,2,loss,-2.0
+7,deepseek,2025-12-06,266116,WOLF vs Union Berlin,3,1,WOLF -0.5,100,1,win,1.0
+8,deepseek,2025-12-06,266113,Köln vs St Pauli,1,1,Köln -0.5,-118,1,loss,-1.0
+9,deepseek,2025-12-06,266114,Heidenheim vs Freiburg,2,1,Heidenheim +0.5,-110,1,win,0.9090909090909092
+10,deepseek,2025-12-06,266115,Augsburg vs Leverkusen,2,0,Augsburg +0.5,-120,1,win,0.8333333333333334
+1,deepseek,2025-12-06,266103,Tottenham vs Brentford,2,0,Tottenham -0.5,120,3,win,3.6
+2,deepseek,2025-12-06,266108,Everton vs Nottingham,3,0,Everton -0.5,100,2,win,2.0
+3,deepseek,2025-12-06,266113,Köln vs St Pauli,1,1,Köln -0.5,-115,2,loss,-2.0
+4,deepseek,2025-12-06,266116,WOLF vs Union Berlin,3,1,WOLF -0.5,-100,1,win,1.0
+5,deepseek,2025-12-06,266117,Stuttgart vs Bayern,0,5,Stuttgart +1.5,120,1,loss,-1.0
+6,deepseek,2025-12-06,266114,Heidenheim vs Freiburg,2,1,Heidenheim +0.5,-110,1,win,0.9090909090909092
+7,deepseek,2025-12-06,266184,Sassuolo vs Fiorentina,3,1,Sassuolo +0.5,140,1,win,1.4
+8,deepseek,2025-12-06,266115,Augsburg vs Leverkusen,2,0,Augsburg +0.5,-125,1,win,0.8
+10,deepseek,2025-12-06,266111,Bournemouth vs Chelsea,0,0,Bournemouth +0.5,-102,1,win,0.9803921568627452
+5,gemini,2025-12-06,266113,Köln vs St Pauli,1,1,Köln ML,-105,2,loss,-2.0
+7,gemini,2025-12-06,266114,Heidenheim vs Freiburg,2,1,Freiburg ML,-102,2,loss,-2.0
+8,gemini,2025-12-06,266104,Newcastle vs Burnley,2,1,Newcastle -1.5,-125,2,loss,-2.0
+10,gemini,2025-12-06,266105,Man City vs Sunderland,3,0,Man City -1.5,-145,1,win,0.6896551724137931
+1,gemini,2025-12-06,266116,WOLF vs Union Berlin,3,1,Union Berlin ML,100,3,loss,-3.0
+2,gemini,2025-12-06,266117,Stuttgart vs Bayern,0,5,Bayern -1.5,-107,3,win,2.803738317757009
+3,gemini,2025-12-06,266111,Bournemouth vs Chelsea,0,0,Chelsea ML,115,2,loss,-2.0
+5,gemini,2025-12-06,266115,Augsburg vs Leverkusen,2,0,Leverkusen ML,-118,2,loss,-2.0
+7,gemini,2025-12-06,266114,Heidenheim vs Freiburg,2,1,Heidenheim ML,266,1,win,2.66
+9,gemini,2025-12-06,266105,Man City vs Sunderland,3,0,Man City -1.5,-145,1,win,0.6896551724137931
+10,gemini,2025-12-06,266103,Tottenham vs Brentford,2,0,Tottenham ML,125,1,win,1.25
+3,grok,2025-12-06,266108,Everton vs Nottingham,3,0,Everton -0.5,105,3,win,3.1500000000000004
+7,grok,2025-12-06,266103,Tottenham vs Brentford,2,0,Tottenham -0.5,110,2,win,2.2
+8,grok,2025-12-06,266104,Newcastle vs Burnley,2,1,Newcastle -1.5,-125,2,loss,-2.0
+10,grok,2025-12-06,266113,Köln vs St Pauli,1,1,Köln -0.5,-118,1,loss,-1.0
