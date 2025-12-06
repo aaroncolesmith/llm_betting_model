@@ -294,3 +294,5 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 2,grok,2025-12-06,266180,Inter vs Como 1907,4,0,Inter -1,-115,3,win,2.608695652173913
 9,claude,2025-12-06,266118,LEIP vs FRA,6,0,LEIP -0.5,-143,1,win,0.6993006993006993
 3,gemini,2025-12-06,266106,Leeds vs Liverpool,3,3,Liverpool ML,-134,3,loss,-3.0
+1,claude,2025-12-06,266188,PSG vs Rennes,5,0,PSG -1.5,-145,3,win,2.0689655172413794
+6,claude,2025-12-06,266186,Hellas vs Atalanta,3,1,Atalanta -0.5,-165,2,loss,-2.0
