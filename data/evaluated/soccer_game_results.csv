@@ -1566,3 +1566,9 @@ game_id,start_time,league_name,home_team,away_team,home_score,away_score,status
 266186,2025-12-06T19:45:00.000Z,seriea,Hellas,Atalanta,3,1,complete
 266176,2025-12-06T20:00:00.000Z,laliga,Athletic,Atlético,1,0,complete
 266188,2025-12-06T20:05:00.000Z,ligue1,PSG,Rennes,5,0,complete
+266179,2025-12-07T11:30:00.000Z,seriea,Cremonese,Lecce,2,0,complete
+266175,2025-12-07T13:00:00.000Z,laliga,Elche,Girona,3,0,complete
+266109,2025-12-07T14:00:00.000Z,epl,Albion,West Ham,1,1,complete
+266178,2025-12-07T14:00:00.000Z,seriea,Cagliari,Roma,1,0,complete
+266192,2025-12-07T14:00:00.000Z,ligue1,Nice,Angers,0,1,complete
+266112,2025-12-07T14:30:00.000Z,bundesliga,HSV,BRE,3,2,complete

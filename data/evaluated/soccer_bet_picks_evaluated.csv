@@ -296,3 +296,5 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 3,gemini,2025-12-06,266106,Leeds vs Liverpool,3,3,Liverpool ML,-134,3,loss,-3.0
 1,claude,2025-12-06,266188,PSG vs Rennes,5,0,PSG -1.5,-145,3,win,2.0689655172413794
 6,claude,2025-12-06,266186,Hellas vs Atalanta,3,1,Atalanta -0.5,-165,2,loss,-2.0
+5,claude,2025-12-07,266109,Albion vs West Ham,1,1,Albion -0.5,-200,2,loss,-2.0
+8,claude,2025-12-07,266192,Nice vs Angers,0,1,Nice -0.5,-110,1,loss,-1.0
