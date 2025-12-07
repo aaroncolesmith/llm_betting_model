@@ -1396,3 +1396,27 @@ game_id,start_time,league_name,home_team,away_team,home_score,away_score,status
 266186,2025-12-06T19:45:00.000Z,seriea,Hellas,Atalanta,3,1,complete
 266176,2025-12-06T20:00:00.000Z,laliga,Athletic,Atlético,1,0,complete
 266188,2025-12-06T20:05:00.000Z,ligue1,PSG,Rennes,5,0,complete
+266110,2025-12-06T12:30:00.000Z,epl,Aston Villa,Arsenal,2,1,complete
+266171,2025-12-06T13:00:00.000Z,laliga,Villarreal,Getafe,2,0,complete
+266184,2025-12-06T14:00:00.000Z,seriea,Sassuolo,Fiorentina,3,1,complete
+266113,2025-12-06T14:30:00.000Z,bundesliga,Köln,St Pauli,1,1,complete
+266114,2025-12-06T14:30:00.000Z,bundesliga,Heidenheim,Freiburg,2,1,complete
+266115,2025-12-06T14:30:00.000Z,bundesliga,Augsburg,Leverkusen,2,0,complete
+266116,2025-12-06T14:30:00.000Z,bundesliga,WOLF,Union Berlin,3,1,complete
+266117,2025-12-06T14:30:00.000Z,bundesliga,Stuttgart,Bayern,0,5,complete
+266103,2025-12-06T15:00:00.000Z,epl,Tottenham,Brentford,2,0,complete
+266104,2025-12-06T15:00:00.000Z,epl,Newcastle,Burnley,2,1,complete
+266105,2025-12-06T15:00:00.000Z,epl,Man City,Sunderland,3,0,complete
+266108,2025-12-06T15:00:00.000Z,epl,Everton,Nottingham,3,0,complete
+266111,2025-12-06T15:00:00.000Z,epl,Bournemouth,Chelsea,0,0,complete
+266177,2025-12-06T15:15:00.000Z,laliga,Alaves,Real Sociedad,1,0,complete
+266193,2025-12-06T16:00:00.000Z,ligue1,Nantes,Lens,1,2,complete
+266180,2025-12-06T17:00:00.000Z,seriea,Inter,Como 1907,4,0,complete
+266106,2025-12-06T17:30:00.000Z,epl,Leeds,Liverpool,3,3,complete
+266118,2025-12-06T17:30:00.000Z,bundesliga,LEIP,FRA,6,0,complete
+266173,2025-12-06T17:30:00.000Z,laliga,Betis,Barcelona,3,5,complete
+266189,2025-12-06T18:00:00.000Z,ligue1,Toulouse,Strasbourg,1,0,complete
+282951,2025-12-06T19:30:00.000Z,mls,Inter Miami,Whitecaps,3,1,complete
+266186,2025-12-06T19:45:00.000Z,seriea,Hellas,Atalanta,3,1,complete
+266176,2025-12-06T20:00:00.000Z,laliga,Athletic,Atlético,1,0,complete
+266188,2025-12-06T20:05:00.000Z,ligue1,PSG,Rennes,5,0,complete
