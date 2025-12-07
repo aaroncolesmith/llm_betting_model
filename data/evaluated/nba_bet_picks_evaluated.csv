@@ -784,8 +784,8 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 10,gemini,2025-12-06,261912,Cavaliers vs Warriors,94.0,99.0,Under 229.5,-110,1,win,0.9090909090909092
 2,chatgpt,2025-12-06,261916,Mavericks vs Rockets,122.0,109.0,Mavericks +7.5,-110,3,win,2.727272727272727
 3,chatgpt,2025-12-06,261912,Cavaliers vs Warriors,94.0,99.0,Warriors +9.5,-115,3,win,2.608695652173913
-4,chatgpt,2025-12-06,261914,Heat vs Kings,111.0,127.0,Kings +8.5,-105,2,win,1.9047619047619047
+4,chatgpt,2025-12-06,261914,Heat vs Kings,111.0,127.0,Kings +8.5,-105,2,win,1.9047619047619049
 5,chatgpt,2025-12-06,261915,Timberwolves vs Clippers,109.0,106.0,Clippers +9.5,-114,2,win,1.7543859649122806
-6,chatgpt,2025-12-06,261913,Pistons vs Bucks,124.0,112.0,Bucks +12.5,-111,2,win,1.8018018018018018
+6,chatgpt,2025-12-06,261913,Pistons vs Bucks,124.0,112.0,Bucks +12.5,-111,2,win,1.8018018018018016
 8,chatgpt,2025-12-06,261916,Mavericks vs Rockets,122.0,109.0,Under 223.5,-110,1,loss,-1.0
-10,chatgpt,2025-12-06,261912,Cavaliers vs Warriors,94.0,99.0,Under 229.5,-110,1,win,0.9090909090909091
+10,chatgpt,2025-12-06,261912,Cavaliers vs Warriors,94.0,99.0,Under 229.5,-110,1,win,0.9090909090909092
