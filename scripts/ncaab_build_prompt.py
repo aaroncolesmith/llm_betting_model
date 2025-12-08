@@ -129,6 +129,17 @@ def build_ncaa_prompt(model_version):
     print(f"Total games in df_agg: {len(df_agg)}")
     print(f"Games starting within next 2 hours: {len(df_agg_filtered)}")
 
+    # Define the prompt file path
+    prompt_file_path = f"./prompts/ncaab_prompt_{model_version}.txt"
+    
+    # If no games in the next 2 hours, delete the prompt file if it exists and return
+    if len(df_agg_filtered) == 0:
+        print(f"No games starting within 2 hours for {model_version}. Skipping prompt generation.")
+        if os.path.exists(prompt_file_path):
+            os.remove(prompt_file_path)
+            print(f"Removed existing prompt file: {prompt_file_path}")
+        return df_agg
+
     df1_string = df_agg_filtered.to_csv(index=False)
     df2_string = df_hist.to_csv(index=False)
 
@@ -367,8 +378,10 @@ def build_ncaa_prompt(model_version):
     print(prompt)
 
     ## write prompt to a text file
-    with open(f"./prompts/ncaab_prompt_{model_version}.txt", "w") as f:
+    with open(prompt_file_path, "w") as f:
         f.write(prompt) 
+    
+    print(f"Prompt file created: {prompt_file_path}") 
 
     return df_agg
 

@@ -144,6 +144,17 @@ def build_soccer_prompt(model_name):
     print(f"Total games in df_agg: {len(df_agg)}")
     print(f"Games starting within next 2 hours: {len(df_agg_filtered)}")
 
+    # Define the prompt file path
+    prompt_path = Path(f"./prompts/soccer_prompt_{model_name}.txt")
+    
+    # If no games in the next 2 hours, delete the prompt file if it exists and return
+    if len(df_agg_filtered) == 0:
+        print(f"No games starting within 2 hours for {model_name}. Skipping prompt generation.")
+        if prompt_path.exists():
+            prompt_path.unlink()
+            print(f"Removed existing prompt file: {prompt_path}")
+        return df_agg
+
     # Convert DataFrames to CSV strings for prompt
     df1_string = df_agg_filtered.to_csv(index=False)
     df2_string = df_hist.to_csv(index=False) if not df_hist.empty else "No historical data yet"
@@ -383,13 +394,12 @@ Here is the historical dataset of your betting advice and results:
     print(prompt)
 
     # Write prompt to file
-    prompt_path = Path(f"./prompts/soccer_prompt_{model_name}.txt")
     prompt_path.parent.mkdir(parents=True, exist_ok=True)
     
     with open(prompt_path, "w") as f:
         f.write(prompt)
     
-    print(f"\nPrompt saved to: {prompt_path}")
+    print(f"\nPrompt file created: {prompt_path}")
 
     return df_agg
 
