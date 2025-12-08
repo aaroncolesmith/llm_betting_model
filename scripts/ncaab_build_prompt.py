@@ -115,7 +115,21 @@ def build_ncaa_prompt(model_version):
 
     # df_hist = pd.DataFrame()
 
-    df1_string = df_agg.to_csv(index=False)
+    # Filter df_agg to only include games starting within the next 2 hours
+    current_time = pd.Timestamp.now(tz='America/Los_Angeles')
+    two_hours_from_now = current_time + pd.Timedelta(hours=2)
+    
+    # Convert start_time to datetime if not already
+    df_agg['start_time'] = pd.to_datetime(df_agg['start_time'])
+    df_agg['start_time_pt'] = df_agg['start_time'].dt.tz_convert('America/Los_Angeles')
+    
+    # Filter for games starting within next 2 hours
+    df_agg_filtered = df_agg[df_agg['start_time_pt'] <= two_hours_from_now].copy()
+    
+    print(f"Total games in df_agg: {len(df_agg)}")
+    print(f"Games starting within next 2 hours: {len(df_agg_filtered)}")
+
+    df1_string = df_agg_filtered.to_csv(index=False)
     df2_string = df_hist.to_csv(index=False)
 
     timestamp_str = datetime.datetime.now()

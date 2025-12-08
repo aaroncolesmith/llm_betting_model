@@ -130,8 +130,22 @@ def build_soccer_prompt(model_name):
         df_hist = pd.DataFrame()
         print(f"No historical data found for {model_name}")
 
+    # Filter df_agg to only include games starting within the next 2 hours
+    current_time = pd.Timestamp.now(tz='America/Los_Angeles')
+    two_hours_from_now = current_time + pd.Timedelta(hours=2)
+    
+    # Convert start_time to datetime if not already
+    df_agg['start_time'] = pd.to_datetime(df_agg['start_time'])
+    df_agg['start_time_pt'] = df_agg['start_time'].dt.tz_convert('America/Los_Angeles')
+    
+    # Filter for games starting within next 2 hours
+    df_agg_filtered = df_agg[df_agg['start_time_pt'] <= two_hours_from_now].copy()
+    
+    print(f"Total games in df_agg: {len(df_agg)}")
+    print(f"Games starting within next 2 hours: {len(df_agg_filtered)}")
+
     # Convert DataFrames to CSV strings for prompt
-    df1_string = df_agg.to_csv(index=False)
+    df1_string = df_agg_filtered.to_csv(index=False)
     df2_string = df_hist.to_csv(index=False) if not df_hist.empty else "No historical data yet"
 
     # Build the prompt (soccer-specific, following NBA/NCAAB structure)
