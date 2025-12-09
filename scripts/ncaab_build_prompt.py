@@ -323,10 +323,12 @@ rank,game_id,start_time,match,pick,odds,units,confidence_pct,reason,predicted_sc
 - `away_spread`: Value from `away_spread_last`
 - `away_spread_odds`: Value from `away_spread_odds_last`
 - `timestamp`: use the time of this prompt -- {timestamp_str}
-  - **CRITICAL**: Use ONLY standard ASCII characters for the timestamp column name and value
-  - **DO NOT** add any invisible Unicode characters (zero-width spaces, byte order marks, etc.)
-  - The column name must be exactly: timestamp (no extra characters before or after)
-  - Example valid timestamps: "2025-12-08T18:30:00Z", "2025-12-08T18:30:00.000Z", "2025-12-08T18:30:00-08:00"
+  - **CRITICAL FORMAT REQUIREMENT**: MUST use "T" separator (NOT a space) between date and time
+  - **REQUIRED FORMAT**: "YYYY-MM-DDTHH:MM:SS.000Z" (with the T and .000Z)
+  - **CORRECT EXAMPLES**: "2025-12-08T18:30:00.000Z", "2025-12-08T18:30:00Z"
+  - **WRONG EXAMPLES**: "2025-12-08 18:30:00+00:00" (space instead of T), "2025-12-08 18:30:00.000Z" (space instead of T)
+  - Use ONLY standard ASCII characters - NO invisible Unicode characters
+  - The column name must be exactly: timestamp (no extra characters)
 
 ---
 
