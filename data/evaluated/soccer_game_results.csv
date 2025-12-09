@@ -1572,3 +1572,12 @@ game_id,start_time,league_name,home_team,away_team,home_score,away_score,status
 266178,2025-12-07T14:00:00.000Z,seriea,Cagliari,Roma,1,0,complete
 266192,2025-12-07T14:00:00.000Z,ligue1,Nice,Angers,0,1,complete
 266112,2025-12-07T14:30:00.000Z,bundesliga,HSV,BRE,3,2,complete
+266268,2025-12-09T15:30:00.000Z,champions,Kairat Almaty,Olympiacos,0,1,complete
+266269,2025-12-09T17:45:00.000Z,champions,Bayern,Sporting,3,1,complete
+266270,2025-12-09T20:00:00.000Z,champions,Tottenham,Slavia Praha,3,0,complete
+266271,2025-12-09T20:00:00.000Z,champions,Union Saint-Gilloise,Marseille,2,3,complete
+266272,2025-12-09T20:00:00.000Z,champions,PSV,Atlético,2,3,complete
+266273,2025-12-09T20:00:00.000Z,champions,Inter,Liverpool,0,1,complete
+266274,2025-12-09T20:00:00.000Z,champions,Barcelona,FRA,2,1,complete
+266275,2025-12-09T20:00:00.000Z,champions,Atalanta,Chelsea,2,1,complete
+266276,2025-12-09T20:00:00.000Z,champions,Monaco,Galatasaray,1,0,complete

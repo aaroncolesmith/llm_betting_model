@@ -298,3 +298,29 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 6,claude,2025-12-06,266186,Hellas vs Atalanta,3,1,Atalanta -0.5,-165,2,loss,-2.0
 5,claude,2025-12-07,266109,Albion vs West Ham,1,1,Albion -0.5,-200,2,loss,-2.0
 8,claude,2025-12-07,266192,Nice vs Angers,0,1,Nice -0.5,-110,1,loss,-1.0
+1,claude,2025-12-09,266274,Barcelona vs FRA,2,1,Barcelona -2.5,-110,3,loss,-3.0
+2,claude,2025-12-09,266270,Tottenham vs Slavia Praha,3,0,Tottenham -1.5,115,3,win,3.45
+3,claude,2025-12-09,266273,Inter vs Liverpool,0,1,Inter -0.5,-110,2,loss,-2.0
+4,claude,2025-12-09,266276,Monaco vs Galatasaray,1,0,Under 3.5,105,2,win,2.1
+5,claude,2025-12-09,266275,Atalanta vs Chelsea,2,1,Chelsea -0.5,105,2,loss,-2.0
+6,claude,2025-12-09,266271,Union Saint-Gilloise vs Marseille,2,3,Marseille -0.5,-175,2,win,1.1428571428571428
+7,claude,2025-12-09,266272,PSV vs Atlético,2,3,Atlético -0.5,115,1,win,1.15
+1,deepseek,2025-12-09,266269,Bayern vs Sporting,3,1,Bayern -1.5,-167,3,win,1.7964071856287425
+2,deepseek,2025-12-09,266269,Bayern vs Sporting,3,1,Over 3.5,-109,2,win,1.834862385321101
+1,deepseek,2025-12-09,266270,Tottenham vs Slavia Praha,3,0,Tottenham -1.5,115,3,win,3.45
+2,deepseek,2025-12-09,266273,Inter vs Liverpool,0,1,Inter -0.5,-110,2,loss,-2.0
+3,deepseek,2025-12-09,266274,Barcelona vs FRA,2,1,Barcelona -2.5,-110,2,loss,-2.0
+4,deepseek,2025-12-09,266276,Monaco vs Galatasaray,1,0,Monaco -0.5,-115,1,win,0.8695652173913043
+5,deepseek,2025-12-09,266271,Union Saint-Gilloise vs Marseille,2,3,Union Saint-Gilloise +0.5,125,1,loss,-1.0
+6,deepseek,2025-12-09,266272,PSV vs Atlético,2,3,PSV +0.5,115,1,loss,-1.0
+7,deepseek,2025-12-09,266275,Atalanta vs Chelsea,2,1,Atalanta +0.5,-150,1,win,0.6666666666666666
+8,deepseek,2025-12-09,266270,Tottenham vs Slavia Praha,3,0,Under 2.5,113,1,loss,-1.0
+9,deepseek,2025-12-09,266274,Barcelona vs FRA,2,1,Over 4.5,-121,1,loss,-1.0
+10,deepseek,2025-12-09,266273,Inter vs Liverpool,0,1,Over 2.5,-149,1,loss,-1.0
+1,gemini,2025-12-09,266271,Union Saint-Gilloise vs Marseille,2,3,Marseille ML,136,3,win,4.08
+2,gemini,2025-12-09,266272,PSV vs Atlético,2,3,Atlético ML,125,3,win,3.75
+3,gemini,2025-12-09,266275,Atalanta vs Chelsea,2,1,Chelsea ML,115,3,loss,-3.0
+4,gemini,2025-12-09,266276,Monaco vs Galatasaray,1,0,Monaco ML,-105,2,win,1.9047619047619049
+5,gemini,2025-12-09,266273,Inter vs Liverpool,0,1,Inter ML,-101,2,loss,-2.0
+6,gemini,2025-12-09,266274,Barcelona vs FRA,2,1,Barcelona -2.5,-110,2,loss,-2.0
+7,gemini,2025-12-09,266270,Tottenham vs Slavia Praha,3,0,Tottenham -1.5,-145,1,win,0.6896551724137931
