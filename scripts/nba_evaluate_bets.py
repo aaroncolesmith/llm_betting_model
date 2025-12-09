@@ -374,6 +374,8 @@ def process_results(model_name: str, picks_dir: Path, results_csv_path: Path, sp
         print(f"Error: Picks file not found at {picks_file}")
         return None # Exit function
 
+
+    print('Picks file loaded: a total of ', len(df_picks), 'picks')
     # === 2. Filter duplicate header rows ===
     # Remove rows where 'start_time' column contains the literal string 'start_time'
     if 'start_time' in df_picks.columns:
@@ -489,4 +491,5 @@ for model_name in model_list:
     sport = 'nba'
     base_dir = Path('./data/bets')
     results_file = Path('./data/evaluated/nba_game_results.csv')
+    print('Processing results for model: ', model_name)
     df_evaluated_hist = process_results(model_name, base_dir, results_file, sport)
