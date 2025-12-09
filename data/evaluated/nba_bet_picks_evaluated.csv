@@ -804,7 +804,7 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 3,chatgpt,2025-12-08,261925,Timberwolves vs Suns,105.0,108.0,Suns +9.5,-108,3,win,2.7777777777777777
 4,chatgpt,2025-12-08,261926,Pelicans vs Spurs,132.0,135.0,Under 238.5,-110,2,loss,-2.0
 5,chatgpt,2025-12-08,261924,Pacers vs Kings,116.0,105.0,Over 231.5,-110,2,loss,-2.0
-6,chatgpt,2025-12-08,261925,Timberwolves vs Suns,105.0,108.0,Under 225.5,-110,2,win,1.8181818181818181
+6,chatgpt,2025-12-08,261925,Timberwolves vs Suns,105.0,108.0,Under 225.5,-110,2,win,1.818181818181818
 7,chatgpt,2025-12-08,261924,Pacers vs Kings,116.0,105.0,Kings ML,136,1,loss,-1.0
 8,chatgpt,2025-12-08,261926,Pelicans vs Spurs,132.0,135.0,Pelicans ML,320,1,loss,-1.0
 9,chatgpt,2025-12-08,261925,Timberwolves vs Suns,105.0,108.0,Suns ML,320,1,win,3.2
