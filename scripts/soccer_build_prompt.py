@@ -280,7 +280,7 @@ You can make six types of picks:
 
 ### **6. CONFIDENCE & UNITS**
 
-Please aim to make around 10 picks -- you can pick more or less, but I want to have at least 10 and then we can use the confidence to determine success
+Please aim to evaluate each game and pick a winner and an over / under as well as a confidence level for each pick.
 
 - Rank all picks by confidence (most confident = rank 1)
 - Provide **confidence %** as integer between 0-100

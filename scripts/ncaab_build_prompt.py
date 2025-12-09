@@ -245,130 +245,130 @@ def build_ncaa_prompt(model_version):
 
     ### **5. PICK TYPES AND BINARY INDICATORS**
 
-    Please aim to make around 10 picks -- you can pick more or less, but I want to have at least 10 and then we can use the confidence to determine success
+Please aim to evaluate each game and pick a winner and an over / under as well as a confidence level for each pick.
+    
+You can make six types of picks:
 
-    You can make six types of picks:
+| Pick Type | Columns to Use | Binary Indicators |
+|-----------|----------------|-------------------|
+| Home ML | `home_money_line_last` | `bet_home_ml=1, bet_away_ml=0` |
+| Away ML | `away_money_line_last` | `bet_away_ml=1, bet_home_ml=0` |
+| Home Spread | `home_spread_last`, `home_spread_odds_last` | `bet_home_spread=1, bet_away_spread=0` |
+| Away Spread | `away_spread_last`, `away_spread_odds_last` | `bet_away_spread=1, bet_home_spread=0` |
+| Over | `total_score_last`, `over_odds_last` | `bet_over=1, bet_under=0` |
+| Under | `total_score_last`, `under_odds_last` | `bet_under=1, bet_over=0` |
 
-    | Pick Type | Columns to Use | Binary Indicators |
-    |-----------|----------------|-------------------|
-    | Home ML | `home_money_line_last` | `bet_home_ml=1, bet_away_ml=0` |
-    | Away ML | `away_money_line_last` | `bet_away_ml=1, bet_home_ml=0` |
-    | Home Spread | `home_spread_last`, `home_spread_odds_last` | `bet_home_spread=1, bet_away_spread=0` |
-    | Away Spread | `away_spread_last`, `away_spread_odds_last` | `bet_away_spread=1, bet_home_spread=0` |
-    | Over | `total_score_last`, `over_odds_last` | `bet_over=1, bet_under=0` |
-    | Under | `total_score_last`, `under_odds_last` | `bet_under=1, bet_over=0` |
+**All other binary indicators must be set to 0.**
 
-    **All other binary indicators must be set to 0.**
+---
 
-    ---
+### **6. CONFIDENCE & UNITS**
 
-    ### **6. CONFIDENCE & UNITS**
+- Rank all picks by confidence (most confident = rank 1)
+- Provide **confidence %** as integer between 0-100
+- Assign units based on confidence:
+- **3 units**: Highest confidence (90%+)
+- **2 units**: Medium confidence (80-89%)
+- **1 unit**: Lower confidence (70-79%)
 
-    - Rank all picks by confidence (most confident = rank 1)
-    - Provide **confidence %** as integer between 0-100
-    - Assign units based on confidence:
-    - **3 units**: Highest confidence (90%+)
-    - **2 units**: Medium confidence (80-89%)
-    - **1 unit**: Lower confidence (70-79%)
+---
 
-    ---
+### **7. PREDICTED SCORE FORMAT**
 
-    ### **7. PREDICTED SCORE FORMAT**
+- Format: "HomeScore-AwayScore" (e.g., "115-112")
+- Home team score ALWAYS listed first
+- Away team score ALWAYS listed second
+- Double-check the order matches your match naming
 
-    - Format: "HomeScore-AwayScore" (e.g., "115-112")
-    - Home team score ALWAYS listed first
-    - Away team score ALWAYS listed second
-    - Double-check the order matches your match naming
+---
 
-    ---
+## **OUTPUT FORMAT**
 
-    ## **OUTPUT FORMAT**
+### **Part 1: Human-Readable Table**
 
-    ### **Part 1: Human-Readable Table**
+Create a table with these columns:
+- Rank
+- Match (format: "home_team vs away_team")
+- Home Team
+- Away Team
+- Pick (e.g., "Thunder -15.5" or "Wizards +15.5")
+- Odds
+- Units
+- Confidence %
+- Reason - a well thought out reason why you are making the pick that you are
+- Reason Code - a codified reason for the decision. I will use these to track patterns and repeat successful strategies. This should be a shorter form code that is reused across multiple datasets.
+- Predicted Score (format: "HomeScore-AwayScore")
 
-    Create a table with these columns:
-    - Rank
-    - Match (format: "home_team vs away_team")
-    - Home Team
-    - Away Team
-    - Pick (e.g., "Thunder -15.5" or "Wizards +15.5")
-    - Odds
-    - Units
-    - Confidence %
-    - Reason - a well thought out reason why you are making the pick that you are
-    - Reason Code - a codified reason for the decision. I will use these to track patterns and repeat successful strategies. This should be a shorter form code that is reused across multiple datasets.
-    - Predicted Score (format: "HomeScore-AwayScore")
+### **Part 2: CSV Block (Copy/Paste Ready)**
 
-    ### **Part 2: CSV Block (Copy/Paste Ready)**
+Exact structure with this header row:
+```
+rank,game_id,start_time,match,pick,odds,units,confidence_pct,reason,predicted_score,bet_home_spread,bet_home_ml,bet_away_spread,bet_away_ml,bet_over,bet_under,home_money_line,away_money_line,tie_money_line,total_score,over_odds,under_odds,home_spread,home_spread_odds,away_spread,away_spread_odds,timestamp
+```
+**CSV Requirements:**
+- `match`: Must use "home_team vs away_team" format
+- `home_team`: home team
+- `away_team`: away team
+- `pick`: State team name and line (e.g., "Thunder -15.5")
+- `predicted_score`: Format as "HomeScore-AwayScore"
+- `bet_home_spread`, `bet_home_ml`, `bet_away_spread`, `bet_away_ml`, `bet_over`, `bet_under`: Must be 0 or 1
+- `home_money_line`: Value from `home_money_line_last`
+- `away_money_line`: Value from `away_money_line_last`
+- `tie_money_line`: Always "N/A"
+- `total_score`: Value from `total_score_last`
+- `over_odds`: Value from `over_odds_last`
+- `under_odds`: Value from `under_odds_last`
+- `home_spread`: Value from `home_spread_last`
+- `home_spread_odds`: Value from `home_spread_odds_last`
+- `away_spread`: Value from `away_spread_last`
+- `away_spread_odds`: Value from `away_spread_odds_last`
+- `timestamp`: use the time of this prompt -- {timestamp_str}
 
-    Exact structure with this header row:
-    ```
-    rank,game_id,start_time,match,pick,odds,units,confidence_pct,reason,predicted_score,bet_home_spread,bet_home_ml,bet_away_spread,bet_away_ml,bet_over,bet_under,home_money_line,away_money_line,tie_money_line,total_score,over_odds,under_odds,home_spread,home_spread_odds,away_spread,away_spread_odds,timestamp
-    ```
-    **CSV Requirements:**
-    - `match`: Must use "home_team vs away_team" format
-    - `home_team`: home team
-    - `away_team`: away team
-    - `pick`: State team name and line (e.g., "Thunder -15.5")
-    - `predicted_score`: Format as "HomeScore-AwayScore"
-    - `bet_home_spread`, `bet_home_ml`, `bet_away_spread`, `bet_away_ml`, `bet_over`, `bet_under`: Must be 0 or 1
-    - `home_money_line`: Value from `home_money_line_last`
-    - `away_money_line`: Value from `away_money_line_last`
-    - `tie_money_line`: Always "N/A"
-    - `total_score`: Value from `total_score_last`
-    - `over_odds`: Value from `over_odds_last`
-    - `under_odds`: Value from `under_odds_last`
-    - `home_spread`: Value from `home_spread_last`
-    - `home_spread_odds`: Value from `home_spread_odds_last`
-    - `away_spread`: Value from `away_spread_last`
-    - `away_spread_odds`: Value from `away_spread_odds_last`
-    - `timestamp`: use the time of this prompt -- {timestamp_str}
+---
 
-    ---
+## **FINAL VERIFICATION CHECKLIST**
 
-    ## **FINAL VERIFICATION CHECKLIST**
+Before submitting your picks, verify:
 
-    Before submitting your picks, verify:
+□ Every match uses "home_team vs away_team" format
+□ Every pick references the correct team (home or away)
+□ Every odds value is copied exactly from "_last" column
+□ Every binary indicator correctly reflects whether the picked team is home or away
+□ Every spread sign (+ or -) matches the favorite/underdog position
+□ Every predicted score is in "HomeScore-AwayScore" format
+□ All CSV columns match the exact structure required
+□ Ensure the reason column in the csv is enclosed in double quotes
 
-    □ Every match uses "home_team vs away_team" format
-    □ Every pick references the correct team (home or away)
-    □ Every odds value is copied exactly from "_last" column
-    □ Every binary indicator correctly reflects whether the picked team is home or away
-    □ Every spread sign (+ or -) matches the favorite/underdog position
-    □ Every predicted score is in "HomeScore-AwayScore" format
-    □ All CSV columns match the exact structure required
-    □ Ensure the reason column in the csv is enclosed in double quotes
+---
 
-    ---
+## **EXAMPLE OF CORRECT PICK**
 
-    ## **EXAMPLE OF CORRECT PICK**
+**Dataset shows:**
+- game_id: 261702
+- home_team: Thunder
+- away_team: Wizards
+- home_spread_last: -15.5
+- home_spread_odds_last: -110
 
-    **Dataset shows:**
-    - game_id: 261702
-    - home_team: Thunder
-    - away_team: Wizards
-    - home_spread_last: -15.5
-    - home_spread_odds_last: -110
+**Correct Pick:**
+- Match: "Thunder vs Wizards"
+- Pick: "Thunder -15.5"
+- Odds: -110
+- Binary: bet_home_spread=1, bet_away_spread=0, all others=0
+- Predicted Score: "126-108" (Thunder score first)
 
-    **Correct Pick:**
-    - Match: "Thunder vs Wizards"
-    - Pick: "Thunder -15.5"
-    - Odds: -110
-    - Binary: bet_home_spread=1, bet_away_spread=0, all others=0
-    - Predicted Score: "126-108" (Thunder score first)
+**CSV Line:**
+```
+1,261702,2025-10-31T00:00:00.000Z,Thunder vs Wizards,Thunder -15.5,-110,3,96,"Reason here",126-108,1,0,0,0,0,0,-1200,750,N/A,231.5,-110,-109,-15.5,-110,15.5,-110,2025-10-30T18:30:00Z
 
-    **CSV Line:**
-    ```
-    1,261702,2025-10-31T00:00:00.000Z,Thunder vs Wizards,Thunder -15.5,-110,3,96,"Reason here",126-108,1,0,0,0,0,0,-1200,750,N/A,231.5,-110,-109,-15.5,-110,15.5,-110,2025-10-30T18:30:00Z
-
-    Remember: Accuracy is more important than quantity. Skip any pick where you have uncertainty.
+Remember: Accuracy is more important than quantity. Skip any pick where you have uncertainty.
 
 
-    Here are the upcoming games and their odds:
-    {df1_string}
+Here are the upcoming games and their odds:
+{df1_string}
 
-    Here is the historical dataset of your betting advice and results:
-    {df2_string}
+Here is the historical dataset of your betting advice and results:
+{df2_string}
         """
     print('-------')
     print('-------')
