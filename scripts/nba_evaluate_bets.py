@@ -374,7 +374,9 @@ def process_results(model_name: str, picks_dir: Path, results_csv_path: Path, sp
         print(f"Error: Picks file not found at {picks_file}")
         return None # Exit function
 
-
+    # Clean column names to remove invisible Unicode characters (e.g., zero-width spaces)
+    df_picks.columns = df_picks.columns.str.strip().str.replace('\u200b', '').str.replace('\ufeff', '')
+    
     print('Picks file loaded: a total of ', len(df_picks), 'picks')
     # === 2. Filter duplicate header rows ===
     # Remove rows where 'start_time' column contains the literal string 'start_time'
