@@ -483,7 +483,7 @@ def process_results(model_name: str, picks_dir: Path, results_csv_path: Path, sp
     return df_evaluated_hist
 
 
-model_list = ['claude', 'perplexity','gemini','chatgpt']
+model_list = ['claude','perplexity','gemini','chatgpt']
 
 for model_name in model_list:
     sport = 'nba'
