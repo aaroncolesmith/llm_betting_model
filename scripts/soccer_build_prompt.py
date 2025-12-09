@@ -338,7 +338,11 @@ rank,game_id,start_time,match,pick,odds,units,confidence_pct,reason,predicted_sc
 - `home_spread_odds`: Value from `home_spread_odds_last`
 - `away_spread`: Value from `away_spread_last`
 - `away_spread_odds`: Value from `away_spread_odds_last`
-- `timestamp`: Current analysis time in ISO format
+- `timestamp`: Current analysis time in ISO 8601 format (e.g., "2025-12-08T18:30:00Z" or "2025-12-08T18:30:00-08:00")
+  - **CRITICAL**: Use ONLY standard ASCII characters for the timestamp column name and value
+  - **DO NOT** add any invisible Unicode characters (zero-width spaces, byte order marks, etc.)
+  - The column name must be exactly: timestamp (no extra characters before or after)
+  - Example valid timestamps: "2025-12-08T18:30:00Z", "2025-12-08T18:30:00.000Z", "2025-12-08T18:30:00-08:00"
 
 ---
 
@@ -354,6 +358,8 @@ Before submitting your picks, verify:
 □ Every predicted score is in "HomeScore-AwayScore" format
 □ All CSV columns match the exact structure required
 □ Ensure the reason column in the csv is enclosed in double quotes
+□ The timestamp column name has NO invisible Unicode characters (must be exactly "timestamp")
+□ The timestamp value is in valid ISO 8601 format with only standard ASCII characters
 
 ---
 
