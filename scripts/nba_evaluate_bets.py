@@ -374,12 +374,35 @@ def process_results(model_name: str, picks_dir: Path, results_csv_path: Path, sp
         print(f"Error: Picks file not found at {picks_file}")
         return None # Exit function
 
-    # === 2. Process Pick Timestamps ===
+    # === 2. Filter duplicate header rows ===
+    # Remove rows where 'start_time' column contains the literal string 'start_time'
+    if 'start_time' in df_picks.columns:
+        df_picks = df_picks[df_picks['start_time'] != 'start_time'].reset_index(drop=True)
+    
+    # === 3. Convert numeric columns to proper types ===
+    numeric_columns = [
+        'game_id', 'rank', 'odds', 'units', 'confidence_pct',
+        'bet_home_spread', 'bet_home_ml', 'bet_away_spread', 'bet_away_ml', 
+        'bet_over', 'bet_under',
+        'home_money_line', 'away_money_line', 'total_score',
+        'over_odds', 'under_odds', 'home_spread', 'home_spread_odds',
+        'away_spread', 'away_spread_odds'
+    ]
+    
+    for col in numeric_columns:
+        if col in df_picks.columns:
+            df_picks[col] = pd.to_numeric(df_picks[col], errors='coerce')
+    
+    # Ensure game_id is Int64 for merging
+    if 'game_id' in df_picks.columns:
+        df_picks['game_id'] = df_picks['game_id'].astype('Int64')
+
+    # === 4. Process Pick Timestamps ===
     df_picks = df_picks.rename(columns={'timestamp\u200b': 'timestamp'})
     df_picks['timestamp'] = df_picks['timestamp'].str.replace('\u200b', '')
-    df_picks['timestamp'] = pd.to_datetime(df_picks['timestamp'], format='ISO8601')
+    df_picks['timestamp'] = pd.to_datetime(df_picks['timestamp'], format='mixed', errors='coerce')
     df_picks['start_time_pt'] = (
-        pd.to_datetime(df_picks['start_time'], utc=True)
+        pd.to_datetime(df_picks['start_time'], format='mixed', utc=True, errors='coerce')
         .dt.tz_convert('America/Los_Angeles')
     )
     df_picks['date'] = df_picks['start_time_pt'].dt.date
