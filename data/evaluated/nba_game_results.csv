@@ -712,3 +712,6 @@ game_id,start_time,league_name,home_team,away_team,home_score,away_score,status
 261914,2025-12-07T01:00:00.000Z,nba,Heat,Kings,111,127,complete
 261915,2025-12-07T01:00:00.000Z,nba,Timberwolves,Clippers,109,106,complete
 261916,2025-12-07T01:30:00.000Z,nba,Mavericks,Rockets,122,109,complete
+261924,2025-12-09T00:00:00.000Z,nba,Pacers,Kings,116,105,complete
+261925,2025-12-09T00:30:00.000Z,nba,Timberwolves,Suns,105,108,complete
+261926,2025-12-09T01:00:00.000Z,nba,Pelicans,Spurs,132,135,complete
