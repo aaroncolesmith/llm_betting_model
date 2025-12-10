@@ -829,3 +829,7 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 9,perplexity,2025-12-09,282886,Magic vs Heat,117.0,108.0,Under 239.5,-110,1,win,0.9090909090909092
 7,gemini,2025-12-09,282886,Magic vs Heat,117.0,108.0,Heat +5.5,-109,1,loss,-1.0
 7,chatgpt,2025-12-09,282886,Magic vs Heat,117.0,108.0,Heat +5.5,-109,2,loss,-2.0
+10,claude,2025-12-09,282887,Raptors vs Knicks,101.0,117.0,Knicks -2.5,-110,1,win,0.9090909090909092
+6,perplexity,2025-12-09,282887,Raptors vs Knicks,101.0,117.0,Raptors -2.5,-110,2,loss,-2.0
+6,gemini,2025-12-09,282887,Raptors vs Knicks,101.0,117.0,Raptors +2.5,-110,1,loss,-1.0
+9,chatgpt,2025-12-09,282887,Raptors vs Knicks,101.0,117.0,Raptors +2.5,-110,1,loss,-1.0
