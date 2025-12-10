@@ -324,3 +324,8 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 5,gemini,2025-12-09,266273,Inter vs Liverpool,0,1,Inter ML,-101,2,loss,-2.0
 6,gemini,2025-12-09,266274,Barcelona vs FRA,2,1,Barcelona -2.5,-110,2,loss,-2.0
 7,gemini,2025-12-09,266270,Tottenham vs Slavia Praha,3,0,Tottenham -1.5,-145,1,win,0.6896551724137931
+1,claude,2025-12-10,267070,Villarreal vs Copenhagen,2,3,Villarreal -1.5,-100,3,loss,-3.0
+2,claude,2025-12-10,267071,Qarabag vs Ajax,2,4,Ajax -0.5,-130,2,win,1.5384615384615383
+3,claude,2025-12-10,267070,Villarreal vs Copenhagen,2,3,Under 3.5,-134,2,loss,-2.0
+1,gemini,2025-12-10,267071,Qarabag vs Ajax,2,4,Qarabag ML,100,3,loss,-3.0
+2,gemini,2025-12-10,267070,Villarreal vs Copenhagen,2,3,Villarreal -1.5,-100,3,loss,-3.0
