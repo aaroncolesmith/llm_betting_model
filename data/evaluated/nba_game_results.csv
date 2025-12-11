@@ -725,3 +725,4 @@ game_id,start_time,league_name,home_team,away_team,home_score,away_score,status
 282886,2025-12-09T23:00:00.000Z,nba,Magic,Heat,117,108,complete
 282886,2025-12-09T23:00:00.000Z,nba,Magic,Heat,117,108,complete
 282887,2025-12-10T01:30:00.000Z,nba,Raptors,Knicks,101,117,complete
+282888,2025-12-11T00:30:00.000Z,nba,Thunder,Suns,138,89,complete
