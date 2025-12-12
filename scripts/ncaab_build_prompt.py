@@ -42,6 +42,7 @@ def build_ncaa_prompt(model_version):
 
     # Create the list using strftime() to format the dates
     date_str_list = [
+        (today + datetime.timedelta(days=-1)).strftime(date_format),
         (today + datetime.timedelta(days=0)).strftime(date_format), # Today
         (today + datetime.timedelta(days=1)).strftime(date_format), # Tomorrow
         (today + datetime.timedelta(days=2)).strftime(date_format), # The next day
