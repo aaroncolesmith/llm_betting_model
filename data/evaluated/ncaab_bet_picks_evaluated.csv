@@ -458,3 +458,5 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 12.0,gemini,2025-12-10,264566,VCU vs New Mexico,78,81,Over 156.5,-105.0,1.0,win,0.9523809523809524
 13.0,gemini,2025-12-10,264562,G Washington vs Delaware,58,70,Under 152.5,-110.0,1.0,win,0.9090909090909092
 14.0,gemini,2025-12-10,266643,Marshall vs W. Kentucky,77,61,W. Kentucky +1.5,-115.0,1.0,loss,-1.0
+1.0,perplexity,2025-12-11,266650,IUIN vs Green Bay,75,85,IUIN -1.5,-102.0,2.0,loss,-2.0
+2.0,perplexity,2025-12-11,266650,IUIN vs Green Bay,75,85,Under 164.5,-110.0,1.0,win,0.9090909090909092
