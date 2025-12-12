@@ -837,3 +837,19 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 2,claude,2025-12-10,282888,Thunder vs Suns,138.0,89.0,Under 222.5,-110,2,loss,-2.0
 1,perplexity,2025-12-10,282888,Thunder vs Suns,138.0,89.0,Thunder -15.5,-108,3,win,2.7777777777777777
 2,perplexity,2025-12-10,282888,Thunder vs Suns,138.0,89.0,Under 222.5,-110,2,loss,-2.0
+1,claude,2025-12-11,282890,Rockets vs Clippers,115.0,113.0,Rockets -8.5,-115,3,loss,-3.0
+2,claude,2025-12-11,282892,Bucks vs Celtics,116.0,101.0,Celtics -9.5,-110,3,loss,-3.0
+3,claude,2025-12-11,282891,Pelicans vs Trail Blazers,143.0,120.0,Trail Blazers -3.5,-118,2,loss,-2.0
+4,claude,2025-12-11,282890,Rockets vs Clippers,115.0,113.0,Under 221.5,-112,2,loss,-2.0
+5,claude,2025-12-11,282892,Bucks vs Celtics,116.0,101.0,Under 223.5,-115,2,win,1.7391304347826086
+6,claude,2025-12-11,282891,Pelicans vs Trail Blazers,143.0,120.0,Under 241.5,-114,1,loss,-1.0
+1,perplexity,2025-12-11,282890,Rockets vs Clippers,115.0,113.0,Rockets -8.5,-115,3,loss,-3.0
+2,perplexity,2025-12-11,282891,Pelicans vs Trail Blazers,143.0,120.0,Trail Blazers -3.5,-118,3,loss,-3.0
+3,perplexity,2025-12-11,282892,Bucks vs Celtics,116.0,101.0,Celtics -9.5,-110,3,loss,-3.0
+4,perplexity,2025-12-11,282890,Rockets vs Clippers,115.0,113.0,Over 221.5,-112,2,win,1.7857142857142858
+5,perplexity,2025-12-11,282891,Pelicans vs Trail Blazers,143.0,120.0,Over 241.5,-114,2,win,1.7543859649122806
+6,perplexity,2025-12-11,282892,Bucks vs Celtics,116.0,101.0,Under 223.5,-115,2,win,1.7391304347826086
+1,gemini,2025-12-11,282890,Rockets vs Clippers,115.0,113.0,Clippers +8.5,-105,3,win,2.8571428571428568
+2,gemini,2025-12-11,282891,Pelicans vs Trail Blazers,143.0,120.0,Pelicans +3.5,-102,2,win,1.96078431372549
+3,gemini,2025-12-11,282892,Bucks vs Celtics,116.0,101.0,Under 223.5,-115,2,win,1.7391304347826086
+4,gemini,2025-12-11,282890,Rockets vs Clippers,115.0,113.0,Under 221.5,-110,1,loss,-1.0
