@@ -51,6 +51,7 @@ def build_soccer_prompt(model_name):
     
     # Get games for next 4 days
     date_str_list = [
+        (today + datetime.timedelta(days=-1)).strftime(date_format),
         (today + datetime.timedelta(days=0)).strftime(date_format),  # Today
         (today + datetime.timedelta(days=1)).strftime(date_format),  # Tomorrow
         (today + datetime.timedelta(days=2)).strftime(date_format),  # Day after
