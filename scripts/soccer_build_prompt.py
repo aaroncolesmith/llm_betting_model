@@ -18,7 +18,7 @@ HEADERS = {
 }
 
 
-def build_soccer_prompt(model_name):
+def build_soccer_prompt(model_name, hours_ahead = 2):
     """
     Build soccer betting prompt for a specific model.
     
@@ -133,24 +133,24 @@ def build_soccer_prompt(model_name):
 
     # Filter df_agg to only include games starting within the next 2 hours
     current_time = pd.Timestamp.now(tz='America/Los_Angeles')
-    two_hours_from_now = current_time + pd.Timedelta(hours=2)
+    n_hours_from_now = current_time + pd.Timedelta(hours=hours_ahead)
     
     # Convert start_time to datetime if not already
     df_agg['start_time'] = pd.to_datetime(df_agg['start_time'])
     df_agg['start_time_pt'] = df_agg['start_time'].dt.tz_convert('America/Los_Angeles')
     
-    # Filter for games starting within next 2 hours
-    df_agg_filtered = df_agg[df_agg['start_time_pt'] <= two_hours_from_now].copy()
+    # Filter for games starting within next n hours
+    df_agg_filtered = df_agg[df_agg['start_time_pt'] <= n_hours_from_now].copy()
     
     print(f"Total games in df_agg: {len(df_agg)}")
-    print(f"Games starting within next 2 hours: {len(df_agg_filtered)}")
+    print(f"Games starting within next {hours_ahead} hours: {len(df_agg_filtered)}")
 
     # Define the prompt file path
     prompt_path = Path(f"./prompts/soccer_prompt_{model_name}.txt")
     
     # If no games in the next 2 hours, delete the prompt file if it exists and return
     if len(df_agg_filtered) == 0:
-        print(f"No games starting within 2 hours for {model_name}. Skipping prompt generation.")
+        print(f"No games starting within {hours_ahead} hours for {model_name}. Skipping prompt generation.")
         if prompt_path.exists():
             prompt_path.unlink()
             print(f"Removed existing prompt file: {prompt_path}")
@@ -521,5 +521,5 @@ if __name__ == '__main__':
         print(f"\n{'='*60}")
         print(f"Building prompt for model: {model_name}")
         print(f"{'='*60}")
-        df = build_soccer_prompt(model_name)
+        df = build_soccer_prompt(model_name, hours_ahead=2)
         print(f"Completed {model_name}\n")
