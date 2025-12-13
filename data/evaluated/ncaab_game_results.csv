@@ -4254,3 +4254,165 @@ game_id,start_time,league_name,home_team,away_team,home_score,away_score,status
 276091,2025-12-13T19:00:00.000Z,ncaab,Davidson,Lakers,80,47,complete
 278428,2025-12-13T19:00:00.000Z,ncaab,N.J.I.T.,Sacred Heart,49,65,complete
 280395,2025-12-13T19:00:00.000Z,ncaab,UNC Asheville,St. Thomas,59,80,complete
+264573,2025-12-13T17:00:00.000Z,ncaab,Wichita State,DePaul,58,61,complete
+264576,2025-12-13T17:00:00.000Z,ncaab,Stony Brook,C. Michigan,78,55,complete
+264577,2025-12-13T17:00:00.000Z,ncaab,St. John's,Iona,91,64,complete
+265291,2025-12-13T17:00:00.000Z,ncaab,Miami (FL),UL Monroe,104,79,complete
+265314,2025-12-13T17:00:00.000Z,ncaab,Florida St,UMASS,95,103,complete
+266662,2025-12-13T17:00:00.000Z,ncaab,Texas Tech,Arkansas,86,93,complete
+272018,2025-12-13T17:00:00.000Z,ncaab,FAU,Albany,105,79,complete
+274967,2025-12-13T17:00:00.000Z,ncaab,Penn State,Michigan St,72,76,complete
+267374,2025-12-13T17:30:00.000Z,ncaab,George Mason,Old Dominion,73,61,complete
+264579,2025-12-13T18:00:00.000Z,ncaab,Oklahoma,OK State,85,76,complete
+265304,2025-12-13T18:00:00.000Z,ncaab,Elon,N. Illinois,85,79,complete
+266654,2025-12-13T18:00:00.000Z,ncaab,Robert Morris,Toledo,75,70,complete
+276090,2025-12-13T18:00:00.000Z,ncaab,Delaware,CS Northridge,66,88,complete
+264574,2025-12-13T19:00:00.000Z,ncaab,Notre Dame,Evansville,82,58,complete
+265286,2025-12-13T19:00:00.000Z,ncaab,Bellarmine,N Kentucky,76,80,complete
+265287,2025-12-13T19:00:00.000Z,ncaab,South Dakota,Prairie View,97,85,complete
+265290,2025-12-13T19:00:00.000Z,ncaab,Drake,NDSU,94,99,complete
+265302,2025-12-13T19:00:00.000Z,ncaab,Maine,Canisius,43,70,complete
+265308,2025-12-13T19:00:00.000Z,ncaab,UNC,USC Upstate,80,62,complete
+265309,2025-12-13T19:00:00.000Z,ncaab,Northwestern,Jackson St,93,53,complete
+265312,2025-12-13T19:00:00.000Z,ncaab,Quinnipiac,UMass Lowell,75,71,complete
+265317,2025-12-13T19:00:00.000Z,ncaab,Purdue,Marquette,79,59,complete
+265319,2025-12-13T19:00:00.000Z,ncaab,Fordham,Manhattan,82,53,complete
+266653,2025-12-13T19:00:00.000Z,ncaab,Georgia,Cincinnati,84,65,complete
+266663,2025-12-13T19:00:00.000Z,ncaab,North Dakota,W. Illinois,66,69,complete
+267375,2025-12-13T19:00:00.000Z,ncaab,Butler,Providence,113,110,complete
+274056,2025-12-13T19:00:00.000Z,ncaab,Utah Valley,UCSB,68,53,complete
+274057,2025-12-13T19:00:00.000Z,ncaab,Georgia State,Jax State,77,73,complete
+276091,2025-12-13T19:00:00.000Z,ncaab,Davidson,Lakers,80,47,complete
+278428,2025-12-13T19:00:00.000Z,ncaab,N.J.I.T.,Sacred Heart,49,65,complete
+280395,2025-12-13T19:00:00.000Z,ncaab,UNC Asheville,St. Thomas,59,80,complete
+281121,2025-12-13T19:00:00.000Z,ncaab,Dartmouth ,Boston U,77,64,complete
+265297,2025-12-13T19:30:00.000Z,ncaab,Georgetown,St. Peter's,76,68,complete
+265315,2025-12-13T19:30:00.000Z,ncaab,Florida,G Washington,80,70,complete
+265280,2025-12-13T20:00:00.000Z,ncaab,Ole Miss,Southern Miss,71,67,complete
+265283,2025-12-13T20:00:00.000Z,ncaab,Howard,Hampton,61,57,complete
+265298,2025-12-13T20:00:00.000Z,ncaab,Rice,Arkansas St,77,76,complete
+265300,2025-12-13T20:00:00.000Z,ncaab,Creighton,K State,76,83,complete
+265301,2025-12-13T20:00:00.000Z,ncaab,Clemson,Mercer,70,63,complete
+265320,2025-12-13T20:00:00.000Z,ncaab,Longwood,Delaware St,76,81,complete
+266652,2025-12-13T20:00:00.000Z,ncaab,LA Tech,Louisiana,65,44,complete
+266660,2025-12-13T20:00:00.000Z,ncaab,Houston,New Orleans,99,57,complete
+266664,2025-12-13T20:00:00.000Z,ncaab,Valparaiso,UNC Wilmington,70,73,complete
+275949,2025-12-13T20:00:00.000Z,ncaab,Tulsa,N. Mexico St,83,70,complete
+276559,2025-12-13T20:00:00.000Z,ncaab,E. Kentucky,Miami (OH),69,79,complete
+265295,2025-12-13T20:30:00.000Z,ncaab,Louisville,Memphis,99,73,complete
+265279,2025-12-13T21:00:00.000Z,ncaab,Bryant U,Marist,74,82,complete
+265307,2025-12-13T21:00:00.000Z,ncaab,Long Island,La Salle,70,60,complete
+265310,2025-12-13T21:00:00.000Z,ncaab,Morgan State,Niagara,81,73,complete
+265318,2025-12-13T21:00:00.000Z,ncaab,Denver,CS Fullerton,86,105,complete
+266659,2025-12-13T21:00:00.000Z,ncaab,Marshall,Wright State,76,74,complete
+266661,2025-12-13T21:00:00.000Z,ncaab,Oregon,UC Davis,104,62,complete
+274965,2025-12-13T21:00:00.000Z,ncaab,Illinois,Nebraska,80,83,complete
+280396,2025-12-13T21:00:00.000Z,ncaab,Belmont,UIC,87,84,complete
+264573,2025-12-13T17:00:00.000Z,ncaab,Wichita State,DePaul,58,61,complete
+264576,2025-12-13T17:00:00.000Z,ncaab,Stony Brook,C. Michigan,78,55,complete
+264577,2025-12-13T17:00:00.000Z,ncaab,St. John's,Iona,91,64,complete
+265291,2025-12-13T17:00:00.000Z,ncaab,Miami (FL),UL Monroe,104,79,complete
+265314,2025-12-13T17:00:00.000Z,ncaab,Florida St,UMASS,95,103,complete
+266662,2025-12-13T17:00:00.000Z,ncaab,Texas Tech,Arkansas,86,93,complete
+272018,2025-12-13T17:00:00.000Z,ncaab,FAU,Albany,105,79,complete
+274967,2025-12-13T17:00:00.000Z,ncaab,Penn State,Michigan St,72,76,complete
+267374,2025-12-13T17:30:00.000Z,ncaab,George Mason,Old Dominion,73,61,complete
+264579,2025-12-13T18:00:00.000Z,ncaab,Oklahoma,OK State,85,76,complete
+265304,2025-12-13T18:00:00.000Z,ncaab,Elon,N. Illinois,85,79,complete
+266654,2025-12-13T18:00:00.000Z,ncaab,Robert Morris,Toledo,75,70,complete
+276090,2025-12-13T18:00:00.000Z,ncaab,Delaware,CS Northridge,66,88,complete
+264574,2025-12-13T19:00:00.000Z,ncaab,Notre Dame,Evansville,82,58,complete
+265286,2025-12-13T19:00:00.000Z,ncaab,Bellarmine,N Kentucky,76,80,complete
+265287,2025-12-13T19:00:00.000Z,ncaab,South Dakota,Prairie View,97,85,complete
+265290,2025-12-13T19:00:00.000Z,ncaab,Drake,NDSU,94,99,complete
+265302,2025-12-13T19:00:00.000Z,ncaab,Maine,Canisius,43,70,complete
+265308,2025-12-13T19:00:00.000Z,ncaab,UNC,USC Upstate,80,62,complete
+265309,2025-12-13T19:00:00.000Z,ncaab,Northwestern,Jackson St,93,53,complete
+265312,2025-12-13T19:00:00.000Z,ncaab,Quinnipiac,UMass Lowell,75,71,complete
+265317,2025-12-13T19:00:00.000Z,ncaab,Purdue,Marquette,79,59,complete
+265319,2025-12-13T19:00:00.000Z,ncaab,Fordham,Manhattan,82,53,complete
+266653,2025-12-13T19:00:00.000Z,ncaab,Georgia,Cincinnati,84,65,complete
+266663,2025-12-13T19:00:00.000Z,ncaab,North Dakota,W. Illinois,66,69,complete
+267375,2025-12-13T19:00:00.000Z,ncaab,Butler,Providence,113,110,complete
+274056,2025-12-13T19:00:00.000Z,ncaab,Utah Valley,UCSB,68,53,complete
+274057,2025-12-13T19:00:00.000Z,ncaab,Georgia State,Jax State,77,73,complete
+276091,2025-12-13T19:00:00.000Z,ncaab,Davidson,Lakers,80,47,complete
+278428,2025-12-13T19:00:00.000Z,ncaab,N.J.I.T.,Sacred Heart,49,65,complete
+280395,2025-12-13T19:00:00.000Z,ncaab,UNC Asheville,St. Thomas,59,80,complete
+281121,2025-12-13T19:00:00.000Z,ncaab,Dartmouth ,Boston U,77,64,complete
+265297,2025-12-13T19:30:00.000Z,ncaab,Georgetown,St. Peter's,76,68,complete
+265315,2025-12-13T19:30:00.000Z,ncaab,Florida,G Washington,80,70,complete
+265280,2025-12-13T20:00:00.000Z,ncaab,Ole Miss,Southern Miss,71,67,complete
+265283,2025-12-13T20:00:00.000Z,ncaab,Howard,Hampton,61,57,complete
+265298,2025-12-13T20:00:00.000Z,ncaab,Rice,Arkansas St,77,76,complete
+265300,2025-12-13T20:00:00.000Z,ncaab,Creighton,K State,76,83,complete
+265301,2025-12-13T20:00:00.000Z,ncaab,Clemson,Mercer,70,63,complete
+265320,2025-12-13T20:00:00.000Z,ncaab,Longwood,Delaware St,76,81,complete
+266652,2025-12-13T20:00:00.000Z,ncaab,LA Tech,Louisiana,65,44,complete
+266660,2025-12-13T20:00:00.000Z,ncaab,Houston,New Orleans,99,57,complete
+266664,2025-12-13T20:00:00.000Z,ncaab,Valparaiso,UNC Wilmington,70,73,complete
+275949,2025-12-13T20:00:00.000Z,ncaab,Tulsa,N. Mexico St,83,70,complete
+276559,2025-12-13T20:00:00.000Z,ncaab,E. Kentucky,Miami (OH),69,79,complete
+265295,2025-12-13T20:30:00.000Z,ncaab,Louisville,Memphis,99,73,complete
+265279,2025-12-13T21:00:00.000Z,ncaab,Bryant U,Marist,74,82,complete
+265307,2025-12-13T21:00:00.000Z,ncaab,Long Island,La Salle,70,60,complete
+265310,2025-12-13T21:00:00.000Z,ncaab,Morgan State,Niagara,81,73,complete
+265318,2025-12-13T21:00:00.000Z,ncaab,Denver,CS Fullerton,86,105,complete
+266659,2025-12-13T21:00:00.000Z,ncaab,Marshall,Wright State,76,74,complete
+266661,2025-12-13T21:00:00.000Z,ncaab,Oregon,UC Davis,104,62,complete
+274965,2025-12-13T21:00:00.000Z,ncaab,Illinois,Nebraska,80,83,complete
+280396,2025-12-13T21:00:00.000Z,ncaab,Belmont,UIC,87,84,complete
+264573,2025-12-13T17:00:00.000Z,ncaab,Wichita State,DePaul,58,61,complete
+264576,2025-12-13T17:00:00.000Z,ncaab,Stony Brook,C. Michigan,78,55,complete
+264577,2025-12-13T17:00:00.000Z,ncaab,St. John's,Iona,91,64,complete
+265291,2025-12-13T17:00:00.000Z,ncaab,Miami (FL),UL Monroe,104,79,complete
+265314,2025-12-13T17:00:00.000Z,ncaab,Florida St,UMASS,95,103,complete
+266662,2025-12-13T17:00:00.000Z,ncaab,Texas Tech,Arkansas,86,93,complete
+272018,2025-12-13T17:00:00.000Z,ncaab,FAU,Albany,105,79,complete
+274967,2025-12-13T17:00:00.000Z,ncaab,Penn State,Michigan St,72,76,complete
+267374,2025-12-13T17:30:00.000Z,ncaab,George Mason,Old Dominion,73,61,complete
+264579,2025-12-13T18:00:00.000Z,ncaab,Oklahoma,OK State,85,76,complete
+265304,2025-12-13T18:00:00.000Z,ncaab,Elon,N. Illinois,85,79,complete
+266654,2025-12-13T18:00:00.000Z,ncaab,Robert Morris,Toledo,75,70,complete
+276090,2025-12-13T18:00:00.000Z,ncaab,Delaware,CS Northridge,66,88,complete
+264574,2025-12-13T19:00:00.000Z,ncaab,Notre Dame,Evansville,82,58,complete
+265286,2025-12-13T19:00:00.000Z,ncaab,Bellarmine,N Kentucky,76,80,complete
+265287,2025-12-13T19:00:00.000Z,ncaab,South Dakota,Prairie View,97,85,complete
+265290,2025-12-13T19:00:00.000Z,ncaab,Drake,NDSU,94,99,complete
+265302,2025-12-13T19:00:00.000Z,ncaab,Maine,Canisius,43,70,complete
+265308,2025-12-13T19:00:00.000Z,ncaab,UNC,USC Upstate,80,62,complete
+265309,2025-12-13T19:00:00.000Z,ncaab,Northwestern,Jackson St,93,53,complete
+265312,2025-12-13T19:00:00.000Z,ncaab,Quinnipiac,UMass Lowell,75,71,complete
+265317,2025-12-13T19:00:00.000Z,ncaab,Purdue,Marquette,79,59,complete
+265319,2025-12-13T19:00:00.000Z,ncaab,Fordham,Manhattan,82,53,complete
+266653,2025-12-13T19:00:00.000Z,ncaab,Georgia,Cincinnati,84,65,complete
+266663,2025-12-13T19:00:00.000Z,ncaab,North Dakota,W. Illinois,66,69,complete
+267375,2025-12-13T19:00:00.000Z,ncaab,Butler,Providence,113,110,complete
+274056,2025-12-13T19:00:00.000Z,ncaab,Utah Valley,UCSB,68,53,complete
+274057,2025-12-13T19:00:00.000Z,ncaab,Georgia State,Jax State,77,73,complete
+276091,2025-12-13T19:00:00.000Z,ncaab,Davidson,Lakers,80,47,complete
+278428,2025-12-13T19:00:00.000Z,ncaab,N.J.I.T.,Sacred Heart,49,65,complete
+280395,2025-12-13T19:00:00.000Z,ncaab,UNC Asheville,St. Thomas,59,80,complete
+281121,2025-12-13T19:00:00.000Z,ncaab,Dartmouth ,Boston U,77,64,complete
+265297,2025-12-13T19:30:00.000Z,ncaab,Georgetown,St. Peter's,76,68,complete
+265315,2025-12-13T19:30:00.000Z,ncaab,Florida,G Washington,80,70,complete
+265280,2025-12-13T20:00:00.000Z,ncaab,Ole Miss,Southern Miss,71,67,complete
+265283,2025-12-13T20:00:00.000Z,ncaab,Howard,Hampton,61,57,complete
+265298,2025-12-13T20:00:00.000Z,ncaab,Rice,Arkansas St,77,76,complete
+265300,2025-12-13T20:00:00.000Z,ncaab,Creighton,K State,76,83,complete
+265301,2025-12-13T20:00:00.000Z,ncaab,Clemson,Mercer,70,63,complete
+265320,2025-12-13T20:00:00.000Z,ncaab,Longwood,Delaware St,76,81,complete
+266652,2025-12-13T20:00:00.000Z,ncaab,LA Tech,Louisiana,65,44,complete
+266660,2025-12-13T20:00:00.000Z,ncaab,Houston,New Orleans,99,57,complete
+266664,2025-12-13T20:00:00.000Z,ncaab,Valparaiso,UNC Wilmington,70,73,complete
+275949,2025-12-13T20:00:00.000Z,ncaab,Tulsa,N. Mexico St,83,70,complete
+276559,2025-12-13T20:00:00.000Z,ncaab,E. Kentucky,Miami (OH),69,79,complete
+265295,2025-12-13T20:30:00.000Z,ncaab,Louisville,Memphis,99,73,complete
+265279,2025-12-13T21:00:00.000Z,ncaab,Bryant U,Marist,74,82,complete
+265307,2025-12-13T21:00:00.000Z,ncaab,Long Island,La Salle,70,60,complete
+265310,2025-12-13T21:00:00.000Z,ncaab,Morgan State,Niagara,81,73,complete
+265318,2025-12-13T21:00:00.000Z,ncaab,Denver,CS Fullerton,86,105,complete
+266659,2025-12-13T21:00:00.000Z,ncaab,Marshall,Wright State,76,74,complete
+266661,2025-12-13T21:00:00.000Z,ncaab,Oregon,UC Davis,104,62,complete
+274965,2025-12-13T21:00:00.000Z,ncaab,Illinois,Nebraska,80,83,complete
+280396,2025-12-13T21:00:00.000Z,ncaab,Belmont,UIC,87,84,complete
