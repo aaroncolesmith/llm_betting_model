@@ -357,3 +357,8 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 3,gemini,2025-12-13,267197,Chelsea vs Everton,2,0,Under 2.5,-100,2,win,2.0
 4,gemini,2025-12-13,267195,Liverpool vs Albion,2,0,Liverpool -0.5,-160,2,win,1.25
 5,gemini,2025-12-13,267204,M'gladbach vs WOLF,1,3,M'gladbach ML,-100,1,loss,-1.0
+5,claude,2025-12-13,267270,Parma vs Lazio,0,1,Under 2.5,-162,2,win,1.2345679012345678
+3,deepseek,2025-12-13,267270,Parma vs Lazio,0,1,Parma +0.5,100,2,loss,-2.0
+8,deepseek,2025-12-13,267270,Parma vs Lazio,0,1,Under 2.5,-162,1,win,0.6172839506172839
+6,gemini,2025-12-13,267260,Mallorca vs Elche,3,1,Elche +0.5,-220,1,loss,-1.0
+2,gemini,2025-12-13,267270,Parma vs Lazio,0,1,Lazio ML,109,3,win,3.2700000000000005
