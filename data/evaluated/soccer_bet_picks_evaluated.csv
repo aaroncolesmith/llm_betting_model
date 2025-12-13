@@ -347,3 +347,13 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 4,gemini,2025-12-12,267258,Real Sociedad vs Girona,1,2,Real Sociedad -0.5,-145,2,loss,-2.0
 5,gemini,2025-12-12,267203,Union Berlin vs LEIP,3,1,Under 2.5,-125,1,loss,-1.0
 6,gemini,2025-12-12,267285,Angers vs Nantes,4,1,Under 2.5,-170,1,loss,-1.0
+1,claude,2025-12-13,267195,Liverpool vs Albion,2,0,Liverpool -0.5,-160,3,win,1.875
+2,claude,2025-12-13,267197,Chelsea vs Everton,2,0,Chelsea -0.5,-152,3,win,1.973684210526316
+3,claude,2025-12-13,267207,FRA vs Augsburg,1,0,FRA -0.5,-133,2,win,1.5037593984962403
+4,claude,2025-12-13,267204,M'gladbach vs WOLF,1,3,M'gladbach -0.5,-110,2,loss,-2.0
+5,claude,2025-12-13,267195,Liverpool vs Albion,2,0,Under 3.5,-175,2,win,1.1428571428571428
+1,gemini,2025-12-13,267201,HOFF vs HSV,4,1,Under 3.5,-145,3,loss,-3.0
+2,gemini,2025-12-13,267268,Torino vs Cremonese,1,0,Torino ML,-105,3,win,2.8571428571428568
+3,gemini,2025-12-13,267197,Chelsea vs Everton,2,0,Under 2.5,-100,2,win,2.0
+4,gemini,2025-12-13,267195,Liverpool vs Albion,2,0,Liverpool -0.5,-160,2,win,1.25
+5,gemini,2025-12-13,267204,M'gladbach vs WOLF,1,3,M'gladbach ML,-100,1,loss,-1.0
