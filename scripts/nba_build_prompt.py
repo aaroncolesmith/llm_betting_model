@@ -21,7 +21,7 @@ HEADERS = {
 }
 
 
-def build_nba_prompt(model_version):
+def build_nba_prompt(model_version, hours_ahead = 2):
 
     df_all = pd.read_csv('./data/bets_db/nba_bets_db.csv')
 
@@ -107,26 +107,26 @@ def build_nba_prompt(model_version):
     df_hist = pd.read_csv('./data/evaluated/nba_bet_picks_evaluated.csv')
     df_hist = df_hist.loc[df_hist['model'] == model_version]
 
-    # Filter df_agg to only include games starting within the next 2 hours
+    # Filter df_agg to only include games starting within the next n hours
     current_time = pd.Timestamp.now(tz='America/Los_Angeles')
-    two_hours_from_now = current_time + pd.Timedelta(hours=2)
+    n_hours_from_now = current_time + pd.Timedelta(hours=hours_ahead)
     
     # Convert start_time to datetime if not already
     df_agg['start_time'] = pd.to_datetime(df_agg['start_time'])
     df_agg['start_time_pt'] = df_agg['start_time'].dt.tz_convert('America/Los_Angeles')
     
     # Filter for games starting within next 2 hours
-    df_agg_filtered = df_agg[df_agg['start_time_pt'] <= two_hours_from_now].copy()
+    df_agg_filtered = df_agg[df_agg['start_time_pt'] <= n_hours_from_now].copy()
     
     print(f"Total games in df_agg: {len(df_agg)}")
-    print(f"Games starting within next 2 hours: {len(df_agg_filtered)}")
+    print(f"Games starting within next {hours_ahead} hours: {len(df_agg_filtered)}")
 
     # Define the prompt file path
     prompt_file_path = f"./prompts/nba_prompt_{model_version}.txt"
     
     # If no games in the next 2 hours, delete the prompt file if it exists and return
     if len(df_agg_filtered) == 0:
-        print(f"No games starting within 2 hours for {model_version}. Skipping prompt generation.")
+        print(f"No games starting within {hours_ahead} hours for {model_version}. Skipping prompt generation.")
         if os.path.exists(prompt_file_path):
             os.remove(prompt_file_path)
             print(f"Removed existing prompt file: {prompt_file_path}")
@@ -497,5 +497,5 @@ def process_results(model_name: str, picks_dir: Path, results_csv_path: Path, sp
 model_list = ['claude', 'perplexity','gemini','chatgpt']
 
 for model_name in model_list:
-    df = build_nba_prompt(model_name)
+    df = build_nba_prompt(model_name, 6)
 
