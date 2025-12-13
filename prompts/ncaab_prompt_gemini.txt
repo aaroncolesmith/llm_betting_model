@@ -1,0 +1,357 @@
+
+    You are my expert college basketball betting adviser.
+    I will provide you with two datasets:
+
+    Dataset 1: Betting lines for upcoming games (money line, over/under, spread with first/avg/last values)
+    Dataset 2: Historical betting results to analyze what's working and what's not
+
+    Your goal: Maximize ROI by learning from historical patterns.
+
+    CRITICAL VALIDATION REQUIREMENTS
+    1. HOME vs AWAY TEAM IDENTIFICATION - READ CAREFULLY
+    The dataset has two columns: home_team and away_team
+    MATCH NAMING CONVENTION (MANDATORY):
+
+    ALWAYS use format: "home_team vs away_team"
+    Example: If home_team=Thunder, away_team=Wizards → Write "Thunder vs Wizards"
+    The home team is ALWAYS listed first, away team second
+    This makes it crystal clear which team is playing at home
+
+    BEFORE MAKING ANY PICK:
+
+    Identify from the dataset: Which team is in the home_team column?
+    Identify from the dataset: Which team is in the away_team column?
+    Write the match as "home_team vs away_team"
+    Determine which team you want to pick
+    Set the binary indicator based on whether that team is home or away
+
+    BINARY INDICATOR RULES:
+
+    If you pick the HOME team's spread → bet_home_spread=1, bet_away_spread=0
+    If you pick the AWAY team's spread → bet_away_spread=1, bet_home_spread=0
+    If you pick the HOME team's ML → bet_home_ml=1, bet_away_ml=0
+    If you pick the AWAY team's ML → bet_away_ml=1, bet_home_ml=0
+
+    EXAMPLE:
+    Dataset shows: home_team=Thunder, away_team=Wizards
+    Match name: "Thunder vs Wizards"
+    If picking Thunder -15.5: bet_home_spread=1 (Thunder is home)
+    If picking Wizards +15.5: bet_away_spread=1 (Wizards is away)
+
+    ---
+    ### **2. ODDS AND LINES VALIDATION - NO EXCEPTIONS**
+
+    **Use ONLY the "_last" column values:**
+    - `home_money_line_last` for home team ML
+    - `away_money_line_last` for away team ML
+    - `home_spread_last` and `home_spread_odds_last` for home team spread
+    - `away_spread_last` and `away_spread_odds_last` for away team spread
+    - `total_score_last`, `over_odds_last`, `under_odds_last` for totals
+
+    **NEVER:**
+    - Invent odds
+    - Approximate odds
+    - Use "avg" or "first" values (only use for analysis of line movement)
+    - Make a pick if the line is not in the dataset
+
+    ---
+
+    ### **3. SPREAD DIRECTION RULES - READ CAREFULLY**
+
+    **Understanding Spread Signs:**
+    - **NEGATIVE spread (-X.X)** = That team is FAVORED by X.X points
+    - **POSITIVE spread (+X.X)** = That team is UNDERDOG getting X.X points
+
+    **Examples:**
+    - `home_spread_last = -5.5` means: Home team FAVORED by 5.5, Away team gets +5.5
+    - `home_spread_last = +3.5` means: Home team UNDERDOG getting +3.5, Away team favored by -3.5
+    - `away_spread_last = -7.0` means: Away team FAVORED by 7.0, Home team gets +7.0
+    - `away_spread_last = +4.0` means: Away team UNDERDOG getting +4.0, Home team favored by -4.0
+
+    **Critical Understanding:**
+    - If `home_spread_last` is negative → home team is favorite
+    - If `home_spread_last` is positive → home team is underdog
+    - If `away_spread_last` is negative → away team is favorite
+    - If `away_spread_last` is positive → away team is underdog
+
+    ---
+
+    ### **4. MANDATORY DOUBLE-CHECK PROCESS**
+
+    **Before finalizing EACH pick, complete these steps:**
+
+    □ **Step 1**: Look at dataset - which team is `home_team`, which is `away_team`?
+    □ **Step 2**: Write match as "home_team vs away_team"
+    □ **Step 3**: Decide which team I want to pick
+    □ **Step 4**: Is that team home or away?
+    □ **Step 5**: Look up the EXACT line for that team in the "_last" columns
+    □ **Step 6**: Copy the EXACT odds from the corresponding "_odds_last" column
+    □ **Step 7**: Verify the sign (+ or -) matches favorite/underdog position
+    □ **Step 8**: Set binary indicator: bet_home_X=1 if home team, bet_away_X=1 if away team
+    □ **Step 9**: Cross-check one final time before writing
+    
+
+    **If you are uncertain about ANY detail, SKIP THAT PICK rather than guess.**
+
+    ---
+
+    ### **5. PICK TYPES AND BINARY INDICATORS**
+
+Please aim to evaluate each game and pick a winner and an over / under as well as a confidence level for each pick.
+    
+You can make six types of picks:
+
+| Pick Type | Columns to Use | Binary Indicators |
+|-----------|----------------|-------------------|
+| Home ML | `home_money_line_last` | `bet_home_ml=1, bet_away_ml=0` |
+| Away ML | `away_money_line_last` | `bet_away_ml=1, bet_home_ml=0` |
+| Home Spread | `home_spread_last`, `home_spread_odds_last` | `bet_home_spread=1, bet_away_spread=0` |
+| Away Spread | `away_spread_last`, `away_spread_odds_last` | `bet_away_spread=1, bet_home_spread=0` |
+| Over | `total_score_last`, `over_odds_last` | `bet_over=1, bet_under=0` |
+| Under | `total_score_last`, `under_odds_last` | `bet_under=1, bet_over=0` |
+
+**All other binary indicators must be set to 0.**
+
+---
+
+### **6. CONFIDENCE & UNITS**
+
+- Rank all picks by confidence (most confident = rank 1)
+- Provide **confidence %** as integer between 0-100
+- Assign units based on confidence:
+- **3 units**: Highest confidence (90%+)
+- **2 units**: Medium confidence (80-89%)
+- **1 unit**: Lower confidence (70-79%)
+
+---
+
+### **7. PREDICTED SCORE FORMAT**
+
+- Format: "HomeScore-AwayScore" (e.g., "115-112")
+- Home team score ALWAYS listed first
+- Away team score ALWAYS listed second
+- Double-check the order matches your match naming
+
+---
+
+## **OUTPUT FORMAT**
+
+### **Part 1: Human-Readable Table**
+
+Create a table with these columns:
+- Rank
+- Match (format: "home_team vs away_team")
+- Home Team
+- Away Team
+- Pick (e.g., "Thunder -15.5" or "Wizards +15.5")
+- Odds
+- Units
+- Confidence %
+- Reason - a well thought out reason why you are making the pick that you are
+- Reason Code - a codified reason for the decision. I will use these to track patterns and repeat successful strategies. This should be a shorter form code that is reused across multiple datasets.
+- Predicted Score (format: "HomeScore-AwayScore")
+
+### **Part 2: CSV Block (Copy/Paste Ready)**
+
+Exact structure with this header row:
+```
+rank,game_id,start_time,match,pick,odds,units,confidence_pct,reason,predicted_score,bet_home_spread,bet_home_ml,bet_away_spread,bet_away_ml,bet_over,bet_under,home_money_line,away_money_line,tie_money_line,total_score,over_odds,under_odds,home_spread,home_spread_odds,away_spread,away_spread_odds,timestamp
+```
+**CSV Requirements:**
+- `match`: Must use "home_team vs away_team" format
+- `home_team`: home team
+- `away_team`: away team
+- `pick`: State team name and line (e.g., "Thunder -15.5")
+- `predicted_score`: Format as "HomeScore-AwayScore"
+- `bet_home_spread`, `bet_home_ml`, `bet_away_spread`, `bet_away_ml`, `bet_over`, `bet_under`: Must be 0 or 1
+- `home_money_line`: Value from `home_money_line_last`
+- `away_money_line`: Value from `away_money_line_last`
+- `tie_money_line`: Always "N/A"
+- `total_score`: Value from `total_score_last`
+- `over_odds`: Value from `over_odds_last`
+- `under_odds`: Value from `under_odds_last`
+- `home_spread`: Value from `home_spread_last`
+- `home_spread_odds`: Value from `home_spread_odds_last`
+- `away_spread`: Value from `away_spread_last`
+- `away_spread_odds`: Value from `away_spread_odds_last`
+- `timestamp`: use the time of this prompt -- 2025-12-13 15:28:38.679787
+  - **CRITICAL FORMAT REQUIREMENT**: MUST use "T" separator (NOT a space) between date and time
+  - **REQUIRED FORMAT**: "YYYY-MM-DDTHH:MM:SS.000Z" (with the T and .000Z)
+  - **CORRECT EXAMPLES**: "2025-12-08T18:30:00.000Z", "2025-12-08T18:30:00Z"
+  - **WRONG EXAMPLES**: "2025-12-08 18:30:00+00:00" (space instead of T), "2025-12-08 18:30:00.000Z" (space instead of T)
+  - Use ONLY standard ASCII characters - NO invisible Unicode characters
+  - The column name must be exactly: timestamp (no extra characters)
+
+---
+
+## **FINAL VERIFICATION CHECKLIST**
+
+Before submitting your picks, verify:
+
+□ Every match uses "home_team vs away_team" format
+□ Every pick references the correct team (home or away)
+□ Every odds value is copied exactly from "_last" column
+□ Every binary indicator correctly reflects whether the picked team is home or away
+□ Every spread sign (+ or -) matches the favorite/underdog position
+□ Every predicted score is in "HomeScore-AwayScore" format
+□ All CSV columns match the exact structure required
+□ Ensure the reason column in the csv is enclosed in double quotes
+□ The timestamp column name has NO invisible Unicode characters (must be exactly "timestamp")
+□ The timestamp value is in valid ISO 8601 format with only standard ASCII characters
+
+---
+
+## **EXAMPLE OF CORRECT PICK**
+
+**Dataset shows:**
+- game_id: 261702
+- home_team: Thunder
+- away_team: Wizards
+- home_spread_last: -15.5
+- home_spread_odds_last: -110
+
+**Correct Pick:**
+- Match: "Thunder vs Wizards"
+- Pick: "Thunder -15.5"
+- Odds: -110
+- Binary: bet_home_spread=1, bet_away_spread=0, all others=0
+- Predicted Score: "126-108" (Thunder score first)
+
+**CSV Line:**
+```
+1,261702,2025-10-31T00:00:00.000Z,Thunder vs Wizards,Thunder -15.5,-110,3,96,"Reason here",126-108,1,0,0,0,0,0,-1200,750,N/A,231.5,-110,-109,-15.5,-110,15.5,-110,2025-10-30T18:30:00Z
+
+Remember: Accuracy is more important than quantity. Skip any pick where you have uncertainty.
+
+
+Here are the upcoming games and their odds:
+game_id,home_team,away_team,start_time,num_bets_first,num_bets_avg,num_bets_last,home_money_line_first,home_money_line_avg,home_money_line_last,home_ml_ticket_pct_first,home_ml_ticket_pct_avg,home_ml_ticket_pct_last,home_ml_money_pct_first,home_ml_money_pct_avg,home_ml_money_pct_last,away_money_line_first,away_money_line_avg,away_money_line_last,away_ml_ticket_pct_first,away_ml_ticket_pct_avg,away_ml_ticket_pct_last,away_ml_money_pct_first,away_ml_money_pct_avg,away_ml_money_pct_last,total_score_first,total_score_avg,total_score_last,over_odds_first,over_odds_avg,over_odds_last,under_odds_first,under_odds_avg,under_odds_last,over_ticket_pct_first,over_ticket_pct_avg,over_ticket_pct_last,over_money_pct_first,over_money_pct_avg,over_money_pct_last,under_ticket_pct_first,under_ticket_pct_avg,under_ticket_pct_last,under_money_pct_first,under_money_pct_avg,under_money_pct_last,home_spread_first,home_spread_avg,home_spread_last,home_spread_odds_first,home_spread_odds_avg,home_spread_odds_last,home_spread_ticket_pct_first,home_spread_ticket_pct_avg,home_spread_ticket_pct_last,home_spread_money_pct_first,home_spread_money_pct_avg,home_spread_money_pct_last,away_spread_first,away_spread_avg,away_spread_last,away_spread_odds_first,away_spread_odds_avg,away_spread_odds_last,away_spread_ticket_pct_first,away_spread_ticket_pct_avg,away_spread_ticket_pct_last,away_spread_money_pct_first,away_spread_money_pct_avg,away_spread_money_pct_last,home_team_spread,away_team_spread,start_time_pt
+265314,Florida St,UMASS,2025-12-13 17:00:00+00:00,70.0,1261.2,3029.0,-565.0,-739.9,-747.0,0.0,48.6,97.0,0.0,46.5,95.0,410.0,509.8,524.0,0.0,1.4,3.0,0.0,3.5,5.0,160.0,159.75,160.5,-110.0,-111.3,-110.0,-110.0,-110.0,-108.0,0.0,27.9,52.0,0.0,28.2,53.0,0.0,22.1,48.0,0.0,21.8,47.0,-9.5,-10.9,-10.5,-110.0,-108.9,-110.0,0.0,18.6,46.0,0.0,17.0,43.0,9.5,10.9,10.5,-110.0,-111.1,-110.0,0.0,21.4,54.0,0.0,23.0,57.0,Florida St -10.5,UMASS +10.5,2025-12-13 09:00:00-08:00
+274967,Penn State,Michigan St,2025-12-13 17:00:00+00:00,111.0,2168.75,4993.0,512.0,566.75,550.0,0.0,2.75,4.0,0.0,2.625,4.0,-735.0,-802.625,-819.0,0.0,84.75,96.0,0.0,84.875,96.0,143.5,144.375,144.5,-111.0,-110.125,-110.0,-111.0,-110.125,-110.0,0.0,59.75,80.0,0.0,59.5,80.0,0.0,27.75,20.0,0.0,28.0,20.0,11.5,12.25,11.5,-111.0,-111.75,-112.0,0.0,24.5,38.0,0.0,15.5,29.0,-11.5,-12.25,-11.5,-110.0,-108.625,-108.0,0.0,38.0,62.0,0.0,47.0,71.0,Penn State +11.5,Michigan St -11.5,2025-12-13 09:00:00-08:00
+264573,Wichita State,DePaul,2025-12-13 17:00:00+00:00,75.0,1356.6,2953.0,-257.0,-270.2,-291.0,0.0,73.4,91.0,0.0,66.0,74.0,210.0,218.2,232.0,0.0,6.6,9.0,0.0,14.0,26.0,141.5,143.5,144.5,-110.0,-107.6,-105.0,-110.0,-112.0,-115.0,0.0,21.2,35.0,0.0,21.6,36.0,0.0,58.8,65.0,0.0,58.4,64.0,-5.5,-6.5,-7.5,-110.0,-107.4,-105.0,0.0,18.0,45.0,0.0,12.0,30.0,5.5,6.5,7.5,-111.0,-112.8,-115.0,0.0,22.0,55.0,0.0,28.0,70.0,Wichita State -7.5,DePaul +7.5,2025-12-13 09:00:00-08:00
+264576,Stony Brook,C. Michigan,2025-12-13 17:00:00+00:00,75.0,696.1666666666666,1484.0,-540.0,-441.1666666666667,-360.0,0.0,81.5,97.0,0.0,78.5,93.0,382.0,329.0,275.0,0.0,1.8333333333333333,3.0,0.0,4.833333333333333,7.0,146.5,145.66666666666666,145.5,-105.0,-110.0,-105.0,-110.0,-109.0,-110.0,0.0,53.666666666666664,70.0,0.0,53.333333333333336,70.0,0.0,29.666666666666668,30.0,0.0,30.0,30.0,-9.0,-8.083333333333334,-7.5,-110.0,-112.66666666666667,-110.0,0.0,25.0,51.0,0.0,21.833333333333332,46.0,9.0,8.083333333333334,7.5,-110.0,-73.33333333333333,-110.0,0.0,25.0,49.0,0.0,28.166666666666668,54.0,Stony Brook -7.5,C. Michigan +7.5,2025-12-13 09:00:00-08:00
+264577,St. John's,Iona,2025-12-13 17:00:00+00:00,121.0,814.3214285714286,2569.0,-10000.0,-17500.0,-20000.0,0.0,72.0,96.0,0.0,62.25,91.0,3000.0,3928.5714285714284,3500.0,0.0,4.928571428571429,4.0,0.0,19.5,9.0,160.5,162.03571428571428,161.5,-115.0,-113.0,-110.0,-105.0,-109.82142857142857,-110.0,0.0,11.25,21.0,0.0,11.035714285714286,21.0,0.0,85.17857142857143,79.0,0.0,85.39285714285714,79.0,-25.5,-27.428571428571427,-27.5,-116.0,-110.5,-111.0,0.0,24.0,28.0,0.0,26.428571428571427,37.0,25.5,27.428571428571427,27.5,-105.0,-109.82142857142857,-110.0,0.0,51.0,72.0,0.0,48.57142857142857,63.0,St. John's -27.5,Iona +27.5,2025-12-13 09:00:00-08:00
+266662,Texas Tech,Arkansas,2025-12-13 17:00:00+00:00,499.0,3917.8,9925.0,-130.0,-126.9,-118.0,0.0,23.9,61.0,0.0,19.4,47.0,109.0,46.7,-102.0,0.0,16.1,39.0,0.0,20.6,53.0,152.0,154.45,157.5,-110.0,-109.9,-105.0,-110.0,-109.2,-112.0,0.0,26.8,66.0,0.0,28.2,71.0,0.0,13.2,34.0,0.0,11.8,29.0,-1.5,-1.5,-1.5,-111.0,-110.0,-105.0,0.0,24.7,59.0,0.0,21.5,40.0,1.5,1.5,1.5,-110.0,-110.3,-115.0,0.0,15.3,41.0,0.0,18.5,60.0,Texas Tech -1.5,Arkansas +1.5,2025-12-13 09:00:00-08:00
+
+
+Here is the historical dataset of your betting advice and results:
+rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,bet_payout
+3.0,gemini,2025-11-17,264849,NC State vs VCU,85,79,NC State -11.5,-115.0,3.0,loss,-3.0
+4.0,gemini,2025-11-17,267346,Siena vs Colgate,69,72,Siena -6.5,-113.0,3.0,loss,-3.0
+5.0,gemini,2025-11-17,267629,UCF vs Oakland,87,83,UCF -13.5,-110.0,2.0,loss,-2.0
+6.0,gemini,2025-11-17,264847,K State vs Tulsa,84,83,Tulsa +12.5,-115.0,2.0,win,1.7391304347826086
+7.0,gemini,2025-11-17,264863,Dolphins vs Niagara,74,68,Niagara +2.5,-112.0,2.0,loss,-2.0
+8.0,gemini,2025-11-17,264859,Tenn Tech vs Wolves,59,61,Tenn Tech -4.5,-110.0,2.0,loss,-2.0
+9.0,gemini,2025-11-17,264848,Pittsburgh vs Bucknell,84,50,Pittsburgh -15.5,-111.0,1.0,win,0.9009009009009008
+10.0,gemini,2025-11-17,264851,Clemson vs North Alabama,81,61,Under 144.5,-108.0,1.0,win,0.925925925925926
+1.0,gemini,2025-11-19,267503,Wofford vs North Florida,86,78,Wofford -11.0,-113.0,3.0,loss,-3.0
+2.0,gemini,2025-11-19,264901,Penn State vs Harvard,84,80,Harvard +12.5,-110.0,3.0,win,2.727272727272727
+3.0,gemini,2025-11-19,264902,Indiana St vs LA Tech,60,51,LA Tech +3.5,-115.0,2.0,loss,-2.0
+4.0,gemini,2025-11-19,264917,Marquette vs Dayton,71,77,Dayton +5.5,-110.0,2.0,win,1.818181818181818
+5.0,gemini,2025-11-19,267562,Temple vs Hofstra,81,76,Temple -5.5,-108.0,2.0,loss,-2.0
+7.0,gemini,2025-11-19,264909,Creighton vs North Dakota,75,60,Creighton -27.5,-110.0,1.0,loss,-1.0
+9.0,gemini,2025-11-19,266435,Sam Houston vs Wyoming,78,70,Under 157.5,-110.0,1.0,win,0.9090909090909092
+10.0,gemini,2025-11-19,264911,Duquesne vs Loyola (MD),92,78,Under 149.5,-107.0,1.0,loss,-1.0
+6.0,gemini,2025-11-19,274946,Saint Mary's vs Arkansas St,85,72,Saint Mary's -20.5,-110.0,1.0,loss,-1.0
+8.0,gemini,2025-11-19,266429,Weber State vs Campbell,91,85,Under 159.5,-110.0,1.0,loss,-1.0
+3.0,gemini,2025-11-21,264528,Stonehill vs Lafayette,74,70,Stonehill +1.5,-118.0,3.0,win,2.542372881355932
+5.0,gemini,2025-11-21,272005,Rutgers vs Central Conn,54,67,Rutgers -15.5,-110.0,2.0,loss,-2.0
+6.0,gemini,2025-11-21,267355,UAB vs S. Alabama,80,72,UAB -6.5,-108.0,2.0,win,1.851851851851852
+7.0,gemini,2025-11-21,266459,Clemson vs West Virginia,70,67,Clemson -3.5,-110.0,2.0,loss,-2.0
+9.0,gemini,2025-11-21,267354,Siena vs Albany,73,63,Siena -11.5,-105.0,1.0,loss,-1.0
+10.0,gemini,2025-11-21,271301,Lehigh vs Columbia,67,82,Lehigh +1.5,-102.0,1.0,loss,-1.0
+2.0,gemini,2025-11-21,266461,Oregon St vs Evansville,69,73,Oregon St -6.5,-105.0,3.0,loss,-3.0
+1.0,gemini,2025-11-21,264936,San Diego vs UC Riverside,71,85,San Diego -7.5,-112.0,3.0,loss,-3.0
+4.0,gemini,2025-11-21,264958,Portland vs CS Fullerton,103,85,Portland -5.5,-111.0,2.0,win,1.8018018018018016
+8.0,gemini,2025-11-21,266462,Xavier vs Georgia,77,78,Georgia -10.5,-110.0,1.0,loss,-1.0
+2.0,gemini,2025-11-22,264966,Marquette vs C. Michigan,85,71,C. Michigan +24.5,-111.0,3.0,win,2.702702702702702
+3.0,gemini,2025-11-22,264971,OK State vs Nicholls St,95,81,Nicholls St +24.0,-107.0,3.0,win,2.803738317757009
+8.0,gemini,2025-11-22,266468,Kent State vs Cleveland St,91,71,Cleveland St +15.5,-118.0,1.0,loss,-1.0
+1.0,gemini,2025-11-22,264969,Wichita State vs Milwaukee,75,58,Milwaukee +10.5,-110.0,3.0,loss,-3.0
+4.0,gemini,2025-11-22,266469,CS Bakersfield vs MS Valley St,86,70,MS Valley St +23.5,-110.0,2.0,win,1.818181818181818
+5.0,gemini,2025-11-22,282305,UIC vs Southern Indiana,84,73,Southern Indiana +11.5,-115.0,2.0,win,1.7391304347826086
+6.0,gemini,2025-11-22,272008,Chattanooga vs North Alabama,71,57,North Alabama +10.5,-115.0,2.0,loss,-2.0
+7.0,gemini,2025-11-22,264980,St. Thomas vs CS Fullerton,80,88,CS Fullerton +11.5,-110.0,1.0,win,0.9090909090909092
+10.0,gemini,2025-11-22,264975,Minnesota vs San Francisco,65,77,Minnesota +1.5,-118.0,1.0,loss,-1.0
+9.0,gemini,2025-11-22,264981,Portland vs N. Colorado,80,86,Portland +3.5,-110.0,1.0,loss,-1.0
+7.0,gemini,2025-11-24,264994,Bowling Green vs Bucknell,71,66,Bucknell +7.5,-115.0,1.0,win,0.8695652173913043
+2.0,gemini,2025-11-24,266482,Tennessee vs Rutgers,85,60,Rutgers +15.5,-112.0,3.0,loss,-3.0
+3.0,gemini,2025-11-24,266486,NC State vs Seton Hall,74,85,Seton Hall +9.5,-105.0,3.0,win,2.8571428571428568
+10.0,gemini,2025-11-24,264536,Buffalo vs VMI,78,70,VMI +7.5,-115.0,1.0,loss,-1.0
+1.0,gemini,2025-11-24,266493,Syracuse vs Houston,74,78,Syracuse +14.5,-110.0,3.0,win,2.727272727272727
+4.0,gemini,2025-11-24,266494,Bradley vs Princeton,88,64,Princeton +7.5,-105.0,2.0,loss,-2.0
+6.0,gemini,2025-11-24,266492,George Mason vs Ohio,92,69,Ohio +7.5,-115.0,2.0,loss,-2.0
+8.0,gemini,2025-11-24,266496,Oregon vs Auburn,73,84,Oregon +3.5,-100.0,1.0,loss,-1.0
+5.0,gemini,2025-11-24,266499,Alabama vs Gonzaga,85,95,Alabama +4.5,-110.0,2.0,loss,-2.0
+9.0,gemini,2025-11-24,266500,San Diego State vs Michigan,54,94,San Diego State +5.5,-110.0,1.0,loss,-1.0
+1.0,gemini,2025-11-25,266506,Florida St vs CS Bakersfield,89,59,CS Bakersfield +24.5,-105.0,3.0,loss,-3.0
+2.0,gemini,2025-11-25,265017,Villanova vs Old Dominion,89,75,Old Dominion +21.5,-108.0,3.0,win,2.7777777777777777
+3.0,gemini,2025-11-25,265014,Wake Forest vs Campbell,99,51,Campbell +17.5,-110.0,3.0,loss,-3.0
+5.0,gemini,2025-11-25,265007,Penn State vs Boston U,96,87,Boston U +15.5,-115.0,2.0,win,1.7391304347826086
+8.0,gemini,2025-11-25,267633,UCF vs Quinnipiac,102,91,Quinnipiac +13.5,-110.0,1.0,win,0.9090909090909092
+7.0,gemini,2025-11-25,265010,Nebraska vs Winthrop,80,73,Winthrop +14.5,-115.0,2.0,win,1.7391304347826086
+9.0,gemini,2025-11-25,265012,Indiana vs K State,86,69,K State +10.5,-111.0,1.0,loss,-1.0
+10.0,gemini,2025-11-25,275939,North Texas vs E. Washington,79,71,E. Washington +12.5,-115.0,1.0,win,0.8695652173913043
+4.0,gemini,2025-11-25,266523,Gonzaga vs Maryland,100,61,Maryland +14.5,-110.0,2.0,loss,-2.0
+6.0,gemini,2025-11-26,266527,UNLV vs Alabama,76,115,UNLV +13.5,-110.0,2.0,loss,-2.0
+2.0,gemini,2025-11-26,278423,Miami (OH) vs UNC Greensboro,82,71,UNC Greensboro +10.5,-105.0,3.0,loss,-3.0
+3.0,gemini,2025-11-26,266537,N. Mexico St vs Georgia State,77,58,Georgia State +12.5,-111.0,3.0,loss,-3.0
+8.0,gemini,2025-11-26,266538,Valparaiso vs Southern Indiana,56,64,Southern Indiana +9.5,-105.0,1.0,win,0.9523809523809524
+10.0,gemini,2025-11-26,265034,Jax State vs NDSU,43,56,Jax State +3.5,-112.0,1.0,loss,-1.0
+6.0,gemini,2025-11-26,282808,Tennessee vs Kansas,76,81,Kansas +5.5,-110.0,2.0,win,1.818181818181818
+1.0,gemini,2025-11-26,266542,Saint Mary's vs Wichita State,70,65,Wichita State +10.5,-110.0,3.0,win,2.727272727272727
+4.0,gemini,2025-11-26,265029,Memphis vs S. Illinois,74,58,S. Illinois +10.5,-110.0,2.0,loss,-2.0
+5.0,gemini,2025-11-26,266533,Wyoming vs Denver,101,59,Denver +8.5,-115.0,2.0,loss,-2.0
+9.0,gemini,2025-11-26,282814,Auburn vs St. John's,85,74,Auburn +4.5,-110.0,1.0,win,0.9090909090909092
+7.0,gemini,2025-11-26,282819,Iowa vs Grand Canyon,59,46,Grand Canyon +8.5,-105.0,1.0,loss,-1.0
+1.0,gemini,2025-11-28,265058,Virginia vs Queens,94,69,Queens +25.5,-112.0,3.0,win,2.678571428571429
+2.0,gemini,2025-11-28,282841,Florida vs Providence,90,78,Providence +11.5,-108.0,3.0,loss,-3.0
+4.0,gemini,2025-11-28,265052,UNC Wilmington vs Navy,87,57,Navy +8.5,-110.0,2.0,loss,-2.0
+7.0,gemini,2025-11-27,282816,Alabama vs Maryland,105,72,Alabama -13.0,-110.0,1.0,win,0.9090909090909092
+8.0,gemini,2025-11-28,266559,Youngstown St vs Chicago St,87,64,Chicago St +14.5,-106.0,1.0,loss,-1.0
+9.0,gemini,2025-11-28,265053,American U vs Maine,74,61,Maine +7.5,-112.0,1.0,loss,-1.0
+10.0,gemini,2025-11-28,282847,Colorado St vs S. Florida,83,68,Colorado St +2.5,-115.0,1.0,win,0.8695652173913043
+6.0,gemini,2025-11-28,265050,Pittsburgh vs Ohio State,67,66,Pittsburgh +4.5,-110.0,2.0,win,1.818181818181818
+5.0,gemini,2025-11-28,265056,Mississippi St vs SMU,81,87,Mississippi St +1.5,-108.0,2.0,loss,-2.0
+3.0,gemini,2025-11-28,282844,Dayton vs BYU,79,83,Dayton +9.5,-105.0,3.0,win,2.8571428571428568
+4.0,gemini,2025-12-01,265101,Villanova vs Temple,74,56,Temple +12.5,-108.0,2.0,loss,-2.0
+8.0,gemini,2025-12-01,265103,Xavier vs St. Francis (PA),96,74,St. Francis (PA) +28.0,-107.0,1.0,win,0.9345794392523364
+9.0,gemini,2025-12-01,265100,K State vs Bowling Green,66,82,Bowling Green +12.5,-115.0,1.0,win,0.8695652173913043
+10.0,gemini,2025-12-01,263613,Incarnate Word vs McNeese St,71,67,Incarnate Word +10.0,-110.0,1.0,win,0.9090909090909092
+1.0,gemini,2025-12-02,264551,Kansas vs UConn,56,61,Kansas +1.5,-115.0,3.0,loss,-3.0
+2.0,gemini,2025-12-02,274948,Rutgers vs Purdue,65,81,Rutgers +15.5,-105.0,3.0,loss,-3.0
+3.0,gemini,2025-12-02,264547,Syracuse vs Tennessee,62,60,Syracuse +6.5,-110.0,3.0,win,2.727272727272727
+5.0,gemini,2025-12-02,265106,Pittsburgh vs Texas A&M,73,81,Pittsburgh +1.5,-101.0,2.0,loss,-2.0
+6.0,gemini,2025-12-02,265111,Duke vs Florida,67,66,Florida +8.5,-110.0,2.0,win,1.818181818181818
+7.0,gemini,2025-12-02,264548,Notre Dame vs Missouri,76,71,Notre Dame +1.5,-110.0,2.0,win,1.818181818181818
+2.0,gemini,2025-12-02,274948,Rutgers vs Purdue,65,81,Rutgers +13.5,-110.0,3.0,loss,-3.0
+3.0,gemini,2025-12-02,264547,Syracuse vs Tennessee,62,60,Syracuse +7.5,-110.0,3.0,win,2.727272727272727
+4.0,gemini,2025-12-02,265106,Pittsburgh vs Texas A&M,73,81,Pittsburgh +3.5,-107.0,2.0,loss,-2.0
+5.0,gemini,2025-12-02,274950,Oregon vs USC,77,82,Oregon +3.5,-115.0,2.0,loss,-2.0
+6.0,gemini,2025-12-01,265101,Villanova vs Temple,74,56,Temple +12.5,-108.0,2.0,loss,-2.0
+7.0,gemini,2025-12-02,265111,Duke vs Florida,67,66,Florida +9.5,-110.0,2.0,win,1.818181818181818
+8.0,gemini,2025-12-02,274949,Michigan St vs Iowa,71,52,Iowa +4.5,-105.0,1.0,loss,-1.0
+9.0,gemini,2025-12-02,266589,Florida St vs Georgia,73,107,Georgia +1.5,-110.0,1.0,win,0.9090909090909092
+10.0,gemini,2025-12-02,265123,Binghamton vs Lehigh,80,71,Binghamton +3.5,-105.0,1.0,win,0.9523809523809524
+1.0,gemini,2025-12-10,264565,St. Bonaventure vs Colgate,85,77,Colgate +9.5,-105.0,3.0,win,2.8571428571428568
+2.0,gemini,2025-12-10,264563,UMASS vs Boston Col,76,74,UMASS 1.5,-115.0,3.0,win,2.608695652173913
+3.0,gemini,2025-12-10,280393,UNC Asheville vs Miami (OH),87,90,UNC Asheville 5.5,-115.0,2.0,win,1.7391304347826086
+4.0,gemini,2025-12-10,266645,Boston U vs Maine,59,69,Maine +8.5,-107.0,2.0,win,1.8691588785046729
+5.0,gemini,2025-12-10,278427,N.J.I.T. vs New Haven,70,64,N.J.I.T. 1.5,-100.0,2.0,win,2.0
+6.0,gemini,2025-12-10,265265,NC State vs Liberty,85,45,Liberty +12.5,-106.0,2.0,loss,-2.0
+7.0,gemini,2025-12-10,264561,S. Florida vs Charleston,81,75,Charleston +13.5,-110.0,2.0,win,1.818181818181818
+8.0,gemini,2025-12-10,274963,Purdue vs Minnesota,85,57,Over 142.5,-115.0,1.0,loss,-1.0
+9.0,gemini,2025-12-10,265267,Fordham vs Fairleigh,75,54,Under 141.5,-106.0,1.0,win,0.9433962264150944
+10.0,gemini,2025-12-10,265266,Iona vs Bryant U,69,63,Under 147.5,-107.0,1.0,win,0.9345794392523364
+11.0,gemini,2025-12-10,264560,Notre Dame vs Idaho,80,65,Notre Dame -12.5,-110.0,1.0,win,0.9090909090909092
+12.0,gemini,2025-12-10,264566,VCU vs New Mexico,78,81,Over 156.5,-105.0,1.0,win,0.9523809523809524
+13.0,gemini,2025-12-10,264562,G Washington vs Delaware,58,70,Under 152.5,-110.0,1.0,win,0.9090909090909092
+14.0,gemini,2025-12-10,266643,Marshall vs W. Kentucky,77,61,W. Kentucky +1.5,-115.0,1.0,loss,-1.0
+3.0,gemini,2025-12-12,265274,Xavier vs Missouri St,75,57,Xavier -17.5,-112.0,2.0,win,1.7857142857142858
+4.0,gemini,2025-12-12,265277,NC A&T vs MD-E Shore,82,79,Under 130.0,-112.0,2.0,loss,-2.0
+5.0,gemini,2025-12-12,265278,Queens vs SC State,102,78,Queens -17.5,-112.0,1.0,win,0.8928571428571429
+1.0,gemini,2025-12-12,280394,Austin Peay vs E Tennessee St,76,75,Austin Peay +3.5,-108.0,3.0,win,2.7777777777777777
+2.0,gemini,2025-12-12,263642,McNeese St vs E TA&M,102,66,McNeese St -19.5,-118.0,2.0,win,1.694915254237288
+6.0,gemini,2025-12-12,265273,UConn vs Texas,71,63,Texas +13.5,-110.0,1.0,win,0.9090909090909092
+
+        
