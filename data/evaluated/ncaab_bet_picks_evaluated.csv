@@ -460,3 +460,12 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 14.0,gemini,2025-12-10,266643,Marshall vs W. Kentucky,77,61,W. Kentucky +1.5,-115.0,1.0,loss,-1.0
 1.0,perplexity,2025-12-11,266650,IUIN vs Green Bay,75,85,IUIN -1.5,-102.0,2.0,loss,-2.0
 2.0,perplexity,2025-12-11,266650,IUIN vs Green Bay,75,85,Under 164.5,-110.0,1.0,win,0.9090909090909092
+2.0,claude,2025-12-12,265274,Xavier vs Missouri St,75,57,Xavier -17.5,-112.0,3.0,win,2.678571428571429
+3.0,claude,2025-12-12,265278,Queens vs SC State,102,78,Queens -17.5,-112.0,3.0,win,2.678571428571429
+4.0,claude,2025-12-12,265277,NC A&T vs MD-E Shore,82,79,NC A&T -8.5,-105.0,2.0,loss,-2.0
+8.0,claude,2025-12-12,265274,Xavier vs Missouri St,75,57,Under 151.5,-110.0,1.0,win,0.9090909090909092
+9.0,claude,2025-12-12,265277,NC A&T vs MD-E Shore,82,79,Over 130.0,-107.0,1.0,win,0.9345794392523364
+10.0,claude,2025-12-12,265278,Queens vs SC State,102,78,Under 157.5,-115.0,1.0,loss,-1.0
+3.0,gemini,2025-12-12,265274,Xavier vs Missouri St,75,57,Xavier -17.5,-112.0,2.0,win,1.7857142857142858
+4.0,gemini,2025-12-12,265277,NC A&T vs MD-E Shore,82,79,Under 130.0,-112.0,2.0,loss,-2.0
+5.0,gemini,2025-12-12,265278,Queens vs SC State,102,78,Queens -17.5,-112.0,1.0,win,0.8928571428571429
