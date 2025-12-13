@@ -853,3 +853,16 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 2,gemini,2025-12-11,282891,Pelicans vs Trail Blazers,143.0,120.0,Pelicans +3.5,-102,2,win,1.96078431372549
 3,gemini,2025-12-11,282892,Bucks vs Celtics,116.0,101.0,Under 223.5,-115,2,win,1.7391304347826086
 4,gemini,2025-12-11,282890,Rockets vs Clippers,115.0,113.0,Under 221.5,-110,1,loss,-1.0
+1,perplexity,2025-12-12,282894,Wizards vs Cavaliers,126.0,130.0,Cavaliers -15.5,-115,3,loss,-3.0
+2,perplexity,2025-12-12,282895,Pistons vs Hawks,142.0,115.0,Pistons -6.5,-115,3,win,2.608695652173913
+3,perplexity,2025-12-12,282897,76ers vs Pacers,115.0,105.0,76ers -5.5,-115,3,win,2.608695652173913
+4,perplexity,2025-12-12,282898,Grizzlies vs Jazz,126.0,130.0,Grizzlies -7.5,-110,2,loss,-2.0
+6,perplexity,2025-12-12,282895,Pistons vs Hawks,142.0,115.0,Under 232.5,-115,2,loss,-2.0
+7,perplexity,2025-12-12,282894,Wizards vs Cavaliers,126.0,130.0,Under 245.5,-115,2,loss,-2.0
+8,perplexity,2025-12-12,282896,Hornets vs Bulls,126.0,129.0,Bulls -2.5,-115,1,win,0.8695652173913043
+9,perplexity,2025-12-12,282896,Hornets vs Bulls,126.0,129.0,Under 229.5,-110,1,loss,-1.0
+10,perplexity,2025-12-12,282897,76ers vs Pacers,115.0,105.0,Under 220.5,-114,1,win,0.8771929824561403
+1,gemini,2025-12-12,282895,Pistons vs Hawks,142.0,115.0,Hawks +6.5,-105,3,loss,-3.0
+2,gemini,2025-12-12,282894,Wizards vs Cavaliers,126.0,130.0,Wizards +15.5,-105,2,win,1.9047619047619049
+3,gemini,2025-12-12,282898,Grizzlies vs Jazz,126.0,130.0,Under 243.5,-110,2,loss,-2.0
+4,gemini,2025-12-12,282896,Hornets vs Bulls,126.0,129.0,Hornets +2.5,-105,1,loss,-1.0

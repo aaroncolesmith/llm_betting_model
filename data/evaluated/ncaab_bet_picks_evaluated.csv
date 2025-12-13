@@ -469,3 +469,10 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 3.0,gemini,2025-12-12,265274,Xavier vs Missouri St,75,57,Xavier -17.5,-112.0,2.0,win,1.7857142857142858
 4.0,gemini,2025-12-12,265277,NC A&T vs MD-E Shore,82,79,Under 130.0,-112.0,2.0,loss,-2.0
 5.0,gemini,2025-12-12,265278,Queens vs SC State,102,78,Queens -17.5,-112.0,1.0,win,0.8928571428571429
+1.0,claude,2025-12-12,265273,UConn vs Texas,71,63,Over 145.5,-116.0,3.0,loss,-3.0
+5.0,claude,2025-12-12,265273,UConn vs Texas,71,63,Texas +13.5,-110.0,2.0,win,1.818181818181818
+6.0,claude,2025-12-12,263642,McNeese St vs E TA&M,102,66,Over 142.5,-112.0,2.0,win,1.7857142857142858
+7.0,claude,2025-12-12,280394,Austin Peay vs E Tennessee St,76,75,E Tennessee St -3.5,-112.0,2.0,loss,-2.0
+1.0,gemini,2025-12-12,280394,Austin Peay vs E Tennessee St,76,75,Austin Peay +3.5,-108.0,3.0,win,2.7777777777777777
+2.0,gemini,2025-12-12,263642,McNeese St vs E TA&M,102,66,McNeese St -19.5,-118.0,2.0,win,1.694915254237288
+6.0,gemini,2025-12-12,265273,UConn vs Texas,71,63,Texas +13.5,-110.0,1.0,win,0.9090909090909091
