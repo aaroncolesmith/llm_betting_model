@@ -288,7 +288,7 @@ Create a table with these columns:
 - Units
 - Confidence %
 - Reason
-- Predicted Score (format: "HomeScore-AwayScore")
+- Predicted Score (format: "HomeScore-AwayScore"); BE SURE THAT THE SCORE MATCHES THE ORDER, HOME TEAM SCORE FIRST AWAY TEAM SCORE SECOND!
 
 ### **Part 2: CSV Block (Copy/Paste Ready)**
 
@@ -337,6 +337,7 @@ Before submitting your picks, verify:
 □ Ensure the reason column in the csv is enclosed in double quotes
 □ The timestamp column name has NO invisible Unicode characters (must be exactly "timestamp")
 □ The timestamp value is in valid ISO 8601 format with only standard ASCII characters
+□ The predicted score matches the order of the match, home team score first, away team score second
 
 ---
 

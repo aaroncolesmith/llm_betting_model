@@ -314,7 +314,7 @@ Create a table with these columns:
 - Units
 - Confidence %
 - Reason
-- Predicted Score (format: "HomeScore-AwayScore")
+- Predicted Score (format: "HomeScore-AwayScore"); BE SURE THAT THE SCORE MATCHES THE ORDER, HOME TEAM SCORE FIRST AWAY TEAM SCORE SECOND!
 
 ### **Part 2: CSV Block (Copy/Paste Ready)**
 
