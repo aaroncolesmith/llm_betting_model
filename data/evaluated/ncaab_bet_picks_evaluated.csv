@@ -504,3 +504,54 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 3.0,gemini,2025-12-13,264573,Wichita State vs DePaul,58,61,Wichita State -7.5,-105.0,2.0,loss,-2.0
 5.0,gemini,2025-12-13,267374,George Mason vs Old Dominion,73,61,Old Dominion +15.5,-108.0,1.0,win,0.925925925925926
 6.0,gemini,2025-12-13,265314,Florida St vs UMASS,95,103,Florida St -10.5,-110.0,1.0,loss,-1.0
+1.0,perplexity,2025-12-13,266656,Auburn vs Chattanooga,92,78,Chattanooga +19.5,-111.0,1.0,loss,-1.0
+2.0,perplexity,2025-12-13,266656,Auburn vs Chattanooga,92,78,Under 151,-110.0,1.0,loss,-1.0
+3.0,perplexity,2025-12-13,265306,Utah State vs Illinois St,83,78,Utah State -8.5,-110.0,2.0,loss,-2.0
+4.0,perplexity,2025-12-13,265306,Utah State vs Illinois St,83,78,Over 148.5,-105.0,1.0,win,0.9523809523809524
+5.0,perplexity,2025-12-13,267614,Ohio vs St. Bonaventure,88,83,St. Bonaventure -6.5,-105.0,2.0,loss,-2.0
+6.0,perplexity,2025-12-13,267614,Ohio vs St. Bonaventure,88,83,Under 150.5,-110.0,1.0,loss,-1.0
+7.0,perplexity,2025-12-13,264575,Oregon St vs Montana St,67,57,Oregon St -1.5,-110.0,2.0,win,1.818181818181818
+8.0,perplexity,2025-12-13,264575,Oregon St vs Montana St,67,57,Under 140.5,-110.0,1.0,win,0.9090909090909092
+9.0,perplexity,2025-12-13,265296,California vs NW State,79,70,California -20,-109.0,0.0,loss,0.0
+10.0,perplexity,2025-12-13,265296,California vs NW State,79,70,Under 145.5,-110.0,1.0,loss,-1.0
+11.0,perplexity,2025-12-13,265293,NC State vs Kansas,76,77,NC State -1.5,-110.0,2.0,loss,-2.0
+12.0,perplexity,2025-12-13,265293,NC State vs Kansas,76,77,Over 148.5,-110.0,1.0,win,0.9090909090909092
+13.0,perplexity,2025-12-13,266658,N. Iowa vs Oakland,75,63,N. Iowa -8.5,-110.0,2.0,win,1.818181818181818
+14.0,perplexity,2025-12-13,266658,N. Iowa vs Oakland,75,63,Under 148.5,-105.0,1.0,win,0.9523809523809524
+15.0,perplexity,2025-12-13,265313,Richmond vs S. Illinois,93,84,Richmond -4.5,-115.0,2.0,win,1.7391304347826086
+16.0,perplexity,2025-12-13,265313,Richmond vs S. Illinois,93,84,Under 153.5,-115.0,1.0,loss,-1.0
+17.0,perplexity,2025-12-13,265288,San Diego vs N. Arizona,78,69,San Diego -4.5,-112.0,2.0,win,1.7857142857142858
+18.0,perplexity,2025-12-13,265288,San Diego vs N. Arizona,78,69,Under 149.5,-105.0,1.0,win,0.9523809523809524
+19.0,perplexity,2025-12-13,265303,Loyola (MD) vs St. Mary's,73,81,St. Mary's -2.5,-110.0,2.0,win,1.818181818181818
+20.0,perplexity,2025-12-13,265303,Loyola (MD) vs St. Mary's,73,81,Over 151.5,-107.0,1.0,win,0.9345794392523364
+21.0,perplexity,2025-12-13,265305,Washington vs Southern Utah,105,69,Southern Utah +25.5,-110.0,1.0,loss,-1.0
+22.0,perplexity,2025-12-13,265305,Washington vs Southern Utah,105,69,Under 153.5,-111.0,1.0,loss,-1.0
+1.0,claude,2025-12-13,265293,NC State vs Kansas,76,77,Over 148.5,-110.0,3.0,win,2.727272727272727
+2.0,claude,2025-12-13,266656,Auburn vs Chattanooga,92,78,Auburn -19.5,-110.0,3.0,loss,-3.0
+3.0,claude,2025-12-13,265293,NC State vs Kansas,76,77,Kansas +1.5,-110.0,3.0,win,2.727272727272727
+4.0,claude,2025-12-13,266658,N. Iowa vs Oakland,75,63,N. Iowa -8.5,-110.0,2.0,win,1.818181818181818
+5.0,claude,2025-12-13,265305,Washington vs Southern Utah,105,69,Under 153.5,-111.0,2.0,loss,-2.0
+6.0,claude,2025-12-13,265306,Utah State vs Illinois St,83,78,Utah State -8.5,-110.0,2.0,loss,-2.0
+7.0,claude,2025-12-13,264575,Oregon St vs Montana St,67,57,Over 140.5,-110.0,2.0,loss,-2.0
+8.0,claude,2025-12-13,265313,Richmond vs S. Illinois,93,84,Richmond -4.5,-115.0,1.0,win,0.8695652173913043
+9.0,claude,2025-12-13,265288,San Diego vs N. Arizona,78,69,San Diego -4.5,-112.0,1.0,win,0.8928571428571429
+10.0,claude,2025-12-13,265296,California vs NW State,79,70,Under 145.5,-110.0,1.0,loss,-1.0
+3.0,claude,2025-12-13,265324,Arizona St vs Santa Clara,82,79,Santa Clara -1.5,-111.0,2.0,loss,-2.0
+4.0,claude,2025-12-13,275948,San Jose St vs Stanford,82,86,Stanford -7.5,-102.0,2.0,loss,-2.0
+5.0,claude,2025-12-13,265311,Wolves vs GA Southern,85,91,GA Southern -3.5,-110.0,1.0,win,0.9090909090909092
+8.0,claude,2025-12-13,266655,S. Carolina vs Citadel,71,55,Citadel +23.5,-115.0,1.0,win,0.8695652173913043
+11.0,claude,2025-12-13,265324,Arizona St vs Santa Clara,82,79,Under 154.5,-115.0,1.0,loss,-1.0
+16.0,claude,2025-12-13,265311,Wolves vs GA Southern,85,91,Under 154.5,-110.0,1.0,loss,-1.0
+17.0,claude,2025-12-13,266655,S. Carolina vs Citadel,71,55,Over 142.5,-110.0,1.0,loss,-1.0
+18.0,claude,2025-12-13,275948,San Jose St vs Stanford,82,86,Under 145.5,-115.0,1.0,loss,-1.0
+1.0,gemini,2025-12-13,265293,NC State vs Kansas,76,77,Kansas +1.5,-110.0,3.0,win,2.727272727272727
+2.0,gemini,2025-12-13,267614,Ohio vs St. Bonaventure,88,83,St. Bonaventure -6.5,-105.0,3.0,loss,-3.0
+3.0,gemini,2025-12-13,265296,California vs NW State,79,70,NW State +20.0,-111.0,2.0,win,1.8018018018018018
+4.0,gemini,2025-12-13,266656,Auburn vs Chattanooga,92,78,Chattanooga +19.5,-111.0,2.0,win,1.8018018018018018
+5.0,gemini,2025-12-13,265303,Loyola (MD) vs St. Mary's,73,81,St. Mary's -2.5,-110.0,2.0,win,1.8181818181818181
+6.0,gemini,2025-12-13,265306,Utah State vs Illinois St,83,78,Utah State -8.5,-110.0,2.0,loss,-2.0
+7.0,gemini,2025-12-13,265305,Washington vs Southern Utah,105,69,Southern Utah +25.5,-110.0,1.0,loss,-1.0
+8.0,gemini,2025-12-13,264575,Oregon St vs Montana St,67,57,Oregon St -1.5,-110.0,1.0,win,0.9090909090909091
+5.0,gemini,2025-12-13,266655,S. Carolina vs Citadel,71,55,Under 142.5,-110.0,2.0,win,1.8181818181818181
+9.0,gemini,2025-12-13,265324,Arizona St vs Santa Clara,82,79,Over 154.5,-105.0,1.0,win,0.9523809523809523
+10.0,gemini,2025-12-13,275948,San Jose St vs Stanford,82,86,Under 145.5,-115.0,1.0,loss,-1.0

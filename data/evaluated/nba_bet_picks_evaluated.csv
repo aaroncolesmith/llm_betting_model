@@ -867,3 +867,11 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 3,gemini,2025-12-12,282898,Grizzlies vs Jazz,126.0,130.0,Under 243.5,-110,2,loss,-2.0
 4,gemini,2025-12-12,282896,Hornets vs Bulls,126.0,129.0,Hornets +2.5,-105,1,loss,-1.0
 5,perplexity,2025-12-12,282899,Mavericks vs Nets,119.0,111.0,Mavericks -7.5,-115,2,win,1.7391304347826086
+2,claude,2025-12-13,283262,Magic vs Knicks,120.0,132.0,Knicks -4.5,-118,2,win,1.694915254237288
+4,claude,2025-12-13,283262,Magic vs Knicks,120.0,132.0,Under 225.5,-105,2,loss,-2.0
+2,perplexity,2025-12-13,283262,Magic vs Knicks,120.0,132.0,Magic +4.5,-102,3,loss,-3.0
+4,perplexity,2025-12-13,283262,Magic vs Knicks,120.0,132.0,Over 225.5,-105,2,win,1.9047619047619049
+2,gemini,2025-12-13,283262,Magic vs Knicks,120.0,132.0,Magic +4.5,-102,2,loss,-2.0
+3,gemini,2025-12-13,283262,Magic vs Knicks,120.0,132.0,Under 225.5,-111,1,loss,-1.0
+2,chatgpt,2025-12-13,283262,Magic vs Knicks,120.0,132.0,Magic +4.5,-102,2,loss,-2.0
+4,chatgpt,2025-12-13,283262,Magic vs Knicks,120.0,132.0,Under 225.5,-112,1,loss,-1.0
