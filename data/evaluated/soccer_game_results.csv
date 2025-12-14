@@ -1661,3 +1661,43 @@ game_id,start_time,league_name,home_team,away_team,home_score,away_score,status
 267208,2025-12-13T17:30:00.000Z,bundesliga,Leverkusen,Köln,2,0,complete
 267264,2025-12-13T17:30:00.000Z,laliga,Barcelona,Osasuna,2,0,complete
 267279,2025-12-13T18:00:00.000Z,ligue1,Metz,PSG,2,3,complete
+267271,2025-12-14T11:30:00.000Z,seriea,Milan,Sassuolo,2,2,complete
+267257,2025-12-14T13:00:00.000Z,laliga,Sevilla,Real Oviedo,4,0,complete
+267191,2025-12-14T14:00:00.000Z,epl,West Ham,Aston Villa,2,3,complete
+267192,2025-12-14T14:00:00.000Z,epl,Sunderland,Newcastle,1,0,complete
+267193,2025-12-14T14:00:00.000Z,epl,Nottingham,Tottenham,3,0,complete
+267196,2025-12-14T14:00:00.000Z,epl,Crystal Palace,Man City,0,3,complete
+267267,2025-12-14T14:00:00.000Z,seriea,Udinese,Napoli,1,0,complete
+267274,2025-12-14T14:00:00.000Z,seriea,Fiorentina,Hellas,1,2,complete
+267281,2025-12-14T14:00:00.000Z,ligue1,Lyon,Le Havre,1,0,complete
+267206,2025-12-14T14:30:00.000Z,bundesliga,Freiburg,Dortmund,1,1,complete
+267271,2025-12-14T11:30:00.000Z,seriea,Milan,Sassuolo,2,2,complete
+267257,2025-12-14T13:00:00.000Z,laliga,Sevilla,Real Oviedo,4,0,complete
+267191,2025-12-14T14:00:00.000Z,epl,West Ham,Aston Villa,2,3,complete
+267192,2025-12-14T14:00:00.000Z,epl,Sunderland,Newcastle,1,0,complete
+267193,2025-12-14T14:00:00.000Z,epl,Nottingham,Tottenham,3,0,complete
+267196,2025-12-14T14:00:00.000Z,epl,Crystal Palace,Man City,0,3,complete
+267267,2025-12-14T14:00:00.000Z,seriea,Udinese,Napoli,1,0,complete
+267274,2025-12-14T14:00:00.000Z,seriea,Fiorentina,Hellas,1,2,complete
+267281,2025-12-14T14:00:00.000Z,ligue1,Lyon,Le Havre,1,0,complete
+267206,2025-12-14T14:30:00.000Z,bundesliga,Freiburg,Dortmund,1,1,complete
+267271,2025-12-14T11:30:00.000Z,seriea,Milan,Sassuolo,2,2,complete
+267257,2025-12-14T13:00:00.000Z,laliga,Sevilla,Real Oviedo,4,0,complete
+267191,2025-12-14T14:00:00.000Z,epl,West Ham,Aston Villa,2,3,complete
+267192,2025-12-14T14:00:00.000Z,epl,Sunderland,Newcastle,1,0,complete
+267193,2025-12-14T14:00:00.000Z,epl,Nottingham,Tottenham,3,0,complete
+267196,2025-12-14T14:00:00.000Z,epl,Crystal Palace,Man City,0,3,complete
+267267,2025-12-14T14:00:00.000Z,seriea,Udinese,Napoli,1,0,complete
+267274,2025-12-14T14:00:00.000Z,seriea,Fiorentina,Hellas,1,2,complete
+267281,2025-12-14T14:00:00.000Z,ligue1,Lyon,Le Havre,1,0,complete
+267206,2025-12-14T14:30:00.000Z,bundesliga,Freiburg,Dortmund,1,1,complete
+267271,2025-12-14T11:30:00.000Z,seriea,Milan,Sassuolo,2,2,complete
+267257,2025-12-14T13:00:00.000Z,laliga,Sevilla,Real Oviedo,4,0,complete
+267191,2025-12-14T14:00:00.000Z,epl,West Ham,Aston Villa,2,3,complete
+267192,2025-12-14T14:00:00.000Z,epl,Sunderland,Newcastle,1,0,complete
+267193,2025-12-14T14:00:00.000Z,epl,Nottingham,Tottenham,3,0,complete
+267196,2025-12-14T14:00:00.000Z,epl,Crystal Palace,Man City,0,3,complete
+267267,2025-12-14T14:00:00.000Z,seriea,Udinese,Napoli,1,0,complete
+267274,2025-12-14T14:00:00.000Z,seriea,Fiorentina,Hellas,1,2,complete
+267281,2025-12-14T14:00:00.000Z,ligue1,Lyon,Le Havre,1,0,complete
+267206,2025-12-14T14:30:00.000Z,bundesliga,Freiburg,Dortmund,1,1,complete
