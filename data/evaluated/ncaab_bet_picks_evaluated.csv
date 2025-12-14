@@ -571,3 +571,6 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 6.0,gemini,2025-12-13,274966,Maryland vs Michigan,83,101,Michigan -19.0,-110.0,2.0,loss,-2.0
 7.0,gemini,2025-12-13,264580,Saint Louis vs San Francisco,85,75,Saint Louis -12.5,-108.0,2.0,loss,-2.0
 8.0,gemini,2025-12-13,265284,Kentucky vs Indiana,72,60,Indiana +3.5,-110.0,1.0,loss,-1.0
+2.0,claude,2025-12-13,264572,Ohio State vs West Virginia,89,88,Ohio State -3.5,-105.0,2.0,loss,-2.0
+13.0,claude,2025-12-13,264572,Ohio State vs West Virginia,89,88,Over 144.5,-110.0,1.0,win,0.9090909090909092
+3.0,gemini,2025-12-13,264572,Ohio State vs West Virginia,89,88,Over 144.5,-110.0,3.0,win,2.727272727272727

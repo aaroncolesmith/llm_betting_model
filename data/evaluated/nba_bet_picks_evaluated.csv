@@ -875,3 +875,10 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 3,gemini,2025-12-13,283262,Magic vs Knicks,120.0,132.0,Under 225.5,-111,1,loss,-1.0
 2,chatgpt,2025-12-13,283262,Magic vs Knicks,120.0,132.0,Magic +4.5,-102,2,loss,-2.0
 4,chatgpt,2025-12-13,283262,Magic vs Knicks,120.0,132.0,Under 225.5,-112,1,loss,-1.0
+1,claude,2025-12-13,283328,Thunder vs Spurs,109.0,111.0,Thunder -11.5,-108,3,loss,-3.0
+3,claude,2025-12-13,283328,Thunder vs Spurs,109.0,111.0,Under 232.5,-110,2,win,1.818181818181818
+1,perplexity,2025-12-13,283328,Thunder vs Spurs,109.0,111.0,Thunder -11.5,-108,3,loss,-3.0
+3,perplexity,2025-12-13,283328,Thunder vs Spurs,109.0,111.0,Over 232.5,-110,2,loss,-2.0
+1,gemini,2025-12-13,283328,Thunder vs Spurs,109.0,111.0,Spurs +11.5,-112,3,win,2.678571428571429
+1,chatgpt,2025-12-13,283328,Thunder vs Spurs,109.0,111.0,Thunder -11.5,-108,3,loss,-3.0
+3,chatgpt,2025-12-13,283328,Thunder vs Spurs,109.0,111.0,Over 232.5,-110,1,loss,-1.0
