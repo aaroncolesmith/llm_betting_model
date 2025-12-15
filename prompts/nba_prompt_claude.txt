@@ -1,0 +1,667 @@
+
+You are my expert NBA betting adviser.
+I will provide you with two datasets:
+
+Dataset 1: Betting lines for upcoming games (money line, over/under, spread with first/avg/last values)
+Dataset 2: Historical betting results to analyze what's working and what's not
+
+Your goal: Maximize ROI by learning from historical patterns.
+
+CRITICAL VALIDATION REQUIREMENTS
+1. HOME vs AWAY TEAM IDENTIFICATION - READ CAREFULLY
+The dataset has two columns: home_team and away_team
+MATCH NAMING CONVENTION (MANDATORY):
+
+ALWAYS use format: "home_team vs away_team"
+Example: If home_team=Thunder, away_team=Wizards → Write "Thunder vs Wizards"
+The home team is ALWAYS listed first, away team second
+This makes it crystal clear which team is playing at home
+
+BEFORE MAKING ANY PICK:
+
+Identify from the dataset: Which team is in the home_team column?
+Identify from the dataset: Which team is in the away_team column?
+Write the match as "home_team vs away_team"
+Determine which team you want to pick
+Set the binary indicator based on whether that team is home or away
+
+BINARY INDICATOR RULES:
+
+If you pick the HOME team's spread → bet_home_spread=1, bet_away_spread=0
+If you pick the AWAY team's spread → bet_away_spread=1, bet_home_spread=0
+If you pick the HOME team's ML → bet_home_ml=1, bet_away_ml=0
+If you pick the AWAY team's ML → bet_away_ml=1, bet_home_ml=0
+
+EXAMPLE:
+Dataset shows: home_team=Thunder, away_team=Wizards
+Match name: "Thunder vs Wizards"
+If picking Thunder -15.5: bet_home_spread=1 (Thunder is home)
+If picking Wizards +15.5: bet_away_spread=1 (Wizards is away)
+
+---
+### **2. ODDS AND LINES VALIDATION - NO EXCEPTIONS**
+
+**Use ONLY the "_last" column values:**
+- `home_money_line_last` for home team ML
+- `away_money_line_last` for away team ML
+- `home_spread_last` and `home_spread_odds_last` for home team spread
+- `away_spread_last` and `away_spread_odds_last` for away team spread
+- `total_score_last`, `over_odds_last`, `under_odds_last` for totals
+
+**NEVER:**
+- Invent odds
+- Approximate odds
+- Use "avg" or "first" values (only use for analysis of line movement)
+- Make a pick if the line is not in the dataset
+
+---
+
+### **3. SPREAD DIRECTION RULES - READ CAREFULLY**
+
+**Understanding Spread Signs:**
+- **NEGATIVE spread (-X.X)** = That team is FAVORED by X.X points
+- **POSITIVE spread (+X.X)** = That team is UNDERDOG getting X.X points
+
+**Examples:**
+- `home_spread_last = -5.5` means: Home team FAVORED by 5.5, Away team gets +5.5
+- `home_spread_last = +3.5` means: Home team UNDERDOG getting +3.5, Away team favored by -3.5
+- `away_spread_last = -7.0` means: Away team FAVORED by 7.0, Home team gets +7.0
+- `away_spread_last = +4.0` means: Away team UNDERDOG getting +4.0, Home team favored by -4.0
+
+**Critical Understanding:**
+- If `home_spread_last` is negative → home team is favorite
+- If `home_spread_last` is positive → home team is underdog
+- If `away_spread_last` is negative → away team is favorite
+- If `away_spread_last` is positive → away team is underdog
+
+---
+
+### **4. MANDATORY DOUBLE-CHECK PROCESS**
+
+**Before finalizing EACH pick, complete these steps:**
+
+□ **Step 1**: Look at dataset - which team is `home_team`, which is `away_team`?
+□ **Step 2**: Write match as "home_team vs away_team"
+□ **Step 3**: Decide which team I want to pick
+□ **Step 4**: Is that team home or away?
+□ **Step 5**: Look up the EXACT line for that team in the "_last" columns
+□ **Step 6**: Copy the EXACT odds from the corresponding "_odds_last" column
+□ **Step 7**: Verify the sign (+ or -) matches favorite/underdog position
+□ **Step 8**: Set binary indicator: bet_home_X=1 if home team, bet_away_X=1 if away team
+□ **Step 9**: Cross-check one final time before writing
+
+**If you are uncertain about ANY detail, SKIP THAT PICK rather than guess.**
+
+---
+
+### **5. PICK TYPES AND BINARY INDICATORS**
+
+You can make six types of picks:
+
+| Pick Type | Columns to Use | Binary Indicators |
+|-----------|----------------|-------------------|
+| Home ML | `home_money_line_last` | `bet_home_ml=1, bet_away_ml=0` |
+| Away ML | `away_money_line_last` | `bet_away_ml=1, bet_home_ml=0` |
+| Home Spread | `home_spread_last`, `home_spread_odds_last` | `bet_home_spread=1, bet_away_spread=0` |
+| Away Spread | `away_spread_last`, `away_spread_odds_last` | `bet_away_spread=1, bet_home_spread=0` |
+| Over | `total_score_last`, `over_odds_last` | `bet_over=1, bet_under=0` |
+| Under | `total_score_last`, `under_odds_last` | `bet_under=1, bet_over=0` |
+
+**All other binary indicators must be set to 0.**
+
+---
+
+### **6. CONFIDENCE & UNITS**
+
+Please aim to evaluate each game and pick a winner and an over / under as well as a confidence level for each pick.
+
+- Rank all picks by confidence (most confident = rank 1)
+- Provide **confidence %** as integer between 0-100
+- Assign units based on confidence:
+- **3 units**: Highest confidence (90%+)
+- **2 units**: Medium confidence (80-89%)
+- **1 unit**: Lower confidence (70-79%)
+
+---
+
+### **7. PREDICTED SCORE FORMAT**
+
+- Format: "HomeScore-AwayScore" (e.g., "115-112")
+- Home team score ALWAYS listed first
+- Away team score ALWAYS listed second
+- Double-check the order matches your match naming
+
+---
+
+## **OUTPUT FORMAT**
+
+### **Part 1: Human-Readable Table**
+
+Create a table with these columns:
+- Rank
+- Match (format: "home_team vs away_team")
+- Pick (e.g., "Thunder -15.5" or "Wizards +15.5")
+- Odds
+- Units
+- Confidence %
+- Reason
+- Predicted Score (format: "HomeScore-AwayScore"); BE SURE THAT THE SCORE MATCHES THE ORDER, HOME TEAM SCORE FIRST AWAY TEAM SCORE SECOND!
+
+### **Part 2: CSV Block (Copy/Paste Ready)**
+
+Exact structure with this header row:
+```
+rank,game_id,start_time,match,pick,odds,units,confidence_pct,reason,predicted_score,bet_home_spread,bet_home_ml,bet_away_spread,bet_away_ml,bet_over,bet_under,home_money_line,away_money_line,tie_money_line,total_score,over_odds,under_odds,home_spread,home_spread_odds,away_spread,away_spread_odds,timestamp
+```
+**CSV Requirements:**
+- `match`: Must use "home_team vs away_team" format
+- `home_team`: home team
+- `away_team`: away team
+- `pick`: State team name and line (e.g., "Thunder -15.5")
+- `predicted_score`: Format as "HomeScore-AwayScore"
+- `bet_home_spread`, `bet_home_ml`, `bet_away_spread`, `bet_away_ml`, `bet_over`, `bet_under`: Must be 0 or 1
+- `home_money_line`: Value from `home_money_line_last`
+- `away_money_line`: Value from `away_money_line_last`
+- `tie_money_line`: Always "N/A"
+- `total_score`: Value from `total_score_last`
+- `over_odds`: Value from `over_odds_last`
+- `under_odds`: Value from `under_odds_last`
+- `home_spread`: Value from `home_spread_last`
+- `home_spread_odds`: Value from `home_spread_odds_last`
+- `away_spread`: Value from `away_spread_last`
+- `away_spread_odds`: Value from `away_spread_odds_last`
+- `timestamp`: Current analysis time in ISO 8601 format
+  - **CRITICAL FORMAT REQUIREMENT**: MUST use "T" separator (NOT a space) between date and time
+  - **REQUIRED FORMAT**: "YYYY-MM-DDTHH:MM:SS.000Z" (with the T and .000Z)
+  - **CORRECT EXAMPLES**: "2025-12-08T18:30:00.000Z", "2025-12-08T18:30:00Z"
+  - **WRONG EXAMPLES**: "2025-12-08 18:30:00+00:00" (space instead of T), "2025-12-08 18:30:00.000Z" (space instead of T)
+  - Use ONLY standard ASCII characters - NO invisible Unicode characters
+  - The column name must be exactly: timestamp (no extra characters)
+
+---
+
+## **FINAL VERIFICATION CHECKLIST**
+
+Before submitting your picks, verify:
+
+□ Every match uses "home_team vs away_team" format
+□ Every pick references the correct team (home or away)
+□ Every odds value is copied exactly from "_last" column
+□ Every binary indicator correctly reflects whether the picked team is home or away
+□ Every spread sign (+ or -) matches the favorite/underdog position
+□ Every predicted score is in "HomeScore-AwayScore" format
+□ All CSV columns match the exact structure required
+□ Ensure the reason column in the csv is enclosed in double quotes
+□ The timestamp column name has NO invisible Unicode characters (must be exactly "timestamp")
+□ The timestamp value is in valid ISO 8601 format with only standard ASCII characters
+□ The predicted score matches the order of the match, home team score first, away team score second
+
+---
+
+## **EXAMPLE OF CORRECT PICK**
+
+**Dataset shows:**
+- game_id: 261702
+- home_team: Thunder
+- away_team: Wizards
+- home_spread_last: -15.5
+- home_spread_odds_last: -110
+
+**Correct Pick:**
+- Match: "Thunder vs Wizards"
+- Pick: "Thunder -15.5"
+- Odds: -110
+- Binary: bet_home_spread=1, bet_away_spread=0, all others=0
+- Predicted Score: "126-108" (Thunder score first)
+
+**CSV Line:**
+```
+1,261702,2025-10-31T00:00:00.000Z,Thunder vs Wizards,Thunder -15.5,-110,3,96,"Reason here",126-108,1,0,0,0,0,0,-1200,750,N/A,231.5,-110,-109,-15.5,-110,15.5,-110,2025-10-30T18:30:00Z
+
+Remember: Accuracy is more important than quantity. Skip any pick where you have uncertainty.
+
+
+Here are the upcoming games and their odds:
+game_id,home_team,away_team,start_time,num_bets_first,num_bets_avg,num_bets_last,home_money_line_first,home_money_line_avg,home_money_line_last,home_ml_ticket_pct_first,home_ml_ticket_pct_avg,home_ml_ticket_pct_last,home_ml_money_pct_first,home_ml_money_pct_avg,home_ml_money_pct_last,away_money_line_first,away_money_line_avg,away_money_line_last,away_ml_ticket_pct_first,away_ml_ticket_pct_avg,away_ml_ticket_pct_last,away_ml_money_pct_first,away_ml_money_pct_avg,away_ml_money_pct_last,total_score_first,total_score_avg,total_score_last,over_odds_first,over_odds_avg,over_odds_last,under_odds_first,under_odds_avg,under_odds_last,over_ticket_pct_first,over_ticket_pct_avg,over_ticket_pct_last,over_money_pct_first,over_money_pct_avg,over_money_pct_last,under_ticket_pct_first,under_ticket_pct_avg,under_ticket_pct_last,under_money_pct_first,under_money_pct_avg,under_money_pct_last,home_spread_first,home_spread_avg,home_spread_last,home_spread_odds_first,home_spread_odds_avg,home_spread_odds_last,home_spread_ticket_pct_first,home_spread_ticket_pct_avg,home_spread_ticket_pct_last,home_spread_money_pct_first,home_spread_money_pct_avg,home_spread_money_pct_last,away_spread_first,away_spread_avg,away_spread_last,away_spread_odds_first,away_spread_odds_avg,away_spread_odds_last,away_spread_ticket_pct_first,away_spread_ticket_pct_avg,away_spread_ticket_pct_last,away_spread_money_pct_first,away_spread_money_pct_avg,away_spread_money_pct_last,home_team_spread,away_team_spread,start_time_pt
+282907,Celtics,Pistons,2025-12-16 00:00:00+00:00,4321.0,2666.6923076923076,8638.0,-125,-123.6923076923077,-123,64,65.61538461538461,66,44,49.84615384615385,48,106,88.84615384615384,103,36,34.38461538461539,34,56,50.15384615384615,52,230.5,229.84615384615384,229.5,-105,-109.0,-110,-112,-111.07692307692308,-110,74,85.07692307692308,76,77,87.0,78,26,14.923076923076923,24,23,13.0,22,-2.0,-1.7307692307692308,-1.5,-108,-110.07692307692308,-110,42,39.92307692307692,42,41,42.84615384615385,38,2.0,1.7307692307692308,1.5,-112,-110.23076923076923,-110,58,52.38461538461539,58,59,49.46153846153846,62,Celtics -1.5,Pistons +1.5,2025-12-15 16:00:00-08:00
+283295,Heat,Raptors,2025-12-16 00:30:00+00:00,3428.0,2461.3,6588.0,-230,-229.0,-225,0,8.2,82,0,8.5,85,190,188.7,185,0,1.8,18,0,1.5,15,235.5,236.6,235.5,-109,-110.9,-108,-110,-110.6,-112,0,6.7,67,0,6.5,65,0,3.3,33,0,3.5,35,-5.5,-6.0,-5.5,-115,-108.9,-112,0,5.6,56,0,6.2,62,5.5,6.0,5.5,-105,-111.1,-108,0,4.4,44,0,3.8,38,Heat -5.5,Raptors +5.5,2025-12-15 16:30:00-08:00
+
+
+Here is the historical dataset of your betting advice and results:
+rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,bet_payout
+1,claude,2025-10-22,261648,Grizzlies vs Pelicans,128.0,122.0,Grizzlies -3.5,-115,3,win,2.608695652173913
+2,claude,2025-10-22,261644,Celtics vs 76ers,116.0,117.0,Celtics -5.0,-112,3,loss,-3.0
+3,claude,2025-10-22,261647,Bucks vs Wizards,133.0,120.0,Bucks -10.5,-107,3,win,2.803738317757009
+4,claude,2025-10-22,261642,Magic vs Heat,125.0,121.0,Magic -8.5,-106,3,loss,-3.0
+5,claude,2025-10-22,261651,Trail Blazers vs Timberwolves,114.0,118.0,Timberwolves -4.5,-110,3,loss,-3.0
+6,claude,2025-10-22,261650,Suns vs Kings,120.0,116.0,Suns -3.5,-115,3,win,2.608695652173913
+7,claude,2025-10-22,261645,Hawks vs Raptors,118.0,138.0,Hawks -5.5,-110,3,loss,-3.0
+8,claude,2025-10-22,261649,Jazz vs Clippers,129.0,108.0,Clippers -9.5,-110,2,loss,-2.0
+9,claude,2025-10-22,261643,Hornets vs Nets,136.0,117.0,Hornets -5.5,-108,2,win,1.851851851851852
+10,claude,2025-10-22,261646,Bulls vs Pistons,115.0,111.0,Pistons -3.5,-107,2,loss,-2.0
+1,claude,2025-10-22,261650,Suns vs Kings,120.0,116.0,Kings ML,150,3,loss,-3.0
+2,claude,2025-10-22,261646,Bulls vs Pistons,115.0,111.0,Bulls ML,122,3,win,3.66
+3,claude,2025-10-22,261644,Celtics vs 76ers,116.0,117.0,Celtics -4.5,-112,3,loss,-3.0
+4,claude,2025-10-22,261647,Bucks vs Wizards,133.0,120.0,Bucks -10.0,-114,3,win,2.631578947368421
+5,claude,2025-10-22,261648,Grizzlies vs Pelicans,128.0,122.0,Pelicans +4.5,-113,3,loss,-3.0
+6,claude,2025-10-22,261651,Trail Blazers vs Timberwolves,114.0,118.0,Timberwolves -4.5,-110,3,loss,-3.0
+7,claude,2025-10-22,261544,Mavericks vs Spurs,92.0,125.0,Spurs ML,125,3,win,3.75
+8,claude,2025-10-22,261643,Hornets vs Nets,136.0,117.0,Hornets -5.5,-106,2,win,1.8867924528301887
+9,claude,2025-10-22,261645,Hawks vs Raptors,118.0,138.0,Hawks -5.5,-111,2,loss,-2.0
+10,claude,2025-10-22,261543,Knicks vs Cavaliers,119.0,111.0,Cavaliers ML,120,2,loss,-2.0
+1,claude,2025-10-22,261648,Grizzlies vs Pelicans,128.0,122.0,Pelicans ML,154,3,loss,-3.0
+2,claude,2025-10-22,261647,Bucks vs Wizards,133.0,120.0,Bucks -10.5,-107,3,win,2.803738317757009
+3,claude,2025-10-22,261649,Jazz vs Clippers,129.0,108.0,Clippers -10.5,-109,3,loss,-3.0
+4,claude,2025-10-22,261651,Trail Blazers vs Timberwolves,114.0,118.0,Timberwolves -4.5,-107,3,loss,-3.0
+5,claude,2025-10-22,261543,Knicks vs Cavaliers,119.0,111.0,Cavaliers ML,120,3,loss,-3.0
+6,claude,2025-10-22,261544,Mavericks vs Spurs,92.0,125.0,Spurs ML,125,3,win,3.75
+7,claude,2025-10-22,261646,Bulls vs Pistons,115.0,111.0,Pistons -3.5,-103,2,loss,-2.0
+8,claude,2025-10-22,261643,Hornets vs Nets,136.0,117.0,Hornets -4.5,-110,2,win,1.818181818181818
+9,claude,2025-10-22,261645,Hawks vs Raptors,118.0,138.0,Over 236.5,-102,2,win,1.96078431372549
+10,claude,2025-10-22,261642,Magic vs Heat,125.0,121.0,Over 214.5,-116,2,win,1.7241379310344829
+1,claude,2025-10-21,261541,Thunder vs Rockets,125.0,124.0,Rockets +6.5,-110,3,win,2.727272727272727
+2,claude,2025-10-22,261646,Bulls vs Pistons,115.0,111.0,Pistons -4.5,-105,3,loss,-3.0
+3,claude,2025-10-22,261543,Knicks vs Cavaliers,119.0,111.0,Cavaliers ML,-118,3,loss,-3.0
+5,claude,2025-10-22,261642,Magic vs Heat,125.0,121.0,Magic -8.5,-105,3,loss,-3.0
+6,claude,2025-10-22,261645,Hawks vs Raptors,118.0,138.0,Hawks -5.5,-110,3,loss,-3.0
+7,claude,2025-10-22,261648,Grizzlies vs Pelicans,128.0,122.0,Grizzlies ML,-190,2,win,1.0526315789473684
+8,claude,2025-10-22,261649,Jazz vs Clippers,129.0,108.0,Clippers -10.5,-110,2,loss,-2.0
+10,claude,2025-10-21,261542,Lakers vs Warriors,109.0,119.0,Warriors ML,-145,2,win,1.3793103448275863
+1,claude,2025-10-22,261543,Knicks vs Cavaliers,119.0,111.0,Cavaliers ML,-118,3,loss,-3.0
+3,claude,2025-10-22,261651,Trail Blazers vs Timberwolves,114.0,118.0,Timberwolves -4.5,-110,3,loss,-3.0
+5,claude,2025-10-22,261645,Hawks vs Raptors,118.0,138.0,Hawks -5.5,-110,3,loss,-3.0
+6,claude,2025-10-22,261648,Grizzlies vs Pelicans,128.0,122.0,Pelicans +4.5,-105,2,loss,-2.0
+7,claude,2025-10-22,261649,Jazz vs Clippers,129.0,108.0,Clippers -10.5,-105,2,loss,-2.0
+9,claude,2025-10-21,261542,Lakers vs Warriors,109.0,119.0,Lakers +2.5,-112,2,loss,-2.0
+10,claude,2025-10-22,261644,Celtics vs 76ers,116.0,117.0,Over 227.5,-115,2,win,1.7391304347826086
+1,claude,2025-10-22,261647,Bucks vs Wizards,133.0,120.0,Bucks -9.5,-113,3,win,2.6548672566371683
+2,claude,2025-10-22,261646,Bulls vs Pistons,115.0,111.0,Pistons -3.5,-115,3,loss,-3.0
+4,claude,2025-10-22,261644,Celtics vs 76ers,116.0,117.0,Celtics -2.5,-110,3,loss,-3.0
+5,claude,2025-10-21,261541,Thunder vs Rockets,125.0,124.0,Rockets +6.5,-105,2,win,1.9047619047619049
+6,claude,2025-10-21,261542,Lakers vs Warriors,109.0,119.0,Lakers +3.0,-110,2,loss,-2.0
+7,claude,2025-10-22,261650,Suns vs Kings,120.0,116.0,Kings +4.5,-115,2,loss,-2.0
+9,claude,2025-10-22,261648,Grizzlies vs Pelicans,128.0,122.0,Grizzlies -4.5,-117,2,win,1.709401709401709
+10,claude,2025-10-22,261544,Mavericks vs Spurs,92.0,125.0,Spurs +2.5,-110,1,win,0.9090909090909092
+1,claude,2025-10-24,261656,Rockets vs Pistons,111.0,115.0,Rockets -5.5,-115,3,loss,-3.0
+2,claude,2025-10-24,261658,Mavericks vs Wizards,107.0,117.0,Mavericks -11.5,-110,3,loss,-3.0
+3,claude,2025-10-24,261655,Grizzlies vs Heat,114.0,146.0,Grizzlies -4.5,-110,3,loss,-3.0
+4,claude,2025-10-23,261545,Pacers vs Thunder,135.0,141.0,Thunder -7.5,-105,3,loss,-3.0
+5,claude,2025-10-24,261654,Nets vs Cavaliers,124.0,131.0,Nets +12.5,-110,3,win,2.727272727272727
+6,claude,2025-10-23,261546,Warriors vs Nuggets,137.0,131.0,Nuggets +1.5,-108,2,loss,-2.0
+7,claude,2025-10-24,261657,Pelicans vs Spurs,116.0,120.0,Spurs ML,-165,2,win,1.2121212121212122
+8,claude,2025-10-24,261547,Knicks vs Celtics,105.0,95.0,Over 228.5,-110,2,loss,-2.0
+9,claude,2025-10-24,261652,Magic vs Hawks,107.0,111.0,Magic -5.5,-110,2,loss,-2.0
+10,claude,2025-10-24,261653,Raptors vs Bucks,116.0,122.0,Bucks ML,110,2,win,2.2
+1,claude,2025-10-24,261656,Rockets vs Pistons,111.0,115.0,Rockets -6.5,-107,3,loss,-3.0
+2,claude,2025-10-24,261658,Mavericks vs Wizards,107.0,117.0,Mavericks -9.5,-115,3,loss,-3.0
+3,claude,2025-10-24,261655,Grizzlies vs Heat,114.0,146.0,Grizzlies -2.5,-110,3,loss,-3.0
+4,claude,2025-10-24,261657,Pelicans vs Spurs,116.0,120.0,Spurs ML,-185,3,win,1.6216216216216215
+5,claude,2025-10-24,261659,Trail Blazers vs Warriors,139.0,119.0,Warriors -2.5,-107,3,loss,-3.0
+6,claude,2025-10-24,261547,Knicks vs Celtics,105.0,95.0,Knicks +3.5,-114,2,win,1.7543859649122806
+7,claude,2025-10-24,261652,Magic vs Hawks,107.0,111.0,Over 236.0,-111,2,loss,-2.0
+8,claude,2025-10-24,261653,Raptors vs Bucks,116.0,122.0,Bucks ML,102,2,win,2.04
+9,claude,2025-10-24,261548,Lakers vs Timberwolves,128.0,110.0,Lakers +1.5,-114,2,win,1.7543859649122806
+10,claude,2025-10-24,261654,Nets vs Cavaliers,124.0,131.0,Nets +11.5,-110,1,win,0.9090909090909092
+1,claude,2025-10-26,261670,Heat vs Knicks,115.0,107.0,Knicks ML,-144,3,loss,-3.0
+2,claude,2025-10-26,261675,Kings vs Lakers,120.0,127.0,Lakers ML,-148,3,win,2.027027027027027
+3,claude,2025-10-26,261668,Pistons vs Celtics,119.0,113.0,Celtics ML,134,3,loss,-3.0
+4,claude,2025-10-26,261671,Cavaliers vs Bucks,118.0,113.0,Bucks +6.5,-110,3,win,2.727272727272727
+5,claude,2025-10-26,261673,Mavericks vs Raptors,139.0,129.0,Raptors ML,-105,2,loss,-2.0
+6,claude,2025-10-26,261674,Clippers vs Trail Blazers,114.0,107.0,Blazers +8.5,-115,2,win,1.7391304347826086
+7,claude,2025-10-26,261669,Wizards vs Hornets,113.0,139.0,Over 238.5,-110,2,win,1.818181818181818
+8,claude,2025-10-26,261672,Timberwolves vs Pacers,114.0,110.0,Pacers +12.5,-111,2,win,1.8018018018018016
+9,claude,2025-10-26,261667,Spurs vs Nets,118.0,107.0,Nets +11.5,-112,1,loss,-1.0
+10,claude,2025-10-27,261549,Pistons vs Cavaliers,95.0,116.0,Cavaliers ML,-122,1,win,0.819672131147541
+1,claude,2025-10-26,261675,Kings vs Lakers,120.0,127.0,Lakers ML,118,3,win,3.54
+2,claude,2025-10-26,261670,Heat vs Knicks,115.0,107.0,Knicks ML,-148,3,loss,-3.0
+3,claude,2025-10-26,261671,Cavaliers vs Bucks,118.0,113.0,Bucks +6.5,-105,3,win,2.8571428571428568
+4,claude,2025-10-26,261673,Mavericks vs Raptors,139.0,129.0,Raptors ML,-115,3,loss,-3.0
+5,claude,2025-10-26,261674,Clippers vs Trail Blazers,114.0,107.0,Blazers +8,-109,2,win,1.834862385321101
+6,claude,2025-10-26,261672,Timberwolves vs Pacers,114.0,110.0,Pacers +12.5,-110,2,win,1.818181818181818
+7,claude,2025-10-26,261669,Wizards vs Hornets,113.0,139.0,Hornets ML,105,2,win,2.1
+8,claude,2025-10-27,261549,Pistons vs Cavaliers,95.0,116.0,Under 228.5,-110,1,win,0.9090909090909092
+9,claude,2025-10-27,261550,Timberwolves vs Nuggets,114.0,127.0,Nuggets ML,-115,1,win,0.8695652173913043
+10,claude,2025-10-26,261669,Wizards vs Hornets,113.0,139.0,Over 239.0,-109,1,win,0.9174311926605504
+1,claude,2025-10-27,261550,Timberwolves vs Nuggets,114.0,127.0,Nuggets ML,-250,3,win,1.2000000000000002
+2,claude,2025-10-27,261679,Pelicans vs Celtics,90.0,122.0,Celtics ML,105,3,win,3.1500000000000004
+3,claude,2025-10-27,261681,Mavericks vs Thunder,94.0,101.0,Mavericks +8.5,-115,3,win,2.608695652173913
+4,claude,2025-10-27,261683,Warriors vs Grizzlies,131.0,118.0,Grizzlies +8.5,-111,3,loss,-3.0
+5,claude,2025-10-27,261680,Spurs vs Raptors,121.0,103.0,Raptors +4.5,-105,2,loss,-2.0
+6,claude,2025-10-27,261682,Jazz vs Suns,138.0,134.0,Suns ML,-102,2,loss,-2.0
+7,claude,2025-10-27,261676,76ers vs Magic,136.0,124.0,Magic ML,-220,2,loss,-2.0
+8,claude,2025-10-27,261678,Rockets vs Nets,137.0,109.0,Nets +15.5,-105,2,loss,-2.0
+9,claude,2025-10-27,261677,Bulls vs Hawks,128.0,123.0,Hawks ML,-140,2,loss,-2.0
+1,claude,2025-10-28,261688,Thunder vs Kings,107.0,101.0,Kings +10.5,-112,3,win,2.678571428571429
+2,claude,2025-10-28,261687,Bucks vs Knicks,121.0,111.0,Knicks ML,-120,3,loss,-3.0
+3,claude,2025-10-28,261685,Wizards vs 76ers,134.0,139.0,76ers ML,-180,3,win,1.6666666666666667
+4,claude,2025-10-28,261686,Heat vs Hornets,144.0,117.0,Hornets +6.5,-115,3,loss,-3.0
+5,claude,2025-10-28,261689,Warriors vs Clippers,98.0,79.0,Warriors +2.5,-115,3,win,2.608695652173913
+6,claude,2025-10-29,261690,Celtics vs Cavaliers,125.0,105.0,Cavaliers +4.5,-112,2,loss,-2.0
+7,claude,2025-10-29,261692,Raptors vs Rockets,121.0,139.0,Raptors +5,-110,2,loss,-2.0
+8,claude,2025-10-29,261693,Nets vs Hawks,112.0,117.0,Hawks ML,-345,2,win,0.5797101449275363
+9,claude,2025-10-29,261691,Pistons vs Magic,135.0,116.0,Magic ML,-108,2,loss,-2.0
+10,claude,2025-10-28,261686,Heat vs Hornets,144.0,117.0,Over 241.5,-110,1,win,0.9090909090909092
+1,claude,2025-10-29,261693,Nets vs Hawks,112.0,117.0,Hawks -7.5,-110,3,loss,-3.0
+2,claude,2025-10-29,261690,Celtics vs Cavaliers,125.0,105.0,Celtics +4.5,-109,3,win,2.752293577981652
+3,claude,2025-10-29,261692,Raptors vs Rockets,121.0,139.0,Rockets -5.0,-110,3,win,2.727272727272727
+4,claude,2025-10-29,261694,Bulls vs Kings,126.0,113.0,Bulls -5.0,-108,2,win,1.851851851851852
+5,claude,2025-10-29,261695,Mavericks vs Pacers,107.0,105.0,Mavericks -6.5,-105,2,loss,-2.0
+1,claude,2025-10-30,261702,Thunder vs Wizards,127.0,108.0,Thunder -15.5,-110,3,win,2.727272727272727
+2,claude,2025-10-30,261703,Spurs vs Heat,107.0,101.0,Spurs -6.5,-105,3,push,0.0
+3,claude,2025-10-30,261701,Bucks vs Warriors,120.0,110.0,Warriors -3.5,-105,3,loss,-3.0
+4,claude,2025-10-31,261555,Grizzlies vs Lakers,112.0,117.0,Lakers +4.5,-108,2,win,1.851851851851852
+5,claude,2025-10-31,261554,Bulls vs Knicks,135.0,125.0,Knicks -3.5,-110,2,loss,-2.0
+1,claude,2025-10-31,261555,Grizzlies vs Lakers,112.0,117.0,Lakers +1.5,-105,3,win,2.8571428571428568
+2,claude,2025-10-31,261552,Pacers vs Hawks,108.0,128.0,Pacers -2.5,-105,3,loss,-3.0
+3,claude,2025-10-31,261554,Bulls vs Knicks,135.0,125.0,Knicks -5.5,-105,3,loss,-3.0
+4,claude,2025-10-31,261557,Trail Blazers vs Nuggets,109.0,107.0,Nuggets -4.5,-115,2,loss,-2.0
+5,claude,2025-10-31,261556,Suns vs Jazz,118.0,96.0,Suns -2.5,-115,2,win,1.7391304347826086
+6,claude,2025-10-31,261551,76ers vs Celtics,108.0,109.0,Celtics -1.0,-110,2,push,0.0
+7,claude,2025-10-31,261558,Clippers vs Pelicans,126.0,124.0,Clippers -10.5,-115,1,loss,-1.0
+1,claude,2025-11-03,261720,Knicks vs Wizards,119.0,102.0,Knicks -12.5,-110,3,win,2.727272727272727
+2,claude,2025-11-03,261724,Nuggets vs Kings,130.0,124.0,Nuggets -12.5,-115,3,loss,-3.0
+3,claude,2025-11-03,261722,Rockets vs Mavericks,110.0,102.0,Mavericks +12.5,-105,3,win,2.8571428571428568
+4,claude,2025-11-03,261725,Trail Blazers vs Lakers,115.0,123.0,Lakers +3.5,-115,3,win,2.608695652173913
+5,claude,2025-11-03,261721,Celtics vs Jazz,103.0,105.0,Celtics -10.5,-115,2,loss,-2.0
+6,claude,2025-11-03,261719,Pacers vs Bucks,115.0,117.0,Pacers +6.5,-115,2,win,1.7391304347826086
+7,claude,2025-11-03,281783,Clippers vs Heat,119.0,120.0,Heat +8.5,-115,2,win,1.7391304347826086
+8,claude,2025-11-03,261723,Grizzlies vs Pistons,106.0,114.0,Pistons -4.5,-105,2,win,1.9047619047619049
+9,claude,2025-11-03,261718,Nets vs Timberwolves,109.0,125.0,Over 226.5,-115,2,win,1.7391304347826086
+10,claude,2025-11-03,261719,Pacers vs Bucks,115.0,117.0,Over 235.5,-108,1,loss,-1.0
+1,claude,2025-11-03,261722,Rockets vs Mavericks,110.0,102.0,Mavericks +12.5,-115,3,win,2.608695652173913
+2,claude,2025-11-03,261724,Nuggets vs Kings,130.0,124.0,Nuggets -11.5,-114,3,loss,-3.0
+3,claude,2025-11-03,261725,Trail Blazers vs Lakers,115.0,123.0,Lakers +8.5,-105,3,win,2.8571428571428568
+4,claude,2025-11-03,261723,Grizzlies vs Pistons,106.0,114.0,Grizzlies +3.5,-115,3,loss,-3.0
+5,claude,2025-11-03,281783,Clippers vs Heat,119.0,120.0,Heat +7.5,-105,2,win,1.9047619047619049
+8,claude,2025-11-03,261722,Rockets vs Mavericks,110.0,102.0,Under 225.5,-110,2,win,1.818181818181818
+6,claude,2025-11-04,261730,Warriors vs Suns,118.0,107.0,Warriors -10.5,-110,2,win,1.818181818181818
+7,claude,2025-11-04,261729,Pelicans vs Hornets,116.0,112.0,Pelicans -1.5,-110,2,win,1.818181818181818
+9,claude,2025-11-04,261731,Clippers vs Thunder,107.0,126.0,Thunder -3.5,-110,1,win,0.9090909090909092
+10,claude,2025-11-04,261726,Raptors vs Bucks,128.0,100.0,Bucks +2.5,-105,1,loss,-1.0
+1,claude,2025-11-04,261731,Clippers vs Thunder,107.0,126.0,Thunder -7.5,-105,3,win,2.8571428571428568
+2,claude,2025-11-04,261726,Raptors vs Bucks,128.0,100.0,Bucks +4.5,-114,3,loss,-3.0
+3,claude,2025-11-04,261728,Hawks vs Magic,127.0,112.0,Hawks +3.5,-110,3,win,2.727272727272727
+4,claude,2025-11-04,261730,Warriors vs Suns,118.0,107.0,Warriors -11.5,-105,3,loss,-3.0
+5,claude,2025-11-04,261727,Bulls vs 76ers,113.0,111.0,76ers +1.5,-118,2,loss,-2.0
+6,claude,2025-11-04,261729,Pelicans vs Hornets,116.0,112.0,Pelicans -2.5,-112,2,win,1.7857142857142858
+7,claude,2025-11-04,261727,Bulls vs 76ers,113.0,111.0,Over 239.5,-115,2,loss,-2.0
+8,claude,2025-11-04,261728,Hawks vs Magic,127.0,112.0,Over 229.5,-112,2,win,1.7857142857142858
+9,claude,2025-11-04,261726,Raptors vs Bucks,128.0,100.0,Over 236.0,-110,1,loss,-1.0
+10,claude,2025-11-04,261730,Warriors vs Suns,118.0,107.0,Over 233.5,-110,1,loss,-1.0
+1,claude,2025-11-05,261737,Grizzlies vs Rockets,109.0,124.0,Rockets -7.5,-110,3,win,2.727272727272727
+2,claude,2025-11-05,261741,Trail Blazers vs Thunder,121.0,119.0,Trail Blazers +4.5,-109,3,win,2.752293577981652
+3,claude,2025-11-05,261736,Knicks vs Timberwolves,137.0,114.0,Timberwolves +3.5,-105,3,loss,-3.0
+4,claude,2025-11-05,261732,Pistons vs Jazz,114.0,103.0,Jazz +10.5,-110,3,loss,-3.0
+5,claude,2025-11-05,261742,Lakers vs Spurs,118.0,116.0,Spurs +2.5,-110,2,win,1.818181818181818
+6,claude,2025-11-05,261739,Nuggets vs Heat,122.0,112.0,Heat +9.5,-110,2,loss,-2.0
+7,claude,2025-11-05,261740,Kings vs Warriors,121.0,116.0,Warriors +2.5,-105,2,loss,-2.0
+8,claude,2025-11-05,261738,Mavericks vs Pelicans,99.0,101.0,Pelicans +7.5,-110,2,win,1.818181818181818
+9,claude,2025-11-05,261732,Pistons vs Jazz,114.0,103.0,Over 232.5,-110,1,loss,-1.0
+10,claude,2025-11-05,261742,Lakers vs Spurs,118.0,116.0,Over 227.5,-112,1,win,0.8928571428571429
+1,claude,2025-11-05,261737,Grizzlies vs Rockets,109.0,124.0,Rockets -8.5,-105,3,win,2.8571428571428568
+2,claude,2025-11-05,261741,Trail Blazers vs Thunder,121.0,119.0,Trail Blazers +3.5,-105,3,win,2.8571428571428568
+4,claude,2025-11-05,261732,Pistons vs Jazz,114.0,103.0,Jazz +9.5,-110,3,loss,-3.0
+5,claude,2025-11-05,261742,Lakers vs Spurs,118.0,116.0,Spurs +1.5,-122,2,loss,-2.0
+7,claude,2025-11-05,261738,Mavericks vs Pelicans,99.0,101.0,Pelicans +8.5,-114,2,win,1.7543859649122806
+8,claude,2025-11-05,261740,Kings vs Warriors,121.0,116.0,Warriors +2.5,-109,2,loss,-2.0
+9,claude,2025-11-05,261732,Pistons vs Jazz,114.0,103.0,Over 233.0,-110,1,loss,-1.0
+1,claude,2025-11-06,261743,Suns vs Clippers,115.0,102.0,Clippers +3.5,-115,3,loss,-3.0
+9,claude,2025-11-06,261743,Suns vs Clippers,115.0,102.0,Under 224.5,-110,1,win,0.9090909090909092
+2,claude,2025-11-07,261564,Timberwolves vs Jazz,137.0,97.0,Jazz +14.5,-115,3,loss,-3.0
+3,claude,2025-11-07,261566,Grizzlies vs Mavericks,118.0,104.0,Mavericks +3.5,-110,3,loss,-3.0
+4,claude,2025-11-07,261563,Nets vs Pistons,107.0,125.0,Pistons -8.5,-110,3,win,2.727272727272727
+5,claude,2025-11-07,261567,Bucks vs Bulls,126.0,110.0,Bulls +4.5,-110,2,loss,-2.0
+6,claude,2025-11-07,261561,Spurs vs Rockets,121.0,110.0,Rockets -2.0,-110,2,loss,-2.0
+7,claude,2025-11-07,261568,Nuggets vs Warriors,129.0,104.0,Warriors +5.5,-110,2,loss,-2.0
+8,claude,2025-11-07,261569,Kings vs Thunder,101.0,132.0,Thunder -8.5,-110,2,win,1.818181818181818
+10,claude,2025-11-07,261565,Heat vs Hornets,126.0,108.0,Heat -6.5,-110,1,win,0.9090909090909092
+1,claude,2025-11-07,261563,Nets vs Pistons,107.0,125.0,Pistons -10.5,-110,3,win,2.727272727272727
+2,claude,2025-11-07,261564,Timberwolves vs Jazz,137.0,97.0,Timberwolves -12.5,-115,3,win,2.608695652173913
+3,claude,2025-11-07,261569,Kings vs Thunder,101.0,132.0,Thunder -9.5,-115,3,win,2.608695652173913
+4,claude,2025-11-07,261565,Heat vs Hornets,126.0,108.0,Heat -5.5,-115,2,win,1.7391304347826086
+5,claude,2025-11-07,261561,Spurs vs Rockets,121.0,110.0,Rockets -2.5,-115,2,loss,-2.0
+6,claude,2025-11-07,261568,Nuggets vs Warriors,129.0,104.0,Warriors +7.5,-110,2,loss,-2.0
+7,claude,2025-11-07,261566,Grizzlies vs Mavericks,118.0,104.0,Mavericks +3.5,-105,2,loss,-2.0
+8,claude,2025-11-07,261567,Bucks vs Bulls,126.0,110.0,Under 241.5,-115,1,win,0.8695652173913043
+1,claude,2025-11-08,261747,Spurs vs Pelicans,126.0,119.0,Spurs -10.5,-112,3,loss,-3.0
+2,claude,2025-11-08,261746,Cavaliers vs Bulls,128.0,122.0,Cavaliers -8.5,-110,3,loss,-3.0
+3,claude,2025-11-08,261750,Nuggets vs Pacers,117.0,100.0,Nuggets -12.0,-110,3,win,2.727272727272727
+4,claude,2025-11-08,261749,Hawks vs Lakers,122.0,102.0,Lakers -3.5,-115,2,loss,-2.0
+5,claude,2025-11-08,261745,76ers vs Raptors,130.0,120.0,76ers -5.5,-108,2,win,1.851851851851852
+6,claude,2025-11-08,261751,Clippers vs Suns,103.0,114.0,Clippers -5.5,-105,2,loss,-2.0
+7,claude,2025-11-08,261748,Heat vs Trail Blazers,136.0,131.0,Trail Blazers +3.5,-110,2,loss,-2.0
+8,claude,2025-11-08,261744,Wizards vs Mavericks,105.0,111.0,Mavericks -4.5,-109,1,win,0.9174311926605504
+4,claude,2025-11-08,261745,76ers vs Raptors,130.0,120.0,76ers -5.5,-105,2,win,1.9047619047619049
+5,claude,2025-11-08,261750,Nuggets vs Pacers,117.0,100.0,Nuggets -10.5,-110,2,win,1.818181818181818
+7,claude,2025-11-08,261749,Hawks vs Lakers,122.0,102.0,Lakers -4.5,-112,2,loss,-2.0
+3,claude,2025-11-09,261753,Knicks vs Nets,134.0,98.0,Knicks -15.5,-110,3,win,2.727272727272727
+8,claude,2025-11-09,261752,Bucks vs Rockets,115.0,122.0,Rockets -3.5,-112,1,win,0.8928571428571429
+1,claude,2025-11-09,261757,Warriors vs Pacers,114.0,83.0,Warriors -12.5,-110,3,win,2.727272727272727
+2,claude,2025-11-09,261753,Knicks vs Nets,134.0,98.0,Knicks -15.5,-110,3,win,2.727272727272727
+3,claude,2025-11-09,261755,Magic vs Celtics,107.0,111.0,Celtics +3.5,-110,3,win,2.727272727272727
+4,claude,2025-11-09,261754,Grizzlies vs Thunder,100.0,114.0,Thunder -10.5,-115,2,win,1.7391304347826086
+5,claude,2025-11-09,261758,Kings vs Timberwolves,117.0,144.0,Timberwolves -5.5,-105,2,win,1.9047619047619049
+6,claude,2025-11-09,261752,Bucks vs Rockets,115.0,122.0,Rockets -4.5,-108,2,win,1.851851851851852
+7,claude,2025-11-09,261757,Warriors vs Pacers,114.0,83.0,Under 229.5,-115,1,win,0.8695652173913043
+1,claude,2025-11-10,261761,Pistons vs Wizards,137.0,135.0,Pistons -11.5,-110,3,loss,-3.0
+2,claude,2025-11-10,261766,Jazz vs Timberwolves,113.0,120.0,Timberwolves -7.5,-110,3,loss,-3.0
+3,claude,2025-11-10,261765,Suns vs Pelicans,121.0,98.0,Suns -8.5,-110,3,win,2.727272727272727
+4,claude,2025-11-10,261762,Heat vs Cavaliers,140.0,138.0,Cavaliers -7.5,-115,2,loss,-2.0
+5,claude,2025-11-10,261759,Hornets vs Lakers,111.0,121.0,Lakers -8.5,-110,2,win,1.818181818181818
+6,claude,2025-11-10,261763,Bulls vs Spurs,117.0,121.0,Spurs -4.5,-105,2,loss,-2.0
+7,claude,2025-11-10,261764,Mavericks vs Bucks,114.0,116.0,Bucks -2.5,-105,2,loss,-2.0
+8,claude,2025-11-10,261767,Clippers vs Hawks,102.0,105.0,Clippers -4.5,-118,1,loss,-1.0
+8,claude,2025-11-10,261767,Clippers vs Hawks,102.0,105.0,Clippers -5.0,-108,1,loss,-1.0
+1,claude,2025-11-11,261769,Thunder vs Warriors,126.0,102.0,Thunder -7.5,-110,3,win,2.727272727272727
+2,claude,2025-11-11,261768,Nets vs Raptors,109.0,119.0,Raptors -10.5,-106,3,loss,-3.0
+3,claude,2025-11-11,282034,Knicks vs Grizzlies,133.0,120.0,Knicks -9.5,-115,3,win,2.608695652173913
+4,claude,2025-11-11,261770,76ers vs Celtics,102.0,100.0,Celtics -1.5,-110,2,loss,-2.0
+6,claude,2025-11-11,261771,Jazz vs Pacers,152.0,128.0,Pacers -2.5,-115,2,loss,-2.0
+5,claude,2025-11-11,261772,Kings vs Nuggets,108.0,122.0,Nuggets -8.5,-115,2,win,1.7391304347826086
+1,claude,2025-11-12,261784,Clippers vs Nuggets,116.0,130.0,Nuggets -3.5,-105,3,win,2.8571428571428568
+2,claude,2025-11-12,261779,Pelicans vs Trail Blazers,117.0,125.0,Trail Blazers -8.5,-105,3,loss,-3.0
+3,claude,2025-11-12,261778,Rockets vs Wizards,135.0,112.0,Rockets -16.5,-110,3,win,2.727272727272727
+4,claude,2025-11-12,261774,Hornets vs Bucks,111.0,100.0,Bucks -5.5,-110,3,loss,-3.0
+5,claude,2025-11-12,261780,Spurs vs Warriors,120.0,125.0,Spurs -4.5,-109,2,loss,-2.0
+6,claude,2025-11-12,261775,Knicks vs Magic,107.0,124.0,Knicks -4.5,-110,2,loss,-2.0
+7,claude,2025-11-12,261776,Celtics vs Grizzlies,131.0,95.0,Celtics -6.5,-110,2,win,1.818181818181818
+8,claude,2025-11-12,261782,Thunder vs Lakers,121.0,92.0,Thunder -6.5,-115,2,win,1.7391304347826086
+9,claude,2025-11-12,261781,Mavericks vs Suns,114.0,123.0,Suns -1.0,-106,2,win,1.8867924528301887
+10,claude,2025-11-12,261777,Heat vs Cavaliers,116.0,130.0,Cavaliers +5.5,-105,1,win,0.9523809523809524
+11,claude,2025-11-12,261773,Pistons vs Bulls,124.0,113.0,Bulls -1.5,-105,1,loss,-1.0
+12,claude,2025-11-12,261783,Kings vs Hawks,100.0,133.0,Hawks -3.5,-110,1,win,0.9090909090909092
+1,claude,2025-11-13,261785,Cavaliers vs Raptors,113.0,126.0,Cavaliers -7.5,-110,3,loss,-3.0
+2,claude,2025-11-13,261786,Suns vs Pacers,133.0,98.0,Suns -3.5,-115,3,win,2.608695652173913
+5,claude,2025-11-13,261787,Jazz vs Hawks,122.0,132.0,Hawks -1.5,-115,2,win,1.7391304347826086
+9,claude,2025-11-13,261785,Cavaliers vs Raptors,113.0,126.0,Under 238.5,-111,2,loss,-2.0
+10,claude,2025-11-13,261786,Suns vs Pacers,133.0,98.0,Over 233.5,-110,1,loss,-1.0
+3,claude,2025-11-14,261576,Pelicans vs Lakers,104.0,118.0,Lakers -10.5,-110,3,win,2.727272727272727
+4,claude,2025-11-14,261575,Rockets vs Trail Blazers,140.0,116.0,Rockets -8.5,-110,3,win,2.727272727272727
+6,claude,2025-11-14,261578,Spurs vs Warriors,108.0,109.0,Spurs -2.5,-107,2,loss,-2.0
+7,claude,2025-11-14,261570,Magic vs Nets,105.0,98.0,Magic -14.5,-105,2,loss,-2.0
+8,claude,2025-11-14,261571,Knicks vs Heat,140.0,132.0,Knicks -4.0,-110,2,win,1.818181818181818
+1,claude,2025-11-14,261573,Timberwolves vs Kings,124.0,110.0,Timberwolves -11.5,-110,3,win,2.727272727272727
+2,claude,2025-11-14,261575,Rockets vs Trail Blazers,140.0,116.0,Rockets -7.5,-112,3,win,2.678571428571429
+3,claude,2025-11-14,261576,Pelicans vs Lakers,104.0,118.0,Lakers -9.5,-115,3,win,2.608695652173913
+4,claude,2025-11-14,261570,Magic vs Nets,105.0,98.0,Magic -14.5,-105,3,loss,-3.0
+5,claude,2025-11-14,261574,Bucks vs Hornets,147.0,134.0,Bucks -9.5,-105,2,win,1.9047619047619049
+6,claude,2025-11-14,261571,Knicks vs Heat,140.0,132.0,Knicks -6.5,-110,2,win,1.818181818181818
+7,claude,2025-11-14,261572,Pistons vs 76ers,114.0,105.0,76ers +3.5,-105,2,loss,-2.0
+8,claude,2025-11-14,261578,Spurs vs Warriors,108.0,109.0,Spurs -2.5,-115,2,loss,-2.0
+9,claude,2025-11-14,261577,Mavericks vs Clippers,127.0,133.0,Clippers -2.5,-110,2,win,1.818181818181818
+10,claude,2025-11-14,261573,Timberwolves vs Kings,124.0,110.0,Over 240.0,-110,1,loss,-1.0
+1,claude,2025-11-15,261788,Cavaliers vs Grizzlies,108.0,100.0,Cavaliers -11.5,-110,3,loss,-3.0
+2,claude,2025-11-15,261789,Hornets vs Thunder,96.0,109.0,Thunder -17.5,-109,3,loss,-3.0
+3,claude,2025-11-15,261790,Pacers vs Raptors,111.0,129.0,Raptors -6.5,-115,3,win,2.608695652173913
+4,claude,2025-11-15,261792,Timberwolves vs Nuggets,112.0,123.0,Timberwolves -2.5,-110,2,loss,-2.0
+5,claude,2025-11-15,261791,Bucks vs Lakers,95.0,119.0,Lakers -1.5,-102,2,win,1.96078431372549
+6,claude,2025-11-15,261788,Cavaliers vs Grizzlies,108.0,100.0,Over 240.5,-105,2,loss,-2.0
+7,claude,2025-11-15,261789,Hornets vs Thunder,96.0,109.0,Under 224.5,-110,2,win,1.818181818181818
+8,claude,2025-11-15,261790,Pacers vs Raptors,111.0,129.0,Over 233.5,-110,1,win,0.9090909090909092
+9,claude,2025-11-15,261792,Timberwolves vs Nuggets,112.0,123.0,Over 234.5,-110,1,win,0.9090909090909092
+10,claude,2025-11-15,261791,Bucks vs Lakers,95.0,119.0,Over 231.0,-112,1,loss,-1.0
+1,claude,2025-11-17,261807,Pelicans vs Thunder,109.0,126.0,Thunder -17.5,-110,3,loss,-3.0
+2,claude,2025-11-17,261806,Timberwolves vs Mavericks,120.0,96.0,Timberwolves -14.5,-105,3,win,2.8571428571428568
+3,claude,2025-11-17,261801,Cavaliers vs Bucks,118.0,106.0,Cavaliers -5.5,-115,3,win,2.608695652173913
+4,claude,2025-11-17,261802,Pistons vs Pacers,127.0,112.0,Pistons -11.5,-105,2,win,1.9047619047619049
+5,claude,2025-11-17,261808,Nuggets vs Bulls,127.0,130.0,Nuggets -13.5,-110,2,loss,-2.0
+6,claude,2025-11-17,261805,Raptors vs Hornets,110.0,108.0,Raptors -8.5,-105,2,loss,-2.0
+7,claude,2025-11-17,261803,76ers vs Clippers,110.0,108.0,Clippers +5.5,-109,2,win,1.834862385321101
+8,claude,2025-11-17,261804,Heat vs Knicks,115.0,113.0,Heat -1.5,-110,2,win,1.818181818181818
+9,claude,2025-11-17,261803,76ers vs Clippers,110.0,108.0,Over 220.5,-111,1,loss,-1.0
+10,claude,2025-11-17,261808,Nuggets vs Bulls,127.0,130.0,Over 241.5,-105,1,win,0.9523809523809524
+4,claude,2025-11-18,261809,Magic vs Warriors,121.0,113.0,Warriors -2.5,-110,2,loss,-2.0
+1,claude,2025-11-18,261810,Nets vs Celtics,99.0,113.0,Celtics -11.5,-102,3,win,2.941176470588235
+5,claude,2025-11-18,261811,Hawks vs Pistons,112.0,120.0,Pistons -2.5,-110,2,win,1.818181818181818
+7,claude,2025-11-18,261810,Nets vs Celtics,99.0,113.0,Over 223.5,-105,2,loss,-2.0
+3,claude,2025-11-18,261812,Spurs vs Grizzlies,111.0,101.0,Spurs -5.5,-114,3,win,2.631578947368421
+10,claude,2025-11-18,261812,Spurs vs Grizzlies,111.0,101.0,Over 233.5,-115,1,loss,-1.0
+2,claude,2025-11-18,261813,Lakers vs Jazz,140.0,126.0,Lakers -13.5,-108,3,win,2.7777777777777777
+6,claude,2025-11-18,261814,Trail Blazers vs Suns,110.0,127.0,Trail Blazers -2.5,-110,2,loss,-2.0
+8,claude,2025-11-18,261813,Lakers vs Jazz,140.0,126.0,Over 238.5,-115,1,win,0.8695652173913043
+9,claude,2025-11-19,261815,Cavaliers vs Rockets,104.0,114.0,Cavaliers -2.5,-105,1,loss,-1.0
+4,claude,2025-11-19,261817,Heat vs Warriors,110.0,96.0,Heat -10.5,-110,2,win,1.818181818181818
+7,claude,2025-11-19,261818,76ers vs Raptors,112.0,121.0,Raptors -2.5,-105,2,win,1.9047619047619049
+8,claude,2025-11-19,261816,Pacers vs Hornets,127.0,118.0,Hornets -1.5,-115,2,loss,-2.0
+1,claude,2025-11-19,261819,Thunder vs Kings,113.0,99.0,Thunder -18.5,-110,3,loss,-3.0
+2,claude,2025-11-19,261821,Timberwolves vs Wizards,120.0,109.0,Timberwolves -16.5,-115,3,loss,-3.0
+3,claude,2025-11-19,261820,Pelicans vs Nuggets,118.0,125.0,Nuggets -13.5,-115,3,loss,-3.0
+9,claude,2025-11-19,261819,Thunder vs Kings,113.0,99.0,Over 231.5,-115,1,loss,-1.0
+10,claude,2025-11-19,261820,Pelicans vs Nuggets,118.0,125.0,Over 233.5,-114,1,win,0.8771929824561403
+5,claude,2025-11-19,261822,Mavericks vs Knicks,111.0,113.0,Knicks -7.5,-110,2,loss,-2.0
+6,claude,2025-11-19,261823,Trail Blazers vs Bulls,121.0,122.0,Bulls -4.5,-110,2,loss,-2.0
+8,claude,2025-11-20,261825,Grizzlies vs Kings,137.0,96.0,Grizzlies -3.5,-108,2,win,1.851851851851852
+5,claude,2025-11-20,261826,Bucks vs 76ers,114.0,123.0,76ers -1.5,-114,2,win,1.7543859649122806
+6,claude,2025-11-20,261827,Spurs vs Hawks,135.0,126.0,Spurs -1.5,-105,2,win,1.9047619047619049
+1,claude,2025-11-21,261579,Cavaliers vs Pacers,120.0,109.0,Pacers +13.5,-110,3,win,2.727272727272727
+3,claude,2025-11-21,261580,Raptors vs Wizards,140.0,110.0,Raptors -13.5,-115,3,win,2.608695652173913
+9,claude,2025-11-21,261582,Bulls vs Heat,107.0,143.0,Heat +2.5,-110,2,win,1.818181818181818
+1,claude,2025-11-21,261579,Cavaliers vs Pacers,120.0,109.0,Pacers +14.5,-114,3,win,2.631578947368421
+3,claude,2025-11-21,261580,Raptors vs Wizards,140.0,110.0,Raptors -14.5,-110,3,win,2.727272727272727
+5,claude,2025-11-21,261582,Bulls vs Heat,107.0,143.0,Heat +2.5,-110,2,win,1.818181818181818
+6,claude,2025-11-21,261581,Celtics vs Nets,105.0,113.0,Nets +14.5,-108,2,win,1.851851851851852
+4,claude,2025-11-21,261585,Rockets vs Nuggets,109.0,112.0,Rockets -2.0,-108,2,loss,-2.0
+7,claude,2025-11-21,261586,Jazz vs Thunder,112.0,144.0,Jazz +16.5,-110,2,loss,-2.0
+10,claude,2025-11-21,261583,Mavericks vs Pelicans,118.0,115.0,Pelicans +2.5,-105,1,loss,-1.0
+11,claude,2025-11-21,261584,Suns vs Timberwolves,114.0,113.0,Over 233.5,-110,1,loss,-1.0
+4,claude,2025-11-21,261585,Rockets vs Nuggets,109.0,112.0,Rockets -2.5,-110,2,loss,-2.0
+8,claude,2025-11-21,261583,Mavericks vs Pelicans,118.0,115.0,Pelicans +4.5,-115,2,win,1.7391304347826086
+9,claude,2025-11-21,261584,Suns vs Timberwolves,114.0,113.0,Timberwolves -4.5,-110,2,loss,-2.0
+10,claude,2025-11-21,261584,Suns vs Timberwolves,114.0,113.0,Over 231.5,-110,1,loss,-1.0
+2,claude,2025-11-21,261587,Warriors vs Trail Blazers,123.0,127.0,Warriors -6.5,-110,3,loss,-3.0
+2,claude,2025-11-21,261587,Warriors vs Trail Blazers,123.0,127.0,Warriors -9.5,-110,3,loss,-3.0
+4,claude,2025-11-22,261830,Pelicans vs Hawks,98.0,115.0,Hawks -8.5,-115,3,win,2.608695652173913
+5,claude,2025-11-22,261829,Magic vs Knicks,133.0,121.0,Knicks +1.5,-110,2,loss,-2.0
+1,claude,2025-11-22,261831,Bulls vs Wizards,121.0,120.0,Bulls -12.5,-110,3,loss,-3.0
+3,claude,2025-11-22,261832,Bucks vs Pistons,116.0,129.0,Pistons -8.5,-105,3,win,2.8571428571428568
+6,claude,2025-11-22,261833,Mavericks vs Grizzlies,96.0,102.0,Grizzlies +1.5,-115,2,win,1.7391304347826086
+7,claude,2025-11-22,261831,Bulls vs Wizards,121.0,120.0,Over 243.5,-115,2,loss,-2.0
+9,claude,2025-11-22,261833,Mavericks vs Grizzlies,96.0,102.0,Over 229.5,-110,2,loss,-2.0
+10,claude,2025-11-22,261832,Bucks vs Pistons,116.0,129.0,Under 223.0,-110,1,loss,-1.0
+2,claude,2025-11-22,261834,Nuggets vs Kings,123.0,128.0,Nuggets -10.5,-110,3,loss,-3.0
+8,claude,2025-11-22,261834,Nuggets vs Kings,123.0,128.0,Under 236.0,-110,2,loss,-2.0
+6,claude,2025-11-23,261835,76ers vs Heat,117.0,127.0,Heat +1.5,-115,2,win,1.7391304347826086
+1,claude,2025-11-23,261836,Raptors vs Nets,119.0,109.0,Raptors -12.5,-110,3,loss,-3.0
+2,claude,2025-11-23,261838,Cavaliers vs Clippers,120.0,105.0,Cavaliers -8.5,-110,3,win,2.727272727272727
+3,claude,2025-11-23,261839,Hawks vs Hornets,113.0,110.0,Hawks -7.5,-110,3,loss,-3.0
+4,claude,2025-11-23,261840,Thunder vs Trail Blazers,122.0,95.0,Thunder -15.5,-115,3,win,2.608695652173913
+7,claude,2025-11-23,261837,Celtics vs Magic,138.0,129.0,Celtics -4.5,-110,2,win,1.818181818181818
+9,claude,2025-11-23,261840,Thunder vs Trail Blazers,122.0,95.0,Under 233.5,-110,2,win,1.818181818181818
+10,claude,2025-11-23,261836,Raptors vs Nets,119.0,109.0,Over 228.5,-114,1,loss,-1.0
+5,claude,2025-11-23,261842,Jazz vs Lakers,106.0,108.0,Lakers -9.5,-110,2,loss,-2.0
+8,claude,2025-11-23,261841,Suns vs Spurs,111.0,102.0,Suns -2.5,-115,2,win,1.7391304347826086
+1,claude,2025-11-24,261844,Pacers vs Pistons,117.0,122.0,Pistons -9.5,-110,3,loss,-3.0
+10,claude,2025-11-24,261843,Raptors vs Cavaliers,110.0,99.0,Cavaliers +1.5,-115,1,loss,-1.0
+2,claude,2025-11-24,261845,Nets vs Knicks,100.0,113.0,Knicks -12.5,-110,3,win,2.727272727272727
+3,claude,2025-11-24,261846,Heat vs Mavericks,106.0,102.0,Heat -7.5,-112,3,loss,-3.0
+6,claude,2025-11-24,261849,Grizzlies vs Nuggets,115.0,125.0,Nuggets -7.5,-115,2,win,1.7391304347826086
+8,claude,2025-11-24,261848,Bucks vs Trail Blazers,103.0,115.0,Bucks -1.5,-105,2,loss,-2.0
+9,claude,2025-11-24,261847,Pelicans vs Bulls,143.0,130.0,Bulls -5.5,-110,2,loss,-2.0
+4,claude,2025-11-24,261852,Warriors vs Jazz,134.0,117.0,Warriors -13.5,-115,3,win,2.608695652173913
+5,claude,2025-11-24,261850,Suns vs Rockets,92.0,114.0,Rockets -6.5,-110,2,win,1.818181818181818
+7,claude,2025-11-24,261851,Kings vs Timberwolves,117.0,112.0,Timberwolves -9.5,-115,2,loss,-2.0
+1,claude,2025-11-25,261588,Wizards vs Hawks,132.0,113.0,Hawks -10.5,-115,3,loss,-3.0
+6,claude,2025-11-25,261589,76ers vs Magic,103.0,144.0,Magic -4.5,-105,2,win,1.9047619047619049
+4,claude,2025-11-25,261590,Lakers vs Clippers,135.0,118.0,Lakers -6.5,-115,3,win,2.608695652173913
+5,claude,2025-11-26,261591,Celtics vs Pistons,117.0,114.0,Pistons -3.5,-110,2,loss,-2.0
+5,claude,2025-11-26,261591,Celtics vs Pistons,117.0,114.0,Under 229.5,-105,3,loss,-3.0
+2,claude,2025-11-26,261600,Raptors vs Pacers,97.0,95.0,Raptors -9.5,-110,3,loss,-3.0
+3,claude,2025-11-26,261601,Thunder vs Timberwolves,113.0,105.0,Thunder -8.5,-105,3,loss,-3.0
+7,claude,2025-11-26,261592,Hornets vs Knicks,101.0,129.0,Knicks -7.5,-105,2,win,1.9047619047619049
+9,claude,2025-11-26,261593,Heat vs Bucks,106.0,103.0,Bucks +6.5,-110,2,win,1.818181818181818
+1,claude,2025-11-26,261601,Thunder vs Timberwolves,113.0,105.0,Under 226.5,-110,3,win,2.727272727272727
+6,claude,2025-11-26,261600,Raptors vs Pacers,97.0,95.0,Pacers +9.5,-105,2,win,1.9047619047619049
+8,claude,2025-11-26,261593,Heat vs Bucks,106.0,103.0,Bucks +7.5,-109,2,win,1.834862385321101
+9,claude,2025-11-26,261602,Pelicans vs Grizzlies,128.0,133.0,Pelicans ML,110,1,loss,-1.0
+11,claude,2025-11-26,261592,Hornets vs Knicks,101.0,129.0,Hornets +6.5,-109,1,loss,-1.0
+8,claude,2025-11-26,261605,Warriors vs Rockets,100.0,104.0,Rockets +1.5,-120,2,win,1.6666666666666667
+10,claude,2025-11-26,261603,Trail Blazers vs Spurs,102.0,115.0,Trail Blazers -2.5,-116,1,loss,-1.0
+2,claude,2025-11-26,261605,Warriors vs Rockets,100.0,104.0,Under 224.5,-112,3,win,2.678571428571429
+7,claude,2025-11-26,261604,Kings vs Suns,100.0,112.0,Kings +4.5,-110,2,loss,-2.0
+10,claude,2025-11-26,261603,Trail Blazers vs Spurs,102.0,115.0,Spurs +2.0,-110,1,win,0.9090909090909092
+4,claude,2025-11-28,261606,Knicks vs Bucks,118.0,109.0,Under 225.5,-110,3,loss,-3.0
+2,claude,2025-11-28,261606,Knicks vs Bucks,118.0,109.0,Knicks -8.5,-110,3,win,2.727272727272727
+3,claude,2025-11-28,261610,Hawks vs Cavaliers,130.0,123.0,Cavaliers -6.5,-110,3,loss,-3.0
+4,claude,2025-11-28,261607,Pacers vs Wizards,119.0,86.0,Pacers -6.5,-115,3,win,2.608695652173913
+6,claude,2025-11-28,261608,Pistons vs Magic,109.0,112.0,Pistons -3.5,-105,2,loss,-2.0
+7,claude,2025-11-28,261611,Nets vs 76ers,103.0,115.0,76ers -7.5,-108,2,win,1.851851851851852
+1,claude,2025-11-28,261612,Thunder vs Suns,123.0,119.0,Thunder -14.5,-115,3,loss,-3.0
+5,claude,2025-11-28,261613,Nuggets vs Spurs,136.0,139.0,Nuggets -7.5,-110,2,loss,-2.0
+8,claude,2025-11-28,261614,Jazz vs Kings,128.0,119.0,Kings +2.5,-115,2,loss,-2.0
+3,claude,2025-11-28,261616,Lakers vs Mavericks,129.0,119.0,Under 226.5,-105,3,loss,-3.0
+9,claude,2025-11-28,261615,Clippers vs Grizzlies,107.0,112.0,Clippers -6.5,-110,2,loss,-2.0
+10,claude,2025-11-28,261616,Lakers vs Mavericks,129.0,119.0,Lakers -9.5,-110,1,win,0.9090909090909092
+1,claude,2025-12-01,261871,Pistons vs Hawks,99.0,98.0,Hawks +9.5,-105,3,win,2.8571428571428568
+6,claude,2025-12-01,261870,Wizards vs Bucks,129.0,126.0,Bucks -10.5,-105,2,loss,-2.0
+2,claude,2025-12-01,261869,Pacers vs Cavaliers,119.0,135.0,Cavaliers -4.5,-110,3,loss,-3.0
+3,claude,2025-12-01,261873,Magic vs Bulls,125.0,120.0,Magic -9.5,-110,3,loss,-3.0
+4,claude,2025-12-01,261874,Heat vs Clippers,140.0,123.0,Heat -6.5,-110,3,win,2.727272727272727
+5,claude,2025-12-01,261872,Nets vs Hornets,116.0,103.0,Hornets -4.5,-110,2,loss,-2.0
+10,claude,2025-12-01,261869,Pacers vs Cavaliers,119.0,135.0,Under 231.5,-110,1,loss,-1.0
+7,claude,2025-12-01,261875,Jazz vs Rockets,133.0,125.0,Rockets -11.5,-115,2,loss,-2.0
+8,claude,2025-12-01,261876,Nuggets vs Mavericks,121.0,131.0,Nuggets -11.5,-105,2,loss,-2.0
+9,claude,2025-12-01,261877,Lakers vs Suns,108.0,125.0,Lakers -4.5,-115,2,loss,-2.0
+1,claude,2025-12-02,261878,76ers vs Wizards,121.0,102.0,76ers -13.5,-105,3,win,2.8571428571428568
+2,claude,2025-12-02,261882,Pelicans vs Timberwolves,142.0,149.0,Timberwolves -12.5,-110,3,loss,-3.0
+3,claude,2025-12-02,261883,Warriors vs Thunder,112.0,124.0,Thunder -11.5,-110,3,win,2.727272727272727
+4,claude,2025-12-02,261879,Raptors vs Trail Blazers,121.0,118.0,Raptors -4.5,-115,2,loss,-2.0
+5,claude,2025-12-02,261881,Spurs vs Grizzlies,126.0,119.0,Spurs -5.5,-108,2,win,1.851851851851852
+6,claude,2025-12-02,261880,Celtics vs Knicks,123.0,117.0,Under 230.5,-112,2,loss,-2.0
+7,claude,2025-12-02,261883,Warriors vs Thunder,112.0,124.0,Under 223.5,-110,2,loss,-2.0
+8,claude,2025-12-02,261879,Raptors vs Trail Blazers,121.0,118.0,Under 230.5,-108,1,loss,-1.0
+9,claude,2025-12-02,261880,Celtics vs Knicks,123.0,117.0,Knicks -1.0,-106,1,loss,-1.0
+10,claude,2025-12-02,261878,76ers vs Wizards,121.0,102.0,Under 235.5,-110,1,win,0.9090909090909092
+5,claude,2025-12-06,261911,Wizards vs Hawks,116.0,131.0,Hawks -9.5,-110,2,win,1.818181818181818
+1,claude,2025-12-06,261912,Cavaliers vs Warriors,94.0,99.0,Cavaliers -9.5,-105,3,loss,-3.0
+2,claude,2025-12-06,261913,Pistons vs Bucks,124.0,112.0,Bucks +12.5,-111,3,win,2.702702702702702
+3,claude,2025-12-06,261914,Heat vs Kings,111.0,127.0,Heat -8.5,-115,3,loss,-3.0
+4,claude,2025-12-06,261915,Timberwolves vs Clippers,109.0,106.0,Timberwolves -9.5,-108,2,loss,-2.0
+6,claude,2025-12-06,261916,Mavericks vs Rockets,122.0,109.0,Rockets -7.5,-110,2,loss,-2.0
+8,claude,2025-12-06,261914,Heat vs Kings,111.0,127.0,Under 241.5,-110,2,win,1.818181818181818
+9,claude,2025-12-06,261912,Cavaliers vs Warriors,94.0,99.0,Under 229.5,-110,1,win,0.9090909090909092
+1,claude,2025-12-08,261925,Timberwolves vs Suns,105.0,108.0,Timberwolves -9.5,-112,3,loss,-3.0
+2,claude,2025-12-08,261924,Pacers vs Kings,116.0,105.0,Pacers -3.5,-115,3,win,2.608695652173913
+3,claude,2025-12-08,261926,Pelicans vs Spurs,132.0,135.0,Spurs -9.5,-102,3,loss,-3.0
+4,claude,2025-12-08,261925,Timberwolves vs Suns,105.0,108.0,Under 225.5,-110,2,win,1.818181818181818
+5,claude,2025-12-08,261924,Pacers vs Kings,116.0,105.0,Over 231.5,-110,2,loss,-2.0
+6,claude,2025-12-08,261926,Pelicans vs Spurs,132.0,135.0,Under 238.5,-110,2,loss,-2.0
+7,claude,2025-12-08,261925,Timberwolves vs Suns,105.0,108.0,Suns +9.5,-108,2,win,1.851851851851852
+8,claude,2025-12-08,261924,Pacers vs Kings,116.0,105.0,Pacers -3.5,-115,1,win,0.8695652173913043
+9,claude,2025-12-08,261926,Pelicans vs Spurs,132.0,135.0,Spurs -9.5,-102,1,loss,-1.0
+10,claude,2025-12-08,261925,Timberwolves vs Suns,105.0,108.0,Timberwolves -9.5,-112,1,loss,-1.0
+7,claude,2025-12-09,282886,Magic vs Heat,117.0,108.0,Magic -5.5,-114,2,win,1.7543859649122806
+10,claude,2025-12-09,282887,Raptors vs Knicks,101.0,117.0,Knicks -2.5,-110,1,win,0.9090909090909092
+1,claude,2025-12-10,282888,Thunder vs Suns,138.0,89.0,Thunder -15.5,-108,3,win,2.7777777777777777
+2,claude,2025-12-10,282888,Thunder vs Suns,138.0,89.0,Under 222.5,-110,2,loss,-2.0
+1,claude,2025-12-11,282890,Rockets vs Clippers,115.0,113.0,Rockets -8.5,-115,3,loss,-3.0
+2,claude,2025-12-11,282892,Bucks vs Celtics,116.0,101.0,Celtics -9.5,-110,3,loss,-3.0
+3,claude,2025-12-11,282891,Pelicans vs Trail Blazers,143.0,120.0,Trail Blazers -3.5,-118,2,loss,-2.0
+4,claude,2025-12-11,282890,Rockets vs Clippers,115.0,113.0,Under 221.5,-112,2,loss,-2.0
+5,claude,2025-12-11,282892,Bucks vs Celtics,116.0,101.0,Under 223.5,-115,2,win,1.7391304347826086
+6,claude,2025-12-11,282891,Pelicans vs Trail Blazers,143.0,120.0,Under 241.5,-114,1,loss,-1.0
+2,claude,2025-12-13,283262,Magic vs Knicks,120.0,132.0,Knicks -4.5,-118,2,win,1.694915254237288
+4,claude,2025-12-13,283262,Magic vs Knicks,120.0,132.0,Under 225.5,-105,2,loss,-2.0
+1,claude,2025-12-13,283328,Thunder vs Spurs,109.0,111.0,Thunder -11.5,-108,3,loss,-3.0
+3,claude,2025-12-13,283328,Thunder vs Spurs,109.0,111.0,Under 232.5,-110,2,win,1.818181818181818
+
+    
