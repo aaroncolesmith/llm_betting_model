@@ -4913,3 +4913,75 @@ game_id,start_time,league_name,home_team,away_team,home_score,away_score,status
 265316,2025-12-14T02:30:00.000Z,ncaab,Alabama,Arizona,75,96,complete
 266665,2025-12-14T02:30:00.000Z,ncaab,UNLV,Tenn St,60,63,complete
 266666,2025-12-14T02:30:00.000Z,ncaab,CS Bakersfield,Pepperdine,62,70,complete
+266673,2025-12-16T16:00:00.000Z,ncaab,Drexel,Howard,66,74,complete
+265337,2025-12-16T23:00:00.000Z,ncaab,UMass Lowell,Sacred Heart,87,82,complete
+265345,2025-12-16T23:00:00.000Z,ncaab,Holy Cross,Dartmouth ,64,89,complete
+265347,2025-12-16T23:00:00.000Z,ncaab,Duke,Lipscomb,97,73,complete
+272020,2025-12-16T23:00:00.000Z,ncaab,SC State,USC Upstate,72,78,complete
+266675,2025-12-16T23:30:00.000Z,ncaab,Michigan St,Toledo,92,69,complete
+280399,2025-12-16T23:30:00.000Z,ncaab,UNC Asheville,Kentucky Christian,83,73,complete
+263647,2025-12-17T00:00:00.000Z,ncaab,Lamar,UT Grande Valley,72,83,complete
+265335,2025-12-17T00:00:00.000Z,ncaab,Tennessee,Louisville,83,62,complete
+265338,2025-12-17T00:00:00.000Z,ncaab,Clemson,S. Carolina,68,61,complete
+265339,2025-12-17T00:00:00.000Z,ncaab,Dayton,Florida St,97,69,complete
+265340,2025-12-17T00:00:00.000Z,ncaab,High Point,Mary Baldwin Fighting Squirrels,129,47,complete
+265342,2025-12-17T00:00:00.000Z,ncaab,Miami (FL),FIU,98,81,complete
+265346,2025-12-17T00:00:00.000Z,ncaab,Rhode Island,Canisius,62,45,complete
+266672,2025-12-17T00:00:00.000Z,ncaab,Wright State,Miami (OH),76,83,complete
+266674,2025-12-17T00:00:00.000Z,ncaab,Bowling Green,Chicago St,76,55,complete
+267379,2025-12-17T00:00:00.000Z,ncaab,St. John's,DePaul,79,66,complete
+267381,2025-12-17T00:00:00.000Z,ncaab,Oklahoma,UMKC,89,67,complete
+267615,2025-12-17T00:00:00.000Z,ncaab,Ohio,Ohio Wesleyan Battling Bishops,89,56,complete
+276092,2025-12-17T00:00:00.000Z,ncaab,Delaware,Rider,65,57,complete
+278429,2025-12-17T00:00:00.000Z,ncaab,UNC Greensboro,NC A&T,65,71,complete
+278727,2025-12-17T00:00:00.000Z,ncaab,MS Valley St,Tarleton St,64,88,complete
+280398,2025-12-17T00:00:00.000Z,ncaab,Evansville,Belmont,78,83,complete
+265349,2025-12-17T00:30:00.000Z,ncaab,Mississippi St,Long Island,87,83,complete
+266673,2025-12-16T16:00:00.000Z,ncaab,Drexel,Howard,66,74,complete
+265337,2025-12-16T23:00:00.000Z,ncaab,UMass Lowell,Sacred Heart,87,82,complete
+265345,2025-12-16T23:00:00.000Z,ncaab,Holy Cross,Dartmouth ,64,89,complete
+265347,2025-12-16T23:00:00.000Z,ncaab,Duke,Lipscomb,97,73,complete
+272020,2025-12-16T23:00:00.000Z,ncaab,SC State,USC Upstate,72,78,complete
+266675,2025-12-16T23:30:00.000Z,ncaab,Michigan St,Toledo,92,69,complete
+280399,2025-12-16T23:30:00.000Z,ncaab,UNC Asheville,Kentucky Christian,83,73,complete
+263647,2025-12-17T00:00:00.000Z,ncaab,Lamar,UT Grande Valley,72,83,complete
+265335,2025-12-17T00:00:00.000Z,ncaab,Tennessee,Louisville,83,62,complete
+265338,2025-12-17T00:00:00.000Z,ncaab,Clemson,S. Carolina,68,61,complete
+265339,2025-12-17T00:00:00.000Z,ncaab,Dayton,Florida St,97,69,complete
+265340,2025-12-17T00:00:00.000Z,ncaab,High Point,Mary Baldwin Fighting Squirrels,129,47,complete
+265342,2025-12-17T00:00:00.000Z,ncaab,Miami (FL),FIU,98,81,complete
+265346,2025-12-17T00:00:00.000Z,ncaab,Rhode Island,Canisius,62,45,complete
+266672,2025-12-17T00:00:00.000Z,ncaab,Wright State,Miami (OH),76,83,complete
+266674,2025-12-17T00:00:00.000Z,ncaab,Bowling Green,Chicago St,76,55,complete
+267379,2025-12-17T00:00:00.000Z,ncaab,St. John's,DePaul,79,66,complete
+267381,2025-12-17T00:00:00.000Z,ncaab,Oklahoma,UMKC,89,67,complete
+267615,2025-12-17T00:00:00.000Z,ncaab,Ohio,Ohio Wesleyan Battling Bishops,89,56,complete
+276092,2025-12-17T00:00:00.000Z,ncaab,Delaware,Rider,65,57,complete
+278429,2025-12-17T00:00:00.000Z,ncaab,UNC Greensboro,NC A&T,65,71,complete
+278727,2025-12-17T00:00:00.000Z,ncaab,MS Valley St,Tarleton St,64,88,complete
+280398,2025-12-17T00:00:00.000Z,ncaab,Evansville,Belmont,78,83,complete
+265349,2025-12-17T00:30:00.000Z,ncaab,Mississippi St,Long Island,87,83,complete
+266673,2025-12-16T16:00:00.000Z,ncaab,Drexel,Howard,66,74,complete
+265337,2025-12-16T23:00:00.000Z,ncaab,UMass Lowell,Sacred Heart,87,82,complete
+265345,2025-12-16T23:00:00.000Z,ncaab,Holy Cross,Dartmouth ,64,89,complete
+265347,2025-12-16T23:00:00.000Z,ncaab,Duke,Lipscomb,97,73,complete
+272020,2025-12-16T23:00:00.000Z,ncaab,SC State,USC Upstate,72,78,complete
+266675,2025-12-16T23:30:00.000Z,ncaab,Michigan St,Toledo,92,69,complete
+280399,2025-12-16T23:30:00.000Z,ncaab,UNC Asheville,Kentucky Christian,83,73,complete
+263647,2025-12-17T00:00:00.000Z,ncaab,Lamar,UT Grande Valley,72,83,complete
+265335,2025-12-17T00:00:00.000Z,ncaab,Tennessee,Louisville,83,62,complete
+265338,2025-12-17T00:00:00.000Z,ncaab,Clemson,S. Carolina,68,61,complete
+265339,2025-12-17T00:00:00.000Z,ncaab,Dayton,Florida St,97,69,complete
+265340,2025-12-17T00:00:00.000Z,ncaab,High Point,Mary Baldwin Fighting Squirrels,129,47,complete
+265342,2025-12-17T00:00:00.000Z,ncaab,Miami (FL),FIU,98,81,complete
+265346,2025-12-17T00:00:00.000Z,ncaab,Rhode Island,Canisius,62,45,complete
+266672,2025-12-17T00:00:00.000Z,ncaab,Wright State,Miami (OH),76,83,complete
+266674,2025-12-17T00:00:00.000Z,ncaab,Bowling Green,Chicago St,76,55,complete
+267379,2025-12-17T00:00:00.000Z,ncaab,St. John's,DePaul,79,66,complete
+267381,2025-12-17T00:00:00.000Z,ncaab,Oklahoma,UMKC,89,67,complete
+267615,2025-12-17T00:00:00.000Z,ncaab,Ohio,Ohio Wesleyan Battling Bishops,89,56,complete
+276092,2025-12-17T00:00:00.000Z,ncaab,Delaware,Rider,65,57,complete
+278429,2025-12-17T00:00:00.000Z,ncaab,UNC Greensboro,NC A&T,65,71,complete
+278727,2025-12-17T00:00:00.000Z,ncaab,MS Valley St,Tarleton St,64,88,complete
+280398,2025-12-17T00:00:00.000Z,ncaab,Evansville,Belmont,78,83,complete
+265349,2025-12-17T00:30:00.000Z,ncaab,Mississippi St,Long Island,87,83,complete

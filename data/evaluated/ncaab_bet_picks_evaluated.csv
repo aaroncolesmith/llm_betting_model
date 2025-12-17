@@ -574,3 +574,25 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 2.0,claude,2025-12-13,264572,Ohio State vs West Virginia,89,88,Ohio State -3.5,-105.0,2.0,loss,-2.0
 13.0,claude,2025-12-13,264572,Ohio State vs West Virginia,89,88,Over 144.5,-110.0,1.0,win,0.9090909090909092
 3.0,gemini,2025-12-13,264572,Ohio State vs West Virginia,89,88,Over 144.5,-110.0,3.0,win,2.727272727272727
+1.0,perplexity,2025-12-16,263647,Lamar vs UT Grande Valley,72,83,Lamar -3.5,-111.0,2.0,loss,-2.0
+2.0,perplexity,2025-12-16,280398,Evansville vs Belmont,78,83,Belmont -8.5,-105.0,2.0,loss,-2.0
+3.0,perplexity,2025-12-16,266675,Michigan St vs Toledo,92,69,Toledo +23.0,-110.0,1.0,push,0.0
+4.0,perplexity,2025-12-16,278727,MS Valley St vs Tarleton St,64,88,MS Valley St +15.5,-110.0,1.0,loss,-1.0
+5.0,perplexity,2025-12-16,263647,Lamar vs UT Grande Valley,72,83,Over 139,-112.0,1.0,win,0.8928571428571429
+6.0,perplexity,2025-12-16,280398,Evansville vs Belmont,78,83,Under 147.5,-110.0,1.0,loss,-1.0
+7.0,perplexity,2025-12-16,266675,Michigan St vs Toledo,92,69,Under 151.5,-110.0,1.0,loss,-1.0
+8.0,perplexity,2025-12-16,278727,MS Valley St vs Tarleton St,64,88,Under 142,-112.0,1.0,loss,-1.0
+1.0,claude,2025-12-16,265335,Tennessee vs Louisville,83,62,Under 156.5,-110.0,3.0,win,2.727272727272727
+2.0,claude,2025-12-16,267379,St. John's vs DePaul,79,66,St. John's -19.5,-110.0,3.0,loss,-3.0
+3.0,claude,2025-12-16,265338,Clemson vs S. Carolina,68,61,Under 141.5,-110.0,3.0,win,2.727272727272727
+4.0,claude,2025-12-16,265339,Dayton vs Florida St,97,69,Dayton -6.5,-112.0,2.0,win,1.7857142857142858
+5.0,claude,2025-12-16,266675,Michigan St vs Toledo,92,69,Under 151.5,-110.0,2.0,loss,-2.0
+6.0,claude,2025-12-16,267381,Oklahoma vs UMKC,89,67,Under 153.5,-108.0,2.0,loss,-2.0
+7.0,claude,2025-12-16,265342,Miami (FL) vs FIU,98,81,Miami (FL) -21.5,-115.0,2.0,loss,-2.0
+8.0,claude,2025-12-16,265335,Tennessee vs Louisville,83,62,Louisville +2.5,-106.0,1.0,loss,-1.0
+10.0,claude,2025-12-16,266672,Wright State vs Miami (OH),76,83,Over 150.5,-105.0,1.0,win,0.9523809523809524
+2.0,gemini,2025-12-16,267379,St. John's vs DePaul,79,66,St. John's -19.5,-110.0,3.0,loss,-3.0
+3.0,gemini,2025-12-16,265338,Clemson vs S. Carolina,68,61,Clemson -12.5,-110.0,2.0,loss,-2.0
+4.0,gemini,2025-12-16,276092,Delaware vs Rider,65,57,Rider +9.5,-100.0,2.0,win,2.0
+5.0,gemini,2025-12-16,266672,Wright State vs Miami (OH),76,83,Wright State +1.5,-118.0,2.0,loss,-2.0
+6.0,gemini,2025-12-16,265342,Miami (FL) vs FIU,98,81,Miami (FL) -21.5,-115.0,1.0,loss,-1.0
