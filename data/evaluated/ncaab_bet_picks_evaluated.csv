@@ -596,3 +596,5 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 4.0,gemini,2025-12-16,276092,Delaware vs Rider,65,57,Rider +9.5,-100.0,2.0,win,2.0
 5.0,gemini,2025-12-16,266672,Wright State vs Miami (OH),76,83,Wright State +1.5,-118.0,2.0,loss,-2.0
 6.0,gemini,2025-12-16,265342,Miami (FL) vs FIU,98,81,Miami (FL) -21.5,-115.0,1.0,loss,-1.0
+9.0,claude,2025-12-16,265333,UNC vs E Tennessee St,77,58,Under 151.5,-110.0,1.0,win,0.9090909090909092
+1.0,gemini,2025-12-16,265334,G Tech vs Marist,87,76,G Tech -7.5,-111.0,3.0,win,2.7027027027027026
