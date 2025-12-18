@@ -363,6 +363,7 @@ Before submitting your picks, verify:
 □ Ensure the reason column in the csv is enclosed in double quotes
 □ The timestamp column name has NO invisible Unicode characters (must be exactly "timestamp")
 □ The timestamp value is in valid ISO 8601 format with only standard ASCII characters
+□ The predicted score matches the order of the match, home team score first, away team score second
 
 ---
 
