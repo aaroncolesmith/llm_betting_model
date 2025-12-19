@@ -614,4 +614,4 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 8.0,claude,2025-12-18,280401,Indiana St vs Bradley,99,108,Bradley -4.5,-118.0,1.0,win,0.847457627118644
 5.0,gemini,2025-12-18,266685,North Dakota vs Winthrop,90,88,Winthrop -12.5,-113.0,2.0,loss,-2.0
 6.0,gemini,2025-12-18,280402,Murray State vs Drake,81,72,Drake +7.5,-110.0,1.0,loss,-1.0
-7.0,gemini,2025-12-18,265380,TCU vs Oral Roberts,72,53,Oral Roberts +23.5,-105.0,1.0,win,0.9523809523809523
+7.0,gemini,2025-12-18,265380,TCU vs Oral Roberts,72,53,Oral Roberts +23.5,-105.0,1.0,win,0.9523809523809524
