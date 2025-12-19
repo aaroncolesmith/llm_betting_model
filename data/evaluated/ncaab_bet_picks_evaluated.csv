@@ -609,3 +609,9 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 2.0,gemini,2025-12-18,262187,E. Illinois vs SIU-Edwardsville,76,72,E. Illinois +6.5,-112.0,3.0,win,2.678571428571429
 3.0,gemini,2025-12-16,265349,Mississippi St vs Long Island,87,83,Long Island +15.5,-107.0,2.0,win,1.8691588785046729
 4.0,gemini,2025-12-18,266684,Norfolk State vs Grambling St,68,80,Grambling St +1.5,-122.0,2.0,win,1.639344262295082
+3.0,claude,2025-12-18,280402,Murray State vs Drake,81,72,Under 156.5,-105.0,2.0,win,1.9047619047619049
+5.0,claude,2025-12-18,262182,GA Southern vs Georgia State,90,67,Under 159.5,-115.0,2.0,win,1.7391304347826086
+8.0,claude,2025-12-18,280401,Indiana St vs Bradley,99,108,Bradley -4.5,-118.0,1.0,win,0.847457627118644
+5.0,gemini,2025-12-18,266685,North Dakota vs Winthrop,90,88,Winthrop -12.5,-113.0,2.0,loss,-2.0
+6.0,gemini,2025-12-18,280402,Murray State vs Drake,81,72,Drake +7.5,-110.0,1.0,loss,-1.0
+7.0,gemini,2025-12-18,265380,TCU vs Oral Roberts,72,53,Oral Roberts +23.5,-105.0,1.0,win,0.9523809523809523

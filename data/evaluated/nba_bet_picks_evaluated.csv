@@ -887,3 +887,9 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 2,perplexity,2025-12-16,283363,Knicks vs Spurs,124.0,113.0,Over 234.5,-108,2,win,1.851851851851852
 1,gemini,2025-12-16,283363,Knicks vs Spurs,124.0,113.0,Spurs +2.5,-110,3,loss,-3.0
 2,gemini,2025-12-16,283363,Knicks vs Spurs,124.0,113.0,Under 234.5,-110,1,loss,-1.0
+1,claude,2025-12-18,283461,Thunder vs Clippers,122.0,101.0,Thunder -16.5,-115,3,win,2.608695652173913
+2,claude,2025-12-18,283460,Spurs vs Wizards,119.0,94.0,Spurs -15.5,-110,3,win,2.727272727272727
+3,claude,2025-12-18,261934,Pelicans vs Rockets,133.0,128.0,Rockets -9.5,-110,2,loss,-2.0
+1,gemini,2025-12-18,283461,Thunder vs Clippers,122.0,101.0,Clippers +16.5,-105,3,loss,-3.0
+2,gemini,2025-12-18,283460,Spurs vs Wizards,119.0,94.0,Wizards +15.5,-110,3,loss,-3.0
+4,gemini,2025-12-18,261935,Bucks vs Raptors,105.0,111.0,Bucks +3.5,-105,2,loss,-2.0
