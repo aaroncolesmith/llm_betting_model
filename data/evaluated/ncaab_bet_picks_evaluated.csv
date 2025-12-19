@@ -598,3 +598,14 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 6.0,gemini,2025-12-16,265342,Miami (FL) vs FIU,98,81,Miami (FL) -21.5,-115.0,1.0,loss,-1.0
 9.0,claude,2025-12-16,265333,UNC vs E Tennessee St,77,58,Under 151.5,-110.0,1.0,win,0.9090909090909092
 1.0,gemini,2025-12-16,265334,G Tech vs Marist,87,76,G Tech -7.5,-111.0,3.0,win,2.702702702702702
+1.0,claude,2025-12-18,262189,App State vs Coastal Car,67,49,App State -5.5,-105.0,3.0,win,2.8571428571428568
+2.0,claude,2025-12-18,276093,Davidson vs Temple,63,68,Under 142.5,-108.0,3.0,win,2.7777777777777777
+4.0,claude,2025-12-18,266684,Norfolk State vs Grambling St,68,80,Norfolk State -1.5,101.0,2.0,loss,-2.0
+6.0,claude,2025-12-18,265386,Central Conn vs Fairfield,70,84,Under 142.5,-111.0,2.0,loss,-2.0
+7.0,claude,2025-12-18,265385,William & Mary vs Radford,96,83,Under 169.5,-105.0,1.0,loss,-1.0
+9.0,claude,2025-12-18,265379,Charlotte vs Lafayette,81,67,Under 137.5,-110.0,1.0,loss,-1.0
+10.0,claude,2025-12-18,265384,N. Arizona vs Southern Utah,65,57,Under 149.0,-110.0,1.0,win,0.9090909090909092
+1.0,gemini,2025-12-18,265379,Charlotte vs Lafayette,81,67,Lafayette +10.5,-109.0,3.0,loss,-3.0
+2.0,gemini,2025-12-18,262187,E. Illinois vs SIU-Edwardsville,76,72,E. Illinois +6.5,-112.0,3.0,win,2.678571428571429
+3.0,gemini,2025-12-16,265349,Mississippi St vs Long Island,87,83,Long Island +15.5,-107.0,2.0,win,1.8691588785046729
+4.0,gemini,2025-12-18,266684,Norfolk State vs Grambling St,68,80,Grambling St +1.5,-122.0,2.0,win,1.639344262295082
