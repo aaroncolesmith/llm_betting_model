@@ -895,3 +895,4 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 4,gemini,2025-12-18,261935,Bucks vs Raptors,105.0,111.0,Bucks +3.5,-105,2,loss,-2.0
 4,claude,2025-12-18,261938,Jazz vs Lakers,135.0,143.0,Lakers -9.5,-118,2,loss,-2.0
 5,gemini,2025-12-18,261936,Mavericks vs Pistons,116.0,114.0,Pistons -7.5,-110,2,loss,-2.0
+3,gemini,2025-12-18,261940,Trail Blazers vs Kings,134.0,133.0,Kings +8.5,-105,2,win,1.9047619047619049
