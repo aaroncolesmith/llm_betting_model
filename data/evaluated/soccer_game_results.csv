@@ -1785,3 +1785,16 @@ game_id,start_time,league_name,home_team,away_team,home_score,away_score,status
 272791,2025-12-20T15:00:00.000Z,epl,Man City,West Ham,3,0,complete
 272795,2025-12-20T15:00:00.000Z,epl,Albion,Sunderland,0,0,complete
 272797,2025-12-20T15:00:00.000Z,epl,Bournemouth,Burnley,1,1,complete
+272790,2025-12-20T12:30:00.000Z,epl,Newcastle,Chelsea,2,2,complete
+273482,2025-12-20T13:00:00.000Z,laliga,Real Oviedo,Celta Vigo,0,0,complete
+272798,2025-12-20T14:30:00.000Z,bundesliga,HSV,FRA,1,1,complete
+272799,2025-12-20T14:30:00.000Z,bundesliga,Köln,Union Berlin,0,1,complete
+272801,2025-12-20T14:30:00.000Z,bundesliga,Augsburg,BRE,0,0,complete
+272802,2025-12-20T14:30:00.000Z,bundesliga,WOLF,Freiburg,3,4,complete
+272803,2025-12-20T14:30:00.000Z,bundesliga,Stuttgart,HOFF,0,0,complete
+272788,2025-12-20T15:00:00.000Z,epl,Wolverhampton,Brentford,0,2,complete
+272791,2025-12-20T15:00:00.000Z,epl,Man City,West Ham,3,0,complete
+272795,2025-12-20T15:00:00.000Z,epl,Albion,Sunderland,0,0,complete
+272797,2025-12-20T15:00:00.000Z,epl,Bournemouth,Burnley,1,1,complete
+273487,2025-12-20T15:15:00.000Z,laliga,Levante,Real Sociedad,1,1,complete
+273495,2025-12-20T17:00:00.000Z,seriea,Lazio,Cremonese,0,0,complete
