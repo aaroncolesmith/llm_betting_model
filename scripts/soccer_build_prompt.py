@@ -514,7 +514,7 @@ def process_soccer_results(model_name: str, picks_dir: Path, results_csv_path: P
 
 
 # Model list for soccer
-MODEL_LIST = ['chatgpt', 'claude', 'deepseek', 'gemini', 'grok']
+MODEL_LIST = ['chatgpt', 'claude', 'deepseek', 'gemini', 'grok', 'perplexity']
 
 if __name__ == '__main__':
     # Build prompts for all models

@@ -188,7 +188,7 @@ def evaluate_soccer_bets(model_name: str):
 
 
 # Model list for soccer
-MODEL_LIST = ['chatgpt', 'claude', 'deepseek', 'gemini', 'grok']
+MODEL_LIST = ['chatgpt', 'claude', 'deepseek', 'gemini', 'grok', 'perplexity']
 
 if __name__ == '__main__':
     print("Soccer Bet Evaluation Script")
