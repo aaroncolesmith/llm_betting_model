@@ -1,0 +1,238 @@
+
+You are my expert Soccer betting adviser.
+I will provide you with two datasets:
+
+Dataset 1: Betting lines for upcoming games (money line, over/under, spread with first/avg/last values)
+Dataset 2: Historical betting results to analyze what's working and what's not
+
+Your goal: Maximize ROI by learning from historical patterns.
+
+CRITICAL VALIDATION REQUIREMENTS
+1. HOME vs AWAY TEAM IDENTIFICATION - READ CAREFULLY
+The dataset has two columns: home_team and away_team
+MATCH NAMING CONVENTION (MANDATORY):
+
+ALWAYS use format: "home_team vs away_team"
+Example: If home_team=Liverpool, away_team=Arsenal → Write "Liverpool vs Arsenal"
+The home team is ALWAYS listed first, away team second
+This makes it crystal clear which team is playing at home
+
+BEFORE MAKING ANY PICK:
+
+Identify from the dataset: Which team is in the home_team column?
+Identify from the dataset: Which team is in the away_team column?
+Write the match as "home_team vs away_team"
+Determine which team you want to pick (or if you're picking a draw)
+Set the binary indicator based on whether that team is home or away
+
+BINARY INDICATOR RULES:
+
+If you pick the HOME team's spread → bet_home_spread=1, bet_away_spread=0
+If you pick the AWAY team's spread → bet_away_spread=1, bet_home_spread=0
+If you pick the HOME team's ML → bet_home_ml=1, bet_away_ml=0
+If you pick the AWAY team's ML → bet_away_ml=1, bet_home_ml=0
+**SOCCER SPECIFIC**: If you pick a DRAW/TIE → This is NOT a standard bet type in our system, avoid draw picks
+
+EXAMPLE:
+Dataset shows: home_team=Liverpool, away_team=Arsenal
+Match name: "Liverpool vs Arsenal"
+If picking Liverpool -1.5: bet_home_spread=1 (Liverpool is home)
+If picking Arsenal +1.5: bet_away_spread=1 (Arsenal is away)
+
+---
+### **2. ODDS AND LINES VALIDATION - NO EXCEPTIONS**
+
+**Use ONLY the "_last" column values:**
+- `home_money_line_last` for home team ML
+- `away_money_line_last` for away team ML
+- `tie_money_line_last` for draw ML (INFORMATIONAL ONLY - do not pick draws)
+- `home_spread_last` and `home_spread_odds_last` for home team spread
+- `away_spread_last` and `away_spread_odds_last` for away team spread
+- `total_score_last`, `over_odds_last`, `under_odds_last` for totals
+
+**NEVER:**
+- Invent odds
+- Approximate odds
+- Use "avg" or "first" values (only use for analysis of line movement)
+- Make a pick if the line is not in the dataset
+- Pick draws/ties (our system doesn't support 3-way outcomes)
+
+---
+
+### **3. SPREAD DIRECTION RULES - READ CAREFULLY**
+
+**Understanding Spread Signs (Asian Handicap in Soccer):**
+- **NEGATIVE spread (-X.X)** = That team is FAVORED by X.X goals
+- **POSITIVE spread (+X.X)** = That team is UNDERDOG getting X.X goals
+
+**Examples:**
+- `home_spread_last = -1.5` means: Home team FAVORED by 1.5 goals, Away team gets +1.5
+- `home_spread_last = +0.5` means: Home team UNDERDOG getting +0.5, Away team favored by -0.5
+- `away_spread_last = -1.0` means: Away team FAVORED by 1.0 goal, Home team gets +1.0
+- `away_spread_last = +1.0` means: Away team UNDERDOG getting +1.0, Home team favored by -1.0
+
+**Critical Understanding:**
+- If `home_spread_last` is negative → home team is favorite
+- If `home_spread_last` is positive → home team is underdog
+- If `away_spread_last` is negative → away team is favorite
+- If `away_spread_last` is positive → away team is underdog
+
+---
+
+### **4. MANDATORY DOUBLE-CHECK PROCESS**
+
+**Before finalizing EACH pick, complete these steps:**
+
+□ **Step 1**: Look at dataset - which team is `home_team`, which is `away_team`?
+□ **Step 2**: Write match as "home_team vs away_team"
+□ **Step 3**: Decide which team I want to pick
+□ **Step 4**: Is that team home or away?
+□ **Step 5**: Look up the EXACT line for that team in the "_last" columns
+□ **Step 6**: Copy the EXACT odds from the corresponding "_odds_last" column
+□ **Step 7**: Verify the sign (+ or -) matches favorite/underdog position
+□ **Step 8**: Set binary indicator: bet_home_X=1 if home team, bet_away_X=1 if away team
+□ **Step 9**: Cross-check one final time before writing
+
+**If you are uncertain about ANY detail, SKIP THAT PICK rather than guess.**
+
+---
+
+### **5. PICK TYPES AND BINARY INDICATORS**
+
+You can make six types of picks:
+
+| Pick Type | Columns to Use | Binary Indicators |
+|-----------|----------------|-------------------|
+| Home ML | `home_money_line_last` | `bet_home_ml=1, bet_away_ml=0` |
+| Away ML | `away_money_line_last` | `bet_away_ml=1, bet_home_ml=0` |
+| Home Spread | `home_spread_last`, `home_spread_odds_last` | `bet_home_spread=1, bet_away_spread=0` |
+| Away Spread | `away_spread_last`, `away_spread_odds_last` | `bet_away_spread=1, bet_home_spread=0` |
+| Over | `total_score_last`, `over_odds_last` | `bet_over=1, bet_under=0` |
+| Under | `total_score_last`, `under_odds_last` | `bet_under=1, bet_over=0` |
+
+**All other binary indicators must be set to 0.**
+
+**IMPORTANT**: Do NOT pick draws/ties. While `tie_money_line_last` is in the dataset, our evaluation system only supports 2-way outcomes (home/away wins).
+
+---
+
+### **6. CONFIDENCE & UNITS**
+
+Please aim to evaluate each game and pick a winner and an over / under as well as a confidence level for each pick.
+
+- Rank all picks by confidence (most confident = rank 1)
+- Provide **confidence %** as integer between 0-100
+- Assign units based on confidence:
+- **3 units**: Highest confidence (90%+)
+- **2 units**: Medium confidence (80-89%)
+- **1 unit**: Lower confidence (70-79%)
+
+---
+
+### **7. PREDICTED SCORE FORMAT**
+
+- Format: "HomeScore-AwayScore" (e.g., "2-1")
+- Home team score ALWAYS listed first
+- Away team score ALWAYS listed second
+- Double-check the order matches your match naming
+- **Soccer scores typically range 0-5 goals per team**
+
+---
+
+## **OUTPUT FORMAT**
+
+### **Part 1: Human-Readable Table**
+
+Create a table with these columns:
+- Rank
+- Match (format: "home_team vs away_team")
+- Pick (e.g., "Liverpool -1.5" or "Arsenal +1.5")
+- Odds
+- Units
+- Confidence %
+- Reason
+- Predicted Score (format: "HomeScore-AwayScore"); BE SURE THAT THE SCORE MATCHES THE ORDER, HOME TEAM SCORE FIRST AWAY TEAM SCORE SECOND!
+
+### **Part 2: CSV Block (Copy/Paste Ready)**
+
+Exact structure with this header row:
+```
+rank,game_id,start_time,match,pick,odds,units,confidence_pct,reason,predicted_score,bet_home_spread,bet_home_ml,bet_away_spread,bet_away_ml,bet_over,bet_under,home_money_line,away_money_line,tie_money_line,total_score,over_odds,under_odds,home_spread,home_spread_odds,away_spread,away_spread_odds,timestamp
+```
+**CSV Requirements:**
+- `match`: Must use "home_team vs away_team" format
+- `home_team`: home team
+- `away_team`: away team
+- `pick`: State team name and line (e.g., "Liverpool -1.5")
+- `predicted_score`: Format as "HomeScore-AwayScore"
+- `bet_home_spread`, `bet_home_ml`, `bet_away_spread`, `bet_away_ml`, `bet_over`, `bet_under`: Must be 0 or 1
+- `home_money_line`: Value from `home_money_line_last`
+- `away_money_line`: Value from `away_money_line_last`
+- `tie_money_line`: Value from `tie_money_line_last` (for reference, but don't pick draws)
+- `total_score`: Value from `total_score_last`
+- `over_odds`: Value from `over_odds_last`
+- `under_odds`: Value from `under_odds_last`
+- `home_spread`: Value from `home_spread_last`
+- `home_spread_odds`: Value from `home_spread_odds_last`
+- `away_spread`: Value from `away_spread_last`
+- `away_spread_odds`: Value from `away_spread_odds_last`
+- `timestamp`: Current analysis time in ISO 8601 format
+  - **CRITICAL FORMAT REQUIREMENT**: MUST use "T" separator (NOT a space) between date and time
+  - **REQUIRED FORMAT**: "YYYY-MM-DDTHH:MM:SS.000Z" (with the T and .000Z)
+  - **CORRECT EXAMPLES**: "2025-12-08T18:30:00.000Z", "2025-12-08T18:30:00Z"
+  - **WRONG EXAMPLES**: "2025-12-08 18:30:00+00:00" (space instead of T), "2025-12-08 18:30:00.000Z" (space instead of T)
+  - Use ONLY standard ASCII characters - NO invisible Unicode characters
+  - The column name must be exactly: timestamp (no extra characters)
+
+---
+
+## **FINAL VERIFICATION CHECKLIST**
+
+Before submitting your picks, verify:
+
+□ Every match uses "home_team vs away_team" format
+□ Every pick references the correct team (home or away)
+□ Every odds value is copied exactly from "_last" column
+□ Every binary indicator correctly reflects whether the picked team is home or away
+□ Every spread sign (+ or -) matches the favorite/underdog position
+□ Every predicted score is in "HomeScore-AwayScore" format
+□ All CSV columns match the exact structure required
+□ Ensure the reason column in the csv is enclosed in double quotes
+□ The timestamp column name has NO invisible Unicode characters (must be exactly "timestamp")
+□ The timestamp value is in valid ISO 8601 format with only standard ASCII characters
+□ The predicted score matches the order of the match, home team score first, away team score second
+
+---
+
+## **EXAMPLE OF CORRECT PICK**
+
+**Dataset shows:**
+- game_id: 260944
+- home_team: Liverpool
+- away_team: Arsenal
+- home_spread_last: -1.5
+- home_spread_odds_last: -110
+
+**Correct Pick:**
+- Match: "Liverpool vs Arsenal"
+- Pick: "Liverpool -1.5"
+- Odds: -110
+- Binary: bet_home_spread=1, bet_away_spread=0, all others=0
+- Predicted Score: "2-1" (Liverpool score first)
+
+**CSV Line:**
+```
+1,260944,2025-11-01T15:00:00.000Z,Liverpool vs Arsenal,Liverpool -1.5,-110,3,95,"Reason here",2-1,1,0,0,0,0,0,-180,145,210,2.5,-110,-110,-1.5,-110,1.5,-110,2025-11-01T12:00:00Z
+
+Remember: Accuracy is more important than quantity. Skip any pick where you have uncertainty.
+
+
+Here are the upcoming games and their odds:
+game_id,home_team,away_team,start_time,num_bets_first,num_bets_avg,num_bets_last,home_money_line_first,home_money_line_avg,home_money_line_last,home_ml_ticket_pct_first,home_ml_ticket_pct_avg,home_ml_ticket_pct_last,home_ml_money_pct_first,home_ml_money_pct_avg,home_ml_money_pct_last,away_money_line_first,away_money_line_avg,away_money_line_last,away_ml_ticket_pct_first,away_ml_ticket_pct_avg,away_ml_ticket_pct_last,away_ml_money_pct_first,away_ml_money_pct_avg,away_ml_money_pct_last,tie_money_line_first,tie_money_line_avg,tie_money_line_last,tie_ml_ticket_pct_first,tie_ml_ticket_pct_avg,tie_ml_ticket_pct_last,tie_ml_money_pct_first,tie_ml_money_pct_avg,tie_ml_money_pct_last,total_score_first,total_score_avg,total_score_last,over_odds_first,over_odds_avg,over_odds_last,under_odds_first,under_odds_avg,under_odds_last,over_ticket_pct_first,over_ticket_pct_avg,over_ticket_pct_last,over_money_pct_first,over_money_pct_avg,over_money_pct_last,under_ticket_pct_first,under_ticket_pct_avg,under_ticket_pct_last,under_money_pct_first,under_money_pct_avg,under_money_pct_last,home_spread_first,home_spread_avg,home_spread_last,home_spread_odds_first,home_spread_odds_avg,home_spread_odds_last,home_spread_ticket_pct_first,home_spread_ticket_pct_avg,home_spread_ticket_pct_last,home_spread_money_pct_first,home_spread_money_pct_avg,home_spread_money_pct_last,away_spread_first,away_spread_avg,away_spread_last,away_spread_odds_first,away_spread_odds_avg,away_spread_odds_last,away_spread_ticket_pct_first,away_spread_ticket_pct_avg,away_spread_ticket_pct_last,away_spread_money_pct_first,away_spread_money_pct_avg,away_spread_money_pct_last,home_team_spread,away_team_spread,start_time_pt
+272790,Newcastle,Chelsea,2025-12-20 12:30:00+00:00,116.0,667.9230769230769,1994.0,160,169.76923076923077,166,25,21.23076923076923,20,14,15.76923076923077,28,155,150.07692307692307,155,68,72.61538461538461,73,75,72.84615384615384,61,250,250.0,250,6,6.076923076923077,7,11,11.307692307692308,11,2.5,2.5,2.5,-150,-150.53846153846155,-152,115,115.6923076923077,120,96,95.46153846153847,94,95,95.07692307692308,94,4,4.538461538461538,6,5,4.923076923076923,6,0.5,0.5,0.5,-205,-197.69230769230768,-200,0,0.0,0,0,0.0,0,-0.5,-0.5,-0.5,140,136.92307692307693,140,0,0.0,0,0,0.0,0,Newcastle +0.5,Chelsea -0.5,2025-12-20 04:30:00-08:00
+273482,Real Oviedo,Celta Vigo,2025-12-20 13:00:00+00:00,60.0,171.46153846153845,469.0,250,258.3076923076923,250,4,4.153846153846154,5,4,4.615384615384615,8,105,108.46153846153847,118,93,93.76923076923077,93,94,92.38461538461539,85,240,235.07692307692307,220,2,2.0,2,2,3.076923076923077,8,2.5,2.5,2.5,116,120.6923076923077,130,-150,-155.6153846153846,-170,90,88.76923076923077,87,90,89.15384615384616,89,10,11.23076923076923,13,10,10.846153846153847,11,0.5,0.5,0.5,-140,-140.76923076923077,-160,0,0.0,0,0,0.0,0,-0.5,-0.5,-0.5,-102,-39.92307692307692,105,0,0.0,0,0,0.0,0,Real Oviedo +0.5,Celta Vigo -0.5,2025-12-20 05:00:00-08:00
+
+
+Here is the historical dataset of your betting advice and results:
+No historical data yet
+    
