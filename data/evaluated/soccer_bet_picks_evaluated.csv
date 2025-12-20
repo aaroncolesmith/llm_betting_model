@@ -411,3 +411,38 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 3,grok,2025-12-14,267273,Genoa vs Inter,1,2,Inter -1.0,-115,2,win,1.7391304347826086
 4,grok,2025-12-14,267280,Strasbourg vs Lorient,0,0,Strasbourg -0.5,-145,2,loss,-2.0
 5,grok,2025-12-14,267199,Brentford vs Leeds,1,1,Over 2.5,112,1,loss,-1.0
+1,chatgpt,2025-12-20,272791,Man City vs West Ham,3,0,Man City -2.0,-115,3,win,2.608695652173913
+2,chatgpt,2025-12-20,272797,Bournemouth vs Burnley,1,1,Bournemouth -1.5,125,2,loss,-2.0
+3,chatgpt,2025-12-20,272803,Stuttgart vs HOFF,0,0,Stuttgart -0.5,-100,2,loss,-2.0
+4,chatgpt,2025-12-20,272799,Köln vs Union Berlin,0,1,Köln -0.5,135,2,loss,-2.0
+5,chatgpt,2025-12-20,272795,Albion vs Sunderland,0,0,Albion -0.5,-165,2,loss,-2.0
+6,chatgpt,2025-12-20,272802,WOLF vs Freiburg,3,4,WOLF -0.5,138,1,loss,-1.0
+7,chatgpt,2025-12-20,272801,Augsburg vs BRE,0,0,Augsburg -0.5,115,1,loss,-1.0
+8,chatgpt,2025-12-20,272798,HSV vs FRA,1,1,HSV -0.5,138,1,loss,-1.0
+9,chatgpt,2025-12-20,272788,Wolverhampton vs Brentford,0,2,Brentford -0.5,105,1,win,1.05
+1,claude,2025-12-20,272791,Man City vs West Ham,3,0,Man City -2.0,-115,3,win,2.608695652173913
+3,claude,2025-12-20,272797,Bournemouth vs Burnley,1,1,Bournemouth -1.5,125,2,loss,-2.0
+4,claude,2025-12-20,272788,Wolverhampton vs Brentford,0,2,Brentford -0.5,105,2,win,2.1
+5,claude,2025-12-20,272795,Albion vs Sunderland,0,0,Albion -0.5,-165,2,loss,-2.0
+6,claude,2025-12-20,272791,Man City vs West Ham,3,0,Under 3.5,-125,2,win,1.6
+7,claude,2025-12-20,272803,Stuttgart vs HOFF,0,0,Stuttgart -0.5,-100,1,loss,-1.0
+8,claude,2025-12-20,272797,Bournemouth vs Burnley,1,1,Under 2.5,-158,1,win,0.6329113924050633
+1,deepseek,2025-12-20,272803,Stuttgart vs HOFF,0,0,Over 3.5,115,3,loss,-3.0
+2,deepseek,2025-12-20,272801,Augsburg vs BRE,0,0,Under 2.5,105,2,win,2.1
+3,deepseek,2025-12-20,272799,Köln vs Union Berlin,0,1,Union Berlin +0.5,-190,2,win,1.0526315789473684
+4,deepseek,2025-12-20,272791,Man City vs West Ham,3,0,West Ham +2.0,-120,1,loss,-1.0
+1,gemini,2025-12-20,272791,Man City vs West Ham,3,0,Man City -2.0,-115,3,win,2.608695652173913
+2,gemini,2025-12-20,272797,Bournemouth vs Burnley,1,1,Bournemouth -1.5,125,2,loss,-2.0
+3,gemini,2025-12-20,272795,Albion vs Sunderland,0,0,Albion -0.5,-165,2,loss,-2.0
+4,gemini,2025-12-20,272803,Stuttgart vs HOFF,0,0,Under 3.5,-145,1,win,0.6896551724137931
+5,gemini,2025-12-20,272801,Augsburg vs BRE,0,0,Augsburg -0.5,115,1,loss,-1.0
+1,grok,2025-12-20,272791,Man City vs West Ham,3,0,Man City -2,-115,3,win,2.608695652173913
+2,grok,2025-12-20,272797,Bournemouth vs Burnley,1,1,Bournemouth -1.5,125,3,loss,-3.0
+4,grok,2025-12-20,272788,Wolverhampton vs Brentford,0,2,Brentford -0.5,105,2,win,2.1
+5,grok,2025-12-20,272791,Man City vs West Ham,3,0,Over 3.5,-105,2,loss,-2.0
+6,grok,2025-12-20,272799,Köln vs Union Berlin,0,1,Köln -0.5,135,1,loss,-1.0
+7,grok,2025-12-20,272803,Stuttgart vs HOFF,0,0,HOFF +0.5,-135,1,win,0.7407407407407407
+1,perplexity,2025-12-20,272791,Man City vs West Ham,3,0,Man City -2.0,-115,3,win,2.608695652173913
+2,perplexity,2025-12-20,272797,Bournemouth vs Burnley,1,1,Bournemouth -1.5,125,2,loss,-2.0
+3,perplexity,2025-12-20,272795,Albion vs Sunderland,0,0,Albion -0.5,-165,2,loss,-2.0
+5,perplexity,2025-12-20,272803,Stuttgart vs HOFF,0,0,Over 3.5,115,1,loss,-1.0
