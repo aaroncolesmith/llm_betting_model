@@ -913,3 +913,10 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 2,perplexity,2025-12-22,261965,Nuggets vs Jazz,135.0,112.0,Nuggets -12.5,-115,3,win,2.608695652173913
 1,gemini,2025-12-22,261965,Nuggets vs Jazz,135.0,112.0,Nuggets -12.5,-115,3,win,2.608695652173913
 5,gemini,2025-12-22,261966,Thunder vs Grizzlies,119.0,103.0,Under 233.5,-108,2,win,1.851851851851852
+3,claude,2025-12-22,261967,Warriors vs Magic,120.0,97.0,Warriors -5.5,-114,3,win,2.631578947368421
+6,claude,2025-12-22,261968,Trail Blazers vs Pistons,102.0,110.0,Pistons -6.5,-105,2,win,1.9047619047619049
+10,claude,2025-12-22,261967,Warriors vs Magic,120.0,97.0,Under 227.5,-110,1,win,0.9090909090909092
+5,perplexity,2025-12-22,261967,Warriors vs Magic,120.0,97.0,Warriors -5.5,-114,2,win,1.7543859649122806
+6,perplexity,2025-12-22,261968,Trail Blazers vs Pistons,102.0,110.0,Under 234.5,-110,1,win,0.9090909090909092
+2,gemini,2025-12-22,261968,Trail Blazers vs Pistons,102.0,110.0,Pistons -6.5,-105,2,win,1.9047619047619049
+6,gemini,2025-12-22,261967,Warriors vs Magic,120.0,97.0,Magic +5.5,-106,1,loss,-1.0
