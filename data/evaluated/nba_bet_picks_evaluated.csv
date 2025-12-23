@@ -907,3 +907,9 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 7,perplexity,2025-12-22,261964,Pelicans vs Mavericks,119.0,113.0,Mavericks -1.5,-105,1,loss,-1.0
 3,gemini,2025-12-22,261964,Pelicans vs Mavericks,119.0,113.0,Mavericks -1.5,-105,2,loss,-2.0
 7,gemini,2025-12-22,261963,Celtics vs Pacers,103.0,95.0,Pacers +11.5,-102,1,win,0.9803921568627452
+2,claude,2025-12-22,261966,Thunder vs Grizzlies,119.0,103.0,Thunder -15.5,-110,3,win,2.727272727272727
+5,claude,2025-12-22,261965,Nuggets vs Jazz,135.0,112.0,Nuggets -12.5,-115,2,win,1.7391304347826086
+1,perplexity,2025-12-22,261966,Thunder vs Grizzlies,119.0,103.0,Thunder -15.5,-110,3,win,2.727272727272727
+2,perplexity,2025-12-22,261965,Nuggets vs Jazz,135.0,112.0,Nuggets -12.5,-115,3,win,2.608695652173913
+1,gemini,2025-12-22,261965,Nuggets vs Jazz,135.0,112.0,Nuggets -12.5,-115,3,win,2.608695652173913
+5,gemini,2025-12-22,261966,Thunder vs Grizzlies,119.0,103.0,Under 233.5,-108,2,win,1.851851851851852
