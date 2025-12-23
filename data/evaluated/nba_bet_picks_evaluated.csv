@@ -900,3 +900,10 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 8,claude,2025-12-22,261962,Cavaliers vs Hornets,139.0,132.0,Over 239.5,-110,1,win,0.9090909090909092
 4,perplexity,2025-12-22,261962,Cavaliers vs Hornets,139.0,132.0,Cavaliers -9.5,-110,2,loss,-2.0
 4,gemini,2025-12-22,261962,Cavaliers vs Hornets,139.0,132.0,Cavaliers -9.5,-110,2,loss,-2.0
+1,claude,2025-12-22,261963,Celtics vs Pacers,103.0,95.0,Celtics -11.5,-118,3,loss,-3.0
+7,claude,2025-12-22,261964,Pelicans vs Mavericks,119.0,113.0,Over 240.5,-110,2,loss,-2.0
+9,claude,2025-12-22,261963,Celtics vs Pacers,103.0,95.0,Over 226.5,-105,1,loss,-1.0
+3,perplexity,2025-12-22,261963,Celtics vs Pacers,103.0,95.0,Celtics -11.5,-118,2,loss,-2.0
+7,perplexity,2025-12-22,261964,Pelicans vs Mavericks,119.0,113.0,Mavericks -1.5,-105,1,loss,-1.0
+3,gemini,2025-12-22,261964,Pelicans vs Mavericks,119.0,113.0,Mavericks -1.5,-105,2,loss,-2.0
+7,gemini,2025-12-22,261963,Celtics vs Pacers,103.0,95.0,Pacers +11.5,-102,1,win,0.9803921568627452
