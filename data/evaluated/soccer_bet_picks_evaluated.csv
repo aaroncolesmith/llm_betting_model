@@ -451,3 +451,19 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 5,deepseek,2025-12-20,273487,Levante vs Real Sociedad,1,1,Real Sociedad -0.5,-190,1,loss,-1.0
 3,grok,2025-12-20,273487,Levante vs Real Sociedad,1,1,Real Sociedad -0.5,130,2,loss,-2.0
 4,perplexity,2025-12-20,273487,Levante vs Real Sociedad,1,1,Over 2.5,105,1,loss,-1.0
+1,claude,2025-12-30,278545,Burnley vs Newcastle,1,3,Newcastle -0.5,-190,3,win,1.5789473684210529
+2,claude,2025-12-30,278544,Chelsea vs Bournemouth,2,2,Chelsea -1.5,130,3,loss,-3.0
+3,claude,2025-12-30,278538,West Ham vs Albion,2,2,Albion -0.5,100,2,loss,-2.0
+4,claude,2025-12-30,278540,Nottingham vs Everton,0,2,Nottingham -0.5,-102,2,loss,-2.0
+5,claude,2025-12-30,278544,Chelsea vs Bournemouth,2,2,Under 3.5,-155,2,loss,-2.0
+6,claude,2025-12-30,278545,Burnley vs Newcastle,1,3,Under 2.5,-100,2,loss,-2.0
+7,claude,2025-12-30,278540,Nottingham vs Everton,0,2,Under 2.5,-165,1,win,0.6060606060606061
+8,claude,2025-12-30,278538,West Ham vs Albion,2,2,Under 2.5,130,1,loss,-1.0
+1,deepseek,2025-12-30,278538,West Ham vs Albion,2,2,Under 2.5,130,3,loss,-3.0
+2,deepseek,2025-12-30,278545,Burnley vs Newcastle,1,3,Under 2.5,-100,2,loss,-2.0
+3,deepseek,2025-12-30,278540,Nottingham vs Everton,0,2,Nottingham -0.5,-102,1,loss,-1.0
+1,gemini,2025-12-30,278544,Chelsea vs Bournemouth,2,2,Chelsea -1.5,130,3,loss,-3.0
+2,gemini,2025-12-30,278545,Burnley vs Newcastle,1,3,Newcastle -0.5,-190,3,win,1.5789473684210529
+3,gemini,2025-12-30,278540,Nottingham vs Everton,0,2,Under 2.5,-165,2,win,1.2121212121212122
+4,gemini,2025-12-30,278538,West Ham vs Albion,2,2,Albion -0.5,100,2,loss,-2.0
+5,gemini,2025-12-30,278540,Nottingham vs Everton,0,2,Nottingham ML,105,1,loss,-1.0
