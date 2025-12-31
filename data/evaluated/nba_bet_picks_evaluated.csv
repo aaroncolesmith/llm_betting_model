@@ -920,3 +920,8 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 6,perplexity,2025-12-22,261968,Trail Blazers vs Pistons,102.0,110.0,Under 234.5,-110,1,win,0.9090909090909092
 2,gemini,2025-12-22,261968,Trail Blazers vs Pistons,102.0,110.0,Pistons -6.5,-105,2,win,1.9047619047619049
 6,gemini,2025-12-22,261967,Warriors vs Magic,120.0,97.0,Magic +5.5,-106,1,loss,-1.0
+4,claude,2025-12-30,262018,Grizzlies vs 76ers,136.0,139.0,76ers -1.5,-110,2,win,1.818181818181818
+7,claude,2025-12-30,262018,Grizzlies vs 76ers,136.0,139.0,Over 235.5,-110,2,win,1.818181818181818
+9,claude,2025-12-30,262018,Grizzlies vs 76ers,136.0,139.0,76ers ML,-119,1,win,0.8403361344537815
+3,perplexity,2025-12-30,262018,Grizzlies vs 76ers,136.0,139.0,76ers -1.5,-110,2,win,1.818181818181818
+4,gemini,2025-12-30,262018,Grizzlies vs 76ers,136.0,139.0,Grizzlies +1.5,-110,1,loss,-1.0
