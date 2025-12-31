@@ -930,3 +930,11 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 10,claude,2025-12-30,262019,Jazz vs Celtics,119.0,129.0,Celtics ML,-270,1,win,0.3703703703703703
 4,perplexity,2025-12-30,262019,Jazz vs Celtics,119.0,129.0,Celtics -7.5,-110,2,win,1.818181818181818
 3,gemini,2025-12-30,262019,Jazz vs Celtics,119.0,129.0,Celtics -7.5,-110,2,win,1.818181818181818
+2,claude,2025-12-30,262021,Clippers vs Kings,131.0,90.0,Clippers -9.5,-110,3,win,2.727272727272727
+3,claude,2025-12-30,262020,Lakers vs Pistons,106.0,128.0,Pistons -2.5,-110,3,win,2.727272727272727
+6,claude,2025-12-30,262020,Lakers vs Pistons,106.0,128.0,Over 232.5,-115,2,win,1.7391304347826086
+8,claude,2025-12-30,262021,Clippers vs Kings,131.0,90.0,Under 219.5,-114,1,loss,-1.0
+1,perplexity,2025-12-30,262021,Clippers vs Kings,131.0,90.0,Clippers -9.5,-110,3,win,2.727272727272727
+2,perplexity,2025-12-30,262020,Lakers vs Pistons,106.0,128.0,Lakers +2.5,-110,2,loss,-2.0
+1,gemini,2025-12-30,262021,Clippers vs Kings,131.0,90.0,Kings +9.5,-110,3,loss,-3.0
+2,gemini,2025-12-30,262020,Lakers vs Pistons,106.0,128.0,Pistons -2.5,-110,2,win,1.818181818181818
