@@ -925,3 +925,8 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 9,claude,2025-12-30,262018,Grizzlies vs 76ers,136.0,139.0,76ers ML,-119,1,win,0.8403361344537815
 3,perplexity,2025-12-30,262018,Grizzlies vs 76ers,136.0,139.0,76ers -1.5,-110,2,win,1.818181818181818
 4,gemini,2025-12-30,262018,Grizzlies vs 76ers,136.0,139.0,Grizzlies +1.5,-110,1,loss,-1.0
+1,claude,2025-12-30,262019,Jazz vs Celtics,119.0,129.0,Celtics -7.5,-110,3,win,2.727272727272727
+5,claude,2025-12-30,262019,Jazz vs Celtics,119.0,129.0,Over 243.5,-115,2,win,1.7391304347826086
+10,claude,2025-12-30,262019,Jazz vs Celtics,119.0,129.0,Celtics ML,-270,1,win,0.3703703703703703
+4,perplexity,2025-12-30,262019,Jazz vs Celtics,119.0,129.0,Celtics -7.5,-110,2,win,1.818181818181818
+3,gemini,2025-12-30,262019,Jazz vs Celtics,119.0,129.0,Celtics -7.5,-110,2,win,1.818181818181818
