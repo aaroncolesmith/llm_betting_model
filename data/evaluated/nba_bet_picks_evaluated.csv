@@ -952,5 +952,9 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 3,perplexity,2026-01-02,262040,Bucks vs Hornets,122.0,121.0,Bucks -5.5,-110,2,loss,-2.0
 1,gemini,2026-01-02,262039,Cavaliers vs Nuggets,113.0,108.0,Nuggets +14.0,-110,3,win,2.727272727272727
 1,chatgpt,2026-01-02,262039,Cavaliers vs Nuggets,113.0,108.0,Cavaliers -14.0,-110,3,loss,-3.0
-3,chatgpt,2026-01-02,262038,Knicks vs Hawks,99.0,111.0,Under 241.5,-110,2,win,1.8181818181818181
+3,chatgpt,2026-01-02,262038,Knicks vs Hawks,99.0,111.0,Under 241.5,-110,2,win,1.818181818181818
 5,chatgpt,2026-01-02,262042,Bulls vs Magic,121.0,114.0,Under 233.5,-110,1,loss,-1.0
+2,claude,2026-01-02,262043,Suns vs Kings,129.0,102.0,Suns -13.5,-110,3,win,2.727272727272727
+9,claude,2026-01-02,262043,Suns vs Kings,129.0,102.0,Under 226.5,-110,1,loss,-1.0
+4,gemini,2026-01-02,262043,Suns vs Kings,129.0,102.0,Kings +13.5,-110,2,loss,-2.0
+2,chatgpt,2026-01-02,262043,Suns vs Kings,129.0,102.0,Suns -13.5,-110,2,win,1.8181818181818181
