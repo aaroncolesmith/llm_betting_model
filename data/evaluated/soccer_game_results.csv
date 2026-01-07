@@ -1813,3 +1813,16 @@ game_id,start_time,league_name,home_team,away_team,home_score,away_score,status
 280692,2026-01-07T17:30:00.000Z,seriea,Bologna,Atalanta,0,2,complete
 280691,2026-01-07T17:30:00.000Z,seriea,Napoli,Hellas,2,2,complete
 280692,2026-01-07T17:30:00.000Z,seriea,Bologna,Atalanta,0,2,complete
+280691,2026-01-07T17:30:00.000Z,seriea,Napoli,Hellas,2,2,complete
+280692,2026-01-07T17:30:00.000Z,seriea,Bologna,Atalanta,0,2,complete
+280681,2026-01-07T19:30:00.000Z,epl,Man City,Albion,1,1,complete
+280682,2026-01-07T19:30:00.000Z,epl,Crystal Palace,Aston Villa,0,0,complete
+280685,2026-01-07T19:30:00.000Z,epl,Fulham,Chelsea,2,1,complete
+280686,2026-01-07T19:30:00.000Z,epl,Everton,Wolverhampton,1,1,complete
+280688,2026-01-07T19:30:00.000Z,epl,Brentford,Sunderland,3,0,complete
+280690,2026-01-07T19:30:00.000Z,epl,Bournemouth,Tottenham,3,2,complete
+280693,2026-01-07T19:45:00.000Z,seriea,Torino,Udinese,1,2,complete
+280694,2026-01-07T19:45:00.000Z,seriea,Parma,Inter,0,2,complete
+280695,2026-01-07T19:45:00.000Z,seriea,Lazio,Fiorentina,2,2,complete
+280684,2026-01-07T20:15:00.000Z,epl,Newcastle,Leeds,4,3,complete
+280687,2026-01-07T20:15:00.000Z,epl,Burnley,Man U,2,2,complete

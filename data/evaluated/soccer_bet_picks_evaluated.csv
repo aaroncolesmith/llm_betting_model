@@ -479,3 +479,20 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 1,perplexity,2026-01-02,279900,Cagliari vs Milan,0,1,Milan -0.5,-185,3,win,1.6216216216216215
 2,perplexity,2026-01-02,280063,Vallecano vs Getafe,1,1,Vallecano -0.5,-105,2,loss,-2.0
 3,perplexity,2026-01-02,280072,Toulouse vs Lens,0,3,Lens +0.5,-200,2,win,1.0
+1,claude,2026-01-07,280694,Parma vs Inter,0,2,Inter -1.5,-110,3,win,2.727272727272727
+2,claude,2026-01-07,280682,Crystal Palace vs Aston Villa,0,0,Aston Villa -0.5,120,3,win,3.6
+3,claude,2026-01-07,280685,Fulham vs Chelsea,2,1,Chelsea -0.5,-102,2,loss,-2.0
+4,claude,2026-01-07,280687,Burnley vs Man U,2,2,Man U -0.5,-155,2,loss,-2.0
+5,claude,2026-01-07,280694,Parma vs Inter,0,2,Under 2.5,120,2,win,2.4
+6,claude,2026-01-07,280681,Man City vs Albion,1,1,Under 3.5,-102,1,win,0.9803921568627452
+1,gemini,2026-01-07,280694,Parma vs Inter,0,2,Inter -1.5,-110,3,win,2.727272727272727
+2,gemini,2026-01-07,280693,Torino vs Udinese,1,2,Under 2.5,-175,3,loss,-3.0
+3,gemini,2026-01-07,280684,Newcastle vs Leeds,4,3,Newcastle -0.5,-150,2,win,1.3333333333333333
+4,gemini,2026-01-07,280682,Crystal Palace vs Aston Villa,0,0,Crystal Palace +0.5,-175,2,win,1.1428571428571428
+5,gemini,2026-01-07,280686,Everton vs Wolverhampton,1,1,Everton -0.5,-120,1,loss,-1.0
+1,perplexity,2026-01-07,280694,Parma vs Inter,0,2,Inter -1.5,-110,3,win,2.727272727272727
+2,perplexity,2026-01-07,280681,Man City vs Albion,1,1,Man City -1.5,120,3,loss,-3.0
+3,perplexity,2026-01-07,280684,Newcastle vs Leeds,4,3,Newcastle -0.5,-165,2,win,1.2121212121212122
+4,perplexity,2026-01-07,280695,Lazio vs Fiorentina,2,2,Over 2.5,130,2,win,2.6
+5,perplexity,2026-01-07,280686,Everton vs Wolverhampton,1,1,Everton -0.5,-133,1,loss,-1.0
+6,perplexity,2026-01-07,280693,Torino vs Udinese,1,2,Torino -0.5,115,1,loss,-1.0
