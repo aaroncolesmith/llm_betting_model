@@ -496,3 +496,33 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 4,perplexity,2026-01-07,280695,Lazio vs Fiorentina,2,2,Over 2.5,130,2,win,2.6
 5,perplexity,2026-01-07,280686,Everton vs Wolverhampton,1,1,Everton -0.5,-133,1,loss,-1.0
 6,perplexity,2026-01-07,280693,Torino vs Udinese,1,2,Torino -0.5,115,1,loss,-1.0
+1,chatgpt,2026-01-17,281288,Liverpool vs Burnley,1,1,Liverpool -1.5,-155,3,loss,-3.0
+2,chatgpt,2026-01-17,281304,Dortmund vs St Pauli,3,2,Dortmund -1.5,-115,3,loss,-3.0
+4,chatgpt,2026-01-17,281288,Liverpool vs Burnley,1,1,Under 3.5,-175,2,win,1.1428571428571428
+5,chatgpt,2026-01-17,281304,Dortmund vs St Pauli,3,2,Under 2.5,-105,2,loss,-2.0
+7,chatgpt,2026-01-17,281290,Chelsea vs Brentford,2,0,Under 2.5,130,1,win,1.3
+8,chatgpt,2026-01-17,281284,Tottenham vs West Ham,1,2,Under 2.5,110,1,loss,-1.0
+1,claude,2026-01-17,281304,Dortmund vs St Pauli,3,2,Dortmund -1.5,-115,3,loss,-3.0
+2,claude,2026-01-17,281288,Liverpool vs Burnley,1,1,Liverpool -1.5,-155,3,loss,-3.0
+3,claude,2026-01-17,281298,HOFF vs Leverkusen,1,0,Leverkusen +0.5,-165,2,loss,-2.0
+4,claude,2026-01-17,281290,Chelsea vs Brentford,2,0,Chelsea -0.5,-130,2,win,1.5384615384615383
+6,claude,2026-01-17,281304,Dortmund vs St Pauli,3,2,Under 2.5,-105,1,loss,-1.0
+1,deepseek,2026-01-17,281284,Tottenham vs West Ham,1,2,Under 2.5,110,3,loss,-3.0
+2,deepseek,2026-01-17,281285,Sunderland vs Crystal Palace,2,1,Sunderland +0.5,125,2,loss,-2.0
+3,deepseek,2026-01-17,281297,Köln vs Mainz,2,1,Under 2.5,-105,2,loss,-2.0
+4,deepseek,2026-01-17,281290,Chelsea vs Brentford,2,0,Under 2.5,130,1,win,1.3
+5,deepseek,2026-01-17,281304,Dortmund vs St Pauli,3,2,St Pauli +1.5,-123,1,win,0.8130081300813008
+1,gemini,2026-01-17,281304,Dortmund vs St Pauli,3,2,Dortmund -1.5,-115,3,loss,-3.0
+2,gemini,2026-01-17,281288,Liverpool vs Burnley,1,1,Liverpool -1.5,-155,3,loss,-3.0
+4,gemini,2026-01-17,281296,HSV vs M'gladbach,0,0,Under 2.5,110,1,win,1.1
+5,gemini,2026-01-17,281285,Sunderland vs Crystal Palace,2,1,Sunderland -0.5,125,1,win,1.25
+1,grok,2026-01-17,281288,Liverpool vs Burnley,1,1,Liverpool ML,-433,3,loss,-3.0
+2,grok,2026-01-17,281304,Dortmund vs St Pauli,3,2,Dortmund ML,-313,3,win,0.9584664536741214
+4,grok,2026-01-17,281290,Chelsea vs Brentford,2,0,Chelsea -0.5,-130,2,win,1.5384615384615383
+5,grok,2026-01-17,281298,HOFF vs Leverkusen,1,0,Leverkusen ML,180,2,loss,-2.0
+7,grok,2026-01-17,281284,Tottenham vs West Ham,1,2,Tottenham -0.5,-140,1,loss,-1.0
+2,perplexity,2026-01-17,281288,Liverpool vs Burnley,1,1,Liverpool -1.5,-155,3,loss,-3.0
+3,perplexity,2026-01-17,281304,Dortmund vs St Pauli,3,2,Dortmund -1.5,-115,2,loss,-2.0
+4,perplexity,2026-01-17,281284,Tottenham vs West Ham,1,2,Tottenham -0.5,-140,2,loss,-2.0
+5,perplexity,2026-01-17,281297,Köln vs Mainz,2,1,Köln -0.5,-102,1,win,0.9803921568627451
+6,perplexity,2026-01-17,281289,Leeds vs Fulham,1,0,Leeds -0.5,105,1,win,1.05
