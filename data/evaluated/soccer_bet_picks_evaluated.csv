@@ -524,5 +524,12 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 2,perplexity,2026-01-17,281288,Liverpool vs Burnley,1,1,Liverpool -1.5,-155,3,loss,-3.0
 3,perplexity,2026-01-17,281304,Dortmund vs St Pauli,3,2,Dortmund -1.5,-115,2,loss,-2.0
 4,perplexity,2026-01-17,281284,Tottenham vs West Ham,1,2,Tottenham -0.5,-140,2,loss,-2.0
-5,perplexity,2026-01-17,281297,Köln vs Mainz,2,1,Köln -0.5,-102,1,win,0.9803921568627451
+5,perplexity,2026-01-17,281297,Köln vs Mainz,2,1,Köln -0.5,-102,1,win,0.9803921568627452
 6,perplexity,2026-01-17,281289,Leeds vs Fulham,1,0,Leeds -0.5,105,1,win,1.05
+3,chatgpt,2026-01-17,281335,Lens vs Auxerre,1,0,Lens -1.5,115,2,loss,-2.0
+6,chatgpt,2026-01-17,281318,Mallorca vs Athletic,3,2,Athletic -0.5,105,1,loss,-1.0
+5,claude,2026-01-17,281335,Lens vs Auxerre,1,0,Lens -1.5,115,2,loss,-2.0
+3,gemini,2026-01-17,281335,Lens vs Auxerre,1,0,Lens -1.5,115,2,loss,-2.0
+3,grok,2026-01-17,281335,Lens vs Auxerre,1,0,Lens ML,-225,3,win,1.3333333333333333
+6,grok,2026-01-17,281318,Mallorca vs Athletic,3,2,Athletic -0.5,105,1,loss,-1.0
+1,perplexity,2026-01-17,281335,Lens vs Auxerre,1,0,Lens -1.5,115,3,loss,-3.0
