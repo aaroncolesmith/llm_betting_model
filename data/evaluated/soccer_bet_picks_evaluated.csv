@@ -533,3 +533,20 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 3,grok,2026-01-17,281335,Lens vs Auxerre,1,0,Lens ML,-225,3,win,1.3333333333333333
 6,grok,2026-01-17,281318,Mallorca vs Athletic,3,2,Athletic -0.5,105,1,loss,-1.0
 1,perplexity,2026-01-17,281335,Lens vs Auxerre,1,0,Lens -1.5,115,3,loss,-3.0
+1,deepseek,2026-01-25,281489,Arsenal vs Man U,2,3,Arsenal -0.5,-190,3,loss,-3.0
+2,deepseek,2026-01-25,281564,Metz vs Lyon,2,5,Metz +0.5,110,2,loss,-2.0
+3,deepseek,2026-01-25,281559,Juventus vs Napoli,3,0,Under 2.5,-188,2,loss,-2.0
+4,deepseek,2026-01-25,281566,Paris FC vs Angers,0,0,Paris FC -0.5,-130,1,loss,-1.0
+5,deepseek,2026-01-25,281499,Freiburg vs Köln,2,1,Under 2.5,-102,1,loss,-1.0
+1,gemini,2026-01-25,281559,Juventus vs Napoli,3,0,Under 2.5,-188,3,loss,-3.0
+2,gemini,2026-01-25,281564,Metz vs Lyon,2,5,Lyon ML,-147,3,win,2.0408163265306123
+3,gemini,2026-01-25,281499,Freiburg vs Köln,2,1,Freiburg ML,-105,2,win,1.9047619047619049
+4,gemini,2026-01-25,281566,Paris FC vs Angers,0,0,Paris FC ML,-118,2,loss,-2.0
+5,gemini,2026-01-25,281489,Arsenal vs Man U,2,3,Arsenal ML,-175,1,loss,-1.0
+6,gemini,2026-01-25,281553,Barcelona vs Real Oviedo,3,0,Under 3.5,-122,1,win,0.819672131147541
+1,perplexity,2026-01-25,281489,Arsenal vs Man U,2,3,Arsenal -0.5,-190,3,loss,-3.0
+2,perplexity,2026-01-25,281559,Juventus vs Napoli,3,0,Juventus -0.5,-110,3,win,2.727272727272727
+3,perplexity,2026-01-25,281564,Metz vs Lyon,2,5,Lyon -0.5,-152,2,win,1.3157894736842106
+4,perplexity,2026-01-25,281553,Barcelona vs Real Oviedo,3,0,Barcelona -2.5,-110,2,win,1.8181818181818181
+5,perplexity,2026-01-25,281499,Freiburg vs Köln,2,1,Freiburg -0.5,-115,1,win,0.8695652173913043
+6,perplexity,2026-01-25,281566,Paris FC vs Angers,0,0,Paris FC -0.5,-130,1,loss,-1.0
