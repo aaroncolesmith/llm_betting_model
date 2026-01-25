@@ -547,6 +547,6 @@ rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,b
 1,perplexity,2026-01-25,281489,Arsenal vs Man U,2,3,Arsenal -0.5,-190,3,loss,-3.0
 2,perplexity,2026-01-25,281559,Juventus vs Napoli,3,0,Juventus -0.5,-110,3,win,2.727272727272727
 3,perplexity,2026-01-25,281564,Metz vs Lyon,2,5,Lyon -0.5,-152,2,win,1.3157894736842106
-4,perplexity,2026-01-25,281553,Barcelona vs Real Oviedo,3,0,Barcelona -2.5,-110,2,win,1.8181818181818181
+4,perplexity,2026-01-25,281553,Barcelona vs Real Oviedo,3,0,Barcelona -2.5,-110,2,win,1.818181818181818
 5,perplexity,2026-01-25,281499,Freiburg vs Köln,2,1,Freiburg -0.5,-115,1,win,0.8695652173913043
 6,perplexity,2026-01-25,281566,Paris FC vs Angers,0,0,Paris FC -0.5,-130,1,loss,-1.0
