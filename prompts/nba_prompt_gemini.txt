@@ -1,0 +1,386 @@
+
+You are my expert NBA betting adviser.
+I will provide you with two datasets:
+
+Dataset 1: Betting lines for upcoming games (money line, over/under, spread with first/avg/last values)
+Dataset 2: Historical betting results to analyze what's working and what's not
+
+Your goal: Maximize ROI by learning from historical patterns.
+
+CRITICAL VALIDATION REQUIREMENTS
+1. HOME vs AWAY TEAM IDENTIFICATION - READ CAREFULLY
+The dataset has two columns: home_team and away_team
+MATCH NAMING CONVENTION (MANDATORY):
+
+ALWAYS use format: "home_team vs away_team"
+Example: If home_team=Thunder, away_team=Wizards → Write "Thunder vs Wizards"
+The home team is ALWAYS listed first, away team second
+This makes it crystal clear which team is playing at home
+
+BEFORE MAKING ANY PICK:
+
+Identify from the dataset: Which team is in the home_team column?
+Identify from the dataset: Which team is in the away_team column?
+Write the match as "home_team vs away_team"
+Determine which team you want to pick
+Set the binary indicator based on whether that team is home or away
+
+BINARY INDICATOR RULES:
+
+If you pick the HOME team's spread → bet_home_spread=1, bet_away_spread=0
+If you pick the AWAY team's spread → bet_away_spread=1, bet_home_spread=0
+If you pick the HOME team's ML → bet_home_ml=1, bet_away_ml=0
+If you pick the AWAY team's ML → bet_away_ml=1, bet_home_ml=0
+
+EXAMPLE:
+Dataset shows: home_team=Thunder, away_team=Wizards
+Match name: "Thunder vs Wizards"
+If picking Thunder -15.5: bet_home_spread=1 (Thunder is home)
+If picking Wizards +15.5: bet_away_spread=1 (Wizards is away)
+
+---
+### **2. ODDS AND LINES VALIDATION - NO EXCEPTIONS**
+
+**Use ONLY the "_last" column values:**
+- `home_money_line_last` for home team ML
+- `away_money_line_last` for away team ML
+- `home_spread_last` and `home_spread_odds_last` for home team spread
+- `away_spread_last` and `away_spread_odds_last` for away team spread
+- `total_score_last`, `over_odds_last`, `under_odds_last` for totals
+
+**NEVER:**
+- Invent odds
+- Approximate odds
+- Use "avg" or "first" values (only use for analysis of line movement)
+- Make a pick if the line is not in the dataset
+
+---
+
+### **3. SPREAD DIRECTION RULES - READ CAREFULLY**
+
+**Understanding Spread Signs:**
+- **NEGATIVE spread (-X.X)** = That team is FAVORED by X.X points
+- **POSITIVE spread (+X.X)** = That team is UNDERDOG getting X.X points
+
+**Examples:**
+- `home_spread_last = -5.5` means: Home team FAVORED by 5.5, Away team gets +5.5
+- `home_spread_last = +3.5` means: Home team UNDERDOG getting +3.5, Away team favored by -3.5
+- `away_spread_last = -7.0` means: Away team FAVORED by 7.0, Home team gets +7.0
+- `away_spread_last = +4.0` means: Away team UNDERDOG getting +4.0, Home team favored by -4.0
+
+**Critical Understanding:**
+- If `home_spread_last` is negative → home team is favorite
+- If `home_spread_last` is positive → home team is underdog
+- If `away_spread_last` is negative → away team is favorite
+- If `away_spread_last` is positive → away team is underdog
+
+---
+
+### **4. MANDATORY DOUBLE-CHECK PROCESS**
+
+**Before finalizing EACH pick, complete these steps:**
+
+□ **Step 1**: Look at dataset - which team is `home_team`, which is `away_team`?
+□ **Step 2**: Write match as "home_team vs away_team"
+□ **Step 3**: Decide which team I want to pick
+□ **Step 4**: Is that team home or away?
+□ **Step 5**: Look up the EXACT line for that team in the "_last" columns
+□ **Step 6**: Copy the EXACT odds from the corresponding "_odds_last" column
+□ **Step 7**: Verify the sign (+ or -) matches favorite/underdog position
+□ **Step 8**: Set binary indicator: bet_home_X=1 if home team, bet_away_X=1 if away team
+□ **Step 9**: Cross-check one final time before writing
+
+**If you are uncertain about ANY detail, SKIP THAT PICK rather than guess.**
+
+---
+
+### **5. PICK TYPES AND BINARY INDICATORS**
+
+You can make six types of picks:
+
+| Pick Type | Columns to Use | Binary Indicators |
+|-----------|----------------|-------------------|
+| Home ML | `home_money_line_last` | `bet_home_ml=1, bet_away_ml=0` |
+| Away ML | `away_money_line_last` | `bet_away_ml=1, bet_home_ml=0` |
+| Home Spread | `home_spread_last`, `home_spread_odds_last` | `bet_home_spread=1, bet_away_spread=0` |
+| Away Spread | `away_spread_last`, `away_spread_odds_last` | `bet_away_spread=1, bet_home_spread=0` |
+| Over | `total_score_last`, `over_odds_last` | `bet_over=1, bet_under=0` |
+| Under | `total_score_last`, `under_odds_last` | `bet_under=1, bet_over=0` |
+
+**All other binary indicators must be set to 0.**
+
+---
+
+### **6. CONFIDENCE & UNITS**
+
+Please aim to evaluate each game and pick a winner and an over / under as well as a confidence level for each pick.
+
+- Rank all picks by confidence (most confident = rank 1)
+- Provide **confidence %** as integer between 0-100
+- Assign units based on confidence:
+- **3 units**: Highest confidence (90%+)
+- **2 units**: Medium confidence (80-89%)
+- **1 unit**: Lower confidence (70-79%)
+
+---
+
+### **7. PREDICTED SCORE FORMAT**
+
+- Format: "HomeScore-AwayScore" (e.g., "115-112")
+- Home team score ALWAYS listed first
+- Away team score ALWAYS listed second
+- Double-check the order matches your match naming
+
+---
+
+## **OUTPUT FORMAT**
+
+### **Part 1: Human-Readable Table**
+
+Create a table with these columns:
+- Rank
+- Match (format: "home_team vs away_team")
+- Pick (e.g., "Thunder -15.5" or "Wizards +15.5")
+- Odds
+- Units
+- Confidence %
+- Reason
+- Predicted Score (format: "HomeScore-AwayScore"); BE SURE THAT THE SCORE MATCHES THE ORDER, HOME TEAM SCORE FIRST AWAY TEAM SCORE SECOND!
+
+### **Part 2: CSV Block (Copy/Paste Ready)**
+
+Exact structure with this header row:
+```
+rank,game_id,start_time,match,pick,odds,units,confidence_pct,reason,predicted_score,bet_home_spread,bet_home_ml,bet_away_spread,bet_away_ml,bet_over,bet_under,home_money_line,away_money_line,tie_money_line,total_score,over_odds,under_odds,home_spread,home_spread_odds,away_spread,away_spread_odds,timestamp
+```
+**CSV Requirements:**
+- `match`: Must use "home_team vs away_team" format
+- `home_team`: home team
+- `away_team`: away team
+- `pick`: State team name and line (e.g., "Thunder -15.5")
+- `predicted_score`: Format as "HomeScore-AwayScore"
+- `bet_home_spread`, `bet_home_ml`, `bet_away_spread`, `bet_away_ml`, `bet_over`, `bet_under`: Must be 0 or 1
+- `home_money_line`: Value from `home_money_line_last`
+- `away_money_line`: Value from `away_money_line_last`
+- `tie_money_line`: Always "N/A"
+- `total_score`: Value from `total_score_last`
+- `over_odds`: Value from `over_odds_last`
+- `under_odds`: Value from `under_odds_last`
+- `home_spread`: Value from `home_spread_last`
+- `home_spread_odds`: Value from `home_spread_odds_last`
+- `away_spread`: Value from `away_spread_last`
+- `away_spread_odds`: Value from `away_spread_odds_last`
+- `timestamp`: Current analysis time in ISO 8601 format
+  - **CRITICAL FORMAT REQUIREMENT**: MUST use "T" separator (NOT a space) between date and time
+  - **REQUIRED FORMAT**: "YYYY-MM-DDTHH:MM:SS.000Z" (with the T and .000Z)
+  - **CORRECT EXAMPLES**: "2025-12-08T18:30:00.000Z", "2025-12-08T18:30:00Z"
+  - **WRONG EXAMPLES**: "2025-12-08 18:30:00+00:00" (space instead of T), "2025-12-08 18:30:00.000Z" (space instead of T)
+  - Use ONLY standard ASCII characters - NO invisible Unicode characters
+  - The column name must be exactly: timestamp (no extra characters)
+
+---
+
+## **FINAL VERIFICATION CHECKLIST**
+
+Before submitting your picks, verify:
+
+□ Every match uses "home_team vs away_team" format
+□ Every pick references the correct team (home or away)
+□ Every odds value is copied exactly from "_last" column
+□ Every binary indicator correctly reflects whether the picked team is home or away
+□ Every spread sign (+ or -) matches the favorite/underdog position
+□ Every predicted score is in "HomeScore-AwayScore" format
+□ All CSV columns match the exact structure required
+□ Ensure the reason column in the csv is enclosed in double quotes
+□ The timestamp column name has NO invisible Unicode characters (must be exactly "timestamp")
+□ The timestamp value is in valid ISO 8601 format with only standard ASCII characters
+□ The predicted score matches the order of the match, home team score first, away team score second
+
+---
+
+## **EXAMPLE OF CORRECT PICK**
+
+**Dataset shows:**
+- game_id: 261702
+- home_team: Thunder
+- away_team: Wizards
+- home_spread_last: -15.5
+- home_spread_odds_last: -110
+
+**Correct Pick:**
+- Match: "Thunder vs Wizards"
+- Pick: "Thunder -15.5"
+- Odds: -110
+- Binary: bet_home_spread=1, bet_away_spread=0, all others=0
+- Predicted Score: "126-108" (Thunder score first)
+
+**CSV Line:**
+```
+1,261702,2025-10-31T00:00:00.000Z,Thunder vs Wizards,Thunder -15.5,-110,3,96,"Reason here",126-108,1,0,0,0,0,0,-1200,750,N/A,231.5,-110,-109,-15.5,-110,15.5,-110,2025-10-30T18:30:00Z
+
+Remember: Accuracy is more important than quantity. Skip any pick where you have uncertainty.
+
+
+Here are the upcoming games and their odds:
+game_id,home_team,away_team,start_time,num_bets_first,num_bets_avg,num_bets_last,home_money_line_first,home_money_line_avg,home_money_line_last,home_ml_ticket_pct_first,home_ml_ticket_pct_avg,home_ml_ticket_pct_last,home_ml_money_pct_first,home_ml_money_pct_avg,home_ml_money_pct_last,away_money_line_first,away_money_line_avg,away_money_line_last,away_ml_ticket_pct_first,away_ml_ticket_pct_avg,away_ml_ticket_pct_last,away_ml_money_pct_first,away_ml_money_pct_avg,away_ml_money_pct_last,total_score_first,total_score_avg,total_score_last,over_odds_first,over_odds_avg,over_odds_last,under_odds_first,under_odds_avg,under_odds_last,over_ticket_pct_first,over_ticket_pct_avg,over_ticket_pct_last,over_money_pct_first,over_money_pct_avg,over_money_pct_last,under_ticket_pct_first,under_ticket_pct_avg,under_ticket_pct_last,under_money_pct_first,under_money_pct_avg,under_money_pct_last,home_spread_first,home_spread_avg,home_spread_last,home_spread_odds_first,home_spread_odds_avg,home_spread_odds_last,home_spread_ticket_pct_first,home_spread_ticket_pct_avg,home_spread_ticket_pct_last,home_spread_money_pct_first,home_spread_money_pct_avg,home_spread_money_pct_last,away_spread_first,away_spread_avg,away_spread_last,away_spread_odds_first,away_spread_odds_avg,away_spread_odds_last,away_spread_ticket_pct_first,away_spread_ticket_pct_avg,away_spread_ticket_pct_last,away_spread_money_pct_first,away_spread_money_pct_avg,away_spread_money_pct_last,home_team_spread,away_team_spread,start_time_pt
+265574,Wizards,Trail Blazers,2026-01-28 00:00:00+00:00,9865.0,4319.7692307692305,9865.0,205,216.69230769230768,205,17,20.692307692307693,17,24,26.307692307692307,24,-250,-267.38461538461536,-250,83,79.3076923076923,83,76,73.6923076923077,76,231.5,232.23076923076923,231.5,-110,-110.61538461538461,-110,-110,-109.84615384615384,-110,44,50.61538461538461,44,43,48.84615384615385,43,56,49.38461538461539,56,57,51.15384615384615,57,7.0,7.384615384615385,7.0,-110,-112.76923076923077,-110,39,40.61538461538461,39,40,38.07692307692308,40,-7.0,-7.384615384615385,-7.0,-110,-107.23076923076923,-110,61,59.38461538461539,61,60,61.92307692307692,60,Wizards +7.0,Trail Blazers -7.0,2026-01-27 16:00:00-08:00
+265575,Knicks,Kings,2026-01-28 00:30:00+00:00,9289.0,3636.733333333333,9289.0,-800,-736.6666666666666,-800,88,86.26666666666667,88,73,70.46666666666667,73,550,518.0,550,12,13.733333333333333,12,27,29.533333333333335,27,227.5,230.36666666666667,227.5,-110,-108.53333333333333,-110,-110,-111.6,-110,60,66.93333333333334,60,60,65.6,60,40,33.06666666666667,40,40,34.4,40,-14.5,-13.7,-14.5,-110,-110.0,-110,40,36.06666666666667,40,43,38.4,43,14.5,13.7,14.5,-110,-110.06666666666666,-110,60,57.266666666666666,60,57,54.93333333333333,57,Knicks -14.5,Kings +14.5,2026-01-27 16:30:00-08:00
+265576,Thunder,Pelicans,2026-01-28 01:00:00+00:00,9027.0,3714.1428571428573,9027.0,-850,-883.7142857142857,-850,89,81.92857142857143,89,69,60.214285714285715,69,575,589.2857142857143,575,11,10.928571428571429,11,31,32.642857142857146,31,233.5,234.0,233.5,-110,-110.71428571428571,-110,-110,-109.07142857142857,-110,52,54.142857142857146,52,51,51.42857142857143,51,48,38.714285714285715,48,49,41.42857142857143,49,-14.5,-14.5,-14.5,-110,-109.0,-110,33,35.642857142857146,33,32,32.42857142857143,32,14.5,14.5,14.5,-110,-111.0,-110,67,57.214285714285715,67,68,60.42857142857143,68,Thunder -14.5,Pelicans +14.5,2026-01-27 17:00:00-08:00
+265577,76ers,Bucks,2026-01-28 01:00:00+00:00,7568.0,2743.5625,7568.0,-440,-437.75,-440,85,76.25,85,54,55.5,54,340,337.1875,340,15,17.5,15,46,38.25,46,219.0,219.4375,219.0,-110,-111.5,-110,-110,-108.25,-110,78,73.25,78,78,71.6875,78,22,20.5,22,22,22.0625,22,-10.5,-10.3125,-10.5,-105,-106.5625,-105,43,41.5625,43,44,45.125,44,10.5,10.3125,10.5,-115,-113.4375,-115,57,52.1875,57,56,48.625,56,76ers -10.5,Bucks +10.5,2026-01-27 17:00:00-08:00
+
+
+Here is the historical dataset of your betting advice and results:
+rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,bet_payout
+1,gemini,2025-11-17,261802,Pistons vs Pacers,127.0,112.0,Pistons -11.5,-105,3,win,2.8571428571428568
+2,gemini,2025-11-17,261808,Nuggets vs Bulls,127.0,130.0,Nuggets -13.5,-110,2,loss,-2.0
+3,gemini,2025-11-17,261806,Timberwolves vs Mavericks,120.0,96.0,Timberwolves -14.5,-105,2,win,1.9047619047619049
+4,gemini,2025-11-17,261805,Raptors vs Hornets,110.0,108.0,Raptors -8.5,-105,2,loss,-2.0
+5,gemini,2025-11-17,261803,76ers vs Clippers,110.0,108.0,76ers -5.5,-112,2,loss,-2.0
+6,gemini,2025-11-17,261801,Cavaliers vs Bucks,118.0,106.0,Cavaliers -5.5,-115,2,win,1.7391304347826086
+7,gemini,2025-11-17,261807,Pelicans vs Thunder,109.0,126.0,Pelicans +17.5,-110,2,win,1.818181818181818
+8,gemini,2025-11-17,261804,Heat vs Knicks,115.0,113.0,Under 244.5,-110,1,win,0.9090909090909092
+9,gemini,2025-11-17,261808,Nuggets vs Bulls,127.0,130.0,Under 241.5,-110,1,loss,-1.0
+2,gemini,2025-11-19,261817,Heat vs Warriors,110.0,96.0,Heat -10.5,-110,3,win,2.727272727272727
+5,gemini,2025-11-19,261818,76ers vs Raptors,112.0,121.0,76ers +2.5,-115,2,loss,-2.0
+6,gemini,2025-11-19,261815,Cavaliers vs Rockets,104.0,114.0,Cavaliers +1.5,-108,2,loss,-2.0
+9,gemini,2025-11-19,261816,Pacers vs Hornets,127.0,118.0,Pacers +1.5,-105,1,win,0.9523809523809524
+1,gemini,2025-11-19,261821,Timberwolves vs Wizards,120.0,109.0,Timberwolves -16.5,-115,3,loss,-3.0
+3,gemini,2025-11-19,261820,Pelicans vs Nuggets,118.0,125.0,Pelicans +13.5,-115,2,win,1.7391304347826086
+4,gemini,2025-11-19,261819,Thunder vs Kings,113.0,99.0,Thunder -18.5,-110,2,loss,-2.0
+10,gemini,2025-11-19,261822,Mavericks vs Knicks,111.0,113.0,Mavericks +7.5,-110,1,win,0.9090909090909092
+7,gemini,2025-11-19,261823,Trail Blazers vs Bulls,121.0,122.0,Trail Blazers +4.5,-110,1,win,0.9090909090909092
+8,gemini,2025-11-19,261823,Trail Blazers vs Bulls,121.0,122.0,Under 242.5,-110,1,loss,-1.0
+6,gemini,2025-11-20,261824,Magic vs Clippers,129.0,101.0,Magic -5.5,-115,2,win,1.7391304347826086
+5,gemini,2025-11-20,261826,Bucks vs 76ers,114.0,123.0,Bucks +1.5,-109,2,loss,-2.0
+10,gemini,2025-11-20,261827,Spurs vs Hawks,135.0,126.0,Spurs -1.5,-105,1,win,0.9523809523809524
+8,gemini,2025-11-20,261827,Spurs vs Hawks,135.0,126.0,Spurs -1.5,-105,1,win,0.9523809523809524
+9,gemini,2025-11-20,261824,Magic vs Clippers,129.0,101.0,Magic -5.5,-115,1,win,0.8695652173913043
+10,gemini,2025-11-20,261826,Bucks vs 76ers,114.0,123.0,Bucks +1.5,-109,1,loss,-1.0
+2,gemini,2025-11-21,261579,Cavaliers vs Pacers,120.0,109.0,Cavaliers -13.5,-110,3,loss,-3.0
+3,gemini,2025-11-21,261580,Raptors vs Wizards,140.0,110.0,Raptors -13.5,-115,2,win,1.7391304347826086
+8,gemini,2025-11-21,261582,Bulls vs Heat,107.0,143.0,Under 248.5,-110,1,loss,-1.0
+9,gemini,2025-11-21,261581,Celtics vs Nets,105.0,113.0,Celtics -15.5,-110,1,loss,-1.0
+5,gemini,2025-11-21,261582,Bulls vs Heat,107.0,143.0,Under 249.5,-105,2,loss,-2.0
+6,gemini,2025-11-21,261579,Cavaliers vs Pacers,120.0,109.0,Cavaliers -14.5,-106,2,loss,-2.0
+1,gemini,2025-11-21,261586,Jazz vs Thunder,112.0,144.0,Jazz +16.5,-110,3,loss,-3.0
+4,gemini,2025-11-21,261584,Suns vs Timberwolves,114.0,113.0,Suns +3.5,-105,2,win,1.9047619047619049
+2,gemini,2025-11-21,261584,Suns vs Timberwolves,114.0,113.0,Suns +3.5,-105,3,win,2.8571428571428568
+4,gemini,2025-11-21,261585,Rockets vs Nuggets,109.0,112.0,Rockets -2.5,-110,2,loss,-2.0
+7,gemini,2025-11-21,261583,Mavericks vs Pelicans,118.0,115.0,Mavericks -4.5,-105,2,loss,-2.0
+7,gemini,2025-11-21,261587,Warriors vs Trail Blazers,123.0,127.0,Warriors -6.5,-110,1,loss,-1.0
+3,gemini,2025-11-21,261587,Warriors vs Trail Blazers,123.0,127.0,Warriors -9.5,-110,2,loss,-2.0
+4,gemini,2025-11-22,261829,Magic vs Knicks,133.0,121.0,Magic -1.5,-110,2,win,1.818181818181818
+7,gemini,2025-11-22,261830,Pelicans vs Hawks,98.0,115.0,Pelicans +8.5,-105,1,loss,-1.0
+8,gemini,2025-11-22,261829,Magic vs Knicks,133.0,121.0,Under 230.5,-110,1,loss,-1.0
+1,gemini,2025-11-22,261832,Bucks vs Pistons,116.0,129.0,Under 223.0,-110,3,loss,-3.0
+3,gemini,2025-11-22,261831,Bulls vs Wizards,121.0,120.0,Wizards +12.5,-110,2,win,1.818181818181818
+6,gemini,2025-11-22,261833,Mavericks vs Grizzlies,96.0,102.0,Mavericks -115,-115,2,loss,-2.0
+2,gemini,2025-11-22,261834,Nuggets vs Kings,123.0,128.0,Kings +10.5,-110,3,win,2.727272727272727
+9,gemini,2025-11-22,261834,Nuggets vs Kings,123.0,128.0,Under 236.0,-110,1,loss,-1.0
+8,gemini,2025-11-23,261835,76ers vs Heat,117.0,127.0,76ers -1.5,-105,1,loss,-1.0
+1,gemini,2025-11-23,261839,Hawks vs Hornets,113.0,110.0,Under 231.5,-110,3,win,2.727272727272727
+2,gemini,2025-11-23,261836,Raptors vs Nets,119.0,109.0,Under 228.5,-110,3,win,2.727272727272727
+3,gemini,2025-11-23,261836,Raptors vs Nets,119.0,109.0,Nets +12.5,-110,3,win,2.727272727272727
+5,gemini,2025-11-23,261838,Cavaliers vs Clippers,120.0,105.0,Under 229.5,-112,2,win,1.7857142857142858
+6,gemini,2025-11-23,261837,Celtics vs Magic,138.0,129.0,Celtics -4.5,-110,2,win,1.818181818181818
+7,gemini,2025-11-23,261840,Thunder vs Trail Blazers,122.0,95.0,Under 233.5,-110,1,win,0.9090909090909092
+4,gemini,2025-11-23,261841,Suns vs Spurs,111.0,102.0,Spurs +2.5,-105,2,loss,-2.0
+9,gemini,2025-11-23,261842,Jazz vs Lakers,106.0,108.0,Under 244.5,-109,1,win,0.9174311926605504
+10,gemini,2025-11-23,261841,Suns vs Spurs,111.0,102.0,Under 234.5,-110,1,win,0.9090909090909092
+2,gemini,2025-11-24,261843,Raptors vs Cavaliers,110.0,99.0,Under 232.0,-110,3,win,2.727272727272727
+1,gemini,2025-11-24,261848,Bucks vs Trail Blazers,103.0,115.0,Under 230.5,-110,3,win,2.727272727272727
+3,gemini,2025-11-24,261847,Pelicans vs Bulls,143.0,130.0,Bulls -5.5,-110,3,loss,-3.0
+5,gemini,2025-11-24,261849,Grizzlies vs Nuggets,115.0,125.0,Grizzlies +7.5,-105,2,loss,-2.0
+6,gemini,2025-11-24,261846,Heat vs Mavericks,106.0,102.0,Under 240.5,-109,2,win,1.834862385321101
+7,gemini,2025-11-24,261846,Heat vs Mavericks,106.0,102.0,Mavericks +7.5,-108,1,win,0.925925925925926
+4,gemini,2025-11-24,261850,Suns vs Rockets,92.0,114.0,Under 224.5,-115,3,win,2.608695652173913
+8,gemini,2025-11-24,261850,Suns vs Rockets,92.0,114.0,Suns +6.5,-110,1,loss,-1.0
+10,gemini,2025-11-24,261852,Warriors vs Jazz,134.0,117.0,Warriors -13.5,-110,1,win,0.9090909090909092
+9,gemini,2025-11-24,261851,Kings vs Timberwolves,117.0,112.0,Timberwolves -9.5,-115,1,loss,-1.0
+8,gemini,2025-11-25,261589,76ers vs Magic,103.0,144.0,Magic -4.5,-105,1,win,0.9523809523809524
+10,gemini,2025-11-25,261590,Lakers vs Clippers,135.0,118.0,Lakers +1.5,-122,1,win,0.819672131147541
+1,gemini,2025-11-25,261590,Lakers vs Clippers,135.0,118.0,Lakers -6.5,-105,3,win,2.8571428571428568
+5,gemini,2025-11-26,261591,Celtics vs Pistons,117.0,114.0,Pistons -3.5,-110,2,loss,-2.0
+2,gemini,2025-11-26,261593,Heat vs Bucks,106.0,103.0,Bucks +6.5,-110,3,win,2.727272727272727
+4,gemini,2025-11-26,261600,Raptors vs Pacers,97.0,95.0,Under 235.5,-110,2,win,1.818181818181818
+7,gemini,2025-11-26,261592,Hornets vs Knicks,101.0,129.0,Under 236.5,-111,1,win,0.9009009009009008
+9,gemini,2025-11-26,261602,Pelicans vs Grizzlies,128.0,133.0,Under 233.5,-110,1,loss,-1.0
+3,gemini,2025-11-26,261605,Warriors vs Rockets,100.0,104.0,Warriors -1.5,-100,3,loss,-3.0
+6,gemini,2025-11-26,261603,Trail Blazers vs Spurs,102.0,115.0,Trail Blazers -2.5,-116,2,loss,-2.0
+2,gemini,2025-11-28,261611,Nets vs 76ers,103.0,115.0,Nets +7.5,-112,3,loss,-3.0
+3,gemini,2025-11-28,261607,Pacers vs Wizards,119.0,86.0,Over 239.5,-115,3,loss,-3.0
+5,gemini,2025-11-28,261609,Hornets vs Bulls,123.0,116.0,Under 248.5,-110,2,win,1.818181818181818
+7,gemini,2025-11-28,261606,Knicks vs Bucks,118.0,109.0,Knicks -8.5,-110,1,win,0.9090909090909092
+9,gemini,2025-11-28,261610,Hawks vs Cavaliers,130.0,123.0,Under 236.5,-110,1,loss,-1.0
+10,gemini,2025-11-28,261608,Pistons vs Magic,109.0,112.0,Over 231.5,-115,1,loss,-1.0
+1,gemini,2025-11-28,261612,Thunder vs Suns,123.0,119.0,Thunder -14.5,-115,3,loss,-3.0
+8,gemini,2025-11-28,261613,Nuggets vs Spurs,136.0,139.0,Spurs +7.5,-110,1,win,0.9090909090909092
+4,gemini,2025-11-28,261616,Lakers vs Mavericks,129.0,119.0,Under 231.5,-110,2,loss,-2.0
+6,gemini,2025-11-28,261615,Clippers vs Grizzlies,107.0,112.0,Grizzlies +6.5,-110,2,win,1.818181818181818
+2,gemini,2025-12-01,261870,Wizards vs Bucks,129.0,126.0,Wizards +10.5,-115,3,win,2.608695652173913
+5,gemini,2025-12-01,261871,Pistons vs Hawks,99.0,98.0,Hawks +9.5,-105,2,win,1.9047619047619049
+3,gemini,2025-12-01,261869,Pacers vs Cavaliers,119.0,135.0,Pacers +4.5,-110,2,loss,-2.0
+7,gemini,2025-12-01,261874,Heat vs Clippers,140.0,123.0,Heat -6.5,-110,1,win,0.9090909090909092
+8,gemini,2025-12-01,261873,Magic vs Bulls,125.0,120.0,Bulls +9.5,-115,1,win,0.8695652173913043
+9,gemini,2025-12-01,261872,Nets vs Hornets,116.0,103.0,Under 228.5,-110,1,win,0.9090909090909092
+1,gemini,2025-12-01,261876,Nuggets vs Mavericks,121.0,131.0,Mavericks +11.5,-115,3,win,2.608695652173913
+6,gemini,2025-12-01,261875,Jazz vs Rockets,133.0,125.0,Under 234.5,-110,1,loss,-1.0
+4,gemini,2025-12-01,261877,Lakers vs Suns,108.0,125.0,Suns +4.5,-105,2,win,1.9047619047619049
+1,gemini,2025-12-02,261878,76ers vs Wizards,121.0,102.0,Wizards +13.5,-115,3,loss,-3.0
+2,gemini,2025-12-02,261883,Warriors vs Thunder,112.0,124.0,Warriors +11.5,-110,3,loss,-3.0
+3,gemini,2025-12-02,261882,Pelicans vs Timberwolves,142.0,149.0,Pelicans +12.5,-110,3,win,2.727272727272727
+4,gemini,2025-12-02,261880,Celtics vs Knicks,123.0,117.0,Celtics -1.0,-106,2,win,1.8867924528301887
+5,gemini,2025-12-02,261881,Spurs vs Grizzlies,126.0,119.0,Spurs -5.5,-108,2,win,1.851851851851852
+6,gemini,2025-12-02,261879,Raptors vs Trail Blazers,121.0,118.0,Trail Blazers +5.5,-115,2,win,1.7391304347826086
+7,gemini,2025-12-02,261878,76ers vs Wizards,121.0,102.0,Over 235.5,-114,1,loss,-1.0
+8,gemini,2025-12-02,261880,Celtics vs Knicks,123.0,117.0,Under 230.5,-110,1,loss,-1.0
+2,gemini,2025-12-06,261911,Wizards vs Hawks,116.0,131.0,Wizards +9.5,-110,3,loss,-3.0
+1,gemini,2025-12-06,261916,Mavericks vs Rockets,122.0,109.0,Mavericks +7.5,-110,3,win,2.727272727272727
+3,gemini,2025-12-06,261912,Cavaliers vs Warriors,94.0,99.0,Warriors +9.5,-115,3,win,2.608695652173913
+4,gemini,2025-12-06,261914,Heat vs Kings,111.0,127.0,Kings +8.5,-105,2,win,1.9047619047619049
+5,gemini,2025-12-06,261915,Timberwolves vs Clippers,109.0,106.0,Clippers +9.5,-114,2,win,1.7543859649122806
+8,gemini,2025-12-06,261913,Pistons vs Bucks,124.0,112.0,Under 223.5,-108,1,loss,-1.0
+9,gemini,2025-12-06,261915,Timberwolves vs Clippers,109.0,106.0,Under 227.5,-109,1,win,0.9174311926605504
+10,gemini,2025-12-06,261912,Cavaliers vs Warriors,94.0,99.0,Under 229.5,-110,1,win,0.9090909090909092
+1,gemini,2025-12-08,261925,Timberwolves vs Suns,105.0,108.0,Under 225.5,-110,3,win,2.727272727272727
+2,gemini,2025-12-08,261925,Timberwolves vs Suns,105.0,108.0,Suns +9.5,-108,3,win,2.7777777777777777
+3,gemini,2025-12-08,261924,Pacers vs Kings,116.0,105.0,Pacers -3.5,-115,2,win,1.7391304347826086
+4,gemini,2025-12-08,261926,Pelicans vs Spurs,132.0,135.0,Pelicans +9.5,-118,2,win,1.694915254237288
+5,gemini,2025-12-08,261926,Pelicans vs Spurs,132.0,135.0,Under 238.5,-110,1,loss,-1.0
+7,gemini,2025-12-09,282886,Magic vs Heat,117.0,108.0,Heat +5.5,-109,1,loss,-1.0
+6,gemini,2025-12-09,282887,Raptors vs Knicks,101.0,117.0,Raptors +2.5,-110,1,loss,-1.0
+1,gemini,2025-12-11,282890,Rockets vs Clippers,115.0,113.0,Clippers +8.5,-105,3,win,2.8571428571428568
+2,gemini,2025-12-11,282891,Pelicans vs Trail Blazers,143.0,120.0,Pelicans +3.5,-102,2,win,1.96078431372549
+3,gemini,2025-12-11,282892,Bucks vs Celtics,116.0,101.0,Under 223.5,-115,2,win,1.7391304347826086
+4,gemini,2025-12-11,282890,Rockets vs Clippers,115.0,113.0,Under 221.5,-110,1,loss,-1.0
+1,gemini,2025-12-12,282895,Pistons vs Hawks,142.0,115.0,Hawks +6.5,-105,3,loss,-3.0
+2,gemini,2025-12-12,282894,Wizards vs Cavaliers,126.0,130.0,Wizards +15.5,-105,2,win,1.9047619047619049
+3,gemini,2025-12-12,282898,Grizzlies vs Jazz,126.0,130.0,Under 243.5,-110,2,loss,-2.0
+4,gemini,2025-12-12,282896,Hornets vs Bulls,126.0,129.0,Hornets +2.5,-105,1,loss,-1.0
+2,gemini,2025-12-13,283262,Magic vs Knicks,120.0,132.0,Magic +4.5,-102,2,loss,-2.0
+3,gemini,2025-12-13,283262,Magic vs Knicks,120.0,132.0,Under 225.5,-111,1,loss,-1.0
+1,gemini,2025-12-13,283328,Thunder vs Spurs,109.0,111.0,Spurs +11.5,-112,3,win,2.678571428571429
+1,gemini,2025-12-16,283363,Knicks vs Spurs,124.0,113.0,Spurs +2.5,-110,3,loss,-3.0
+2,gemini,2025-12-16,283363,Knicks vs Spurs,124.0,113.0,Under 234.5,-110,1,loss,-1.0
+1,gemini,2025-12-18,283461,Thunder vs Clippers,122.0,101.0,Clippers +16.5,-105,3,loss,-3.0
+2,gemini,2025-12-18,283460,Spurs vs Wizards,119.0,94.0,Wizards +15.5,-110,3,loss,-3.0
+4,gemini,2025-12-18,261935,Bucks vs Raptors,105.0,111.0,Bucks +3.5,-105,2,loss,-2.0
+5,gemini,2025-12-18,261936,Mavericks vs Pistons,116.0,114.0,Pistons -7.5,-110,2,loss,-2.0
+3,gemini,2025-12-18,261940,Trail Blazers vs Kings,134.0,133.0,Kings +8.5,-105,2,win,1.9047619047619049
+4,gemini,2025-12-22,261962,Cavaliers vs Hornets,139.0,132.0,Cavaliers -9.5,-110,2,loss,-2.0
+3,gemini,2025-12-22,261964,Pelicans vs Mavericks,119.0,113.0,Mavericks -1.5,-105,2,loss,-2.0
+7,gemini,2025-12-22,261963,Celtics vs Pacers,103.0,95.0,Pacers +11.5,-102,1,win,0.9803921568627452
+1,gemini,2025-12-22,261965,Nuggets vs Jazz,135.0,112.0,Nuggets -12.5,-115,3,win,2.608695652173913
+5,gemini,2025-12-22,261966,Thunder vs Grizzlies,119.0,103.0,Under 233.5,-108,2,win,1.851851851851852
+2,gemini,2025-12-22,261968,Trail Blazers vs Pistons,102.0,110.0,Pistons -6.5,-105,2,win,1.9047619047619049
+6,gemini,2025-12-22,261967,Warriors vs Magic,120.0,97.0,Magic +5.5,-106,1,loss,-1.0
+4,gemini,2025-12-30,262018,Grizzlies vs 76ers,136.0,139.0,Grizzlies +1.5,-110,1,loss,-1.0
+3,gemini,2025-12-30,262019,Jazz vs Celtics,119.0,129.0,Celtics -7.5,-110,2,win,1.818181818181818
+1,gemini,2025-12-30,262021,Clippers vs Kings,131.0,90.0,Kings +9.5,-110,3,loss,-3.0
+2,gemini,2025-12-30,262020,Lakers vs Pistons,106.0,128.0,Pistons -2.5,-110,2,win,1.818181818181818
+3,gemini,2026-01-02,262037,Pacers vs Spurs,113.0,123.0,Spurs -4.5,-115,2,win,1.7391304347826086
+1,gemini,2026-01-02,262039,Cavaliers vs Nuggets,113.0,108.0,Nuggets +14.0,-110,3,win,2.727272727272727
+4,gemini,2026-01-02,262043,Suns vs Kings,129.0,102.0,Kings +13.5,-110,2,loss,-2.0
+2,gemini,2026-01-02,262044,Warriors vs Thunder,94.0,131.0,Warriors +13.5,-111,3,loss,-3.0
+
+    
