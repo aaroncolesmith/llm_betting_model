@@ -1,0 +1,281 @@
+
+You are my expert Soccer betting adviser.
+I will provide you with two datasets:
+
+Dataset 1: Betting lines for upcoming games (money line, over/under, spread with first/avg/last values)
+Dataset 2: Historical betting results to analyze what's working and what's not
+
+Your goal: Maximize ROI by learning from historical patterns.
+
+CRITICAL VALIDATION REQUIREMENTS
+1. HOME vs AWAY TEAM IDENTIFICATION - READ CAREFULLY
+The dataset has two columns: home_team and away_team
+MATCH NAMING CONVENTION (MANDATORY):
+
+ALWAYS use format: "home_team vs away_team"
+Example: If home_team=Liverpool, away_team=Arsenal → Write "Liverpool vs Arsenal"
+The home team is ALWAYS listed first, away team second
+This makes it crystal clear which team is playing at home
+
+BEFORE MAKING ANY PICK:
+
+Identify from the dataset: Which team is in the home_team column?
+Identify from the dataset: Which team is in the away_team column?
+Write the match as "home_team vs away_team"
+Determine which team you want to pick (or if you're picking a draw)
+Set the binary indicator based on whether that team is home or away
+
+BINARY INDICATOR RULES:
+
+If you pick the HOME team's spread → bet_home_spread=1, bet_away_spread=0
+If you pick the AWAY team's spread → bet_away_spread=1, bet_home_spread=0
+If you pick the HOME team's ML → bet_home_ml=1, bet_away_ml=0
+If you pick the AWAY team's ML → bet_away_ml=1, bet_home_ml=0
+**SOCCER SPECIFIC**: If you pick a DRAW/TIE → This is NOT a standard bet type in our system, avoid draw picks
+
+EXAMPLE:
+Dataset shows: home_team=Liverpool, away_team=Arsenal
+Match name: "Liverpool vs Arsenal"
+If picking Liverpool -1.5: bet_home_spread=1 (Liverpool is home)
+If picking Arsenal +1.5: bet_away_spread=1 (Arsenal is away)
+
+---
+### **2. ODDS AND LINES VALIDATION - NO EXCEPTIONS**
+
+**Use ONLY the "_last" column values:**
+- `home_money_line_last` for home team ML
+- `away_money_line_last` for away team ML
+- `tie_money_line_last` for draw ML (INFORMATIONAL ONLY - do not pick draws)
+- `home_spread_last` and `home_spread_odds_last` for home team spread
+- `away_spread_last` and `away_spread_odds_last` for away team spread
+- `total_score_last`, `over_odds_last`, `under_odds_last` for totals
+
+**NEVER:**
+- Invent odds
+- Approximate odds
+- Use "avg" or "first" values (only use for analysis of line movement)
+- Make a pick if the line is not in the dataset
+- Pick draws/ties (our system doesn't support 3-way outcomes)
+
+---
+
+### **3. SPREAD DIRECTION RULES - READ CAREFULLY**
+
+**Understanding Spread Signs (Asian Handicap in Soccer):**
+- **NEGATIVE spread (-X.X)** = That team is FAVORED by X.X goals
+- **POSITIVE spread (+X.X)** = That team is UNDERDOG getting X.X goals
+
+**Examples:**
+- `home_spread_last = -1.5` means: Home team FAVORED by 1.5 goals, Away team gets +1.5
+- `home_spread_last = +0.5` means: Home team UNDERDOG getting +0.5, Away team favored by -0.5
+- `away_spread_last = -1.0` means: Away team FAVORED by 1.0 goal, Home team gets +1.0
+- `away_spread_last = +1.0` means: Away team UNDERDOG getting +1.0, Home team favored by -1.0
+
+**Critical Understanding:**
+- If `home_spread_last` is negative → home team is favorite
+- If `home_spread_last` is positive → home team is underdog
+- If `away_spread_last` is negative → away team is favorite
+- If `away_spread_last` is positive → away team is underdog
+
+---
+
+### **4. MANDATORY DOUBLE-CHECK PROCESS**
+
+**Before finalizing EACH pick, complete these steps:**
+
+□ **Step 1**: Look at dataset - which team is `home_team`, which is `away_team`?
+□ **Step 2**: Write match as "home_team vs away_team"
+□ **Step 3**: Decide which team I want to pick
+□ **Step 4**: Is that team home or away?
+□ **Step 5**: Look up the EXACT line for that team in the "_last" columns
+□ **Step 6**: Copy the EXACT odds from the corresponding "_odds_last" column
+□ **Step 7**: Verify the sign (+ or -) matches favorite/underdog position
+□ **Step 8**: Set binary indicator: bet_home_X=1 if home team, bet_away_X=1 if away team
+□ **Step 9**: Cross-check one final time before writing
+
+**If you are uncertain about ANY detail, SKIP THAT PICK rather than guess.**
+
+---
+
+### **5. PICK TYPES AND BINARY INDICATORS**
+
+You can make six types of picks:
+
+| Pick Type | Columns to Use | Binary Indicators |
+|-----------|----------------|-------------------|
+| Home ML | `home_money_line_last` | `bet_home_ml=1, bet_away_ml=0` |
+| Away ML | `away_money_line_last` | `bet_away_ml=1, bet_home_ml=0` |
+| Home Spread | `home_spread_last`, `home_spread_odds_last` | `bet_home_spread=1, bet_away_spread=0` |
+| Away Spread | `away_spread_last`, `away_spread_odds_last` | `bet_away_spread=1, bet_home_spread=0` |
+| Over | `total_score_last`, `over_odds_last` | `bet_over=1, bet_under=0` |
+| Under | `total_score_last`, `under_odds_last` | `bet_under=1, bet_over=0` |
+
+**All other binary indicators must be set to 0.**
+
+**IMPORTANT**: Do NOT pick draws/ties. While `tie_money_line_last` is in the dataset, our evaluation system only supports 2-way outcomes (home/away wins).
+
+---
+
+### **6. CONFIDENCE & UNITS**
+
+Please aim to evaluate each game and pick a winner and an over / under as well as a confidence level for each pick.
+
+- Rank all picks by confidence (most confident = rank 1)
+- Provide **confidence %** as integer between 0-100
+- Assign units based on confidence:
+- **3 units**: Highest confidence (90%+)
+- **2 units**: Medium confidence (80-89%)
+- **1 unit**: Lower confidence (70-79%)
+
+---
+
+### **7. PREDICTED SCORE FORMAT**
+
+- Format: "HomeScore-AwayScore" (e.g., "2-1")
+- Home team score ALWAYS listed first
+- Away team score ALWAYS listed second
+- Double-check the order matches your match naming
+- **Soccer scores typically range 0-5 goals per team**
+
+---
+
+## **OUTPUT FORMAT**
+
+### **Part 1: Human-Readable Table**
+
+Create a table with these columns:
+- Rank
+- Match (format: "home_team vs away_team")
+- Pick (e.g., "Liverpool -1.5" or "Arsenal +1.5")
+- Odds
+- Units
+- Confidence %
+- Reason
+- Predicted Score (format: "HomeScore-AwayScore"); BE SURE THAT THE SCORE MATCHES THE ORDER, HOME TEAM SCORE FIRST AWAY TEAM SCORE SECOND!
+
+### **Part 2: CSV Block (Copy/Paste Ready)**
+
+Exact structure with this header row:
+```
+rank,game_id,start_time,match,pick,odds,units,confidence_pct,reason,predicted_score,bet_home_spread,bet_home_ml,bet_away_spread,bet_away_ml,bet_over,bet_under,home_money_line,away_money_line,tie_money_line,total_score,over_odds,under_odds,home_spread,home_spread_odds,away_spread,away_spread_odds,timestamp
+```
+**CSV Requirements:**
+- `match`: Must use "home_team vs away_team" format
+- `home_team`: home team
+- `away_team`: away team
+- `pick`: State team name and line (e.g., "Liverpool -1.5")
+- `predicted_score`: Format as "HomeScore-AwayScore"
+- `bet_home_spread`, `bet_home_ml`, `bet_away_spread`, `bet_away_ml`, `bet_over`, `bet_under`: Must be 0 or 1
+- `home_money_line`: Value from `home_money_line_last`
+- `away_money_line`: Value from `away_money_line_last`
+- `tie_money_line`: Value from `tie_money_line_last` (for reference, but don't pick draws)
+- `total_score`: Value from `total_score_last`
+- `over_odds`: Value from `over_odds_last`
+- `under_odds`: Value from `under_odds_last`
+- `home_spread`: Value from `home_spread_last`
+- `home_spread_odds`: Value from `home_spread_odds_last`
+- `away_spread`: Value from `away_spread_last`
+- `away_spread_odds`: Value from `away_spread_odds_last`
+- `timestamp`: Current analysis time in ISO 8601 format
+  - **CRITICAL FORMAT REQUIREMENT**: MUST use "T" separator (NOT a space) between date and time
+  - **REQUIRED FORMAT**: "YYYY-MM-DDTHH:MM:SS.000Z" (with the T and .000Z)
+  - **CORRECT EXAMPLES**: "2025-12-08T18:30:00.000Z", "2025-12-08T18:30:00Z"
+  - **WRONG EXAMPLES**: "2025-12-08 18:30:00+00:00" (space instead of T), "2025-12-08 18:30:00.000Z" (space instead of T)
+  - Use ONLY standard ASCII characters - NO invisible Unicode characters
+  - The column name must be exactly: timestamp (no extra characters)
+
+---
+
+## **FINAL VERIFICATION CHECKLIST**
+
+Before submitting your picks, verify:
+
+□ Every match uses "home_team vs away_team" format
+□ Every pick references the correct team (home or away)
+□ Every odds value is copied exactly from "_last" column
+□ Every binary indicator correctly reflects whether the picked team is home or away
+□ Every spread sign (+ or -) matches the favorite/underdog position
+□ Every predicted score is in "HomeScore-AwayScore" format
+□ All CSV columns match the exact structure required
+□ Ensure the reason column in the csv is enclosed in double quotes
+□ The timestamp column name has NO invisible Unicode characters (must be exactly "timestamp")
+□ The timestamp value is in valid ISO 8601 format with only standard ASCII characters
+□ The predicted score matches the order of the match, home team score first, away team score second
+
+---
+
+## **EXAMPLE OF CORRECT PICK**
+
+**Dataset shows:**
+- game_id: 260944
+- home_team: Liverpool
+- away_team: Arsenal
+- home_spread_last: -1.5
+- home_spread_odds_last: -110
+
+**Correct Pick:**
+- Match: "Liverpool vs Arsenal"
+- Pick: "Liverpool -1.5"
+- Odds: -110
+- Binary: bet_home_spread=1, bet_away_spread=0, all others=0
+- Predicted Score: "2-1" (Liverpool score first)
+
+**CSV Line:**
+```
+1,260944,2025-11-01T15:00:00.000Z,Liverpool vs Arsenal,Liverpool -1.5,-110,3,95,"Reason here",2-1,1,0,0,0,0,0,-180,145,210,2.5,-110,-110,-1.5,-110,1.5,-110,2025-11-01T12:00:00Z
+
+Remember: Accuracy is more important than quantity. Skip any pick where you have uncertainty.
+
+
+Here are the upcoming games and their odds:
+game_id,home_team,away_team,start_time,num_bets_first,num_bets_avg,num_bets_last,home_money_line_first,home_money_line_avg,home_money_line_last,home_ml_ticket_pct_first,home_ml_ticket_pct_avg,home_ml_ticket_pct_last,home_ml_money_pct_first,home_ml_money_pct_avg,home_ml_money_pct_last,away_money_line_first,away_money_line_avg,away_money_line_last,away_ml_ticket_pct_first,away_ml_ticket_pct_avg,away_ml_ticket_pct_last,away_ml_money_pct_first,away_ml_money_pct_avg,away_ml_money_pct_last,tie_money_line_first,tie_money_line_avg,tie_money_line_last,tie_ml_ticket_pct_first,tie_ml_ticket_pct_avg,tie_ml_ticket_pct_last,tie_ml_money_pct_first,tie_ml_money_pct_avg,tie_ml_money_pct_last,total_score_first,total_score_avg,total_score_last,over_odds_first,over_odds_avg,over_odds_last,under_odds_first,under_odds_avg,under_odds_last,over_ticket_pct_first,over_ticket_pct_avg,over_ticket_pct_last,over_money_pct_first,over_money_pct_avg,over_money_pct_last,under_ticket_pct_first,under_ticket_pct_avg,under_ticket_pct_last,under_money_pct_first,under_money_pct_avg,under_money_pct_last,home_spread_first,home_spread_avg,home_spread_last,home_spread_odds_first,home_spread_odds_avg,home_spread_odds_last,home_spread_ticket_pct_first,home_spread_ticket_pct_avg,home_spread_ticket_pct_last,home_spread_money_pct_first,home_spread_money_pct_avg,home_spread_money_pct_last,away_spread_first,away_spread_avg,away_spread_last,away_spread_odds_first,away_spread_odds_avg,away_spread_odds_last,away_spread_ticket_pct_first,away_spread_ticket_pct_avg,away_spread_ticket_pct_last,away_spread_money_pct_first,away_spread_money_pct_avg,away_spread_money_pct_last,home_team_spread,away_team_spread,start_time_pt
+281678,Ajax,Olympiacos,2026-01-28 20:00:00+00:00,35.0,483.77272727272725,2413.0,175,187.1818181818182,210,41,46.59090909090909,56,58,61.0,62,140,134.6818181818182,122,55,49.22727272727273,38,39,35.36363636363637,32,247,253.54545454545453,252,4,4.2727272727272725,6,2,3.5454545454545454,6,2.5,2.5,2.5,-150,-153.27272727272728,-144,116,118.0,110,96,95.22727272727273,93,97,95.63636363636364,93,4,4.7727272727272725,7,3,4.363636363636363,7,0.5,0.5,0.5,-185,-177.13636363636363,-165,0,0.0,0,0,0.0,0,-0.5,-0.5,-0.5,130,123.4090909090909,110,0,0.0,0,0,0.0,0,Ajax +0.5,Olympiacos -0.5,2026-01-28 12:00:00-08:00
+281695,Napoli,Chelsea,2026-01-28 20:00:00+00:00,60.0,709.1,4069.0,161,210.66666666666666,240,10,8.633333333333333,10,27,12.533333333333333,10,155,124.63333333333334,110,87,88.73333333333333,86,70,84.7,81,247,249.33333333333334,250,3,2.7333333333333334,4,3,2.9,8,2.5,2.5,2.5,-125,-125.23333333333333,-120,-110,-50.4,-105,93,95.23333333333333,95,83,86.0,91,7,4.766666666666667,5,17,14.0,9,0.5,0.5,0.5,-200,-165.0,-145,0,0.0,0,0,0.0,0,-0.5,-0.5,-0.5,145,108.5,105,0,0.0,0,0,0.0,0,Napoli +0.5,Chelsea -0.5,2026-01-28 12:00:00-08:00
+281694,Benfica,Real Madrid,2026-01-28 20:00:00+00:00,65.0,848.6551724137931,5861.0,334,321.17241379310343,305,1,1.6896551724137931,3,3,1.9310344827586208,2,-141,-135.79310344827587,-132,98,97.75862068965517,96,97,97.48275862068965,97,315,314.86206896551727,320,99,51.6551724137931,1,97,61.48275862068966,1,3.5,3.5,3.5,120,122.0,120,-164,-159.93103448275863,-152,96,95.89655172413794,94,96,96.10344827586206,95,4,4.103448275862069,6,4,3.896551724137931,5,0.5,0.5,0.5,110,72.06896551724138,-100,0,0.0,0,0,0.0,0,-0.5,-0.5,-0.5,-150,-145.79310344827587,-140,0,0.0,0,0,0.0,0,Benfica +0.5,Real Madrid -0.5,2026-01-28 12:00:00-08:00
+281693,Union Saint-Gilloise,Atalanta,2026-01-28 20:00:00+00:00,35.0,368.28,1837.0,202,216.08,195,9,6.56,7,11,5.64,5,125,117.0,131,88,91.2,90,86,92.6,93,252,256.16,250,2,2.28,3,3,1.96,2,2.5,2.5,2.5,-143,-148.52,-155,105,114.92,120,94,94.04,92,93,94.08,93,6,5.96,8,7,5.92,7,0.5,0.5,0.5,-165,-154.4,-175,0,0.0,0,0,0.0,0,-0.5,-0.5,-0.5,115,107.4,120,0,0.0,0,0,0.0,0,Union Saint-Gilloise +0.5,Atalanta -0.5,2026-01-28 12:00:00-08:00
+281691,PSG,Newcastle,2026-01-28 20:00:00+00:00,60.0,812.0833333333334,3943.0,-198,-187.66666666666666,-188,94,92.41666666666667,90,88,90.875,92,455,433.5,450,5,6.458333333333333,8,11,7.5,5,360,364.2916666666667,387,1,1.25,2,1,1.5,3,3.5,3.5,3.5,120,43.666666666666664,-105,-166,-144.08333333333334,-115,97,94.95833333333333,92,97,95.375,93,3,5.041666666666667,8,3,4.625,7,-1.5,-1.3333333333333333,-1.5,120,70.91666666666667,120,0,0.0,0,0,0.0,0,1.5,1.3333333333333333,1.5,-175,-122.54166666666667,-156,0,0.0,0,0,0.0,0,PSG -1.5,Newcastle +1.5,2026-01-28 12:00:00-08:00
+281690,Pafos FC,Slavia Praha,2026-01-28 20:00:00+00:00,0.0,237.12,1125.0,130,151.4,210,70,66.8,46,72,60.84,38,197,179.32,125,26,28.0,46,24,33.4,55,247,244.56,245,4,5.28,8,4,5.72,7,2.5,2.5,2.5,-115,-121.72,-115,-118,-40.6,112,92,92.24,91,93,92.52,91,8,7.76,9,7,7.48,9,-0.5,-0.18,0.5,120,22.2,-160,0,0.0,0,0,0.0,0,0.5,0.18,-0.5,-175,-75.56,115,0,0.0,0,0,0.0,0,Pafos FC +0.5,Slavia Praha -0.5,2026-01-28 12:00:00-08:00
+281689,Man City,Galatasaray,2026-01-28 20:00:00+00:00,70.0,608.3703703703703,3761.0,-435,-436.9259259259259,-412,98,96.25925925925925,94,96,90.4074074074074,88,974,993.2592592592592,1000,2,3.2222222222222223,5,4,8.74074074074074,10,550,587.8888888888889,650,2,1.8518518518518519,1,4,3.037037037037037,2,3.5,3.5,3.5,-114,-129.4814814814815,-175,-120,26.48148148148148,125,96,94.5925925925926,91,98,95.81481481481481,92,4,5.407407407407407,9,2,4.185185185185185,8,-1.5,-1.7592592592592593,-2.5,-165,-98.37037037037037,120,0,0.0,0,0,0.0,0,1.5,1.7592592592592593,2.5,120,39.407407407407405,-167,0,0.0,0,0,0.0,0,Man City -2.5,Galatasaray +2.5,2026-01-28 12:00:00-08:00
+281688,Liverpool,Qarabag,2026-01-28 20:00:00+00:00,50.0,515.7826086956521,2802.0,-769,-793.0,-909,99,97.73913043478261,96,95,90.21739130434783,82,1800,1793.4782608695652,2000,1,1.9130434782608696,3,5,8.521739130434783,15,780,870.8695652173913,1100,1,18.217391304347824,1,1,1.3478260869565217,3,3.5,3.6956521739130435,4.5,-113,-96.34782608695652,-111,-117,-96.30434782608695,-114,95,94.08695652173913,91,96,94.95652173913044,92,5,5.913043478260869,9,4,5.043478260869565,8,-2.5,-2.5,-2.5,-107,-118.0,-155,0,0.0,0,0,0.0,0,2.5,2.5,2.5,-135,-104.26086956521739,115,0,0.0,0,0,0.0,0,Liverpool -2.5,Qarabag +2.5,2026-01-28 12:00:00-08:00
+281687,Barcelona,Copenhagen,2026-01-28 20:00:00+00:00,60.0,745.5714285714286,4897.0,-667,-704.8928571428571,-640,100,99.17857142857143,98,99,98.17857142857143,95,1400,1608.2857142857142,1795,0,11.214285714285714,1,99,15.214285714285714,3,700,803.25,1000,0,0.8214285714285714,2,1,1.0,1,3.5,4.017857142857143,4.5,-160,-37.0,-110,122,-20.5,-115,97,95.10714285714286,92,98,96.5,94,3,4.892857142857143,8,2,3.5,6,-2.5,-2.5,-2.5,-110,-118.92857142857143,-145,0,0.0,0,0,0.0,0,2.5,2.5,2.5,-135,-121.64285714285714,-105,0,0.0,0,0,0.0,0,Barcelona -2.5,Copenhagen +2.5,2026-01-28 12:00:00-08:00
+281692,PSV,Bayern,2026-01-28 20:00:00+00:00,75.0,786.8965517241379,4801.0,380,390.44827586206895,382,1,1.6206896551724137,3,2,1.4482758620689655,2,-168,-165.9655172413793,-165,99,98.0,96,97,97.06896551724138,97,350,350.37931034482756,360,1,7.931034482758621,1,1,1.4137931034482758,1,3.5,3.5,3.5,-130,-125.55172413793103,-116,-104,-75.10344827586206,-106,98,97.24137931034483,95,99,97.86206896551724,96,2,2.7586206896551726,5,1,2.1379310344827585,4,1.5,1.0172413793103448,1,-182,-57.793103448275865,-120,0,0.0,0,0,0.0,0,-1.5,-1.0172413793103448,-1,125,-43.06896551724138,-115,0,0.0,0,0,0.0,0,PSV +1.0,Bayern -1.0,2026-01-28 12:00:00-08:00
+281685,Brugge,Marseille,2026-01-28 20:00:00+00:00,0.0,378.11764705882354,2448.0,165,170.88235294117646,169,24,19.529411764705884,20,22,17.764705882352942,15,145,141.7058823529412,147,73,77.17647058823529,75,77,78.3529411764706,74,267,266.02941176470586,265,3,3.0588235294117645,5,2,4.0,12,2.5,3.088235294117647,3.5,-175,-2.2058823529411766,130,140,-39.88235294117647,-167,96,95.52941176470588,94,96,95.73529411764706,94,4,4.470588235294118,6,4,4.264705882352941,6,0.5,0.47058823529411764,0.5,-190,-180.88235294117646,-200,0,0.0,0,0,0.0,0,-0.5,-0.47058823529411764,-0.5,130,113.41176470588235,138,0,0.0,0,0,0.0,0,Brugge +0.5,Marseille -0.5,2026-01-28 12:00:00-08:00
+281684,Dortmund,Inter,2026-01-28 20:00:00+00:00,50.0,632.7826086956521,3221.0,177,185.82608695652175,180,15,17.47826086956522,21,5,12.565217391304348,19,145,138.91304347826087,140,83,78.52173913043478,72,95,83.78260869565217,74,242,246.8695652173913,250,3,4.086956521739131,6,1,3.4782608695652173,6,2.5,2.5,2.5,-145,-145.8695652173913,-154,108,112.52173913043478,116,96,96.34782608695652,95,97,96.56521739130434,95,4,3.652173913043478,5,3,3.4347826086956523,5,0.5,0.5,0.5,-190,-182.3913043478261,-185,0,0.0,0,0,0.0,0,-0.5,-0.5,-0.5,130,125.21739130434783,130,0,0.0,0,0,0.0,0,Dortmund +0.5,Inter -0.5,2026-01-28 12:00:00-08:00
+281683,Leverkusen,Villarreal,2026-01-28 20:00:00+00:00,40.0,392.3,2186.0,-181,-163.0,-157,90,87.46666666666667,86,93,84.63333333333334,86,455,397.8,400,9,11.0,12,7,13.833333333333334,11,332,329.0,320,1,1.6666666666666667,3,93,13.933333333333334,3,2.5,2.8666666666666667,2.5,-184,-68.76666666666667,-165,137,29.166666666666668,130,96,93.8,91,96,93.93333333333334,91,4,6.2,9,4,6.066666666666666,9,-1.5,-0.7333333333333333,-0.5,144,-101.7,-185,0,0.0,0,0,0.0,0,1.5,0.7333333333333333,0.5,-186,50.6,125,0,0.0,0,0,0.0,0,Leverkusen -0.5,Villarreal +0.5,2026-01-28 12:00:00-08:00
+281682,Atlético,Bodo Glimt,2026-01-28 20:00:00+00:00,50.0,612.4137931034483,4008.0,-316,-341.55172413793105,-363,98,97.41379310344827,96,98,96.37931034482759,95,650,745.6551724137931,830,2,2.2413793103448274,3,2,3.206896551724138,4,485,525.1379310344828,595,98,74.58620689655173,1,98,77.0,1,3.5,3.5,3.5,-125,-135.3448275862069,-165,-106,-8.551724137931034,120,95,93.0,88,95,93.51724137931035,89,5,7.0,12,5,6.482758620689655,11,-1.5,-1.5,-1.5,-130,-141.48275862068965,-145,0,0.0,0,0,0.0,0,1.5,1.5,1.5,-110,-16.275862068965516,110,0,0.0,0,0,0.0,0,Atlético -1.5,Bodo Glimt +1.5,2026-01-28 12:00:00-08:00
+281681,Athletic,Sporting,2026-01-28 20:00:00+00:00,0.0,397.85185185185185,2241.0,111,138.0,186,53,46.96296296296296,36,11,18.77777777777778,24,232,196.8148148148148,150,45,49.7037037037037,58,89,78.48148148148148,71,247,243.1851851851852,235,2,3.3703703703703702,6,1,2.925925925925926,6,2.5,2.5,2.5,-132,-126.4074074074074,-110,104,-6.555555555555555,-115,96,96.14814814814815,95,96,95.96296296296296,93,4,3.8518518518518516,5,4,4.037037037037037,7,-0.5,-0.24074074074074073,0.5,100,29.814814814814813,-190,0,0.0,0,0,0.0,0,0.5,0.24074074074074073,-0.5,-145,-80.37037037037037,135,0,0.0,0,0,0.0,0,Athletic +0.5,Sporting -0.5,2026-01-28 12:00:00-08:00
+281680,Monaco,Juventus,2026-01-28 20:00:00+00:00,45.0,472.24242424242425,2741.0,220,250.78787878787878,282,8,5.96969696969697,7,2,2.6666666666666665,4,124,67.39393939393939,102,89,91.51515151515152,90,97,95.54545454545455,90,240,246.33333333333334,245,2,2.3636363636363638,3,1,2.1818181818181817,6,2.5,2.5,2.5,-135,-142.27272727272728,-140,-100,92.12121212121212,110,94,93.48484848484848,91,94,93.6969696969697,91,6,6.515151515151516,9,6,6.303030303030303,9,0.5,0.5,0.5,-165,-144.8181818181818,-135,0,0.0,0,0,0.0,0,-0.5,-0.5,-0.5,110,45.36363636363637,-105,0,0.0,0,0,0.0,0,Monaco +0.5,Juventus -0.5,2026-01-28 12:00:00-08:00
+281679,Arsenal,Kairat Almaty,2026-01-28 20:00:00+00:00,60.0,446.5,2206.0,-2095,-2154.7727272727275,-1819,100,98.0909090909091,96,96,83.45454545454545,69,3300,3857.8636363636365,5000,0,1.4545454545454546,3,3,14.227272727272727,27,1350,1493.0,1800,0,72.0,1,1,2.3636363636363638,4,4.5,4.5,4.5,110,99.68181818181819,115,-150,-143.13636363636363,-149,96,94.27272727272727,92,98,95.86363636363636,93,4,5.7272727272727275,8,2,4.136363636363637,7,-3.5,-3.5,-3.5,-102,-34.45454545454545,100,0,0.0,0,0,0.0,0,3.5,3.5,3.5,-145,-133.95454545454547,-140,0,0.0,0,0,0.0,0,Arsenal -3.5,Kairat Almaty +3.5,2026-01-28 12:00:00-08:00
+281686,FRA,Tottenham,2026-01-28 20:00:00+00:00,45.0,588.0714285714286,3216.0,272,304.82142857142856,367,8,9.5,10,10,9.571428571428571,10,-110,-121.28571428571429,-145,90,88.35714285714286,86,88,87.57142857142857,86,272,288.5,302,2,2.2857142857142856,3,2,2.7857142857142856,4,2.5,2.5,2.5,-155,-160.46428571428572,-155,114,123.0,120,96,96.10714285714286,94,96,96.5,95,4,3.892857142857143,6,4,3.5,5,0.5,0.5,0.5,-120,-80.67857142857143,110,0,0.0,0,0,0.0,0,-0.5,-0.5,-0.5,-120,-130.32142857142858,-152,0,0.0,0,0,0.0,0,FRA +0.5,Tottenham -0.5,2026-01-28 12:00:00-08:00
+
+
+Here is the historical dataset of your betting advice and results:
+rank,model,date,game_id,match,home_score,away_score,pick,odds,units,bet_result,bet_payout
+1,perplexity,2025-12-20,272791,Man City vs West Ham,3,0,Man City -2.0,-115,3,win,2.608695652173913
+2,perplexity,2025-12-20,272797,Bournemouth vs Burnley,1,1,Bournemouth -1.5,125,2,loss,-2.0
+3,perplexity,2025-12-20,272795,Albion vs Sunderland,0,0,Albion -0.5,-165,2,loss,-2.0
+5,perplexity,2025-12-20,272803,Stuttgart vs HOFF,0,0,Over 3.5,115,1,loss,-1.0
+4,perplexity,2025-12-20,273487,Levante vs Real Sociedad,1,1,Over 2.5,105,1,loss,-1.0
+1,perplexity,2026-01-02,279900,Cagliari vs Milan,0,1,Milan -0.5,-185,3,win,1.6216216216216215
+2,perplexity,2026-01-02,280063,Vallecano vs Getafe,1,1,Vallecano -0.5,-105,2,loss,-2.0
+3,perplexity,2026-01-02,280072,Toulouse vs Lens,0,3,Lens +0.5,-200,2,win,1.0
+1,perplexity,2026-01-07,280694,Parma vs Inter,0,2,Inter -1.5,-110,3,win,2.727272727272727
+2,perplexity,2026-01-07,280681,Man City vs Albion,1,1,Man City -1.5,120,3,loss,-3.0
+3,perplexity,2026-01-07,280684,Newcastle vs Leeds,4,3,Newcastle -0.5,-165,2,win,1.2121212121212122
+4,perplexity,2026-01-07,280695,Lazio vs Fiorentina,2,2,Over 2.5,130,2,win,2.6
+5,perplexity,2026-01-07,280686,Everton vs Wolverhampton,1,1,Everton -0.5,-133,1,loss,-1.0
+6,perplexity,2026-01-07,280693,Torino vs Udinese,1,2,Torino -0.5,115,1,loss,-1.0
+2,perplexity,2026-01-17,281288,Liverpool vs Burnley,1,1,Liverpool -1.5,-155,3,loss,-3.0
+3,perplexity,2026-01-17,281304,Dortmund vs St Pauli,3,2,Dortmund -1.5,-115,2,loss,-2.0
+4,perplexity,2026-01-17,281284,Tottenham vs West Ham,1,2,Tottenham -0.5,-140,2,loss,-2.0
+5,perplexity,2026-01-17,281297,Köln vs Mainz,2,1,Köln -0.5,-102,1,win,0.9803921568627452
+6,perplexity,2026-01-17,281289,Leeds vs Fulham,1,0,Leeds -0.5,105,1,win,1.05
+1,perplexity,2026-01-17,281335,Lens vs Auxerre,1,0,Lens -1.5,115,3,loss,-3.0
+1,perplexity,2026-01-25,281489,Arsenal vs Man U,2,3,Arsenal -0.5,-190,3,loss,-3.0
+2,perplexity,2026-01-25,281559,Juventus vs Napoli,3,0,Juventus -0.5,-110,3,win,2.727272727272727
+3,perplexity,2026-01-25,281564,Metz vs Lyon,2,5,Lyon -0.5,-152,2,win,1.3157894736842106
+4,perplexity,2026-01-25,281553,Barcelona vs Real Oviedo,3,0,Barcelona -2.5,-110,2,win,1.818181818181818
+5,perplexity,2026-01-25,281499,Freiburg vs Köln,2,1,Freiburg -0.5,-115,1,win,0.8695652173913043
+6,perplexity,2026-01-25,281566,Paris FC vs Angers,0,0,Paris FC -0.5,-130,1,loss,-1.0
+
+    
