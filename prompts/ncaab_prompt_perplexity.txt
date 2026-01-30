@@ -174,7 +174,7 @@ rank,game_id,start_time,match,pick,odds,units,confidence_pct,reason,predicted_sc
 - `home_spread_odds`: Value from `home_spread_odds_last`
 - `away_spread`: Value from `away_spread_last`
 - `away_spread_odds`: Value from `away_spread_odds_last`
-- `timestamp`: use the time of this prompt -- 2026-01-30 09:52:54.603639
+- `timestamp`: use the time of this prompt -- 2026-01-30 11:38:06.500299
   - **CRITICAL FORMAT REQUIREMENT**: MUST use "T" separator (NOT a space) between date and time
   - **REQUIRED FORMAT**: "YYYY-MM-DDTHH:MM:SS.000Z" (with the T and .000Z)
   - **CORRECT EXAMPLES**: "2025-12-08T18:30:00.000Z", "2025-12-08T18:30:00Z"
