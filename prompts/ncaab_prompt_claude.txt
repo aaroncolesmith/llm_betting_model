@@ -174,7 +174,7 @@ rank,game_id,start_time,match,pick,odds,units,confidence_pct,reason,predicted_sc
 - `home_spread_odds`: Value from `home_spread_odds_last`
 - `away_spread`: Value from `away_spread_last`
 - `away_spread_odds`: Value from `away_spread_odds_last`
-- `timestamp`: use the time of this prompt -- 2026-02-16 17:50:38.889340
+- `timestamp`: use the time of this prompt -- 2026-02-16 19:40:28.912708
   - **CRITICAL FORMAT REQUIREMENT**: MUST use "T" separator (NOT a space) between date and time
   - **REQUIRED FORMAT**: "YYYY-MM-DDTHH:MM:SS.000Z" (with the T and .000Z)
   - **CORRECT EXAMPLES**: "2025-12-08T18:30:00.000Z", "2025-12-08T18:30:00Z"
@@ -227,7 +227,7 @@ Remember: Accuracy is more important than quantity. Skip any pick where you have
 
 Here are the upcoming games and their odds:
 game_id,home_team,away_team,start_time,num_bets_first,num_bets_avg,num_bets_last,home_money_line_first,home_money_line_avg,home_money_line_last,home_ml_ticket_pct_first,home_ml_ticket_pct_avg,home_ml_ticket_pct_last,home_ml_money_pct_first,home_ml_money_pct_avg,home_ml_money_pct_last,away_money_line_first,away_money_line_avg,away_money_line_last,away_ml_ticket_pct_first,away_ml_ticket_pct_avg,away_ml_ticket_pct_last,away_ml_money_pct_first,away_ml_money_pct_avg,away_ml_money_pct_last,total_score_first,total_score_avg,total_score_last,over_odds_first,over_odds_avg,over_odds_last,under_odds_first,under_odds_avg,under_odds_last,over_ticket_pct_first,over_ticket_pct_avg,over_ticket_pct_last,over_money_pct_first,over_money_pct_avg,over_money_pct_last,under_ticket_pct_first,under_ticket_pct_avg,under_ticket_pct_last,under_money_pct_first,under_money_pct_avg,under_money_pct_last,home_spread_first,home_spread_avg,home_spread_last,home_spread_odds_first,home_spread_odds_avg,home_spread_odds_last,home_spread_ticket_pct_first,home_spread_ticket_pct_avg,home_spread_ticket_pct_last,home_spread_money_pct_first,home_spread_money_pct_avg,home_spread_money_pct_last,away_spread_first,away_spread_avg,away_spread_last,away_spread_odds_first,away_spread_odds_avg,away_spread_odds_last,away_spread_ticket_pct_first,away_spread_ticket_pct_avg,away_spread_ticket_pct_last,away_spread_money_pct_first,away_spread_money_pct_avg,away_spread_money_pct_last,home_team_spread,away_team_spread,start_time_pt
-264149,E TA&M,SE Louisiana,2026-02-16 19:00:00+00:00,2615.0,2143.5,4357.0,-125.0,-131.375,-130.0,92.0,90.375,91.0,85.0,85.0,75.0,105.0,109.375,106.0,8.0,9.625,9.0,15.0,15.0,25.0,135.5,135.3125,135.5,-110.0,-111.125,-115.0,-110.0,-108.5,-105.0,82.0,81.875,81.0,84.0,83.0,81.0,18.0,18.125,19.0,16.0,17.0,19.0,-1.5,-1.625,-1.5,-110.0,-110.375,-112.0,49.0,48.875,51.0,64.0,65.375,61.0,1.5,1.625,1.5,-110.0,-110.375,-110.0,51.0,51.125,49.0,36.0,34.625,39.0,E TA&M -1.5,SE Louisiana +1.5,2026-02-16 11:00:00-08:00
+278822,SC State,Coppin St,2026-02-16 21:30:00+00:00,1888.0,1794.2,3826.0,-250.0,-238.2,-235.0,97.0,96.3,96.0,90.0,88.3,92.0,200.0,195.5,200.0,3.0,3.7,4.0,10.0,11.7,8.0,142.5,142.2,140.5,-105.0,-109.3,-107.0,-113.0,-109.8,-107.0,80.0,80.8,76.0,78.0,79.1,74.0,20.0,19.2,24.0,22.0,20.9,26.0,-4.5,-4.9,-4.5,-116.0,-111.8,-110.0,60.0,61.9,58.0,53.0,55.2,54.0,4.5,4.65,4.5,-103.0,-107.9,-110.0,40.0,38.1,42.0,47.0,44.8,46.0,SC State -4.5,Coppin St +4.5,2026-02-16 13:30:00-08:00
 
 
 Here is the historical dataset of your betting advice and results:
