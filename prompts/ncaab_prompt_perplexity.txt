@@ -174,7 +174,7 @@ rank,game_id,start_time,match,pick,odds,units,confidence_pct,reason,predicted_sc
 - `home_spread_odds`: Value from `home_spread_odds_last`
 - `away_spread`: Value from `away_spread_last`
 - `away_spread_odds`: Value from `away_spread_odds_last`
-- `timestamp`: use the time of this prompt -- 2026-03-18 21:47:26.977547
+- `timestamp`: use the time of this prompt -- 2026-03-18 23:39:15.700490
   - **CRITICAL FORMAT REQUIREMENT**: MUST use "T" separator (NOT a space) between date and time
   - **REQUIRED FORMAT**: "YYYY-MM-DDTHH:MM:SS.000Z" (with the T and .000Z)
   - **CORRECT EXAMPLES**: "2025-12-08T18:30:00.000Z", "2025-12-08T18:30:00Z"
@@ -227,7 +227,7 @@ Remember: Accuracy is more important than quantity. Skip any pick where you have
 
 Here are the upcoming games and their odds:
 game_id,home_team,away_team,start_time,num_bets_first,num_bets_avg,num_bets_last,home_money_line_first,home_money_line_avg,home_money_line_last,home_ml_ticket_pct_first,home_ml_ticket_pct_avg,home_ml_ticket_pct_last,home_ml_money_pct_first,home_ml_money_pct_avg,home_ml_money_pct_last,away_money_line_first,away_money_line_avg,away_money_line_last,away_ml_ticket_pct_first,away_ml_ticket_pct_avg,away_ml_ticket_pct_last,away_ml_money_pct_first,away_ml_money_pct_avg,away_ml_money_pct_last,total_score_first,total_score_avg,total_score_last,over_odds_first,over_odds_avg,over_odds_last,under_odds_first,under_odds_avg,under_odds_last,over_ticket_pct_first,over_ticket_pct_avg,over_ticket_pct_last,over_money_pct_first,over_money_pct_avg,over_money_pct_last,under_ticket_pct_first,under_ticket_pct_avg,under_ticket_pct_last,under_money_pct_first,under_money_pct_avg,under_money_pct_last,home_spread_first,home_spread_avg,home_spread_last,home_spread_odds_first,home_spread_odds_avg,home_spread_odds_last,home_spread_ticket_pct_first,home_spread_ticket_pct_avg,home_spread_ticket_pct_last,home_spread_money_pct_first,home_spread_money_pct_avg,home_spread_money_pct_last,away_spread_first,away_spread_avg,away_spread_last,away_spread_odds_first,away_spread_odds_avg,away_spread_odds_last,away_spread_ticket_pct_first,away_spread_ticket_pct_avg,away_spread_ticket_pct_last,away_spread_money_pct_first,away_spread_money_pct_avg,away_spread_money_pct_last,home_team_spread,away_team_spread,start_time_pt
-287186,Lehigh,Prairie View,2026-03-18 22:40:00+00:00,2271.0,12391.6,32150.0,-170.0,-167.4,-165.0,78.0,78.1,81.0,25.0,57.5,80.0,140.0,139.0,135.0,22.0,21.9,19.0,75.0,42.5,20.0,142.5,142.65,142.5,-115.0,-110.7,-107.0,-105.0,-109.9,-110.0,81.0,85.0,87.0,82.0,82.9,82.0,19.0,15.0,13.0,18.0,17.1,18.0,-3.5,-3.3,-2.5,-113.0,-111.5,-117.0,0.0,43.4,51.0,0.0,47.9,47.0,3.5,3.3,2.5,-106.0,-108.3,-102.0,0.0,36.6,49.0,0.0,32.1,53.0,Lehigh -2.5,Prairie View +2.5,2026-03-18 15:40:00-07:00
+287187,SMU,Miami (OH),2026-03-19 01:15:00+00:00,8254.0,20292.8,55682.0,-295.0,-305.5,-310.0,84.0,77.8,79.0,86.0,56.7,51.0,230.0,234.5,245.0,16.0,22.2,21.0,14.0,43.3,49.0,164.5,163.4,161.5,-107.0,-109.8,-110.0,-111.0,-110.3,-110.0,51.0,69.7,74.0,61.0,75.3,61.0,49.0,30.3,26.0,39.0,24.7,39.0,-6.5,-6.8,-7.5,-115.0,-112.0,-110.0,36.0,30.4,26.0,24.0,24.9,28.0,6.5,6.8,7.5,-105.0,-107.5,-110.0,64.0,69.6,74.0,76.0,75.1,72.0,SMU -7.5,Miami (OH) +7.5,2026-03-18 18:15:00-07:00
 
 
 Here is the historical dataset of your betting advice and results:
