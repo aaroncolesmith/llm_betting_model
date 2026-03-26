@@ -60,6 +60,11 @@ def build_soccer_prompt(model_name, hours_ahead = 2):
 
     # Fetch today's games
     df = get_todays_games(sport, date_str_list, HEADERS)
+    
+    if df.empty or 'status' not in df.columns:
+        print(f"No soccer games found or status column missing. Returning empty.")
+        return pd.DataFrame()
+
     df['date_scraped'] = datetime.datetime.now()
 
     # Only keep scheduled games

@@ -358,7 +358,9 @@ def fetch_and_process_data(url, headers):
 
         # Create the final pandas DataFrame
         df = pd.DataFrame(all_market_data)
-        df['start_time_pt'] = pd.to_datetime(df['start_time']).dt.tz_convert('America/Los_Angeles')
+        
+        if not df.empty and 'start_time' in df.columns:
+            df['start_time_pt'] = pd.to_datetime(df['start_time']).dt.tz_convert('America/Los_Angeles')
         
         return df
 
