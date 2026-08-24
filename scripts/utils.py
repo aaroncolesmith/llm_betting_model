@@ -49,6 +49,14 @@ def aggregate_betting_data(df: pd.DataFrame, group_by_cols: list, metric_cols: l
         agg_config[f'{col}_last'] = (col, 'last')
     
     # --- Perform Grouping and Aggregation ---
+    # Metric columns come from the API fetch with 'N/A' strings standing in for
+    # missing odds/percentages (see fetch_and_process_data). A group can mix real
+    # numbers with 'N/A' across rows, which crashes mean() on int + str. Coerce to
+    # numeric (N/A -> NaN) first so mean()/first()/last() all work correctly.
+    df = df.copy()
+    for col in metric_cols:
+        df[col] = pd.to_numeric(df[col], errors='coerce')
+
     # The **agg_config unpacks the dictionary to pass its contents as arguments.
     # .reset_index() converts the grouped output back into a DataFrame.
     aggregated_df = df.groupby(group_by_cols).agg(**agg_config).reset_index()
